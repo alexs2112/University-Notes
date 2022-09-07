@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "110ce3235b2544bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f0569fb5522a99d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CPSC471/01 - Introduction.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ab89fc765f6d776",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed2151d3ba4df8ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce059bdec4deef0e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fab687c7168cad39",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "568106fe25b73285",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7f8ecd770cf69182",
+    "type": "split",
+    "children": [
+      {
+        "id": "85cd480ad7521976",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32731c32d63ef078",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CPSC471/01 - Introduction.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7cd5335661b2d615",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CPSC471/01 - Introduction.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15101a1401165f8b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "40fe26931132cbcb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CPSC471/01 - Introduction.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0f0569fb5522a99d",
+  "lastOpenFiles": [
+    "README.md",
+    "CPSC471/01 - Introduction.md",
+    "GRST357/01 - Black Humour, Roman Roads.md",
+    "GLGY209/01 - Tests.md",
+    "DATA201/01 - Grading.md"
+  ]
+}
