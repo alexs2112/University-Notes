@@ -7,8 +7,12 @@
         "id": "0f0569fb5522a99d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "CPSC471/02 - Entity Relationship Diagram (ERD).md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CPSC471/02 - Entity Relationship Diagram (ERD).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CPSC471/02 - Entity Relationship Diagram (ERD).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CPSC471/02 - Entity Relationship Diagram (ERD).md"
+              }
             }
           }
         ]
@@ -120,14 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ce059bdec4deef0e",
+  "active": "0f0569fb5522a99d",
   "lastOpenFiles": [
-    "GLGY209/01 - Tests.md",
-    "GLGY209/02 - Course Structure.md",
-    "GRST357/02 - Apuleius Metamorphoses, 1 to 2.md",
-    "GRST357/01 - Black Humour, Roman Roads.md",
+    "Textbooks/Textbook Download Links.md",
+    "CPSC471/02 - Entity Relationship Diagram (ERD).md",
     "CPSC471/01 - Introduction.md",
-    "README.md",
-    "DATA201/01 - Grading.md"
+    "DATA201/01 - Grading.md",
+    "Textbooks/fundamentals_of_database_systems.pdf",
+    "Attachments/Summary_of_ER_Notations.png",
+    "GRST357/02 - Apuleius, 1, General Themes.md",
+    "GRST357/03 - Apuleius, 2 to 4.md",
+    "GRST357/01 - Black Humour, Roman Roads.md",
+    "2022-09-12.md"
   ]
 }

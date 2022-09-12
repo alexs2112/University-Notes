@@ -13,6 +13,14 @@ Parallels between donkeys and other work animals as slaves. Moral: consider if s
 
 Self-Control is an important virtue. Curiosity is terrifying
 
+### Book 1: Aristomenes and Socrates
+ - Socrates going to a gladiatorial show, encounters Aristomenes. Waylaid by bandits and end up in Meroe's Inn
+ - Meroe likes to transform her ex-lovers into animals, and even transforms a whole town.
+ - Aristomenes and Socrates sleep. Two hags stab Socrates, remove his heart, and plug the wound with a sponge. ("Take care not to cross a river")
+ - Aristomenes tries to flee but does not, thinking Socrates is dead. False suicide, waking Socrates.
+ - The two escape, thinking Socrates' death was a dream. They eat, eventually Socrates drinks from a river and dies
+ - Lucius and the other listeners to the story laugh, think Aristomenes is telling a fairytale
+
 ### The Hero:
  - Simply unity with community and gods
 	 - Crisis
@@ -39,7 +47,7 @@ Books 9-11: Climax and transformation
  - Concrete
  - Power
 
-### Key Themes of Spuleius
+### Key Themes of Apuleius
  - Curiosity - Bad
  - Magic - Believed to be true
  - Witchcraft - Extreme dangerous curiosity
