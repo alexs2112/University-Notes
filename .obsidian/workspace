@@ -7,12 +7,8 @@
         "id": "0f0569fb5522a99d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "CPSC471/01 - Introduction.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -61,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 287.5
   },
   "right": {
     "id": "7f8ecd770cf69182",
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC471/01 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPSC471/01 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CPSC471/01 - Introduction.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,12 +120,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0f0569fb5522a99d",
+  "active": "ce059bdec4deef0e",
   "lastOpenFiles": [
-    "README.md",
-    "CPSC471/01 - Introduction.md",
-    "GRST357/01 - Black Humour, Roman Roads.md",
     "GLGY209/01 - Tests.md",
+    "GLGY209/02 - Course Structure.md",
+    "GRST357/02 - Apuleius Metamorphoses, 1 to 2.md",
+    "GRST357/01 - Black Humour, Roman Roads.md",
+    "CPSC471/01 - Introduction.md",
+    "README.md",
     "DATA201/01 - Grading.md"
   ]
 }
