@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CPSC471/02 - Entity Relationship Diagram (ERD).md",
+            "file": "Due Dates.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 231.5
   },
   "right": {
     "id": "7f8ecd770cf69182",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC471/02 - Entity Relationship Diagram (ERD).md",
+                "file": "Due Dates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPSC471/02 - Entity Relationship Diagram (ERD).md",
+                "file": "Due Dates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPSC471/02 - Entity Relationship Diagram (ERD).md"
+                "file": "Due Dates.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "0f0569fb5522a99d",
   "lastOpenFiles": [
-    "Textbooks/Textbook Download Links.md",
+    "README.md",
+    "CPSC471/03 - Extended Entity Relationship Diagram (EERD).md",
     "CPSC471/02 - Entity Relationship Diagram (ERD).md",
+    "Due Dates.md",
     "CPSC471/01 - Introduction.md",
+    "Attachments/ER_Diagram_from_Lecture.png",
+    "CPSC471/Assignment 1.md",
+    "DATA201/Assignment 1.md",
     "DATA201/01 - Grading.md",
-    "Textbooks/fundamentals_of_database_systems.pdf",
-    "Attachments/Summary_of_ER_Notations.png",
-    "GRST357/02 - Apuleius, 1, General Themes.md",
-    "GRST357/03 - Apuleius, 2 to 4.md",
-    "GRST357/01 - Black Humour, Roman Roads.md",
-    "2022-09-12.md"
+    "GRST357/01 - Black Humour, Roman Roads.md"
   ]
 }

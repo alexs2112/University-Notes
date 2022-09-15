@@ -13,7 +13,7 @@
  2. Identify the Relationships
  3. Identify Attributes, Participations, and Cardinalities
 
-### ER Notations
+### Entity Relationship Diagram
 **Entity**
  - Thing that exists either physically or logically, represented in the database
  - Look for singular nouns.
@@ -69,6 +69,35 @@
  - Partial Participation - Not all entities are involved. Represented by single lines.
 	 - Example: Not every *Employee* needs to *Manage* a *Department*, but every *Department* needs to have an *Employee* to *Manage* it
 
+**Weak Entity Types**
+ - An entity that doesn't have a key attribute and that is identification-dependent on another entity type
+ - A weak entity must participate in an identifying relationship type with an owner or identifying entity type
+ - Entities are identified by the combination of:
+	 - A partial key of the weak entity type (key attribute, with dotted line under the label)
+	 - The particular entity they are related to in the identifying relationship type
+	 - Essentially a combination of the partial key with the full key of the related entity
+
+**Attributes of Relationship Types**
+ - A property of the relationship itself, it requires all contributing entities of the relationship to exist.
+ - Most relationship attributes are used with M:N relationships
+	 - In 1:N relationships, they can be transferred to the entity type on the N-side of the relationship
+
+**N-Ary Relationships (N>2)**
+ - In general, 3 binary relationships can represent different information than a single ternary relationship
+ - If needed, the binary and n-ary relationships can all be included in the schema design
+ - In some cases, a ternary relationship can be represented as a weak entity if the data model allows a weak entity type to have multiple identifying relationships
+
+**ER Diagram Example**
+![[ER_Diagram_from_Lecture.png]]
+
 **Summary of ER Notations**
 ![[Summary_of_ER_Notations.png]]
 
+**The (Min, Max) Notation for Relationship Constraints)**
+ - Read the (min, max) numbers next to the entity type and looking *away from* the entity type.
+ - Not super common, at the bottom of this document
+ - In our standard notation, the bottom part of this would look like:
+	 `EMPLOYEE --N-- WORKS FOR --1-- DEPARTMENT`
+ - No longer need the single and double lines as that info is captured here
+![[Min_Max_Notation.png]]
+![[ERD_Using_Min_Max.png]]

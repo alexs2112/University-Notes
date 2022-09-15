@@ -31,8 +31,8 @@ Self-Control is an important virtue. Curiosity is terrifying
 
 ### Shape of the Metamorphoses
 Books 1-4: Hypata and the transformation, beginnings of the wanderings
-Books 5-8: Inset story of Cupid and Psyche
-Books 9-11: Climax and transformation
+Books 5-7: Inset story of Cupid and Psyche
+Books 8-11: Climax and transformation
  - 8-9: False religion
  - 9: False family morality
  - 10: False public morality
