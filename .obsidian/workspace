@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Due Dates.md",
+            "file": "DATA201/Assignment 1.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Due Dates.md",
+                "file": "DATA201/Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Due Dates.md",
+                "file": "DATA201/Assignment 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Due Dates.md"
+                "file": "DATA201/Assignment 1.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "0f0569fb5522a99d",
   "lastOpenFiles": [
-    "README.md",
-    "CPSC471/03 - Extended Entity Relationship Diagram (EERD).md",
+    "GLGY209/05 - Planetary Geology, 1.md",
+    "GLGY209/04 - Geology Introduction.md",
+    "GLGY209/03 - Scientific Method.md",
+    "GRST357/05 - Apuleius, 8-11.md",
+    "GRST357/03 - Apuleius, 2 to 4.md",
+    "GRST357/02 - Apuleius, 1, General Themes.md",
+    "DATA201/04 - Relational Data Model and Attributes.md",
     "CPSC471/02 - Entity Relationship Diagram (ERD).md",
-    "Due Dates.md",
-    "CPSC471/01 - Introduction.md",
-    "Attachments/ER_Diagram_from_Lecture.png",
-    "CPSC471/Assignment 1.md",
-    "DATA201/Assignment 1.md",
-    "DATA201/01 - Grading.md",
-    "GRST357/01 - Black Humour, Roman Roads.md"
+    "CPSC471/03 - Extended Entity Relationship Diagram (EERD).md",
+    "DATA201/03 - Visualization.md"
   ]
 }

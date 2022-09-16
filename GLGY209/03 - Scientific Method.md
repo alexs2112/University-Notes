@@ -16,7 +16,7 @@
  - Johannes Kepler - Described the correct path of the planet's rotation around the sun (Kepler's Laws)
 
 ### Royal Society of London
- - **Establishment in 1660**
+ - **Establishment in 1660** `MEMORIZE THIS NUMBER`
  - During the Restoration, after the English Civil War
  - Science was defined as distinct and independent of human inquiry
  - Experimental data got prominence over interpretation, etc
