@@ -8,6 +8,8 @@
  - Generalization: A superclass is a general class of a subclass (bottom up)
  - Is a matter of perspective
  - Subclasses inherit all attributes of a superclass
+ - EERDs can typically be converted to ERDs by replacing the subclass designation with a relationship, typically `IsA`
+	 - Student being a subclass of Person can be replaced with Student Is A Person
 
 ### Constraints on Specialization and Generalization
 **Membership Constraints**

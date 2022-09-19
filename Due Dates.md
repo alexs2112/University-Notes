@@ -1,4 +1,4 @@
-SEP 16 - CPSC471 Self Quiz 1
+*SEP 16 - CPSC471 Self Quiz 1*
 SEP 21 - CPSC471 GGA 1
 SEP 23 - CPSC471 Assignment 1
 SEP 23 - DATA201 Assignment 1
@@ -25,3 +25,5 @@ DEC 2 - CPSC471 Assignment 5
 DEC 5 - CPSC471 GGA 5
 DEC 7 - DATA201 Project
 DEC 16 - GRST357 Essay 2
+
+*Italicized* items have been submitted already
