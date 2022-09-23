@@ -1,6 +1,6 @@
 **SEP 16 - CPSC471 Self Quiz 1**
 **SEP 21 - CPSC471 GGA 1**
-SEP 23 - CPSC471 Assignment 1
+**SEP 23 - CPSC471 Assignment 1**
 **SEP 23 - DATA201 Assignment 1**
 SEP 30 - CPSC471 Self Quiz 2
 OCT 5 - CPSC471 GGA 2

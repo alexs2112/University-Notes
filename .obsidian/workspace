@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GRST357/07 - Juvenal, Satire 3.md",
+            "file": "Dates.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GRST357/07 - Juvenal, Satire 3.md",
+                "file": "Dates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GRST357/07 - Juvenal, Satire 3.md",
+                "file": "Dates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GRST357/07 - Juvenal, Satire 3.md"
+                "file": "Dates.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "0f0569fb5522a99d",
   "lastOpenFiles": [
-    "GRST357/08 - Juvenal, Satire 4.md",
-    "CPSC471/Assignment 1.md",
     "CPSC471/02 - Entity Relationship Diagram (ERD).md",
-    "Dates.md",
-    "README.md",
     "CPSC471/01 - Grading.md",
-    "CPSC471/03 - Extended Entity Relationship Diagram (EERD).md",
-    "CPSC471/Project Specification.md",
-    "CPSC471/GGA1.md",
-    "DATA201/Assignments/Assignment 1/Assignment 1.pdf"
+    "CPSC471/Assignment 1.md",
+    "DATA201/06 - Visual Variables 2.md",
+    "DATA201/05 - Visual Variables.md",
+    "DATA201/Untitled 1.md",
+    "GLGY209/08 - Earth's Internal Structure.md",
+    "GLGY209/07 - Phases of Solar Nebula Theory.md",
+    "GLGY209/Midterm 1.md",
+    "GRST357/08 - Juvenal, Satire 4.md"
   ]
 }

@@ -1,4 +1,4 @@
-### Entities:
+	### Entities:
  - Author: **Email**, Name(First, Last)
  - Paper: **Identifier**, Title, Abstract, Filename, *Authors*(Contact Author), *Topics*
 	 - Short
@@ -6,7 +6,7 @@
  - System: ***Papers***(NumPages, NumFigures, NumTables, NumReferences)
 	 - These attributes should be derived
  - Reviewer: **Email**, Name(First, Last), Phone Number, Affiliation, *Topics*
- - Review: `Ratings`(Technical, Readability, Originality, Relevance), `Recommendation`
+ - Review: `Ratings`(Technical, Readability, Originality, Relevance), `Recommendation`, Reviewer
  - Comment: `Text`, Review?
 	 - Confidential
 	 - Feedback
@@ -20,7 +20,7 @@
  - System AssignsID to Paper (1-N, Full-Full)
  - Reviewer Assigned Paper (N-M, Full-Partial)
  - Reviewer Writes Review (1-1, Full-Full)
- - Paper Receives Review (1-1, Partial-Full)
+ - Paper Receives Review (1-N, Partial-Full)
  - Review Contains Comment (1-N, Full-Full)
 
 ### Assumptions:

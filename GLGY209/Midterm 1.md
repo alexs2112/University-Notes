@@ -3,3 +3,4 @@
  - 40% for free
  - 30 questions, 2% per question
  - 45 minutes
+ - Last lecture with midterm information is 08

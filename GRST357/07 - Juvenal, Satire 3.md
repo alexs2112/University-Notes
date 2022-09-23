@@ -1,5 +1,5 @@
 ### Juvenal
- - Author of series of semi-realistic poems known as the *Satires*
+ - Author of series of semi-realistic poems known as the *Satires* (55-140  CE)
  - Wrote at least 16 poems in dactylic hexameter, covering a range of Roman topics
  - Have bits of everything in them, similarly to Apuleius
  - Variety of perspective, but comic mode of expression makes it problematic to accept the content as strictly factual
@@ -12,6 +12,7 @@
  5. Satires 13-16
  - The books are formed as scrolls, more convenient this way
  - Satire 16 is incompletely preserved
+ - Given a farm due to popularity around satire 10, begines moralizing and becoming more abstract/philosophical
 
 ### What is Satire?
  - A genre  of literature in which vices, follies, abuses, and shortcomings are held up to ridicule, usually through exaggeration and overstatement
