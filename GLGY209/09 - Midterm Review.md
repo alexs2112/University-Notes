@@ -1,0 +1,38 @@
+ - Don't memorize numerical data (dates of scholars, just the time period that they lived, late rennaissance, etc)
+ - Only important one, Royal Society of London: 1660, aftermath of English civil war, during the Restoration
+	 - Birth of modern science
+	 - Francis Bacon published his thing here
+	 - Thomas Burnett published book about inorganic molecules rather than divine intervention
+ - Science is completely relative to reality
+	 - Religion, Art, and Law are absolute and do not change
+	 - Philosophy is also relative to reality, although in Science the data is coming from direct experiments, Philosophical data comes from a variety of fields (including Religion and Art)
+	 - Science does not accept Agnosticism (do not accept "we will never know x thing")
+ - Geology and its subdisciplines
+	 - Focus on historical and physical geology
+	 - Learn the differences between the subdisciplines, don't need specifics
+ - Learn characteristics of the Milky Way
+	 - Know the four arms of our galaxy, we are part of `Cygnus-Orion` arm
+ - Memorize: Universe expansion initiated `13.7-13.8 billion years ago`
+ - Know the charts produced by COBE WMAP
+ - Nebulae dominated by hydrogen and helium
+ - Know the difference between Terrestrial and Jovian planets
+ - Asteroids: Flying Mountains
+ - Dominant metals in meteorites is Iron, second is Nickel
+ - Know the phases of the Solar Nebula Theory
+	 - Probably the most difficult part of the course
+ - Three particularly important aspects:
+	 - Starting in phase 4, gravitational differentiation process
+		 - Heavier elements concentrating in core of protoplanets, lighter elements to surface
+	 - Birth of the sun in phase 5
+	 - Major orbital readjustments and collisions in phase 6
+		 - Earth and Thea collided, resulting in the moon
+ - Know the Core, Mantle, Crust
+	 - Core - Metallic
+	 - Mantle, Crust - Dominated by silicates
+	 - Crust has higher mineral density
+ - Gutenberg between Core and Mantle, Moho between Mantle and Crust
+ - Characteristics of Lithosphere, Asthenosphere, Menosphere, Outer Core, Inner Core
+ - Characteristics of crust and separation into oceanic and continental, and dominant components
+ - Elemental composition of the earth
+ - Plates move with respect to each other, several thousand plates exist today
+	 - Pacific Plate and North American Plate form the Rocky Mountains

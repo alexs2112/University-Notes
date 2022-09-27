@@ -3,6 +3,7 @@
 **SEP 23 - CPSC471 Assignment 1**
 **SEP 23 - DATA201 Assignment 1**
 SEP 30 - CPSC471 Self Quiz 2
+SEP 30 - CPSC471 Project Proposal
 OCT 5 - CPSC471 GGA 2
 OCT 5 - GLGY209 Midterm 1
 OCT 7 - GRST357 Report 1
