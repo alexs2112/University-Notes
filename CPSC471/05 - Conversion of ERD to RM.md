@@ -22,7 +22,7 @@
  - Create a relation for the entity
 	 - Entity `E` becomes `Rel(E)`
  - Add the simple attributes in the relation
-	 - Break composite attributes to simple counterparts
+	 - Break composite attributes to their simple counterparts
  - Choose one of the key attributes as Primary Key
  - If the chosen key is composite, the set of simple attributes that form it will be the primary key
 
@@ -31,6 +31,7 @@
  - Add the simple attributes in the relation
  - Include the primary key of all owner entities as a foreign key
 	 - The primary key of a weak entity is the combination of the primary key of the owner and the partial key of the weak entity
+	 - The partial key is no longer a key in the RM
 
 **3. Mapping of Binary 1:1 Relationship**
  - Three approaches:
@@ -66,9 +67,13 @@
 
 **9. Mapping Specializations and Generalizations**
  - Option 1. Multiple relations - Superclass and subclasses
+	 - Works for any kind of specialization
  - Option 2. Multiple relations - Subclasses only
- - Option 3. Single relation with one type attribute
+	 - Only works for full specializations
+ - Option 3. Single relation with one type (*discriminating*) attribute
+	 - Works for any specialization
  - Option 4. Single relation with multiple type attributes
+	 - Works for any specialization
  - **Handling multiple inheritance**:
 	 - A shared subclass indicating multiple inheritence
 	 - These classes must have all the same key attributes (otherwise it would be modeled as a category)
@@ -77,3 +82,7 @@
  - Add primary key of superclass into the subclass/category
  - Add attributes of subclasses considering them as Entity
  - For mapping a category whose defining superclasses have different keys, it is customary to specify a new key attribute, called a *surrogate key*, when creating a relation to correspond to the category
+
+### Example
+![[RM_Example_Full.png]]
+![[ER_Diagram_from_Lecture.png]]

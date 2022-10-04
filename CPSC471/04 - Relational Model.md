@@ -114,3 +114,7 @@
 	 - Perform, but notify the user of the violation
 	 - Trigger additional updates so the violation is corrected: `CASCADE`, `SET NULL`
 	 - Execute a user-specified error-correction routine
+
+### Equivalent Relational Database Schema
+ - We regard two relational database schemas to be *equivalent* if they have the *same structure*, including integrity constraints (but with possibly different names for some attributes and relation schemas).
+ - If a renaming of some attributes and relation schema names exist such that after the renaming the two relational database schema are exactly the same, then they are equivalent.

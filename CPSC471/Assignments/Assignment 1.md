@@ -1,4 +1,4 @@
-	### Entities:
+### Entities:
  - Author: **Email**, Name(First, Last)
  - Paper: **Identifier**, Title, Abstract, Filename, *Authors*(Contact Author), *Topics*
 	 - Short
