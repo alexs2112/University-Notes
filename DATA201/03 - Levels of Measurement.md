@@ -1,16 +1,3 @@
-### What is Visualization?
- - Scientific Visualization
- - Information Visualization
- - Data Visualization
- - Interchangeable terms
- - Creating a representation of data
-
-### Visual Language
- - Data, encoded to images and signs, decoded to information
-	 - Encoding by design, want it as simple and intuitive as possible
-	 - Decoded by viewer
- - Different types of data are best to encode in different ways
-
 ### Levels of Measurement
  - **Nominal**: Categorical data and labels
 	 - *Example*: Fruits: apples, oranges, bananas, etc

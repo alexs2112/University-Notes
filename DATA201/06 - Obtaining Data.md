@@ -22,3 +22,10 @@
  - Consistent with rating scale
  - Test your survey
  - Offer incentives
+
+### Surveys
+ - Likert Scale:
+	 - Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree
+ - Other types of questions:
+	 - Closed-ended questions: Simpler and faster
+	 - Open-ended questions: Worse, requires too much from participants and to analyze the data

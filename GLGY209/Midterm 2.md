@@ -1,0 +1,3 @@
+ - ~50 questions
+ - If average is >= 82-83, free 5% added
+ - open book, physical notes
