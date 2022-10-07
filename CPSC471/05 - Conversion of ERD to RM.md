@@ -50,7 +50,7 @@
 **6. Mapping of Multivalued Attributes**
  - Create a relation for the attribute
  - Add the primary key of the main entity as primary key of the relation
- - Add the value of the multivalued attribute
+ - Add the value of the multivalued attribute, this should be a key
  - The primary key of the relation will be the combination of primary key coming from the main entity and the value of the multivalued attribute
 
 **7. Mapping of Composite Attributes**

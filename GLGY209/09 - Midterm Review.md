@@ -10,6 +10,16 @@
  - Geology and its subdisciplines
 	 - Focus on historical and physical geology
 	 - Learn the differences between the subdisciplines, don't need specifics
+	 - Crystallography: Mineral architecture
+	 - Minerology: Crystallography with matter, chemical composition, occurrence, etc
+	 - Petrology: Study of rocks, igneous, metamorphic, sedimentary
+	 - Paleontology: Study of Ancient life forms
+	 - Statigraphy: Layers of the Earth
+	 - Structural Geography: Stress testing the surface of the Earth
+	 - Sedimentology: Study of the sediments
+	 - Geochronology: Study of the age of the Earth in absolute time over millenia
+	 - Tectonics: Surface of the Earth over millions of years
+	 - Geophysics: Interior of the Earth in response to certain interactions
  - Learn characteristics of the Milky Way
 	 - Know the four arms of our galaxy, we are part of `Cygnus-Orion` arm
  - Memorize: Universe expansion initiated `13.7-13.8 billion years ago`
@@ -19,7 +29,7 @@
  - Asteroids: Flying Mountains
  - Dominant metals in meteorites is Iron, second is Nickel
  - Know the phases of the Solar Nebula Theory
-	 - Probably the most difficult part of the course
+	 - Probably the most difficult part of the midterm
  - Three particularly important aspects:
 	 - Starting in phase 4, gravitational differentiation process
 		 - Heavier elements concentrating in core of protoplanets, lighter elements to surface
@@ -33,6 +43,10 @@
  - Gutenberg between Core and Mantle, Moho between Mantle and Crust
  - Characteristics of Lithosphere, Asthenosphere, Menosphere, Outer Core, Inner Core
  - Characteristics of crust and separation into oceanic and continental, and dominant components
+	 - Continental: Thicker (20-75km), Silicon, Aluminum, Sodium, Potassium
+	 - Oceanic: Thinner (8-10km), denser, Iron, Magnesium
  - Elemental composition of the earth
+	 - Full Earth: Iron, Oxygon, Silicon
+	 - Earth Crust: Oxygon, Silicon, Aluminum
  - Plates move with respect to each other, several thousand plates exist today
 	 - Pacific Plate and North American Plate form the Rocky Mountains

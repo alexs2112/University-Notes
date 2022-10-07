@@ -37,7 +37,7 @@
 	     - Continental Crust: 20-75km thick, granite rocks, rich in Si, Al, Na, and K
 	     - Oceanic Crust: 8-10km thick, basaltic rocks, denser than continentall crust, rich in Fe + Mg
 		     - Denser, almost always below the continental crust
-`Insert diagram from slides`
+![[Subdivisions_of_the_Earths_interior.png]]
 
 ### Elemental Composition of the Earth
  - Distribution of elements in the interior of the Earth is highly variable
@@ -46,4 +46,4 @@
  - Oxygen, followed by Silicon, dominate the Earth after Iron, two main elements of the silicates (4 oxygen, 1 silicon)
 	 - These are the only 3 elements we have to know
  - Looking at the crust, Oxygen > Silicon > Aluminum (a lighter metal, then Iron)
-`Insert diagram from slides`
+![[Chemical_composition_of_the_Earth.png]]

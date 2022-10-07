@@ -68,7 +68,7 @@
 			 - If they don't have chondrules, called Achondrites
 			 - If they have traces of organic matter (amino acids) Carbonatious Chondrites
 	 - **Iron**
-		 - Dominated by iron-nickel allows
+		 - Dominated by iron-nickel alloys
 	 - **Stony-Iron**
 		 - Very rare, equal parts iron and silicates
 
