@@ -1,3 +1,4 @@
- - ~50 questions
+ - 40 questions, 2% each, 20% free
  - If average is >= 82-83, free 5% added
  - open book, physical notes
+ - Ignore chemical formulas for mineral classifications, know what each is formed from

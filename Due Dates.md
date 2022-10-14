@@ -9,13 +9,15 @@
 **OCT 7 - GRST357 Report 1**
 **OCT 7 - CPSC471 Assignment 2**
 **OCT 7 - DATA201 Assignment 2**
-OCT 11 - CPSC471 Project EERD
+**OCT 11 - CPSC471 Project EERD**
 OCT 14 - CPSC471 Self Quiz 3
+OCT 20 - DATA201 Group Email
 OCT 21 - DATA201 Assignment 3
 OCT 21 - CPSC471 Project Relational Model
 OCT 24 - CPSC471 GGA 3
 OCT 28 - CPSC471 Assignment 3
 OCT 28 - GRST357 Essay 1
+OCT 28 - DATA201 Project Approval
 NOV 2 - GLGY209 Midterm 2
 NOV 4 - DATA201 Assignment 4
 NOV 10 - CPSC471 Self Quiz 4
@@ -27,7 +29,7 @@ NOV 22 - GRST357 Report 3
 NOV 27 - CPSC471 Self Quiz 5
 DEC 2 - CPSC471 Assignment 5
 DEC 5 - CPSC471 GGA 5
-DEC 7 - DATA201 Project
+DEC 7 - DATA201 Project Report
 DEC 16 - GRST357 Essay 2
 
 **bolded** items have been submitted already

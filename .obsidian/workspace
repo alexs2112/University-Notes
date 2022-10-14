@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0f0569fb5522a99d",
+        "id": "6af5c414a73f9519",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "CPSC471/06 - Relational Algebra.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "CPSC471/06 - Relational Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "CPSC471/06 - Relational Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "CPSC471/06 - Relational Algebra.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0f0569fb5522a99d",
+  "active": "6af5c414a73f9519",
   "lastOpenFiles": [
+    "CPSC471/01 - Grading.md",
+    "Due Dates.md",
     "Todo.md",
+    "DATA201/08 - Data Cleaning.md",
     "DATA201/07 - Data Formats.md",
+    "DATA201/Assignments/Assignment 1/Assignment 1.md",
+    "DATA201/Assignments/Assignment 2/Assignment 2.md",
     "DATA201/06 - Obtaining Data.md",
-    "DATA201/08 - Surveys.md",
     "DATA201/05 - Visual Variables.md",
-    "DATA201/06 - Visual Variables 2.md",
-    "DATA201/04 - Relational Data Model and Attributes.md",
-    "DATA201/02 - Visualization.md",
-    "DATA201/03 - Levels of Measurement.md",
-    "DATA201/01 - Course Structure.md"
+    "DATA201/03 - Levels of Measurement.md"
   ]
 }
