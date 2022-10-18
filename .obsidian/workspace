@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Todo.md",
+            "file": "CPSC471/08 - Tuple Relational Calculus.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Todo.md",
+                "file": "CPSC471/08 - Tuple Relational Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Todo.md",
+                "file": "CPSC471/08 - Tuple Relational Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Todo.md"
+                "file": "CPSC471/08 - Tuple Relational Calculus.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "6af5c414a73f9519",
   "lastOpenFiles": [
+    "CPSC471/06 - Relational Algebra.md",
+    "CPSC471/07 - Other Relational Algebra.md",
     "Due Dates.md",
-    "GRST357/12 - Seneca, Oedipus.md",
-    "GRST357/14 - Ovid, Metamorphoses 1.md",
+    "CPSC471/07 - Query Tree.md",
+    "GRST357/07 - Juvenal, Satire 3, 4.md",
+    "DATA201/Assignments/Assignment 3/Assignment 3.md",
     "Todo.md",
-    "GLGY209/13 - Minerals, Classification 2.md",
-    "DATA201/09 - Preventing Errors.md",
     "DATA201/08 - Data Cleaning.md",
     "DATA201/07 - Data Formats.md",
-    "GLGY209/12 - Minerals, Classification 1.md",
-    "GRST357/13 - Roman Epic.md"
+    "CPSC471/01 - Grading.md"
   ]
 }

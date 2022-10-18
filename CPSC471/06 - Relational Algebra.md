@@ -93,7 +93,7 @@
 	 - The two operands do NOT have to be type compatible
 	 - If |R| = r and |S| = s, then |Q| = r x s
 
-### Binary Relational Operations: JOIN (⨝)
+### JOIN (⨝)
  - Combines a CARTESIAN PRODUCT and a SELECT
  - R ⨝ _condition_ S
  - Is the same as: σ _condition_ (R x S)
@@ -110,10 +110,50 @@
 	 - R ⨝ _theta_ S, where theta is any general boolean expression
 	 - In practice, most join conditions equate two or more attributes
 
-### Binary Relational Operations: EQUIJOIN
+### EQUIJOIN
  - The most common use of join involves join conditions with *equality comparisons (=)* only
+ - In the result of an EQUIJOIn, we always have one or more pairs of attributes (whose names do not need to be identical) that have identical values in every tuple
 
+### NATURAL JOIN
+ - Special form of EQUIJOIN, denoted by *
+ - Joins relations based on attributes with the *same name*
+	 - If applied to relations that have no attributes with the same name, a renaming operation must be applied first
+ - Gets rid of the second (superfluous) attribute in an EQUIJOIN condition
+ - Example: Given R(A,B,C,D) and S(C,D,E)
+	 - Q <- R * S
+	 - Has the join condition of R.C = S.C and R.D = S.D
+	 - Q has the attributes (A,B,C,D,E)
+
+### Complete Set of Relational Operations
+ - The set of algebra operations consisting of
+	 - σ, π, ∪, -, ρ, x
+ - is called a *complete set*
+ - Any other algebra operation can be expressed in terms of operations in this set
+
+### DIVISION (÷)
+ - Given relations R(Z) and S(X), where X is a subset of Z
+ - Let Y = Z - X (hence Z = X ∪ Y)
+	 - That is, let Y be the set of attributes of R that are not attributes of S
+ - R(Z) ÷ S(X) = T(Y)
+	 - T(Y) includes a tuple t if
+		 - t_R in R for t_R [Y] = t and
+		 - t_R [X] = t_S, for all t_S in S
+	 - Essentially, for t to appear in T, the values in t must appear in R in combination with *every* tuple in S
+ - Solves problems such as "Find all the employees who work on all the projects that John Smith works on"
+	 - Get the Project Number of John Smith, get the SSNs and Project Numbers of each employee, divide those PNOs with John Smith's PNO
+	 - `SMITH_PNOS <- π _PNO_ (σ _Lname='Smith' and Fname='John'_ (EMPLOYEE ⨝ _SSN=ESSN_ WORKS_ON))`
+	 - `SSN_PNOS <- π _ESSN, PNO_ (WORKS_ON)`
+	 - `RESULT <- SSN_PNOS ÷ SMITH_PNOS`
+ - Example at the bottom of this page 
+
+### Images
 ![[Operations_of_RA.png]]
 
 **Cartesian Product:**
 ![[Cartesian_Product.png]]
+
+**Division**
+![[Division_example.png]]
+
+**Query Tree Notation Example**
+![[Query_tree_example.png]]

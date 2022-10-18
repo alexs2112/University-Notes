@@ -1,6 +1,6 @@
 ### Metamorphoses Structure
  - **Intro, Creation, Deluge**
- - Tales of the Godes. **Loves and Revenges**
+ - Tales of the Gods. **Loves and Revenges**
 	 - **Loves of the Gods**
 	 - Thebes and Bacchus
 	 - Revenges of the Gods
