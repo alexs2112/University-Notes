@@ -12,7 +12,7 @@
 **OCT 11 - CPSC471 Project EERD**
 OCT 14 - CPSC471 Self Quiz 3
 OCT 20 - DATA201 Group Email
-OCT 21 - DATA201 Assignment 3
+**OCT 21 - DATA201 Assignment 3**
 OCT 21 - CPSC471 Project Relational Model
 OCT 24 - CPSC471 GGA 3
 OCT 28 - CPSC471 Assignment 3

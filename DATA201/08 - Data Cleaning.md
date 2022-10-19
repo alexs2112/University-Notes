@@ -15,3 +15,10 @@
  - **Data Integration**
 	 - Data comes from multiple sources (might have different formats)
 	 - Schemas change over time
+
+### Common Data Quality Issues
+ - **Missing Data** - Missed measurements, redacted items, incomplete forms, etc
+ - **Erroneous Values** - Misspellings, outliers, "spurious integrity", etc
+ - **Entity Resolution** - Different values, abbreviations, 2+ entries for the same thing
+ - **Type Conversion** - Problematic conversions, losing precision, inaccuracy
+ - **Data Integration** - Mismatches and inconsistencies when combining data

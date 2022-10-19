@@ -44,3 +44,10 @@
 	 - Retrieve the first and last names of all employees whose salary is above $50000
 	 - `{e.Fname, e.Lname | EMPLOYEE(e) and e.Salary > 50000}`
 	 - The condition EMPLOYEE(e) specifies that the range relation of tuple variable e is EMPLOYEE
+
+### Other Languages
+ - Domain Relational Calculus
+	 - Similar to tuple RC, but domain of variables is columns instead of rows
+ - Query by example
+	 - Appendix C
+	 - Microsoft Access

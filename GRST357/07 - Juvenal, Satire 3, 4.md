@@ -61,13 +61,12 @@
  - He explains:
 	 - Inversion of the normal order of things in Rome
 	 - Greeks push aside the poor in Rome (greed)
-	 - Wealthy - ofen ex-slaves or slaves (lust)
+	 - Wealthy - often ex-slaves or slaves (lust)
 	 - City housing (Greek present) compared to country housing (Roman past)
 	 - Rome at night, insomnia, night-time traffic, falling tiles
 	 - Explains later on night, assaulted by the bully (black humor?)
 	 - Conclusions, a final complaint about Rome and praise of the country
  - Was Rome really as bad as Umbricius says? The text is full of impatience, anger, prejudice
-
 
 ### Satire 4: The Roman Emperor
  - This poem is an attack on the emperor Domitian

@@ -54,6 +54,16 @@
 	 - Two phases of crystallization, high melting point minerals (olivine in the examples) first start to form within the magma chamber, then the remaining molten matter became very homogeneous and became one single mineral.
 		 - Not separated in terms of speed, but in mineralogical results
 
+### Bodies of intrusive rocks
+Batholith (?) largest body of intrusive rocks
+ - Magma chamber which solidified in the Earth's interior, then raised to the surface
+Stock (?), very large body of intrusive rocks
+ - Column shape, prismatic
+
+### Igneous Bodies of Rocks
+ - **Dike**: An obvious cut of a different rock through another body of rocks
+ - **Sill**: Parallel/horizontal layer of rocks between two layers of rocks. Layers originally adjacent, sill was injected between them. 
+
 *Colours of the below images come from filtering the light passed through the microscope, displays many different colours from the minerals*
 ### Granular:
 ![[Granular_texture.png]]
