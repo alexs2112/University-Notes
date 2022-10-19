@@ -6,6 +6,11 @@
 	 - Clean them in openrefine, simple "find and replace" commands in every column minus the two listed above.
 		 - Column Name -> Edit Cells -> Replace, finding `\[|\]|;` as a regex and replacing it with nothing
 		 - Make sure to not do this with `physical_description` and `notes`, each other column will have to be handled manually due to this
+	 - Actually going to do this in excel because excel is a piece of shit when it comes to dates
+			 - Select each column not including `physical_description` and `notes`
+		 - Ctrl-H to open the replace menu, find `[` and replace it with nothing
+		 - Do the same for `]` and `;`
+		 - Profit
  - 2: `name`, `keywords`, `language`, and `location_type` are all empty columns
 	 - These empty columns can be removed. Zero entries have any of these fields populated. All that they do is clutter up the data with random empty columns, making it more difficult to read, particularly as there are so many other fields that could be important to a user. Additionally, if you are taking a look at a small amount of rows at once, the existence of these columns implies that other rows will have that data available and that the current rows are not complete.
 	 - This should be easy to do in OpenRefine
@@ -22,4 +27,9 @@
 		 - Column Name -> Edit Column -> Split into several columns -> Separator should be "; "
  - 5: Differing formats of dates
 	 - It looks like there are two different formats of dates used in the dataset. These should be made consistent to use the same date format to prevent confusion. The current date formats are not clear to readers when they look over multiple tuples with different formats, and there are potential issues if the formats are using MM/DD/YYYY or DD/MM/YYYY. Additionally, leading zeros should be added to the month and day sections of the dates, to make each date uniform and easier to compare with one another as the length of the dates will all be consistent (8 numbers)
-	 - This is easy to do in excel
+	 - This is apparently fucking impossible to do in excel
+	 - In OpenRefine:
+		 - Date -> Edit Cells -> Common Transforms -> To date
+		 - Date -> Edit Cells -> Common Transforms -> To text
+			 - This step is necessary as it Dates seem to store additional text than what is displayed
+		 - Date -> Edit Cells -> Replace, replacing "T00:00:00Z" with nothing

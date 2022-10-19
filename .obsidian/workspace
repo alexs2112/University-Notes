@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CPSC471/08 - Tuple Relational Calculus.md",
+            "file": "DATA201/Assignments/Assignment 3/Assignment 3.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC471/08 - Tuple Relational Calculus.md",
+                "file": "DATA201/Assignments/Assignment 3/Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPSC471/08 - Tuple Relational Calculus.md",
+                "file": "DATA201/Assignments/Assignment 3/Assignment 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPSC471/08 - Tuple Relational Calculus.md"
+                "file": "DATA201/Assignments/Assignment 3/Assignment 3.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "6af5c414a73f9519",
   "lastOpenFiles": [
+    "Due Dates.md",
+    "CPSC471/08 - Tuple Relational Calculus.md",
     "CPSC471/06 - Relational Algebra.md",
     "CPSC471/07 - Other Relational Algebra.md",
-    "Due Dates.md",
     "CPSC471/07 - Query Tree.md",
     "GRST357/07 - Juvenal, Satire 3, 4.md",
     "DATA201/Assignments/Assignment 3/Assignment 3.md",
     "Todo.md",
     "DATA201/08 - Data Cleaning.md",
-    "DATA201/07 - Data Formats.md",
-    "CPSC471/01 - Grading.md"
+    "DATA201/07 - Data Formats.md"
   ]
 }
