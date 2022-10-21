@@ -1,0 +1,36 @@
+### Two Major Characteristics
+ - The clastic/detrital/siliclastic sedimentary rocks are composed predominantly of silicate fragments (clasts, millions and billions of them with different origins), such as individual silicate minerals (quartz, feldspar) and rock (lithic) fragments
+	 - Clast, derived from a single mineral
+	 - Lithoclasts, clasts derived from rocks (2 or more minerals)
+	 - Bioclasts, fossils, vestiges of ancient life forms
+ - Clasts undergo weathering and erosion, transport, deposition, and lithification, to form a clastic sedimentary rock
+	 - The process of formation is extremely complex, can take several million years
+
+### Clastic Rock Formation Cycle
+ - **Weathering and Erosion**
+	 - Weathering represents the physical and chemical alteration of rocks exposed to the atmospheric influences on the Earth's surface
+	 - **Physical Weathering**: Bedrock is broken into smaller fragments, composition of the minerals remains unchanged
+		 - Ex: A desert, weathering due to variations of temperature and seasons
+	 - **Chemical Weathering**: Water and dissolved ions react with solid rock to produce materials of different compositions
+ - **Transport**
+	 - Landslides and rockfalls
+	 - **Eolian Transport**: transport media = wind
+		 - Examples: Desert sand dunes, sandstorms, volcanic ash (krakatow circled the globe)
+	 - **Glacier Transport**: transport media = ice
+		 - Slowest kind of sediment transport
+		 - While a glacier advances, it detaches bigger particles from the ground and transports them over large distances
+		 - Eventually it reaches an area with higher temperatures or an ocean, the ice transforms back to liquid water and discharges the sediment within
+	 - **Stream and River Transport**: transport media = continental water
+		 - Most of the sediments at the surface of the Earth are transported by streams and rivers
+			 - Memorize this
+	 - **Wave and Current Transport**: transport media = oceanic water
+ - **Deposition**
+	 - Only need to learn the definition of this process
+	 - Begins once a particle reaches the sedimentary basin, until it settles into the bottom of the basin
+	 - The product of deposition is the sediments, no cohesion
+ - **Lithification**
+	 - Once the sediment starts the process of burial, transformation of a loose sediment into a rigid sedimentary rock
+	 - The following processes may be involved:
+		 - **Compaction**: reduction in volume of sediments resulting from weight of newly deposited sediments above
+		 - **Cementation**: precipitated minerals bind together the grains of a sediment, converting it into a sedimentary rock
+		 - **Recrystallization**: formation of new crystalline mineral grains in a rock
