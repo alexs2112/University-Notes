@@ -26,7 +26,7 @@
 	 - Counts Employees and computers average salary per department
 
 ### Additional Relational Operations: OUTER JOIN
- - In NATURAL JOIn and EQUIJOIN, tuples without a matching (or related) tuple are eliminated from the join result
+ - In NATURAL JOIN and EQUIJOIN, tuples without a matching (or related) tuple are eliminated from the join result
 	 - Tuples with null in the join attributes are also eliminated
 	 - This amounts to loss of information
  - Example:

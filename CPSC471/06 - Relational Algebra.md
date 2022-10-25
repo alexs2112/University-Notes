@@ -36,7 +36,7 @@
 	 - A cascade of SELECT operations may be replaced by a single selection with a conjunction of all the conditions
 		 - σ _cond1_ (σ _cond2_ ) (R) = σ _cond1 AND cond2_ (R)
 
-### Project (π)
+### PROJECT (π)
  - Projects a relation to a subset of attributes
  - π _attribute list_ (R)
  - Results in a relation with only the columns of the requested attributes

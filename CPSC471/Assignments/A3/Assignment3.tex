@@ -1,0 +1,152 @@
+\documentclass[11pt]{article}
+
+\usepackage{wasysym, amsmath}
+\usepackage[margin=0.5in]{geometry}
+
+\parindent 0pt
+\parskip 3mm
+
+\begin{document}
+	
+\begin{center}
+{\bf \Large CPSC 471 - Assignment 3} \\
+\textbf{Name:} Alex Stevenson \\
+\textbf{Student ID:} 30073617
+\end{center}
+
+\begin{enumerate} \itemsep 1pt
+	
+\item[] \textbf{Question 1}
+
+\begin{center}
+\textbf{PUBLISHER}($\underline{name}, phone, city$) \\
+\textbf{BOOK}($\underline{ISBN}, title, color, \#pages$) \\
+\textbf{SCHOOL}($\underline{name}, phone, city, director$) \\
+\textbf{DISTRIBUTE}($\underline{pname}, \underline{sname}, \underline{ISBN}, quantity$)
+\end{center}
+
+\begin{enumerate}
+	
+	\item \textbf{Find the ISBN, title and total quantity of yellow books that are published by publishers located	in Vancouver and distributed only to the schools located in Toronto.}
+	
+	$BAD\_ISBN = \pi_{\text{ISBN}} (DISTRIBUTE \Join_{\text{sname=name}} (\sigma _{\text{city!="Toronto"}} (SCHOOL)))$
+	
+	$YELLOW = \sigma_{\text{color="Yellow"}}(BOOK)$
+	
+	$GOOD\_ISBN = \rho_{\text{(GISBN)}}(\pi_{\text{ISBN}}(YELLOW) - BAD\_ISBN)$
+	
+	$VANCOUVER = \sigma _{\text{city="Vancouver"}}(PUBLISHER)$
+	
+	$DISTRIBUTIONS = (DISTRIBUTE \Join_{\text{ISBN=GISBN}} GOOD\_ISBN) \Join_{\text{pname=name}} VANCOUVER$
+	
+	$RESULT= \pi_{ISBN, title, quantity} (BOOK \Join_{ISBN=DISBN} (\rho_{\text{(DISBN)}} (DISTRIBUTIONS)))$
+	
+	\item \textbf{Find the names and directors of schools located in Edmonton and receive books titled 'The Lost Tribe' from publishers located in Montreal.}
+	
+	$ISBN = \rho_{\text{(IISBN)}} (\pi_{ISBN} (\sigma_{\text{title="The Lost Tribe"}}(BOOK)))$
+	
+	$MONTREAL = \sigma_{\text{city="Montreal"}}(PUBLISHER)$
+	
+	$RECEIVE = (DISTRIBUTE \Join_{\text{pname=name}} MONTREAL) \Join_{\text{ISBN=IISBN}}ISBN$
+	
+	$EDMONTON = \sigma_{city="Edmonton"}(SCHOOL)$
+	
+	$RESULT = \pi_{\text{name, director}}(EDMONTON \Join_{\text{name=sname}} RECEIVE)$
+
+	\item \textbf{Find the title and total quantity of each book distributed to all schools located in the same city as the publisher.}
+	
+	\textbf{THIS WAS WRONG, FIX}
+	
+	\item \textbf{Find the names and cities of the publishers that distribute books only schools located in Calgary and that distributed books to every school in Calgary.}
+	
+	$NOT\_CALG = \pi_{\text{pname}}(DISTRIBUTE \Join_{\text{sname=name}} (\sigma_{\text{city!="Calgary"}}(SCHOOL)) \Join_{\text{pname=name}}(PUBLISHER))$
+	
+	$PUBS=\pi_{\text{name}}(PUBLISHER) - \pi_{\text{name}}(PUBLISHER \Join_{\text{name=pname}}NOT\_CALG)$
+	
+	$ONLY\_CALG=\pi_{\text{name,city}}(PUBLISHER \Join_{\text{PUBLISHER.name=PUBS.name}} PUBS$
+	
+	$CALG\_SCHOOLS = \pi_{\text{name}}(\sigma_{\text{city="Calgary"}}(SCHOOL))$
+	
+	$ALL\_CALG = (\pi_{\text{pname, sname}} (DISTRIBUTE)) \div (\rho_{\text{sname}}(CALG\_SCHOOLS))$
+	
+	$CALG\_P=PUBLISHER \Join_{\text{name=pname}} ALL\_CALG$
+	
+	$RESULT=ONLY\_CALG \cup \pi_{\text{name,city}} (CALG\_P)$
+	
+	\item \textbf{Find the ISBN and title of books distributed to schools located in Ottawa and never distributed to schools located in Windsor.}
+	
+	$OTTAWA=\pi_{\text{ISBN}}(DISTRIBUTE\Join_{\text{sname=name}}(\sigma_{\text{city="Ottawa"}}(SCHOOL)))$
+	
+	$WINDSOR=\pi_{\text{ISBN}}(DISTRIBUTE\Join_{\text{sname=name}}(\sigma_{\text{city="Windsor"}}(SCHOOL)))$
+	
+	$RESULT=\pi_{\text{ISBN, title}}(BOOK \Join_{\text{ISBN=SISBN}} (\rho_{\text{(SISBN)}} (OTTAWA-WINDSOR)))$
+
+\end{enumerate}
+
+\newpage
+\item[] \textbf{Question 2}
+
+\begin{center}
+\textbf{COUNTRY}($\underline{name}, area, population$) \\
+\textbf{BORDER}($\underline{country-name1}, \underline{country-name2}$) \\
+\textbf{CITY}($\underline{city-name}, country-name, area, population$) \\
+\textbf{STREET}($\underline{stno}, city-name, length$) \\
+\textbf{HOUSE}($\underline{hno}, \#rooms, stno, owner-name$) \\
+\end{center}
+
+\begin{enumerate}
+	
+	\item \textbf{Find the names of persons who own at least one house in at least one city of at least one country that has a border with Canada.}
+	
+	\{ h.owner-name $\vert$ HOUSE(h) \\
+	and $\exists$c $\exists$b (COUNTRY(c) and BORDER(b) \\
+		and ((b.country-name1 = "Canada" and b.country-name2 = c.name) \\
+		or (b.country-name1 = c.name and b.country-name2 = "Canada")) \\
+	and $\exists$ t (CITY(t) and t.country-name = c.name \\
+	and $\exists$ s (STREET(s) and s.city-name = t.city-name \\
+	and h.stno = s.stno))) \}
+	
+	\item \textbf{Find the street number and city name of the shortest street in each city in every country that is has a border with Canada.}
+	
+	\{ s.stno, s.city-name $\vert$ STREET(s) \\
+	and $\exists$c $\exists$b (COUNTRY(c) and BORDER(b) \\
+	and ((b.country-name1 = "Canada" and b.country-name2 = c.name) \\
+	or (b.country-name1 = c.name and b.country-name2 = "Canada")) \\
+	and $\exists$ t (CITY(t) and t.country-name = c.name \\
+	and $\forall$ r 
+	(STREET(r) $\rightarrow$ r.city-name = t.city-name \\
+	and s.length $<$ r.length and s.stno $\neq$ r.stno))) \}
+	
+	\item \textbf{Find the names and population sizes of all countries that have a border with the USA.}
+	
+	\{ c.name, c.population $\vert$ COUNTRY(c) \\
+	and $\exists$ b (BORDER(b) \\
+	and ((b.country-name1 = "USA" and b.country-name2 = c.name) \\
+	or (b.country-name1 = c.name and b.country-name2 = "USA"))) \}
+	
+	\item \textbf{Find the names of persons who do not own any houses in Canada but own more than one house in the USA.}
+	
+	\{ h.owner-name $\vert$ HOUSE(h) \\
+	and $\exists$ c (CITY(c) and c.ountry-name = "USA" \\
+	and $\exists$ s (STREET(s) and s.city-name = c.city-name \\
+	and h.stno = s.stno)) \\
+	
+	and $\forall$ c ((CITY(c) and c.country-name = "Canada") \\
+	$\rightarrow$ $\forall$ s ((STREET(s) and s.city-name = c.city-name) \\
+	$\rightarrow$ $\forall$ o (HOUSE(o) and o.stno = s.stno \\
+	$\rightarrow$ h.owner-name $\neq$ o.owner-name))) \\
+
+	and $\exists$ c $\exists$ o (CITY(c) and HOUSE(o) \\
+	and c.country-name = "USA" and o.owner-name = h.owner-name \\
+	and $\exists$ s (STREET(S) and o.stno = s.stno and o.hno $\neq$ h.hno)) \}
+
+	\item \textbf{Find the names and areas of cities with at least one street where no house is located.}
+
+	\{ c.city-name, c.area $\vert$ CITY(c) \\
+	and $\exists$ s (STREET(s) and s.city-name = c.city-name
+	and $\forall$ h (HOUSE(h) $\rightarrow$ h.stno $\neq$ s.stno)) \}
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
