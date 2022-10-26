@@ -1,4 +1,4 @@
-1**SEP 16 - CPSC471 Self Quiz 1**
+**SEP 16 - CPSC471 Self Quiz 1**
 **SEP 21 - CPSC471 GGA 1**
 **SEP 23 - CPSC471 Assignment 1**
 **SEP 23 - DATA201 Assignment 1**
@@ -14,8 +14,8 @@
 **OCT 20 - DATA201 Group Email**
 **OCT 21 - DATA201 Assignment 3**
 **OCT 21 - CPSC471 Project Relational Model**
-OCT 24 - CPSC471 GGA 3
-OCT 28 - CPSC471 Assignment 3
+**OCT 24 - CPSC471 GGA 3**
+**OCT 28 - CPSC471 Assignment 3**
 OCT 28 - GRST357 Essay 1
 OCT 28 - DATA201 Project Approval
 NOV 2 - GLGY209 Midterm 2

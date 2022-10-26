@@ -55,11 +55,19 @@
 
 	\item \textbf{Find the title and total quantity of each book distributed to all schools located in the same city as the publisher.}
 	
-	\textbf{THIS WAS WRONG, FIX}
+	$SAME\_CITY = SCHOOL \Join_{\text{SCHOOL.city=PUBLISHER.city}} PUBLISHER$
+
+	$DISTRIBUTED = DISTRIBUTE \Join_{\text{sname=SCHOOL.name and pname=PUBLISHER.name}} SAME\_CITY$
+
+	$COUNTS = _{\text{ISBN}}F_{\text{SUM quantity}} DISTRIBUTED$
+	
+	$RESULT = \pi_{\text{title, sum\_quantity}} (BOOK \Join_{\text{BOOK.ISBN=COUNTS.ISBN}} COUNTS)$
 	
 	\item \textbf{Find the names and cities of the publishers that distribute books only schools located in Calgary and that distributed books to every school in Calgary.}
 	
-	$NOT\_CALG = \pi_{\text{pname}}(DISTRIBUTE \Join_{\text{sname=name}} (\sigma_{\text{city!="Calgary"}}(SCHOOL)) \Join_{\text{pname=name}}(PUBLISHER))$
+	$NOT\_CALG\_SCHOOLS = DISTRIBUTE \Join_{\text{sname=name}} (\sigma_{\text{city!="Calgary"}}(SCHOOL))$
+	
+	$NOT\_CALG = \pi_{\text{pname}} (NOT\_CALG\_SCHOOLS \Join_{\text{pname=name}}(PUBLISHER))$
 	
 	$PUBS=\pi_{\text{name}}(PUBLISHER) - \pi_{\text{name}}(PUBLISHER \Join_{\text{name=pname}}NOT\_CALG)$
 	

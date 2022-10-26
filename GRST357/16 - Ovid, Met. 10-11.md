@@ -36,7 +36,7 @@
 	- In lace of his daughter Hebe who was relieved of her duties as cupbearer upon her marriage to Hercules
 
 ### Song 3: Hyacinthus
- - A mortal Apollo loved
+ - A mortal Apollo loved, more emotional than physical/sexual
  - Favourite activities together were hunting and sports
  - Tried to decide who could throw a discus further
  - Apollo went first, threw the discus an incredible distance
@@ -69,4 +69,52 @@
 	 - It is only in book 10 and the beginning of book 11 that Ovid does this
 
 ### Song 6: Myrrha
- - Saddest story in the Metamorphoses
+ - Saddest and longest story in the Metamorphoses
+ - Paphos (she) grows up, has a son called Cinyras, Cinyras has a daughter named Myrrha
+ - Myrrha falls in love with her father, decides to hang herself out of shame
+ - Last minute, nurse rushes into her room and prevents her from killing herself, demands to know what the matter was
+ - Myrrha eventually admits the truth, tries to talk her out of it but the nurse begrudgingly decides to help her
+ - Festival of Ceres, nurse approaches a drunk Cinyras, telling him she knows a young lady who wanted to sleep with him. He agrees
+	 - Long festival, women would leave their homes for a number of days to participate in the rituals
+ - For several nights they sleep together, Cinyras got too curious about her identity and brings a lamp into the room
+ - So disgusted he tries to kill her, Myrrha escapes
+ - Wanders the Earth for a long time, now pregnant
+ - Eventually it became too hard to carry on, exhausted she prays to the gods to transform her as punishment for her actions
+ - Some god turned her into a tree, her tears turned into sap. Orpheus explains that sap is known as myrrh
+ - Adonis is birthed by the tree
+
+### Song 7: Venus and Adonis
+ - Baby born from the myrrh tree, helped with goddess of childbirth Lucina
+ - Grew up to be the most handsome man in the world
+ - Venus fell in love with him, symbolized by an accident
+	 - One day, Venus's son Cupid bent down to kiss her and accidentally sccratched her with one of the arrows in his quiver when Adonis was there
+ - Venus abandoned her usual haunts, lingered with Adonis
+ - Dressed up as a huntress (like sister Diana) and accompanied him in the forest
+ - Warned him not to hunt dangerous animals
+	 - Inset story of Atalanta
+ - After the story, Venus left him alone, who went hunting
+ - He met a boar, spearing it but unable to kill it. The boar turned on him and fatally gored him
+ - Venus heard Adonis's dying groans, hurrying back but it was too late
+ - Turned Adonis's blood into the flower Anemone
+
+### Song 8: Atalanta
+ - Uninterested in marriage, agreed to marry only if her suitors could outrun her in a footrace
+	 - Those who lost would be killed
+ - Her father, King Oeneus agreed, many young men died until Hippomenes (grandson of poseidon) appeared
+ - Asked the goddess Aphrodite for help, gave him three golden apples in order to slow Atalanta down
+	 - Apples were irresistible, so every time Atalata got ahead of him he rolled an apple ahead of her to force her to run after it
+ - Hippomenes won the footrace, married Atalanta
+ - Zeus (or Rhea) turned Atalanta and Hippomenes into lions after they had sex in one of his temples
+	 - The belief at the time was that lions could not mate with their own species, only with leopards
+	 - Thus Atalanta and Hippomenes would never be able to remain with one another
+
+### Metamorphoses 11: Death of Orpheus
+ - After the songs, the book ends and it is back to Orpheus
+ - Orpheus continues singing, charming animals, rocks and trees
+ - Scorns women, seeks sexual relations only with younger men
+ - Furious group of women, Maenads, approach him shouting about him scorning them
+ - Stone him to death, then rip is body to pieces in a frenzy with their bare hands (sparagmos)
+ - His head and lyre float out to sea, eventually ending up in Lesbos (head keeps singing, famous for same sex relations, body buried according to tradition)
+ - Creatures he sang to mourn him, he is relieved to be reunited with Eurydice in the underworld
+ - Bacchus turns the Maenads into trees
+

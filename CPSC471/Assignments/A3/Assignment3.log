@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.24)  24 OCT 2022 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.24)  26 OCT 2022 09:56
 entering extended mode
 **./Assignment3.tex
 (Assignment3.tex
@@ -204,33 +204,24 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 22
 .
 ("C:\Users\alexa\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym\uwasy.fd"
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-Overfull \hbox (52.28879pt too wide) in paragraph at lines 62--63
-[]$\OML/cmm/m/it/10.95 NOT[]CALG \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 []\O
-T1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 DISTRIBUTE \U/wasy/m/n/10.95 1[] \OT1/cmr
-/m/n/10.95 (\OML/cmm/m/it/10.95 []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 SCHO
-OL\OT1/cmr/m/n/10.95 )) \U/wasy/m/n/10.95 1[] \OT1/cmr/m/n/10.95 (\OML/cmm/m/it
-/10.95 PUBLISHER\OT1/cmr/m/n/10.95 ))$ 
- []
-
-[1
+) [1
 
 {C:/Users/alexa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-01.
+09.
 
 ("C:\Users\alexa\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 109.
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--133
+Underfull \hbox (badness 10000) in paragraph at lines 137--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--138
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
 
  []
 
@@ -238,11 +229,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--138
 Here is how much of TeX's memory you used:
  1660 strings out of 492484
  21031 string characters out of 3121601
- 97521 words of memory out of 3000000
+ 98521 words of memory out of 3000000
  6034 multiletter control sequences out of 15000+200000
  8325 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,5n,34p,244b,212s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,6n,34p,244b,212s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\alexa\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
 r/public/wasy/dpi657\wasy10.pk><C:/Users/alexa/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/alexa/AppData/Local/Progr
@@ -253,7 +244,7 @@ fb><C:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmr10.pfb><C:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmr8.pfb><C:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment3.pdf (2 pages, 114392 bytes).
+Output written on Assignment3.pdf (2 pages, 114961 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
