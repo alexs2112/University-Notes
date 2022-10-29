@@ -16,8 +16,8 @@
 **OCT 21 - CPSC471 Project Relational Model**
 **OCT 24 - CPSC471 GGA 3**
 **OCT 28 - CPSC471 Assignment 3**
-OCT 28 - GRST357 Essay 1
-OCT 28 - DATA201 Project Approval
+**OCT 28 - GRST357 Essay 1**
+**OCT 28 - DATA201 Project Approval**
 NOV 2 - GLGY209 Midterm 2
 NOV 4 - DATA201 Assignment 4
 NOV 10 - CPSC471 Self Quiz 4
