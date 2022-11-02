@@ -26,5 +26,3 @@
 ### Volcanic Bombs and volcanic Breccia
  - Volcanic bombs are large-sized rock fragments, ejected during the volcanic eruptions, have a size of up to several meters
 	 - Can be thrown 800-900 meters from the eruption, presents problems for certain communities near active volcanism
-
-## End of Material for Second Midterm

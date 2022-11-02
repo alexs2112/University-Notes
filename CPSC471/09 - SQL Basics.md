@@ -225,3 +225,85 @@ WHERE E.Super_SSN = S.SSN;
 	 - `DESC, ASC`
 	 - Typically placed at the end of the query
 	 - `ORDER BY D.Dname DESC, E.Lname ASC, E.Fname ASC`
+
+### INSERT
+ - Used to add one or more tuples to a relation
+ - Attribute values should be listed in the same order as the attributes were specified in the `CREATE TABLE` command
+ - Constraints on data types are observed automatically
+ - Any integrity constraints as a part of the DDL specification are enforced
+ - Example:
+```
+INSERT INTO EMPLOYEE  
+VALUES ('Richard','K','Marini','653298653','1984-12-12', '98 Oak Rise,  
+Calgary, AB', 'O', 60000, '653298653', 4);
+```
+
+### Bulk Loading of Tables
+ - Only works for data already in the DB
+ - Creates more than one tuple in the database, needs to extract the data from the DB itself
+```
+CREATE TABLE WORKS_ON_INFO (  
+	Employee_name VARCHAR(15) NOT NULL,  
+	Project_name VARCHAR(15) NOT NULL,  
+	Hours_per_week DECIMAL(3,1));
+
+INSERT INTO WORKS_ON_INFO  
+SELECT CONCAT(E.Fname, E.Lname), P.Pname, W.Hours  
+FROM EMPLOYEE AS E, WORKS_ON AS W, PROJECT AS P  
+WHERE E.SSN=W.ESSN AND W.PNO=P.Pnumber
+```
+ - Can also create a new table, T' can be created with the same attributes as T and using LIKE it can be loaded with entire data
+	```
+	CREATE TABLE EMPS LIKE EMPLOYEE;
+
+	CREATE TABLE D5EMPS LIKE EMPLOYEE(
+		SELECT *
+		FROM EMPLOYEE AS E
+		WHERE E.DNO=5
+	);
+
+	CREATE TABLE EMPNAMES LIKE EMPLOYEE(
+		SELECT E.Lname, E.Fname, E.Salary
+		FROM EMPLOYEE AS E
+	);
+	```
+
+### DELETE
+ - Removes tuples from a relation
+	 - Optional WHERE clause to select what to be deleted (otherwise all of them, empty table)
+	 - Referential integrity should be enforced
+	 - Tuples deleted from only ONE tuple at a time (unless CASCADE is specified)
+	 - The number of tuples deleted depends on the number of tuples in the relation that satisfy the WHERE-clause
+ - Examples:
+```
+DELETE FROM EMPLOYEE;  
+
+DELETE FROM EMPLOYEE  
+WHERE DNO=5;  
+
+DELETE FROM EMPLOYEE  
+WHERE Sex=‘M’;  
+
+DELETE FROM EMPLOYEE  
+WHERE Salary>1000000
+```
+
+### UPDATE
+ - Modify attributes of one or more selected tuples
+ - WHERE clause selects the tuples to be modified
+ - Additional SET clause specifies the attributes to be modified and their new values
+ - Modifies tuples in the same relation
+ - Referential integrity is enforced
+ - Examples:
+```
+UPDATE PROJECT  
+SET Plocation=‘Calgary’, Dnum=5  
+WHERE Pnumber=10;
+
+UPDATE EMPLOYEE  
+SET Salary=Salary*1.1  
+WHERE Sex<>’M’;  
+
+UPDATE EMPLOYEE  
+SET Salary=Salary*1.1;	
+```

@@ -55,9 +55,9 @@
 		 - Not separated in terms of speed, but in mineralogical results
 
 ### Bodies of intrusive rocks
-Batholith (?) largest body of intrusive rocks
+Batholith largest body of intrusive rocks
  - Magma chamber which solidified in the Earth's interior, then raised to the surface
-Stock (?), very large body of intrusive rocks
+Stock, very large body of intrusive rocks
  - Column shape, prismatic
 
 ### Igneous Bodies of Rocks

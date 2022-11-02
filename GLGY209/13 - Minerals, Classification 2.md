@@ -1,5 +1,5 @@
 ### Silicate Structure
- - One atom of silicon, covalently bonded to four atoms of oxygon. The oxygen atoms leave 1 valence electron open
+ - One atom of silicon, covalently bonded to four atoms of oxygen. The oxygen atoms leave 1 valence electron open
 
 ### Silicate Mineral Groups - Terminology
  - Six silicate mineral groups, defined according to how tetrahedra link with each other and other cations
