@@ -1,6 +1,3 @@
-### Old Comedy
- - Fill this in
-
 ### New Comedy
  - Menander (342 - 290 BC)
  - Situation
@@ -100,3 +97,38 @@
  - She replies that the dinner he ordered when he presented the wife's mantle, he starts to protest that he doesn't have a wife and has just arrived in the city
 	 - Realizes the possibilities of a dinner and a pretty girl
 	 - Sends Messenio to the inn, giving him orders to return for his master at sunset
+
+### Act 3
+ - After the meal, Menaechmus 2 leaves his house with garland on his head and mantle over his arm
+ - Chuckling over his luck, dinner, kisses, expensive mantle, all for nothing
+ - Irate Peniculus, who lost Menaechmus 1, meets him and berates him for dining before he could arrive.
+ - More irritated by being treated as a stranger, rushes to tell the other twin's wife of the stolen mantle
+ - Menaechmus 2, baffled because the stranger Peniculus addressed him by name, pinches his eart to make sure he is awake.
+ - When Erotium's maid comes out to have him take a bracelet to the goldsmith for repair, he suspects something is amiss
+ - Rushes to the inn to tell Messenio of the shower of valuables raining upon him
+
+### Act 4
+ - The furious wife, told by Peniculus of her husband's trick, rushes out of her house just in time to meet her husband returning from the Forum, expecting Erotiums banquet
+ - Tells him to return the mantle or stay out of her house, Menaechmus 1 goes to Erotium to get it, resolving to buy her a better one
+ - He is stupefied when she declares him a liar and a cheat, telling him she has already given him both the mantle and her bracelet
+ - Very confused, goes to get the counsel of his friends
+
+### Act 5
+ - Menaechmus 2 returns, mantle over his arm, in search for Messenio who has left the inn.
+ - The wife sees him, assumes he is her husband, demands he confesses his shame
+ - Asks why he should be ashamed and why he should address a total stranger so
+	 - Adds that he didn't steal the mantle, that a lady gave it to him
+ - Too much for the wife, calls her father from the house
+ - The father comes out and tells him he must be crazy, seems like an excellent means of escape for Menaechmus 2
+ - Feigns insanity so violently that the father rushes off for a physician, wife seeks safety in the house, and Menaechmus 2 goes off to resume his hunt for Messenio
+ - As the father comes back with a doctor, Menaechmus 1 returns. Flies into a rage when his wife and father-in-law add to his troubles by implying he is insane
+ - His anger convinces the doctor of his insanity, summons slaves to bind him and takes him to an asylum
+ - Messenio appears, thinking the struggling husband is his master he overpowers the slave. As a reward he asks for his own freedom
+ - Menaechmus 1 tells Messenio that he doesn't know him, but by all means to consider himself freed
+	 - Then begins to suspect he may really be a bit crazy when Messenio tells him he will return shortly to give him the money he has been safeguarding
+ - The husband goes back to Erotiums house in further search of the mantle. Menaechmus 2 returns in his quest for Messenio when the slave hurries back with the purse
+ - Upbraids Messenio for being gone so long, the slave protests that he just saved his owner from ruffians and has been set free
+ - Menaechmus 2 is pondering this when Menaechmus 1 appears from Erotiums house
+ - The two brothers rub their eyes in bewilderment, explanations bring recognition, they embrace
+ - The happy master truly sets Messenio free, brothers decide Menaechmus 1 shall live with Menaechmus 2 in Syracuse
+ - Messenio announces an auction in the morning of the husbands goods, everything to go to the block, including the wife if there is a buyer.

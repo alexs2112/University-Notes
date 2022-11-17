@@ -1,4 +1,4 @@
-### NULL
+ ### NULL
  - Meanings
 	 - Unknown value
 	 - Unavailable/Withheld value
@@ -87,7 +87,7 @@ FROM EMPLOYEE AS E
 WHERE EXISTS  
 	(SELECT *  
 	FROM DEPENDENT AS D  
-	WHERE E.SSN = D.ESSN)  
+	WHERE E.SSN = D.ESSN)
 AND EXISTS  
 	(SELECT *  
 	FROM DEPARTMENT AS D  
@@ -251,6 +251,173 @@ GROUP BY Pnumber, Pname
 HAVING COUNT(*) > 2;
 ```
  - WHERE is applied first, then HAVING
+
+### WITH
+ - The WITH clause allows a user to define a table that will only be used in a particular query
+	 - Not available in all SQL implementations
+ - Used for convenience to create a temporary "View" and use that immediately in a query
+ - Allows a more straightforward way of looking a step by step query
+```
+WITH BIGDEPTS(DNO) AS  
+    (SELECT DNO  
+    FROM EMPLOYEE  
+    GROUP BY DNO  
+    HAVING COUNT(*) > 5)  
+SELECT DNO, COUNT(*)  
+FROM EMPLOYEE  
+WHERE Salary > 40000  
+AND DNO IN BIGDEPTS  
+GROUP BY DNO;
+```
+
+### CASE
+ - Used when a value can be different based on certain conditions
+ - Can be used in any part of an SQL query where a value is expected
+ - Applicable when querying, inserting, or updating tuples
+```
+UPDATE EMPLOYEE  
+SET Salary =  
+CASE WHEN DNO = 1 THEN Salary + 2000  
+CASE WHEN DNO = 4 THEN Salary + 1000  
+CASE WHEN DNO = 5 THEN Salary + 1500  
+ELSE Salary+ 0
+```
+
+### ASSERTION and TRIGGER
+ - Syntax can differ between implementations
+ - Semantic constraints are beyond the scope of the EER and relational model
+ - `CREATE ASSERTION`
+	 - Specify additional types of constraints outside scope of built-in relational model constraints
+	 - Cannot be violated
+```
+CREATE ASSERTION SALARY_CONSTRAINT
+CHECK (NOT EXISTS
+	(SELECT *
+	FROM EMPLOYEE E, EMPLOYEE M, DEPARTMENT D
+	WHERE E.Salary > M.Salary
+	AND E.DNO = D.DNumber
+	AND M.SSN = D.MGR_SSN));
+```
+ - `CREATE TRIGGER`
+	 - Specify automatic actions that database system will perform when certain actions and events occur
+	 - Monitors the DB for violations and triggers an action based on an event
+	 - Three parts: Event, Condition, Action
+```
+CREATE TRIGGER SALARY_VIOLATION  
+BEFORE INSERT OR UPDATE OF Salary, Super_SSN ON EMPLOYEE  
+FOR EACH ROW  
+WHEN (NEW.Salary > (SELECT Salary  
+					FROM EMPLOYEE  
+					WHERE SSN = NEW.Super_SSN))  
+INFORM_SUPERVISOR(NEW.Super_SSN, NEW.SSN)
+```
+
+### VIEWS (Virtual Tables) in SQL
+ - Single table derived from other tables called the Defining Tables
+ - Considered to be a virtual table
+```
+CREATE VIEW WORKS_ON_DETAILS  
+AS SELECT Fname, Lname, Pname, Hours  
+FROM PROJECT, WORKS_ON, EMPLOYEE  
+WHERE Pnumber=PNO  
+AND ESSN=SSN;  
+
+SELECT * FROM WORKS_ON_DETAILS;
+```
+ - Retains the attribute names from the SELECT
+```
+CREATE VIEW DEPT_INFO (Dept_name, No_of_employees, Total_salary)  
+AS SELECT Dname, COUNT(*), SUM(Salary),  
+FROM DEPARTMENT, EMPLOYEE  
+WHERE Dnumber=DNO  
+GROUP BY Dname;
+```
+ - Renames the attribute names from the SELECT
+
+### Using and Deleting Views
+ - Once a View is defined, SQL queries can use the View relation in the FROM clause
+ - View is always up-to-date
+	 - Responsibility of the DBMS and not the user
+ - DROP VIEW command
+	 - Dispose of the view
+
+### View Update
+ - Update on a view defined on a single table without any aggregate functions
+	 - Can be mapped to an update on underlying base table, as long as the primary key is preserved in the view
+ - Update not permitted on aggregate view:
+```
+UPDATE DEPT_INFO  
+SET Total_salary = 100000000  
+WHERE Dname= ‘Research’;
+```
+ - Cannot be processed because Total_salary is a computed value in the view definition
+
+### View Update and Inline Views
+ - View involving joins
+	 - Often not possible for DBMS to determine which of the updates is intended
+ - Clause WITH CHECK OPTION
+	 - Must be added at the end of the view definition if a view is to be updated to make sure the tuplesbeing updated stay in the view
+ - In-Line view
+	 - Defined in the FROM clause of an SQL query
+
+Views as Authorization Mechanism
+ - SQL has Query authorization statements (GRANT and REVOKE)
+ - Views can be used to hide certain attributes or tuples from unauthorized users
+ - For a user who is only allowed to see employee information for those who work for department 5, they may only access the view:
+```
+CREATE VIEW DEPT5EMP  
+AS SELECT *  
+FROM EMPLOYEE  
+WHERE DNO = 5;
+```
+
+### Schema Change Statements in SQL
+ - Schema evolution commands
+	 - DBA may want to change the schema while the database is operational
+	 - Does not require recompilation of the database schema
+
+### DROP
+ - Used to drop named schema elements, such as tables, domains, or constraints
+ - Drop behaviour options:
+	 - CASCADE and RESTRICT
+ - Example:
+	 - `DROP SCHEMA COMPANY CASCADE;`
+	 - This removes the schema and all its elements including tables, views, constraints, etc
+ - `RESTRICT`: Only delete if element is empty
+	 - `DROP TABLE EMPLOYEE RESTRICT;`
+		 - Only drop if table has no constraints or routines
+	 - `DROP TABLE EMPLOYEE CASCADE;`
+		 - Drop table with associated constraints or routines
+
+### ALTER
+ - Alter table actions include:
+	 - Adding or dropping a column (attribute)
+	 - Changing a column definition
+	 - Adding or dropping table constraints
+```
+ALTER TABLE COMPANY.EMPOYEE  
+ADD COLUMN Job VARCHAR(12);
+
+ALTER TABLE COMPANY.EMPOYEE  
+DROP COLUMN Address CASCADE;
+
+ALTER TABLE COMPANY.EMPOYEE  
+MODIFY Sex VARCHAR(12);
+```
+ - Adding and Dropping constraints:
+	 - Change constraints specified on a table
+```
+ALTER TABLE COMPANY.EMPOYEE  
+DROP CONSTRAINT EMPSUPERFK CASCADE;
+```
+ - Changing default values:
+```
+ALTER TABLE COMPANY.DEPARTMENT  
+ALTER COLUMN MGR_SSN DROP DEFAULT;
+
+ALTER TABLE COMPANY.DEPARTMENT
+ALTER COLUMN MGR_SSN SET DEFAULT ’999999999’;
+```
 
 ### Example of conversion from TRC to SQL:
 ![[TRC_to_mysql.png]]

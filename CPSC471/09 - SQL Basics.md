@@ -272,7 +272,7 @@ WHERE E.SSN=W.ESSN AND W.PNO=P.Pnumber
  - Removes tuples from a relation
 	 - Optional WHERE clause to select what to be deleted (otherwise all of them, empty table)
 	 - Referential integrity should be enforced
-	 - Tuples deleted from only ONE tuple at a time (unless CASCADE is specified)
+	 - Tuples deleted from only ONE table at a time (unless CASCADE is specified)
 	 - The number of tuples deleted depends on the number of tuples in the relation that satisfy the WHERE-clause
  - Examples:
 ```

@@ -13,3 +13,12 @@ GRANT ALL
 	WITH GRANT OPTION;
 ```
  - To list users: `SELECT user FROM user;`
+
+### Test Database
+```
+SHOW DATABASES;
+CREATE DATABASE test;
+USE test;
+SHOW TABLES;
+CREATE TABLE ...
+```
