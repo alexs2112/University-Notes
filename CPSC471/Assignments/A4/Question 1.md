@@ -81,6 +81,13 @@ INSERT INTO Distribute VALUES ("PubE", "SchoolE", 6, 30);
 INSERT INTO Distribute VALUES ("PubE", "SchoolF", 6, 30);
 INSERT INTO Distribute VALUES ("PubE", "SchoolB", 6, 30);
 
+Publisher that distributes only to every school in calgary
+INSERT INTO Publisher VALUES ("PubH", 4, "Calgary");
+INSERT INTO Book VALUES (9, "BookI", "Yellow", 5);
+INSERT INTO Distribute VALUES ("PubH", "SchoolD", 9, 30);
+INSERT INTO Distribute VALUES ("PubH", "SchoolE", 9, 30);
+INSERT INTO Distribute VALUES ("PubH", "SchoolF", 9, 30);
+
 Books distributed only to Ottawa
 INSERT INTO Publisher VALUES ("PubF", 5, "The Moon");
 INSERT INTO Book VALUES (7, "BookG", "Pink", 1005);
@@ -97,7 +104,7 @@ INSERT INTO Distribute VALUES ("PubF", "SchoolH", 8, 2);
 **Find the ISBN, title and total quantity of yellow books that are published by publishers located in Vancouver and distributed only to schools located in Toronto.**
 ```
 SELECT Book.ISBN, Book.title, Distribute.quantity 
-FROM Book JOIN Distribute 
+FROM Book, Distribute 
 WHERE color="Yellow" 
 AND Distribute.ISBN=Book.ISBN 
 AND Distribute.pname IN 
@@ -123,32 +130,39 @@ AND name IN
 
 **Find the title and total quantity of each book distributed to all schools located in the same city as the publisher.**
 ```
-SELECT title, SUM(Distribute.quantity) 
-FROM Book JOIN Distribute 
-WHERE Book.ISBN=Distribute.ISBN 
-AND Book.ISBN IN 
-	(SELECT ISBN FROM Distribute JOIN School JOIN Publisher 
-	WHERE sname=School.name 
-	AND pname=Publisher.name 
-	AND School.city=Publisher.city) 
-GROUP BY Distribute.ISBN;
+SELECT title, SUM(quantity) 
+FROM Book AS B, Distribute AS D, Publisher AS P, School AS S 
+WHERE B.ISBN = D.ISBN 
+AND D.pname = P.name 
+AND D.sname = S.name 
+AND P.city = S.city 
+GROUP BY B.ISBN;
 ```
-
-```
-SELECT title, quantity, School.city, Publisher.city 
-FROM BOOK JOIN DISTRIBUTE JOIN SCHOOL JOIN PUBLISHER 
-WHERE Book.ISBN = Distribute.ISBN 
-AND sname=School.name 
-AND pname=Publisher.name 
-AND School.city=Publisher.city;
-```
-Not sure about this one, doesn't work yet
 
 **Find the names and cities of the publishers who distribute books only to schools located in Calgary and distribute books to every school in Calgary.**
 ```
 SELECT name, city 
-FROM Publisher 
-WHERE 
+FROM Publisher AS P 
+WHERE NOT EXISTS (
+	SELECT * FROM Distribute AS D, School AS S 
+	WHERE D.pname = P.name 
+	AND D.sname = S.name 
+	AND S.city != "Calgary"
+)
+
+INTERSECT
+
+SELECT name, city 
+FROM Publisher AS P 
+WHERE NOT EXISTS (
+	SELECT * FROM School AS S 
+	WHERE S.city = "Calgary" 
+	AND NOT EXISTS (
+		SELECT * FROM Distribute AS D 
+		WHERE D.sname = S.name 
+		AND D.pname = P.name 
+	)
+);
 ```
 
 **Find the ISBN and title of books distributed to schools located in Ottawa and never distributed to schools located in Windsor.**
@@ -156,13 +170,13 @@ WHERE
 SELECT ISBN, title 
 FROM Book 
 WHERE ISBN IN 
-  (SELECT ISBN 
-  FROM Distribute JOIN School 
-  WHERE sname=name 
-  AND city="Ottawa") 
+	(SELECT ISBN 
+	FROM Distribute JOIN School 
+	WHERE sname=name 
+	AND city="Ottawa") 
 AND ISBN NOT IN 
-  (SELECT ISBN 
-  FROM Distribute JOIN School 
-  WHERE sname=name 
-  AND city="Windsor");
+	(SELECT ISBN 
+	FROM Distribute JOIN School 
+	WHERE sname=name 
+	AND city="Windsor");
 ```

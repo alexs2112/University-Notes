@@ -105,42 +105,46 @@ Streets with no houses: 0, 3, 4
 ```
 SELECT DISTINCT ownerName 
 FROM HOUSE 
-WHERE stno IN 
-	(SELECT stno 
+WHERE stno IN (
+	SELECT stno 
 	FROM Street 
-	WHERE cityName IN 
-		(SELECT cityName 
+	WHERE cityName IN (
+		SELECT cityName 
 		FROM City 
 		WHERE countryName!="Canada" 
-		AND countryName IN 
-			(SELECT countryName1 
+		AND countryName IN (
+			SELECT countryName1 
 			FROM Border 
-			WHERE countryName2 = "Canada") 
-		OR countryName IN 
-			(SELECT countryName2 
+			WHERE countryName2 = "Canada"
+		)	 
+		OR countryName IN (
+			SELECT countryName2 
 			FROM Border 
-			WHERE countryName1 = "Canada") 
-		)
-	);
+			WHERE countryName1 = "Canada"
+		) 
+	)
+);
 ```
 
 **Find street number and city name of the shortest street in each city in every country that has border with Canada.**
 ```
 SELECT stno, cityName 
 FROM Street AS S 
-WHERE cityName IN 
-	(SELECT cityName 
+WHERE cityName IN (
+	SELECT cityName 
 	FROM City 
 	WHERE countryName != "Canada" 
-	AND countryName IN 
-		(SELECT countryName1 
+	AND countryName IN (
+		SELECT countryName1 
 		FROM Border 
-		WHERE countryName2 = "Canada") 
-	OR countryName IN 
-		(SELECT countryName2 
+		WHERE countryName2 = "Canada"
+	) 
+	OR countryName IN (
+		SELECT countryName2 
 		FROM Border 
-		WHERE countryName1 = "Canada") 
-	)
+		WHERE countryName1 = "Canada"
+	) 
+)
 AND NOT EXISTS (
 	SELECT * 
 	FROM Street AS T 
@@ -154,14 +158,16 @@ AND NOT EXISTS (
 SELECT name, population 
 FROM Country 
 WHERE name != "USA" 
-AND name IN 
-	(SELECT countryName1 
+AND name IN (
+	SELECT countryName1 
 	FROM Border 
-	WHERE countryName2 = "USA") 
-OR name IN 
-	(SELECT countryName2 
+	WHERE countryName2 = "USA"
+) 
+OR name IN (
+	SELECT countryName2 
 	FROM Border 
-	WHERE countryName1 = "USA");
+	WHERE countryName1 = "USA"
+);
 ```
 
 **Find the names of persons who do not own any houses in Canada but own more than one house in the USA.**
@@ -210,12 +216,13 @@ WHERE stno IN
 ```
 SELECT cityName, area 
 FROM City 
-WHERE cityName IN 
-	(SELECT cityName 
+WHERE cityName IN (
+	SELECT cityName 
 	FROM Street AS S 
 	WHERE NOT EXISTS (
 		SELECT * 
 		FROM House AS H 
-		WHERE H.stno = S.stno)
-	);
+		WHERE H.stno = S.stno
+	)
+);
 ```
