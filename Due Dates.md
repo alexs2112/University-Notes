@@ -1,7 +1,5 @@
 ### Not Done
-NOV 18 - DATA201 Presentation
 NOV 21 - CPSC471 GGA 4
-NOV 22 - GRST357 Report 3
 NOV 27 - CPSC471 Self Quiz 5
 DEC 2 - CPSC471 Assignment 5
 DEC 5 - CPSC471 GGA 5
@@ -40,3 +38,5 @@ NOV 10 - CPSC471 Self Quiz 4
 NOV 14 - GRST357 Report 2
 NOV 14 - CPSC471 Project Initial Draft
 NOV 18 - CPSC471 Assignment 4
+NOV 18 - DATA201 Presentation
+NOV 22 - GRST357 Report 3

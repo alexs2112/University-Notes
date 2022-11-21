@@ -30,7 +30,7 @@
 ### Act 3
  - In the midst of the conversation, accosted by a moneylender
  - Demands the interest of some money that Philolaches has borrowed to free Philematium
- - Theopropides enquires what the money was borrowed for, Tranio says that Philolaches has purhcased a house with it
+ - Theopropides enquires what the money was borrowed for, Tranio says that Philolaches has purchased a house with it
  - On Theopropides making further enquiries, Tranio says that he has bought the house in which Simo is living
  - Theopropides wishes to examine this new purchase, sends Tranio to request Simo to allow him to do so
  - Tranio obtains permission, Simo is ignorant of the object and they go over the house
