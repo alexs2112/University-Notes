@@ -76,3 +76,22 @@
 			 - Otherwise the two are Carboniferous (everywhere minus North America)
 		 - Permian
 			 - Russian city in the Euro Mountains (Perm)
+
+### Radioactive Decay
+ - Elements and isotopes in nature present different degrees of stability
+ - An unstable isotope nucleus can be transformed spontaneously into an isotope with a stable nucleus configuration
+	 - Unstable element changes to a stable state
+ - This process is known as radioactive decay
+ - Most elements transform over several steps, a radioactive decay series
+	 - As you know the series of transformation, you can measure the weight of the parent and daughter isotope knowing the rate of transformation, you can calculate the age of the mineral (1912)
+
+### Half-Life
+ - The half-life of a radioactive element represents the time it takes for one half of the atoms of the original unstable parent element to decay to atoms of a new and more stable daughter element
+ - Principle of measurement, charts and diagrams showing the ratios of change for each element over time. Not the method itself
+ - Uranium 238 -> Lead 206 is the most relevant isotop pair, a half life of 4.5 billion years
+
+### Geological Time Scale
+ - With the knowledge of half-life and radioactive decay, we can calculate the age of the Earth with margins of error
+
+### Half-Life Principle
+![[Half-Life_Principle.png]]

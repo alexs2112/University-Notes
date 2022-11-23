@@ -5,7 +5,7 @@ DEC 2 - CPSC471 Assignment 5
 DEC 5 - CPSC471 GGA 5
 DEC 7 - DATA201 Project Report
 DEC 7 - CPSC471 Project Presentation
-DEC 16 - GRST357 Essay 2
+DEC 9 - GRST357 Essay 2
 
 ### Finals
 CPSC 471 - DEC 15, 3:30 - 5:30
