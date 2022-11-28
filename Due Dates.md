@@ -2,9 +2,9 @@
 NOV 21 - CPSC471 GGA 4
 NOV 27 - CPSC471 Self Quiz 5
 DEC 2 - CPSC471 Assignment 5
+DEC 5 - CPSC471 Project Presentation (1:20-1:40)
 DEC 5 - CPSC471 GGA 5
 DEC 7 - DATA201 Project Report
-DEC 7 - CPSC471 Project Presentation
 DEC 9 - GRST357 Essay 2
 
 ### Finals
