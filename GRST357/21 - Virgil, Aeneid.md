@@ -121,5 +121,32 @@
  - Day 2: Turnus in the Trojan camp (a second Achilles)
 	 - Beat down by Aeneas when he returns, spares him (mercy, different type of heroism)
 
+### Aeneid 10 (Pallas and Lausus Dead)
+ - Virgil pairs the death of Pallas with the death of Dido
+ - Prologue and council ofthe gods
+ - Aeneas returns, first phase of the battle results in the death of Pallas
+	 - Turnus and Pallas in single combat, Turnus strips off his sword-belt as spoils of war. He will bitterly regret this deed.
+ - Interlude of Jove and Juno, Turnus spirited away
+ - Second phase of the battle has Aeneas giving way to furor (battle madness)
+	 - Death of Lausus and Mezentius
 
+### Aeneid 11 (Burying of the Dead)
+ - Talks of peace, 12 day truce to bury the dead
+	 - Embassy sent to ask Diomedes (related to Argos, from the Illiad, randomly living in Italy) for help, he says he would not fight against the Trojans, particularly against Aeneas
+	 - Latinus makes a speech that the Trojan situation is hopeless, proposes to make peace by ceding them land or ships
+	 - Turnus says there is no need for despiar, he is ready to face Aeneas in single combat
+ - Preparations for battle, things are breaking out again
+ - Interlude describing the childhood of Camilla
+ - Cavalry battle, death of Camilla and the retreat of Turnus
+	 - Warrior-queen Camilla helping Turnus, a mighty warrior and devotee of Diana. Attempts to capture spoils from a Trojan priest, shot dead
+		 - Last words sent to Turnus, telling him to take her place in the battle
 
+### Aeneas 12 (Death of Turnus)
+ - Duel between Turnus and Aeneas is decided on, the duel begins
+	 - Turnus sword (not his own) is broken, Aeneas pursues
+	 - Turnus gets his own sword back, Aeneas recovers his spear, they confront each other again
+	 - Interlude: Juno and Jove and the bird of death, Juturna departs, will no longer interfere with Turnus and fate has settled on what has to happen
+		 - Juno yields to Jupiter's order to cease interference, begs that Latins may keep their culture and not become Trojans
+	 - Final encounter: Turnus is defeated, not spared by Aeneas
+		 - Turnus attempts to throw a huge rock at Aeneas, fails without godly strength. Aeneas hurls his spear and wounds him
+		 - Turnus begs for mercy, Aeneas is on the point of granting it when he catches sight of the belt of Pallas, in fury and anger he kills him

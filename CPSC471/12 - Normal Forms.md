@@ -221,9 +221,86 @@ Input: R and F = FDs on the attributes of R
 	- Create a new sub relation schema S with attributes X U Y and X is the primary key for S
 	 - Remove attributes Y from R
 
-### Boyce-Codd Normal Form (BCNF)
+## Boyce-Codd Normal Form (BCNF)
  - A relation schema R is in BCNF if whenever an FD X -> A holds in R, then X is a superkey of R
  - Each normal form is strictly stronger than the previous one
 	 - Every 2NF relation is in 1NF
 	 - Every 3NF relation is in 2NF
 	 - Every BC
+ - In practice, most relations in 3NF are also in BCNF
+
+### Decomposition (Normalization to BCNF)
+ - Given a relation schema R and a set of FDs F on the attributes of R
+ - When R is not in BCNF, it can be decomposed into subset relation schemas `D = {R1, R2, ..., Rm}`
+	 - The smaller relation schemas Ri will be in BCNF
+	 - F is preserved in the decomposition
+ - For each FD X -> Y That violates BCNF in R
+	 - Create a new sub-relation schema S with attributes  X union Y and X is the primary key for S
+	 - Remove attributes Y from R
+
+### Lossless Join (Additive Join)
+ - Note: The word loss refers to loss of information, not to loss of tuples
+ - A better term is "addition of spurious information"
+
+### Projection of FDs
+ - Definition: Given a set of FDs F on relation schema R, with Ri (subset eq) R, the projection of F on Ri, denoted PI_Ri(F), is the set of dependencies X -> Y in F+ such that attributes in X union Y are all contained in Ri
+
+### Testing for Lossless Join Property
+ - Input: A universal relation R, a decomposition D of R,  and a set F of FDs
+1. Create an initial matrix S with one row i for each relation Ri in D, one column j for each attribute Aj in R
+2. Set S(i,j) <- bij for all matrix entries [each bij is a distinct symbol associated with indices (i,j)]
+3. For each for i representing relation schema Ri do
+	 - for each column j representing attribute Aj do
+		 - If (relation Ri include attribute Aj) then set S(i,j) <- aj [each aj is a distinct symbol associated with index j]
+4. Repeat:
+	 - For each FD X -> Y in F do
+		 - for all rows in S which have the same symbols in the columns corresponding to attributes in X do
+			 - make the symbols in each column that corresponds to an attribute in Y be the same in all these rows as follows:
+			 - if any of the rows has an "a" symbol for the column, then set the other rows to that same "a" symbol in the column
+			 - if no "a" symbol exists for the attribute in any of the rows, then choose one of the "b" symbols that appear in one of the rows for the attribute and set the other rows to that same "b" symbol in the column
+ - Until a complete loop execution results in no changes to S
+ - If a row is made up entirely of "a" symbols then the decomposition has the lossless join property, otherwise it does not.
+
+### Checking Non-Additivity of Binary Relational Decompositions
+ - Binary Decomposition: Decomposition of a relation R into two relations
+ - NJB (Non-additive join test for binary decompositions): A decomposition D = {R1, R2} of R has the lossless join property with respect to a set of FDs F on R if and only if either of the following FDs is in F+:
+	 - (R1 intersection R2) -> (R1 - R2)
+	 - (R1 intersection R2) -> (R2 - R1)
+
+### Successive Non-additive Join Decomposition
+ -  If a decomposition D = {R1, ..., Rm} of R has the lossless join property
+ - And if a decomposition D1 = {Q1, ..., Qk} of Ri has the lossless join peroperty
+ - Then the decomposition
+	 - D' = {R1, ..., Ri-1, Q1, ..., Qk, Ri+1, ..., Rm}
+ - also has the lossless join property
+
+### Bottom-up Design
+ - Procedure:
+	 - A universal relation schema R = {a1, a2, ..., an} includes all the attributes of the database
+	 - Given a universal relation schema R and a set of FDs F
+	 1. Find a minimal cover for F
+	 2. Decompose R until all relation schemas are in 3NF or BCNF
+
+### Decomposition Goals
+ - A universal relation schema R = {a1, a2, ..., an} with a set of FDs F can be decomposed into a set of smaller relation schemas D = {R1, R2, ..., Rm}
+ - Decomposition goals:
+1. Attribute preservation
+	-  Each ai will appear in at least one relation schema Ri in D
+2. Each individual relation Ri in D must be in BCNF or 3NF
+3. FD F is preserved as much as possible
+4. Lossless (non-additive) join
+
+### Decomposition into 3NF
+ - Input: A universal relation R and a set of FDs F on the attributes of R
+1. Find a minimal cover G for F
+2. For each X, where X -> Y is in G, create a relation schema S with attributes X union {a1, a2, ..., ak}, where X -> a1, ..., X -> ak are the only FDs with X on the LHS in G (X is the key of S)
+3. If none of the relation schemas in D contains a key of R, then create one or more relation schema in D that contains attributes that form a key of R
+4. Eliminate redundant relations, if any
+
+### Decomposition into BCNF
+ - Input: A universal relation R and a set of FDs F on the attributes of R
+1. D <- {R}
+2. While there is a relation schema Q in D that is not in BCNF do
+	 - Find FD X -> Y that violates BCNF in Q
+	 - Decompose Q into (Q - Y) and (X union Y)
+ - Assumption: No null values are allowed for the join attributes.
