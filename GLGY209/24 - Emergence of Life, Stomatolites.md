@@ -33,10 +33,5 @@
 	 - A challenging period for life on Earth, most organisms were anaerobic and oxygen was toxic to them
 	 - First mass extinction, organisms destroyed by their product (oxygen)
 
-### Oldest Eukaryotes
- - Oldest Eukaryotes are biomarkers (chemical fossils), evolution from Precariates
- - First organisms capable of sexual reproduction, not mitotic reproduction
-	 - The mutations and imperfections from sexual reproduction leads to more evolution
-
 ### Stromatolite Evolution
 ![[stromatolite_evolution.png]]
