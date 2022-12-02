@@ -154,8 +154,11 @@ Input: R and F = FDs on the attributes of R
 	 - All attributes depend on the whole key
  - 3rd normal form (3NF)
 	 - All attributes depend on nothing but the key
+ - BCNF
+	 - All key attributes must define every other attribute
+	 - For every non-trivial FD for R, X -> A, X is a superkey for R
 
-## First Normal Form
+# First Normal Form
  - Disallows
 	 - Composite attributes
 	 - Multivalued attributes
@@ -164,7 +167,7 @@ Input: R and F = FDs on the attributes of R
  - Considered to be part of the definition of a relation
  - Most RDBMSs allow only those relations to be defined that are in 1NF
 
-## Second Normal Form
+# Second Normal Form
 ### Full FD
  - Full functional dependency: a FD Y -> Z where removal of any attribute from Y means the FD does not hold any more
  - Examples:
@@ -192,7 +195,7 @@ Input: R and F = FDs on the attributes of R
 	 - Create a new sub relation schema S with attributes X U Y and X is the primary key for S
 	 - Remove attributes Y from R
 
-## Third Normal Form
+# Third Normal Form
 ### Transitive FD
  - A FD X -> Y in a relation schema R is transitive if  
 	 - There exists a set of attributes Z in R that is neither a candidate key nor a subset of any key of R, and
@@ -221,7 +224,7 @@ Input: R and F = FDs on the attributes of R
 	- Create a new sub relation schema S with attributes X U Y and X is the primary key for S
 	 - Remove attributes Y from R
 
-## Boyce-Codd Normal Form (BCNF)
+# Boyce-Codd Normal Form (BCNF)
  - A relation schema R is in BCNF if whenever an FD X -> A holds in R, then X is a superkey of R
  - Each normal form is strictly stronger than the previous one
 	 - Every 2NF relation is in 1NF
@@ -238,7 +241,7 @@ Input: R and F = FDs on the attributes of R
 	 - Create a new sub-relation schema S with attributes  X union Y and X is the primary key for S
 	 - Remove attributes Y from R
 
-### Lossless Join (Additive Join)
+# Lossless Join (Additive Join)
  - Note: The word loss refers to loss of information, not to loss of tuples
  - A better term is "addition of spurious information"
 

@@ -24,7 +24,27 @@
  - East African Rift as an example of this
 	 - Forms large lakes, consistent with the model, the composition of the water in these lakes are totally different than most, the water is stratified
 	 - Oxygenated layer of water at the top, underneath the layer is a layer of toxic water, enriched in methane, ammonia, carbon dioxide. Organisms do not live there. Due to volcanic activity
- - 
+ - Benioff Plane
+	 - Aleutian Islands and the Aleutian Trench
+	 - The border of where the Pacific Plate pushes on the North American Plate
+	 - A zone where many earthquakes start as the oceanic plate is subducted under the continental plate
+
+### Oceanic Crust Consumption
+ - Zones of consumption of oceanic crust are regarded as convergent zones
+ - Subduction (therefore consumption) can occur either between plates consisting of oceanic crust, or between plates with different constitution (continental vs oceanic)
+ - Subduction is accompanied by volcanism, crustal movements resulting in sediment folding and faulting, earthquakes, etc
+ - Example of a modern collision: North Italy
+	 - Mountain range occuring at the point of collision, nearby ground used to be under the ocean
+
+### Wilson Cycle
+ - Represents the cycle of birth, evolution/expansion, and closure of an oceanic basin
+ - Diagram below
 
 ### Polarity at the Mid-Oceanic Ridge
 ![[polarity_midoceanic_ridge.png]]
+
+### Wilson Cycle Diagram
+![[wilson_cycle.png]]
+
+### Present Day Plates
+![[present_day_plates.png]]

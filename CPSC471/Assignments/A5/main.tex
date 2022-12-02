@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+
+\title{CPSC 471: Assignment 5}
+\author{Alex Stevenson - 30073617}
+\date{December 2022}
+\geometry{margin=0.6in}
+
+\begin{document}
+
+\maketitle
+
+\section*{Question 1}
+\textbf{Calculate the closures $\{C\}^+$, $\{A, H\}^+$ and $\{K\}^+$ with respect to $P$.} \\
+$\{C\}^+ = \{C\}$ \\
+$\{A, H\}^+ = \{A, H, J\}$ \\
+$\{K\}^+ = \{K\}$
+
+\section*{Question 2}
+\textbf{Is the set of functional dependencies $P$ in Question 1 minimal?} \\
+The set of functional dependencies given in Question 1 IS NOT minimal, as there exist dependencies in $P$ with more than one attribute on their RHS. \\
+
+The minimal set can be found through applying IR4 (Decomposition) to each problematic functional dependency. This results in the set: \\
+$
+\{A,B\} \rightarrow C, \\
+\{A,B\} \rightarrow K, \\
+\{B,D\} \rightarrow E, \\
+\{B,D\} \rightarrow F, \\
+\{A,D\} \rightarrow G, \\
+\{A,D\} \rightarrow H, \\
+\{A,K\} \rightarrow I, \\
+\{H\} \rightarrow J \\
+$
+with no extraneous attributes and no redundant functional dependencies, as required to be a minimal set.
+
+\section*{Question 3}
+\textbf{What is the key for $R$? Decompose $R$ into 2NF and then 3NF relations.} \\
+Key for $R$: $\{A, B, D\}$ \\
+
+\textbf{2nd Normal Form:} \\
+$R_1 = \{A, B, C\} \\
+R_2 = \{B, D, E, F\} \\
+R_3 = \{A, D, G, H, J\} \\
+R_4 = \{A, I\} \\
+$
+
+\textbf{3rd Normal Form:} \\
+$R_1 = \{A, B, C\} \\
+R_2 = \{B, D, E, F\} \\
+R_3 = \{A, D, G, H\} \\
+R_4 = \{A, I\} \\
+R_5 = \{H, J\} \\
+$
+
+
+\section*{Question 4}
+\begin{itemize}
+\item \textbf{a) $D_1 = \{ R_1 = \{A, B, C\}, R_2 = \{A, D, E\}, R_3 = \{B, F\}, R_4 = \{F, G, H\}, R_5 = \{D, I, J\} \}$} \\
+ - Does not have the lossless join property. \\
+ - Does not have the dependency preservation property, only preserves 1 of 5 functional dependencies in $R_1$. \\
+ - Relation $R_1$ is in BCNF due to the dependency $AB \rightarrow C$, the other relations are in 1NF as they are not composite or multivalued attributes, but there are no other dependencies for these relations to be in 2NF (and consequently 3NF, BCNF).
+
+\item \textbf{b) $D_2 = \{ R_1 = \{A, B, C, D, E\}, R_2 = \{B, F, G, H\}, R_3 = \{D, I, J\} \}$} \\
+ - Does not have the lossless join property. \\
+ - Does not have the dependency preservation property, only preserves 2 of 5 functional dependencies in $R_1$. \\
+ - Relations $R_2$ and $R_3$ are in 1NF due to the lack of dependencies present in them (as in part $a$). Relation $R_1$ is also in 1NF as the FDs present are $AB \rightarrow C$ and $BD \rightarrow EF$. Both of these dependencies don't rely on the whole key of $ABD$, proving it is not in 2NF.
+
+\item \textbf{c) $D_3 = \{ R_1 = \{A, B, C, D\}, R_2 = \{D, E\}, R_3 = \{B, F\}, R_4 = \{F, G, H\}, R_5 = \{D, I, J\} \}$} \\
+ - Does not have the lossless join property. \\
+ - Does not have the dependency preservation property, only preserves 1 of 5 functional dependencies in $R_1$. \\
+ - Relations $R_2, R_3, R_4,$ and $R_5$ are all in 1NF due to the lack of dependencies (as in part $a$). Relation $R_1$ is also in 1NF as it contains the attribute $C$, which is dependent on $AB$ but not dependent on the full key of $ABD$.
+\end{itemize}
+
+\end{document}
