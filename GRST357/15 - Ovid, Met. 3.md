@@ -23,8 +23,8 @@
  - Black humor/irony undercuts seriousness
 
 ### Cadmus and the Founding of Thebes
- - Europa's fauther, Agenor, threatens Cadmus with exile if he does not find Europa (sister)
-	 - Tries and fails, can''t go home so her prays to Apollo
+ - Europa's father, Agenor, threatens Cadmus with exile if he does not find Europa (sister)
+	 - Tries and fails, cant go home so her prays to Apollo
 	 - Apollo says a pristine heifer will lead him to a place where he will establish a city
 	 - Prophecy is born out
  - Cadmus's men encounter an enormous serpent, killing them
@@ -59,7 +59,7 @@
 ### Pentheus
  - Pentheus, king of Thebes, scorns Tiresias and the gods (particularly Bacchus)
  - Tiresias prophesizes that Pentheus must honor Bacchus or he will be ripped limb from limb
- - Bacchus arrives in Thebes, greeted by wirshippers, Pentheus continues to insult the god
+ - Bacchus arrives in Thebes, greeted by worshippers, Pentheus continues to insult the god
  - Pentheus' men bring him a man they seized named Acoetes, Acoetes tells Pentheus his story
 
 ### Acoetes

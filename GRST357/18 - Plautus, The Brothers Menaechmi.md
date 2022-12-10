@@ -18,7 +18,7 @@
 	 - Became an actor (playing Maccius in *Fabulae Atellanae*, simple gluttonous fool)
 	 - So successful financially decided to go into business, lost all his money.
 		 - Supposedly took a job at a mill and used his spare time to write plays
-	 - Wrote ebtween 205 and 184 BCE
+	 - Wrote between 205 and 184 BCE
  - Plays apparently written to amuse, rather than to grind some political or philosophical axe
  - Reflect Italian popular comedy, as well as the influence of Greek New Comedy (Menander)
  - All of his characters pretend to be Greek (*fabulae palliatae*)

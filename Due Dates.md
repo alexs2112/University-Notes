@@ -1,10 +1,3 @@
-### Not Done
-DEC 2 - CPSC471 Assignment 5
-DEC 5 - CPSC471 Project Presentation (1:20-1:40)
-DEC 5 - CPSC471 GGA 5
-DEC 7 - DATA201 Project Report
-DEC 9 - GRST357 Essay 2
-
 ### Finals
 CPSC 471 - DEC 15, 3:30 - 5:30
 GLGY 209 - DEC 20, 8:30 - 10:30
@@ -40,3 +33,8 @@ NOV 18 - DATA201 Presentation
 NOV 21 - CPSC471 GGA 4
 NOV 22 - GRST357 Report 3
 NOV 27 - CPSC471 Self Quiz 5
+DEC 2 - CPSC471 Assignment 5
+DEC 5 - CPSC471 Project Presentation (1:20-1:40)
+DEC 5 - CPSC471 GGA 5
+DEC 7 - DATA201 Project Report
+DEC 9 - GRST357 Essay 2
