@@ -15,7 +15,7 @@
 ### Kinds of Fossil Preservation
  - Recrystallization
  - Moldic preservation of mold-cast preservation
- - Perminerallization
+ - Permineralization
  - Carbonization
  - Congealment
  - Fossilization in amber

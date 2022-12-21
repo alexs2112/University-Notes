@@ -50,5 +50,8 @@
  - Examples at the bottom of this page
 
 ### Images
+**Query Tree Notation Example**
+![[Query_tree_example.png]]
+
 **Outer Join Example**
 ![[Outer_join_example.png]]

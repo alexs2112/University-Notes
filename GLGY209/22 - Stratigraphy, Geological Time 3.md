@@ -95,3 +95,6 @@
 
 ### Half-Life Principle
 ![[Half-Life_Principle.png]]
+
+### Geologic Time Scale
+![[Geological_Time_Scale.png]]

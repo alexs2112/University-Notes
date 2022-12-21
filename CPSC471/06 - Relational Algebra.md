@@ -112,7 +112,7 @@
 
 ### EQUIJOIN
  - The most common use of join involves join conditions with *equality comparisons (=)* only
- - In the result of an EQUIJOIn, we always have one or more pairs of attributes (whose names do not need to be identical) that have identical values in every tuple
+ - In the result of an EQUIJOIN, we always have one or more pairs of attributes (whose names do not need to be identical) that have identical values in every tuple
 
 ### NATURAL JOIN
  - Special form of EQUIJOIN, denoted by *
@@ -154,6 +154,3 @@
 
 **Division**
 ![[Division_example.png]]
-
-**Query Tree Notation Example**
-![[Query_tree_example.png]]

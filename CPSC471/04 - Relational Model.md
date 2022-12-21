@@ -20,7 +20,6 @@
  - An ordered collection of values, enclosed in angled brackets
  - Each value is derived from an appropriate domain
  - A relation is a set of such tuples (rows)
--
 
 ### Informal to Formal:
  - Table -> Relation
@@ -70,7 +69,7 @@
 	 - Every value in a tuple must be from the domain of its attribute (possible including null)
 
 ### Key Constraints
- - **Superkey** or `R`:
+ - **Superkey** of `R`:
 	 - A set of attributes `SK` of `R` with the following condition:
 		 - No two tuples in any valid relation state `r(R)` will have the same value for `SK`
 		 - That is, for any distinct tuples `t1`, `t2`, in `r(R)`, `t1[SK] != t2[SK]`

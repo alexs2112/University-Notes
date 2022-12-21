@@ -1,0 +1,40 @@
+ - An ion with a positive charge is referred to as a cation
+ - Diamond is the hardest mineral on the Mohs hardness scale
+ - Transparency is the physical property that describes how light passes through a mineral
+ - Sulphur is a native element that is not a semimetal (arsenic, bismuth, antimony all are semimetals)
+ - Dolomite is a mixed carbonate of calcium and magnesium
+ - Double-chain silicates are also known as Sorosilicates
+ - Tectosilicates are the most frequent silicates in the Earth's crust
+ - An electrically charged atom is known as an Ion
+ - Basalt is an example of rock with aphanitic texture
+ - An amorphous igneous rock has glassy texture
+ - An igenous rock in which minerals dominate over the amorphous substance (matrix) is also known as Hypohyaline and hypocrystalline
+ - Phenocrysts occur in the porphyritic igneous rock texture
+ - Sill is not a discordant body of igneous rocks (batholith, stock, dike all are)
+ - Gases are trapped in extrusive rocks with vesicular texture
+ - Lava plateaus are the largest bodies of extrusive rocks
+ - Gypsum and Anhydrite are sulphates
+ - The bonds between the silica tetrahedra and cations in silicates are Ionic
+ - Groups of organisms that often precipitate minerals such as sulphur are Bacteria
+ - The crystal structure of the mineral Galena is cubical
+ - According to their shape, the quartz minerals in the thin section above are Anhedral
+ - The silicate group that presents the crystal structure with silica tetrahedra bonded in a tri-dimensional network are the Tectosilicates
+ - Poikilitic rock textures document two phases of crystallization, the molten matter of the later phase presents significant chemical homogeneity
+ - Volcanic ejecta with molten matter in their composition are referred to as Lava flows
+ - The source of the solid particles in suspension in the Earth atmosphere are volcanic activity and the wind erosion of pre-existent rocks
+ - Physical Weathering is the type of weathering that is not characterized by the formation of new minerals with different composition
+ - The number of protons in the atomic nucleus is known as the Atomic Number
+ - Fragmental rocks are considered at the boundary between igneous and sedimentary domains
+ - Larger minerals which are included in the microcrystalline mass of a phaneritic rock are referred to as Phenocrysts
+ - Vesicular basalts are indicative for High-Viscosity lava flows
+ - Volcanic Eruptions are the way material from the Earth's interior is brought up to the surface
+ - Lithification is the process that ends the clastic rock formation cycle
+ - The atom is the smallest unit of an element
+ - Artificial diamonds are not considered minerals in geology because they are artificially manufactured
+ - Crystallization is the final effect of magma cooling
+ - Burial metamorphism happens in zone C, the burial zone that sits on the continental crust
+ - Schists are formed in zone A of the continental crust
+ - Granite is not a metamorphic rock (schists, marbles, and gneiss all are)
+ - Marble is an example of a rock formed through thermal metamorphism
+ - Migmatite is a metamorphic rock that presents partial melting
+ - Most fossils in metamorphic rocks occur in Slates

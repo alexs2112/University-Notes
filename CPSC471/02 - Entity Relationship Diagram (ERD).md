@@ -93,7 +93,7 @@
 **Summary of ER Notations**
 ![[Summary_of_ER_Notations.png]]
 
-**The (Min, Max) Notation for Relationship Constraints)**
+**The (Min, Max) Notation for Relationship Constraints**
  - Read the (min, max) numbers next to the entity type and looking *away from* the entity type.
  - Not super common, at the bottom of this document
  - In our standard notation, the bottom part of this would look like:

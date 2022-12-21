@@ -1,0 +1,123 @@
+* Fossils, Fossilization
+# Kind of Fossil
+Body Fossils: Direct remains of ancient organisms (paleontology)
+Trace Fossils: Evidence of activity of ancient organisms (sedimentary petrology)
+Chemical Fossils (Biomarkers): Organic compounds produced by various organisms, found in strata (geochemistry)
+
+# Fossil Preservation
+Recrystallization: Conversion into different mineral, most common is aragonite to calcite, both are carbonates.
+Moldic Preservation: Original shell is dissolved by subterranean fluids leaving a cast, mold is inner rock. Replacement Preservation: Mold is filled with new material, pyritization is the most frequent case.
+Permineralization: Hard body parts with pores (trunks, bones) are filled with something else (opal, chalcedony is the most common)
+Carbonization: Often in plants, algae, fish. Deep in the Earth's crust, all organic material is expelled leaving behind carbon.
+Congealment: High altitudes, moisture at the surface of a permafrost form frozen swamps that trap animals
+Fossilization in ____ & _____: Amber and Tar Pits
+
+* Structural Geology
+# Kind of Structural Stress
+Confining Stress: All forces push inwards, no movement, very stable result
+Differential Stress Types: Compression (push), Tension (stretch), Shear (two directions)
+
+# Kinds of Folds
+Anticlines: Two branches converge upwards and form a pointed shape
+Synclines: Two branches converge downwards, form valley shape
+Monoclines: Weaker crustal forces, only form a single tilted branches
+
+# Crustal Structures: Faults
+Three Categories: Strike-Slip (horizontal), Dip-Slip (Vertical), Oblique-Slip (both, most common)
+Normal Fault: Hanging wall moves downwards, footwall moves upwards
+Reverse Fault: Hanging wall moves upwards, footwall moves downwards
+Thrust Fault: Reverse fault at a small angle, hanging wall moves very far compared to foot wall
+
+* Stratigraphy
+# Steno's Principles
+Layer Superposition Principle: First principle, oldest layer at the bottom, youngest layer at the top
+Layer Successive Formation Principle: Fossilization process takes a long time due to no traces of a soft body
+Original Layer Horizontality Principle: Originally layers are horizontal, they fold in outcrops due to crustal movements
+Lateral Layer Continuity Principle: Technically not a principle, concerns layers of rivers where new layers are formed over the entire surface of the basin.
+
+# Layer & Facies Terminations
+Three terms: Pinchout termination, Intertonguing, Lateral gradation
+
+# Interpreting Stratigraphical Succession
+Mudcracks: AKA Dessication Cracks, form in areas with strong evaporation. Wide opening that narrows downwards
+Ripple Marks: Similar to midcracks, the ripples start wide and narrow upwards
+Burrowings: Trace fossils with wide openings that narrow downwards
+
+# Strata Relationships
+Conformable Succession: No depositional breaks of sedimentation. A succession of strata
+Disconformity: Surface of erosion between younger and older beds that are parallel. The lower succession is formed first, then the whole block is uplifted, eroded, and then sinks again under new sedimentation
+Angular Unconformity: Erosional surface on tilted/folded strata, the younger strata is deposited on top.
+Nonconformity: Erosion surface that cuts into metamorphic or igneous rocks, then covered by sediments
+
+# Igenous Rock Stratigraphy
+Principle of Inclusions: Layers of igneous rocks with inclusions of older layers. Caused by lavaflows that pick up detached inclusions of older rocks, and then crystallizing.
+Cross-Cutting Relationships:  A long inclusion of younger rocks that cut through igneous segment. Form nearly parallel lines (dikes), younger generations of dikes can keep cutting through older dikes
+Relative Age of Lavaflows (Sills): Lavaflow cooks the younger layers below (by injection can cook both sides), sedimentary layers above can have inclusions.
+
+* Geological Time Scale
+# Geological Eons
+Hadean: Oldest eon, no rock records and can't be subdivided.
+Archean: Second oldest eon. Oldest rocks, a highly subjective boundary between it and Hadean that depends on the oldest rocks we know of at the time.
+Proterozoic: Third oldest eon that contains early life forms, longest eon in Earth's history. Oldest fossils, started when continents started to move around the asthenosphere instead of just up and down.
+Phanerozoic: Youngest eon. Visible life forms, begins with large size fossils that don't require a microscope. Defined by the agronomic revolution. Formation of burrowers that lead to massive diversification of life forms on Earth. Evolution then takes over and leads to the first global predator.
+
+# Phanerozoic Subdivisions
+Paleozoic Overview: Oldest subdivision, fossils look like aliens
+Paleozoic Periods: Oldest to Youngest: Cambrian, Ordovician, Silurian, Devonian, Mississippian, Pennsylvanian, Permian
+Mesozoic Overview: Middle Era, flora and fauna begin to resemble modern life forms. Evolution of mammals who took over, while reptiles dominated wetter areas. Diversification with life.
+Ocean Conveyor: During Mesozoic period, pushed continents together to form Pangaea. It's collapse began the Cenozoic period and the great dying as 95% of species died. Restarted again one million years later.
+Mesozoic Periods: Oldest to Youngest: Triassic, Jurassic, Cretaceous
+Cenozoic Overview: Youngest Era, extinction of the dinosaurs with the eventual evolution of primates to take over.
+Cenozoic Periods: Oldest to Youngest: Paleogene, Neogene, Quaternary
+
+* Radioactive Decay
+# Radioactive Decay
+Radioactive Decay Process: Unstable nucleus can spontaneously transform into an isotope with a stable nucleus
+Radioactive Decay Series: Most elements go through radioactive decay in several steps, forming a series.
+Calculating Age: Knowing the series of transformation along with the weight of parent and daughter isotopes, can calculate the age of an element.
+Half-Life: Time for half of the atoms in the unstable parent to decay to a new daughter element.
+Most Relevant Radioactive Decay: Uranium 238 -> Lead 206
+Geological Time Scale: Using half-life and radioactive decay to calculate the age of the Earth with a margin of error
+
+* Early Atmosphere
+# Early Atmosphere
+Dominant Elements in modern life forms: CHON - Carbon, Hydrogen, Oxygen, Nitrogen
+Reducing Atmosphere: No free oxygen in the atmosphere
+Primordial Soup: CHON accumulates in a reducing atmosphere and dissolves in water, facilitating the reaction of substances. Primordial soup consists of monomers.
+
+# Isua Supercrustal Group
+Location: Greenland, oldest sedimentary rocks on Earth (3.8-3.7 billion years old)
+Dark Blue Colour: Graphite levels indicate organic origin, organic matter desseminated in the mass
+Traces of: Traces of original primordial soup with thin films of graphite (final product of organic matter decay)
+Banded Iron Formation: Sedimentary rock, alternates thin iron oxides (reddish rust) with layers of cherts + jaspers (greys and greens). Atmosphere transformed from reducing to oxygen filled at this period
+
+# Polymerization
+Three Polymers: In order of complexity: Proteins (Amino Acids: Dipeptide to Polypeptide), Carbohydrate (Sugar: Disaccharide to Polysaccharide), Nucleic Acids (Sugar + Base: Nucleoside to Nucleotide to Polynucleotide/Nucleic Acids)
+
+* Stromatolites
+# Stromatolites
+Cryptozoon Meaning: Hidden Organisms, circular fossils but unable to find proof of what caused them. Eventually were known as stromatolites
+Schreiber Beach: Organic columns of fossilized precariates, then precariates were being noticed everywhere (extremely diverse)
+Stromatolite Habitat: Prefer warmer waters, columns situated between tidal zones (need to survive harsh conditions)
+Distinct Zones: Growth Surface (highest diversity of bacteria, produce oxygen), Undermat (Non-oxygen producing, fewer bacteria), Oxygen-Depleted Zone (Thicker layer, rare bacteria), Stromatolite Mass (Calcium Carbonate, no living bacteria)
+Time Period: Neoarchean period dominated the globe, sharply dropped off at the start of the Phanerozoic due to evolved predators
+
+* Eukaryotes
+# Eukaryotes
+Discovered: Australia, Bitter Springs Formation
+Relevance: First organisms capable of sexual reproduction (not mitotic), evolved from prokaryotes
+Examples: Bangiomorpha (red, sticks to floor, rise towards sunlight), Torridonophycus (green, bag structure), Melanocyrillium (vase structure, cytoplast to catch food, animal-like metabolism)
+
+* Plate Tectonics
+# Deep Sea Drilling Project
+Overview: Dug hundreds of wells to map the sea floor, most is occupied by flat abyssal plane with a huge underwater mountain range in the center
+
+# Planetary Magnetic Fields
+Overview: Started by ignition of the sun, allows migration paths. Minerals align themselves with magnetic fields, they flip flop by 180 degrees depending on depth in the Earth and distance from the mid oceanic rift.
+
+# Ocean Formation Model
+Formation: Form in continental (not oceanic) zones, thick continental crust that is worn away by currents of heat. Eventually makes the crust thin and forms a depression zone
+Expansion: Push forms oceanic basin. Creates a mountain range at the center that pushes against the broken continent, expanding the oceanic
+Examples: East African Rift (Oxygenated water over layer of toxic water due to volcanism), Benioff Plane (Border of pacific plate and north american plate, many earthquakes)
+Subduction: Occurs between two plates of oceanic crust, or plates of different constitution. Accompanies by volcanism, crustal movements (sediment folding, faulting, earthquakes)
+Wilson Cycle: Represents cycle of birth, evolution/expansion, closure of ocean basin

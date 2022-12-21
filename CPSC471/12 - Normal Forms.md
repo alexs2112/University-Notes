@@ -67,7 +67,7 @@ repeat
  - Definition: Given two sets of FDs on a relation schema R
 	 - F covers G if G* ⊆ F*
 	 - Every FD in G can be inferred from F
- - To determine if F coers G
+ - To determine if F covers G
 	 1. For each X -> Y in G, calculate X* under F
 	 2. Check if Y ⊆ X*
 	 - F covers G if 2. is correct for each X -> Y in G
