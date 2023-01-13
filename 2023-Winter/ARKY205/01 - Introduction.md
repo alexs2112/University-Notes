@@ -15,6 +15,7 @@
  - Provenance: History of an object, past roles
  - Survey: Surface of the earth, collect and identify artifacts, site boundaries
  - Excavation: Controlled stratigraphic removal of depositional layers from a site to understand their spatial and temporal relationships
+ - Artifacts < Sites < Landscapes
 
 ### Context:
  - Spatial and temporal position of all objects, allow for interpretation of material culture, relationships over space and time
