@@ -8,6 +8,7 @@
  - Chinese finger notation: The individual joints of each finger along with the left, center, and right parts can be used to represent quantities
 	 - Requires two hands, one hand to represent all values, the other hand to point at the required value
 	 - 10k max
+![[chinese_fingers.png]]
 
 ### Abacus
  - Chinese Abacus
@@ -21,13 +22,14 @@
 	 - A long table with rows for 1s, 10s, 100s, 1000s, etc, in between these values there are spaces for 5s, 50s, 500s, 5000s, etc
 	 - Use pebbles to represent different quantities of values
 	 - Can draw this out basically anywhere, don't need an actual abacus, just some dirt and rocks
-	 - [Retrieve image from slides]
+ - ![[european_table_abacus.png|150]]
  - Influence:
-	 -  Until recently, used widely
+	 - Until recently, used widely
 	 - Romans: Pebbles used were called calculi, from which calculus and calcuate are derived
 
 ### Astrolabe
  - Two (sometimes three) dimensional representation of the celestial sphere
+ - Ancient Greece: 225 BCE by Apollonius
  - Used for many different purposes:
 	 - Mapping the position of celestial bodies
 	 - Measure latitude / Determining approximate location
@@ -36,7 +38,7 @@
 	 - Casting of horoscopes
 
 ### Gunter's Quadrant
- - Edmund Gunter: 1581-1626
+ - Edmund Gunter: 1581-1626, invented ~1618
  - The quadrant was based on the astrolabe
 	 - Astrolabe - circular
 	 - Quadrant - Folded into a quarter circle
@@ -45,11 +47,13 @@
 ### The Proportional Compass
  - Used by draftsmen to reduce and enlarge drawings in any given proportion
  - Two crossed arms, one arm slides down the others to copy an image bigger
+![[proportional_compass.png|200]]
 
 ### The Sector
  - Independently there were many publications that described this device
  - The most widely copied version was created in Padua (1606, Galileo)
 	 - Early writings indicate that Galileo was working on the device in 1597 or earlier
+[watch video?]
 
 ### Geometric and Military Compass
  - Name provided by Galileo Galilei
