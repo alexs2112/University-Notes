@@ -26,7 +26,7 @@
 	 - Development of more accurate mechanical clocks (such as Galileo's conceived pendulum clock ~1600s) reduced the need for the astrolabe
 	 - Mostly viewed as a historical curiosity, souvenir versions can still be purchased cheaply
 
-### Antikythera
+### Antikythera Device
  - Discovery: 1900 by Greek sponge fisherman who found a shipwreck near the island of Antikythira
 	 - Dove for sponges, found shipwreck
  - Contained Greek statues, artifacts, lump of encrusted bronze
@@ -40,4 +40,20 @@
 		 - Contains a bunch of advanced gears, needed to be extremely precise to not jam the gears and to keep the  machine accurate
  - Significance:
 	 - Originated from Roman times, yet contained gearing mechanisms that did not reappear in Europe until much later in 1500 years
-		 - Unparalleled precision
+		 - Unparalleled precision, comparable to an automobile
+
+### Differential Analyzer
+ - Manually determining the area under a curve is cumbersome and inaccurate
+	 - Needed if you have the curve but don't have the function that produced it
+ - Early attempts to devise mechanical mechanisms for solving these problems were hindered by the limited ability to obtain accurately machined parts
+ - Vannevar Bush (MIT) was the first to actually produce a working machine (late 1920s, early 1930s, publication 1931)
+ - Resembles a foosball table (sort of...)
+	 - Large table with rods across it, mechanical cylinders rotate the rods and draw a curve
+ - Relies heavily on mechanical movement to generate results, "programming" and debugging the computational device is challenging
+ - The method of solving differential equations was so successful that at least 5 copies were made (ex: Manchester University)
+ - Military Application:
+	 - Ballistics research with artillery and rocket trajectories
+	 - World War II Norway: Shortly after the successful German invasion
+		 - Oslo University
+	 - World War II MIT: Differential Analyzer was used to solve ballistic trajectories
+		 - The range of the shell exceed any artillery piece at the time, research was needed

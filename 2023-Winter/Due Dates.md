@@ -1,10 +1,5 @@
-### Completed:
-```COMPLETE
-```
-
 ### To Do:
 ```TODO
-JAN27 - ARKY205: Assignment 1
 JAN30 - ARKY205: Exam 1
 JAN30 - ARKY328: Exam 1
 FEB01 - ARKY328: Assignment 1
@@ -20,4 +15,9 @@ MAR17 - ARKY205: Assignment 3
 MAR20 - ARKY205: Exam 3
 MAR20 - ARKY328: Exam 3
 APR12 - ARKY328: Assignment 3
+```
+
+### Completed:
+```COMPLETE
+JAN27 - ARKY205: Assignment 1
 ```
