@@ -88,7 +88,7 @@ for line in d:
     else:
         author = line
 
-entries.sort(key=lambda x: x.text)
+entries.sort(key=lambda x: x.authors)
 
 for e in entries:
     e.print()
