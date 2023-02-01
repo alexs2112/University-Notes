@@ -46,3 +46,23 @@
 	 - Evolved independently of different groups at least 8 times
 	 - Choanoflagellate, look almost identicle to tissue cells within a sponge mass (implies evolution)
 		 - Can't have evolved, sponges are 600m years, choanoflagellate spore is only 300k years
+
+### Animalia: Invertebrates
+ - Sponges (poriferans)
+ - Cnidarians (include corals and medusa): Colonies/solitary organisms in the oceans, evolved after the great dying (permian/mesozoic boundary)
+	 - Quite different than the corals today, primitive
+ - Lophophorates (bryozoans and brachiopods): Organ used to catch food
+	 - Bryozoans: Known as colonial, long fossil record in marine organisms, colonized brackish and some freshwaters
+	 - Brachiopods: Solitary organisms, can cluster together, soft body protected by two valves. Attach to seafloor by organ that comes between the two valves, can be opened and closed. Extraordinarily long fossil record (calcium carbonate, fossilize well)
+ - Molluscs: protect soft body with a shell that consists mostly of aragonite, calcite. Wide variability in their appearance and body plan.
+ - Arthropods: segmented appendages, body is protected by a carapace. Variable morphology, evolve at high rates. 
+	 - Trilobites are particularly important (three parts of their body, tri)
+ - Echinoderms: Represent groups of invertebrates with highest diversity, starfish and stuff, soft body protected by thicker test covered by small pieces.
+	 - After death of organism, these plates are detached and the rest is disintegrated, rare to find the whole thing together
+ - Graptolites: Extinct group, only occur as colonial organisms
+
+### Animalia: Chordates
+ - Conodonts: Chewing apparatus fossilize equally
+ - Evolved to vertebrates, Haikouichthys is the earliest vertebrate we know of
+	 - Ascidians/Tunicates: Microscopic pieces
+ - Vertebrates: Fishes, reptiles, birds, mammals

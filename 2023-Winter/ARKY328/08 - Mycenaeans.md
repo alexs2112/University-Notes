@@ -71,7 +71,7 @@
  - Small ettlements on Cycladic islands mirror the alternating social, economic trends between Minoan, then Mycenaean, states
  - No longer the center of a unique civilization, the Cycladic islands continue to serve as focal points for later Greek colonization
 	 - Eventually individual islands develop as independent city-states, then trade centers
- - Rest of the period, islands will see fluctuation between periods of relative autonomy to periods of complete omination of Greeks, Persians, Athenians, Romans
+ - Rest of the period, islands will see fluctuation between periods of relative autonomy to periods of complete domination of Greeks, Persians, Athenians, Romans
 
 ### LBA Mainland
  - Growth in MH was slow, changes over MH III to LH I to Minoan influence

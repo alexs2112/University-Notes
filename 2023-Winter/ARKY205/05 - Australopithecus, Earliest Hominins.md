@@ -86,8 +86,7 @@
 |Bed IV|0.8-0.6 mya|5-8 m clays|
 |Bed III|1.15-0.8 mya|6-10 m sandstone, clays (few fossils)|
 |Bed II| 1.7-1.15 mya|21-35 m sandstone and clays|
-|Bed I| 1.9-1.7
-[todo]
+|Bed I| 1.9-1.7 mya|20-46 m tuff and clays|
 
 ### Australopithecus
  - Known from as many as six, maybe 10, distinct species
@@ -101,12 +100,12 @@
 ### Kenyanthropus
  - Approximately 3.5 mya (Pliocene)
  - Poorly understood species, very similar to Australopithecus
- - [todo]
+ - Discovered by Maeve Leakey (2001) on shore of late Turkana in northern Kenya
 
 ### Paranthropus
  - Robust Australopithecus due to massive molars, face muscles that aided in chewing
  - Earliest know specimen dates to 2.5 mya, most recent to 1.4 mya (Pleistocene)
- - Louis Leakey nicknamed them Nutcracker Man, believed huge jaw helped subsist on diet [todo]
+ - Louis Leakey nicknamed them Nutcracker Man, believed huge jaw helped subsist on diet of seeds or fruits with hard outer coatings
 
 ### Most Famous Australopithecus
  - Donald Johnson in 1974, Hadar region of Ethiopia, named Lucy

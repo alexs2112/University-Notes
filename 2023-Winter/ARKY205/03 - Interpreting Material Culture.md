@@ -18,7 +18,7 @@
 	- Inspired by Darwin but based on little archaeological data, racist reaction to western encounters with indigenous groups all around the world
 	- Franz Boas (1858-1942) denounced social evolutionism and the idea of universal laws that govern human cultures, not enough data to make such generalizations.
 		- Focus on the historicity of archaeological cultures and the functionalist aspects of their societies (adaptation to environments)
-2. **Culture Historical Appreach** (1900-1950)
+2. **Culture Historical Approach** (1900-1950)
 	 - Created reliance on Archaeological Cultures with little basis in reality
 	 - Common to refer to collections of artifacts from one site or period as "cultures" (problematic, broadly generalizing based on style)
 	 - Plays into nationalist narratives that can be distorted for political gain (seeking evidence for the glorious past of their country)

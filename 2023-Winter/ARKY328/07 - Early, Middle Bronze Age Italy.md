@@ -27,7 +27,7 @@
  - Not a huge distinctive genetic migration of people
 	 - diffusion of technological and stylistic attributes
 	 - Some people migrated, small numbers, greater phase possibly in later Beaker phase
- - Bell Beaker culture is known for their expert use of bronze and gold, advancement in archery technology with ne arrowhead styles in stone and metal
+ - Bell Beaker culture is known for their expert use of bronze and gold, advancement in archery technology with new arrowhead styles in stone and metal
  - Bell Beaker people did not have a common burial culture
 	 - Some interred their dead and built tumuli, some cremated their dead and placed remains in urns
 

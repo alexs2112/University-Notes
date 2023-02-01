@@ -1,7 +1,7 @@
 ### End of an Era
  - 1.4 mya, hominin radiation was over
 	 - Australopithecus, Kenyanthropus, Paranthropus were all extinct
-	 - Only Homo eretus remained
+	 - Only Homo erectus remained
  - New process: Hominin colonization, dispersal event where H. erectus left Africa
 
 ### Radiation vs Dispersal
@@ -23,7 +23,7 @@
 	 - Dated to between 1.83 and 1.77 mya
 	 - Stone tools are simple flaked, few choppers, none of the Archeulian bifaces
  - Afterage cranial capacity was 631 cc, high end of H. habilis, low end for H. erectus
- - Skull 4, ederly individual who had lost all but one tooth before death
+ - Skull 4, elderly individual who had lost all but one tooth before death
 	 - Eating would have been very challenging, could survive by hammering soft tissues, possibly cared for by the others
  - Activity at Dmanisi is still unclear:
 	 - Animal bones have no evidence for cut marks

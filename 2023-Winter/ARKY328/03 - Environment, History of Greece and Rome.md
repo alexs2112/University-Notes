@@ -28,7 +28,7 @@
 
 ### Short History of Early Archaeology of Greece and Rome
  - Interest in the Greek and Roman past begins immediately after the western empire collapses over the 5th-6th century CE
- - Medeival populations in both Greece and Rome explore, contemplated, used the physical remains of the ancient world
+ - Medieval populations in both Greece and Rome explore, contemplated, used the physical remains of the ancient world
 	 - Charlemagne claimed direct political and cultural connections witht he Roman world to legitimize his imperial policies
 	 - Popes in Rome used elements of Roman structure to build churches
 	 - Colosseum in Rome

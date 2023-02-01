@@ -10,7 +10,7 @@
 
 ### Bronze
  - Metal technology of the EBA was more sophisticated than the copper production of the Final Neolithic (Chalcolithic)
- - Bronze is an alley, copper + arsenic, later copper + tin (arsenic is poisonous)
+ - Bronze is an alloy, copper + arsenic, later copper + tin (arsenic is poisonous)
 	 - Melts at lower temp than copper, easier to cast and harder metal
  - Copper, gold, silver available locally in Aegean, tin and arsenic had no sources and needed to be traded for. Bronze manufacture was only possible in Aegean due to interregional trade and communication
 	 - Most likely by donkey transport rather than boat
@@ -149,7 +149,7 @@
 	 - Skarkos is the most celebrated
 	 - Sites on the Peloponnese and Anatolia share EC II material culture styles, speaking to an international spirit
  - Golden age of Cycladic civilization
-	 - Cereal crops supplemented by olives and vines, small [todo]
+	 - Cereal crops supplemented by olives and vines, small ceramic cups became very popular suggesting the increase in wine consumption
 
 ### Kastri Group
  - Named for fortified settlement of Kastri on Syros, another foritifed settlement appears on Naxos
@@ -163,7 +163,6 @@
  - Period of disruption, settlements in the Cyclades appear to nucleate and decline significantly in number over EC III, after the First City is destroyed at the end of EC II, Phylakopi is reoccupied, increasing importance
  - Pottery appears dark with incisions, common form is the duck-vase
  - Marble figurines become simple in design
- - [todo]
 
 ### Last Words on EC
  - Unique Cycladic cultures, identifiable material cultures and fortified settlements would not developinto larger-scale civilizations
