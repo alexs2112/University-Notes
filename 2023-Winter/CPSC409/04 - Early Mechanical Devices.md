@@ -65,6 +65,7 @@
  - Carry:
 	 - Realized the gear and tooth mechanism used by Shickard was problematic, a carry that propagated for more than several digits would require too much force and could damage the gears
 	 - Put together a complex system of falling weights
+	 - Two gears that would count up. At the 9 of each digit, a weight from the next digit would be pushed far enough to increment it by 1
  - Fate of his machines:
 	 - Several machines were produced but sales weren't profitable
 	 - Few survive to today as they were quite delicate
@@ -133,3 +134,5 @@
  - Macaroni Box, required inputting pins into the top to input numbers
 	 - Production model had a bunch of buttons that required a button per digit, Key Driven
 	 - The UI was far better, sped up the addition operation by an order of magnitude above everything else
+	 - Each key pushes a lever down relative to the key value (9 pushes down the furthest), the end of that lever drives a numeral wheel along with a carry gear
+	 - Locking detent to prevent gears from turning at random times

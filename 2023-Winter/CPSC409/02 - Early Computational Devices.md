@@ -1,6 +1,11 @@
 ### Finger Multiplication
  - Memorize multiplication tables up to 5x5
- - Method in slides
+ - For values larger than 5, up to 10, use the fingers of two hands to represent the numbers being multiplied
+ - Fingers on one hand each represent one of the numbers to be multiplied
+ - Number of fingers to be raised are the number to be multiplied (minus 5)
+ - Total number of raised fingers between the two hands are the number of 10s
+ - Multiple the number of closed fingers on each hand, this is the number of 1s
+ - Sum the 10s and the 1s to get the result
 
 ### Finger Counting
  - Sum digits...
@@ -53,7 +58,7 @@
  - Independently there were many publications that described this device
  - The most widely copied version was created in Padua (1606, Galileo)
 	 - Early writings indicate that Galileo was working on the device in 1597 or earlier
-[watch video?]
+ - For artillery calculations. Sector hangs off the edge of the artillery to help solve angles and distances
 
 ### Geometric and Military Compass
  - Name provided by Galileo Galilei
@@ -61,6 +66,11 @@
 
 ### The Gelosia Method of Multiplication
  - Probably origins: India and later Arab, Persian, Chinese societies by the middle ages
+ - Construct a grid with each number to be multiplied on adjacent sides
+ - For each internal square, multiple the two corresponding numbers, making the 10s and 1s places distinct
+ - Draw out some angles, sum each number in each diagonal row
+ - Hard to explain in words
+![[gelosia.png]]
 
 ### Napier's Bones
  - John Napier, born in 1550 Scotland
@@ -69,7 +79,7 @@
 	 - Known by various names: Rabdologia (after book title), numbering rods
 	 - Constructed of bone-like material (ivory, horns, actual bones)
 	 - Used to perform multiplications and calculate logarithms
- - An array of numbers from 0-9, each number is a column on a bone
+ - An array of numbers from 0-9, each number is a column on a bone that contains all possible multiplications of the Gelosia table
 
 ### Genaille-Lucas Rulers
  - Background

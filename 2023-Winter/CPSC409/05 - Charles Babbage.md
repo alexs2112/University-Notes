@@ -1,0 +1,58 @@
+### Charles Babbage (1791-1871)
+ - Considered to be the grandfather of the computer age
+ - Technology of the day was primitive, his ideas were advanced
+	 - Speed of his devices matched technology decades into the future (1940s)
+	 - Zuse and Aitken machines
+ - Background:
+	 - Born into a wealthy banking family, didn't need to worry about surviving
+		 - Time to be a productive researcher
+	 - Excelled at his work, primarily in computation devices but also other areas, analytical theory
+	 - Member of the Royal Astronomical society, founder of the Royal Statistical society
+ - Research:
+	 - Very active researcher, published papers in many many fields
+	 - Optics, Atmospheric observations, Electricity and magnetism, Operation of life insurance companies, Cryptography, Geology, Metal working, Taxation systems, Design and operation of lighthouses
+ - Childhood:
+	 - Broke new toys very quickly by deconstructing them
+ - Adulthood:
+	 - Interests and curiosity were not limited to mechanical devices
+	 - Wanted to confirm his beliefs (christianity), tried to summon satan
+	 - Another experiment to prove the existence of god
+ - Mathematician:
+	 - Went to boarding school
+	 - Snuck out in the night to check out the math textbooks by candlelight
+ - College:
+	 - Babbage's father decided he should attend Cambridge
+	 - Hired a tutor to prepare him for what to expect in college
+		 - He was useless, "don't drink the wine"
+	 - At Cambridge, learned he had a deeper knowledge of mathematics than his tutors
+	 - Spent most of his time reading papers of great mathematicians, meeting with other advanced students
+		 - Group translation with George Peacock, John Herschel
+		 - Translated and added substantially to a calculus textbook by LaCroix, became the English standard
+ - Recreation:
+	 - Didn't spend all his time studying, had a very active social life
+	 - Chess club
+	 - Cambridge ghost club (proving existence of ghosts)
+	 - Extractors club (required proof that you are sane and insane)
+	 - Bored at school kept creating social clubs
+ - Post College:
+	 - Did not receive recognition while studying at Cambridge
+	 - Unsuccessfuly sought lectureship appointments at university (not enough contacts)
+	 - Eventually he was elected as the Lucasian Professor of Mathematics in Cambridge
+		 - Outstanding chair holders: Isaac Newton, Charles Babbage, Stephen Hawking
+		 - Initial reaction was neither enthusiastic nor positive, bitter in his old age
+		 - Friends convinced him to accept the position, still mad at Cambridge
+ - Continental Europe
+	 - Well-known and respected in the rest of Europe
+	 - Elected as a member to at least 15 European scientific societies
+		 - Eventually named commander of the Italian Orders of Saint Maurice and Saint Lazarus
+ - Dedicated Researcher:
+	 - In Italy, wanted to study the active volcano at Mount Vesuvius
+ - Contributions to Logarithms
+	 - In 1826, published his own set of logarithms, by far the most accurate published up to that date
+	 - Improved on the accuracy but he was a perfectionist, wanted to reduce the chances of misreading the information, experimented with different: (beyond thorough)
+		 - Typefaces to improve readability, decrease probability of errors
+		 - Paper colours (151)
+		 - Colours of ink (13)
+ - Contributions to the British Rail System:
+	 - Invented the cow catcher
+	 - Recovery of lost rail cars, decoupled trains that detach, realized it happened during very windy days, rigged a sail above the rail car

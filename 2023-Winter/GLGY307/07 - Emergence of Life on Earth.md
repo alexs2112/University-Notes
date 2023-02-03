@@ -83,3 +83,37 @@
 		 - Surface of these are not affected by plate tectonics, craters are still visible
 	 - Plate tectonics on Earth obliterate the vestiges of this catastrophic series of events
 	 - Can infer that this meteorite bombardment happened at the interval between 4.2 and 3.95 bya
+
+### Oldest Organic Matter
+ - Evidence of chemical and biochemical phases of evolution are hard to find in the rock record
+	 - Molecules don't fossilize
+ - Discovery from metamophosed sedimentary rocks (3.7-3.8 bya) of the Isua Formation of southwestern Greenland
+	 - Demonstrates validity of our experiments and assumptions on the chemical and biochemical evolution of life on Earth
+
+### Isua Formation
+ - Dark appearance, indicates they deposited in a reducing environment
+ - Small sized calcite minerals are disseminated within the rocks, demonstrates that molecular oxygen only existed in small amounts so true layers of calcitic rocks could not form
+ - Formed in shallow marine environment
+ - Thin layers of graphite occur in these rocks
+	 - Final product of organic matter transformation in subsurface conditions during burial process
+	 - Thin layers interpreted as possibly representing the fossilized vestiges of the primordial soup
+ - Indicates living isolated organisms in primordial soup, created the oxygen that formed calcite minerals
+	 - Organisms were missing from the formation
+ - Oldest Stromatolites:
+	 - Known from certain levels of the Isua Formation
+	 - Formed by communities of prokaryotes
+	 - Oxygen created by the anaerobic bacteria in the stromatolite, they are destroyed by fossilization
+
+### Oldest Isolated Bacteria and Cyanobacteria
+ - Cyanobacteria are slightly larger in the fossil record, don't differ much in morphology
+ - Oldest fossils on Earth were discovered in the Apex Chert
+	 - Lithological unit part of a volcano sedimentary unit of the Pilbara Craton of Western Australia
+ - Apex Chert rocks consist of conglomerates that were transformed into chert through the process of silicification
+ - Earliest cyanobacteria debris of isolated cells found in the Apex Chert, age approximated to ~3.465/3.5 Billion Years
+ - Some of the cells from the Apex Chert show folded filament with cell-like structures made of carbon
+	 - Similar to modern iron bacteria
+ - Strelley Pool Chert:
+	 - Younger than the Apex Chert by 10-15k years, not very much younger
+	 - Contains bacteria and cyanobacteria
+	 - Form chain-like structures, similar to modern purple bacteria
+ - More stomatolites begin to occur and cluster at a higher rate
