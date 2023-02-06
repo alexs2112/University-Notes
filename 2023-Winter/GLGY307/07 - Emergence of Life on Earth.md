@@ -116,4 +116,5 @@
 	 - Younger than the Apex Chert by 10-15k years, not very much younger
 	 - Contains bacteria and cyanobacteria
 	 - Form chain-like structures, similar to modern purple bacteria
+	 - Prokaryotes in clustered form
  - More stomatolites begin to occur and cluster at a higher rate
