@@ -41,3 +41,90 @@
  - Can tell that the Earth's atmosphere transformed from reducing to oxygen filled at this period
 	 - A challenging period for life on Earth, most organisms were anaerobic and oxygen was toxic to them
 	 - First mass extinction, organisms destroyed by their product (oxygen)
+
+### Oldest Eukaryotes
+ - Biomarkers (chemical fossils)
+ - Toxic environment, groups of prokaryotes started to cluster and form larger organisms (symbiosis)
+	 - Each prokaryote in the new organism was to perform a single function (organelles)
+	 - Much bigger than bacteria
+ - Evolved a new type of reproduction, sexual reproduction
+	 - Mutations and modifications during sexual reproduction causes rapid evolution
+ - According to fossils, evolved 1.8 billion years ago
+ - Some other records, closer to 2.1 billion years
+
+### Bitter Springs Formation
+ - Australia
+ - First isolated true eukaryote cells discovered in the cherts here (central Australia)
+	 - Dated 1.0 billion years
+ - Assigned to the red algae (rhodophytes) and green algae (chlorophytes, Caryosphaeroides and Glenobotrydion)
+ - Some of these were caught in the process of cellular division, among the very few cases where even the nucleus and cell membrane were fossilized
+	 - Cell arrangement suggests meiotic cell division
+	 - Offspring cell unique arrangement during the cellular division indicates that the organisms belong to the eukaryote
+	 - Such arrangements not found among the prokaryotes
+
+### Algal Multicellularity
+- **Bangiomorpha**
+	- Evolution of multicellular organisms
+	- Filamentous thallus, similar to those of modern red algae
+	- Primitive holdfast attached to the seafloor, allowing the alga to rise upwards towards the sunlight
+	- ~1.2 billion years
+	- Proterozoic - Quaternary
+ - **Melanocyrillium**
+	 - Show similarities with the modern group of testate amoebas
+		 - Included among the earliest animals
+		 - Vase looking mf, wide at the bottom with an open top
+			 - Extensions of the cytoplast emerged from the opening to catch food
+			 - Animal-like metabolism
+	 - Organic, somtimes with agglutinated particles
+	 - ~0.8-0.9 billion years
+	 - Upper Proterozoic - Quaternary
+
+### Grand Canyon Findings
+ - CD Walcott discovered other Precambian fossils
+ - Small-sized, black coaly disks, found in carbon-rich shales
+	 - Assumed they are flattened shells
+ - Today we know they are unusually large, originally spheroidal, single-celled planktonic algae
+ - Organisms wanted to increase their size at this time, instead of multicellularity these organisms became a single big cell
+	 - As it began to increase in size, new crisis on Earth, average temperature of the Earth dropped
+	 - Snowball Earth
+	 - 4 Glaciations in the Neoproterozoic
+ - In southern part of Africa, able to isolate calcitic cells covered in openings from the Cryogenian period
+	 - Animals achieved multicellularity in this time to survive snowball earth
+	 - The sponge **Otavia** evolved in the cryogenian, became extinct by the end of it
+
+### Ediacara Fauna
+ - Southern Australia, Upper part of the Proterozoic
+ - Appear as impressions in fine sediments
+ - No traces of organs for a long time
+ - Multicellular, look a bit like echinoderms
+ - **Parvancorina**:
+	 - 1-2.5 cm
+	 - Shield-shaped front end
+	 - Central axis and weak traces of segmentation
+	 - Up to 10 pairs of possible appendages with distinct set of growth stages
+	 - Interesting orientation: head shield facing the direction of water current (disputed, for feeding?)
+ - **Tribrachidium**:
+	 - Unknown affinities
+	 - Originally interpreted as a single organism, now interpreted as the holdfast of another organism
+	 - 2-5 cm
+	 - Disk-shaped with three raised arms and raised borders
+	 - Triradial symmetry
+ - **Dickinsonia**:
+	 - 1-100 cm
+	 - Resembles a flatworm, segmented head, tail
+	 - No internal organs
+	 - The tail only occurs in mature specimens
+- **Charnia**:
+	- Enigmatic, not sure what it was
+	- Strong similarities with the modern sea-pens
+	- Bilateral symmetry (stem with matching fronds)
+	- Feather-shaped frond with a series of side branches
+- After discovering these, began finding them everywhere
+
+### Spriggina
+ - Resembles a large swimming worm (3 cm long)
+ - Elongated "spine" with V-shaped muscle clusters on each side
+ - Hardened head of organic tissue, vestige of cephalic shield
+	 - Beginning of cephalization
+	 - Why shield? Who are the predators? Not developed for no reason
+ - Resembles the first vertebrates, that don't appear for a long time

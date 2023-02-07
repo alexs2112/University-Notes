@@ -56,3 +56,76 @@
  - Contributions to the British Rail System:
 	 - Invented the cow catcher
 	 - Recovery of lost rail cars, decoupled trains that detach, realized it happened during very windy days, rigged a sail above the rail car
+ - Social Life Beyond College:
+	 - Active social life
+	 - Well-known member of London Society (eagerly sought after by the London elite)
+	 - Often had to turn down invitations
+	 - Guests were always treated displays of scientific or technical terms
+	 - Designed the first environmental control for a residential dwelling in London (AC)
+ - Social Life: Later Years:
+	 - As he got older, social agenda diminished, developed a cantankerous attitude towards life
+	 - Massive bitch, ran for political office to ban street performers
+ - International Connections
+	 - Not appreciated by common people of England
+	 - Strong reputation in the academic community on both sides of the Atlantic
+	 - Offer to travel to the US to teach for a year, the ship he was going to use sank and he never planned to go to the states again
+
+### The Need for Accuracy
+ - During late 1700s, publication of mathematical tables began to be commonplace
+ - Ranged from calculating results of simple operations to more complex ones (logarithms, trig)
+ - Creation of tables were intended to reduce labour, always full of errors
+ - After the French Revolution (late 1700s), new French Government decided it would publish a new set of mathematical tables (prestige)
+	 - Best French mathematicians were brought on to oversee the project
+	 - Work of performing the actual calculations were filled with the unemployed
+	 - To ensure accuracy, numbers were computed at least twice by different groups located in different locations scattered across France (prevent collaboration)
+	 - The tables still contained errors
+	 - Sometimes tables of errata needed to be published, the still contained errors
+ - Some of these errors were introduced during type setting, this is why Babbage was so meticulous
+ - The tables completed by Babbage in 1827 were the most accurate set of tables produced at that time
+	 - Only 40 errors
+ - Other tables were not nearly as accurate
+ - The only fool-proof method of preventing errors was to remove people entirely from the task of producing the calculations, substitute them with some sort of mechanical device
+
+### Using Differences
+ - Once the main tool used by the makers of mathematical tables
+ - Replaces more complex operations (multiplication) with additions and subtractions
+ - The change in values of a function on X for each X value, to just add the expected differences per X value as long as the differences is a constant
+	 - Keep finding differences of differences for higher functions until they are constant
+ - Examples on page 18: [Babbage 1](https://pages.cpsc.ucalgary.ca/~tamj/2023/409W/notes/babbage/babbage_part1_difference_2_per_page.pdf)
+
+### Difference Engine
+ - Computing device that is able to employ the property of differences to compute a series of numbers
+ - Mr E. Klipstein included the first reference to such a device (1786)
+	 - Described computing engine, appendix reference to writings by Captain J.H. Muller he describes a more ambitious computing device if more money were available
+	 - Muller credited with the first publication
+	 - Klipstein wrote a full publication including Mullers work
+
+### Babbage Difference Engine: Motivations
+ - Intense obsession with accuracy and completeness
+ - One goal to produce more accurate math tables
+ - Ideas of a Difference Engine in 1812 during Cambridge
+	 - Face down in the library thinking about it
+ - In early 1820s, experience with publishing a table of logarithms he was spurred to design a machine to automate these tables
+ - Managed to produce a working model by 1822
+	 - Could work with 6 figure numbers, able to evaluate any function having a constant second difference
+	 - 44 calculations per minute
+ - To generate additional funding and support, Babbage wrote the president of the Royal Society
+ - Royal Society supported his project, sent a letter of support to the Lords of the Treasury
+	 - Not actual financial support, also not unanimous
+	 - Government provided start up funds of 1500 pounds
+		 - Used 3400 pounds of his own wealth planning on being reimbursed (handshake deal)
+ - Soon discovered there is a big difference between making a demonstration prototype and a fully working model
+ - Able to obtain the services of Samuel Clement
+	 - Not formally educated, one of the best at trades
+	 - Together Babbage and Clement went through many iterations
+
+### Babbage Difference Engine:  Life During Design
+ - While they worked on different parts, Babbage suffered from a number of personal tragedies over 4 years
+	 - Death of wife, newborn baby daughter, father
+ - Result in health breakdown and problems with the project
+	 - Took vacation at warmer climate
+	 - Checked his account, problems with trying to get a reimbursement from the government (no contract)
+ - Needed to begin negotiating with a new government
+ - Personal appeals from his friends, project was advanced an additional 1500 pounds, still not enough
+ - Very influential friend: Duke of Wellington (Napoleon), project advanced another 3000 pounds with suggestion that Babbage show evidence of his progress
+ - Financial and health problems would often significantly delay work on the project
