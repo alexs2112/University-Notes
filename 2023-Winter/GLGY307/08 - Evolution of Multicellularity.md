@@ -128,3 +128,29 @@
 	 - Beginning of cephalization
 	 - Why shield? Who are the predators? Not developed for no reason
  - Resembles the first vertebrates, that don't appear for a long time
+
+### Kimberella
+ - Complex structure, three peripheral layers full of cavities, central part has a slightly inflated structure
+	 - Center structure can be fossilized differently, harder organic tissue
+ - Most interesting part: Always found very well defined at one end, other end has no structure (horseshoe shape)
+	 - See traces of a grazing organism outside of the empty end (feeding on microscopic organisms)
+	 - Was a grazer
+	 - No structure at the front of the fossil as it was probably a siphon, sucked in water and rock to consume food before expelling the water
+	 - Need a muscle to do so, many mollusks have a siphon
+ - Likely ancestor of the mollusks, but very rare, lack of precision
+
+### Vendia
+ - Bilateral symmetry, head, lateral parts, tail, no impressions of eyes or mouth
+ - Impressions of internal cavity
+ - First ediacaran organism found with internal cavities, invertebrates started here
+
+### Onega
+ - Body general architecture can be subdivided into three parts: Head, Body, Tail
+	 - Extremely similar to Trilobytes
+ - 50 million years between Onega and Trilobytes, maybe not ancestor
+	 - Need more studies
+
+### Symmetry
+ - Body cavities of oldest creatures form radial symmetries
+ - As we get closer to the present, body cavities form bilateral symmetries
+ - Arrange organisms stratigraphically, organisms start to coagulate into lineages

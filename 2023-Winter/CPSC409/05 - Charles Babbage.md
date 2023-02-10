@@ -129,3 +129,69 @@
  - Personal appeals from his friends, project was advanced an additional 1500 pounds, still not enough
  - Very influential friend: Duke of Wellington (Napoleon), project advanced another 3000 pounds with suggestion that Babbage show evidence of his progress
  - Financial and health problems would often significantly delay work on the project
+
+### Clement and Babbage: Later Years
+ - Babbage would normally travel across London when needed to visit Clement's workshop
+ - To facilitate work on the project, Babbage built a new fireproof house that was closer
+ - He expected Clement to join him at the new location, Clement refused and eventually the two had a falling out
+	 - British law favoured Clement's position
+	 - Clement got the tools, machine, and designs
+ - Work on the Difference Machine was halted
+ - Babbage conceived of another machine during this time, the Analytical Engine
+
+### Babbage: Later Years
+ - Determined it would be more efficient (cheaper) to start building a new machine with a different design than complete the original design
+ - Announcement was not well received by the government
+ - While the officials deliberated, current government lost its majority position
+	 - Babbage had to start dealing with a new group of officials
+ - Babbage tired of the process, asked the Prime Minister to make a decision on the fate of the project
+	 - Decision (1842) wasn't favourable for Babbage
+ - Eventually the machine itself was donated to a museum
+ - After abandoning Babbage's work, British government financed the production of a Difference Engine designed in Sweden
+
+### Cost of the Difference Engine
+ - Government: 17k pounds, $84k
+ - Babbage: 20k pounds, $100k
+ - 1842 currency conversion
+
+### Difference Engine: Final Design
+ - Final machine wasn't complete, his overly-extensive description was very difficult to follow
+ - Dr Dionysus Lardner: Completed a difference engine using Babbage's design
+
+### Babbage's Analytic Engine
+ - Ushered in an entirely new and critical concept: Computing machine controlled by an external program
+	 - Programmable device!
+ - Difficult to determine the exact operation of the Analytic Engine
+	 - Not completed: Re-created from very complex diagrams
+	 - Many iterations continuously produced, right up to his death, what is the most up to date version
+ - A re-creation (based on snapshot from 1840) was produced under the direction of Major-General H.P. Babbage (1906), son of Charles Babbage
+	 - It calculated and printed many different multiples of PI to 29 decimal places as a proof of concept.  
+	 - The mill now resides in the Science museum (London) along with some other early Babbage machines.
+ - Components: 
+	 - Store: Memory, RAM
+	 - Mill: Performed calculations, ALU
+	 - Control Barrel: Primitive micro program control unit
+	 - Counter Mechanism: Loop control
+ - Implementation of the Store:
+	 - Informatio stored in registers in the form of gears
+	 - Each gear was used to represent a single digit, could rotate to 10 different positions
+	 - Different source-writings specified different storage capacities
+		 - Source 1: 100 forty digit numbers
+		 - Source 2: 1000 fifty digit numbers
+ - Implementation of the Mill:
+	 - Extremely complex arrangement of gears and linkages between them
+	 - Operations: 4 basic operations (+, -, * , /), logical comparisons with the option of square roots
+ - Weaving metaphor:
+	 - Store: Location where numbers are held, pattern in the cloth
+	 - Mill: Location where numbers are woven into new patterns based on the operation to be performed
+ - Implementation of the Control Barrel:
+	 - Similar to old-time music box, instead of storing melody this control barrel would store microcode instructions
+
+### Significance:
+ - Babbage merely conceived of the Analytic Engine as an academic exercise, rather than planning on producing a model to be used to solve actual problems
+	 - Didn't realize how useful it would be
+ - Significance: Speed/advanced technology
+	 - Addition Time, Analytic Engine: 3 seconds, 1 second with later version (1830-1871)
+	 - Addition Time, Harvard Mark I: 0.3 seconds ~WW2 (1939-1945)
+ - Significance: Included the concept of a stored program
+	 - Instructions were to be stored on a series of punched cards
