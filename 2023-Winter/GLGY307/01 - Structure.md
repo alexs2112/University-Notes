@@ -3,6 +3,44 @@
 	 - No attached pictures
 	 - 40 Qs, 2%/Q, 20% for free
 	 - Open book, no digital notes
+	 - Superficial questions, no detail or interpretations
+	 - Fossil vs subfossil
+	 - Fossil classifications: Body fossils (include imprints), trace fossils, chemical fossils
+		 - Hard body parts vs soft body parts
+	 - History of fossil classification: first name to report in a scientific way fossils from southern italy, western croatia, Xenophanes of Colophon
+		 - Oldest discovered in ancient Egypt
+	 - Paleontology subdisciplines
+	 - Igneous (no fossils), Sedimentary, Metamorphic rocks
+		 - Clastic rocks
+		 - Weathering, erosion, transport, lithification (sediment -> sedimentary rock)
+		 - 3 types of metamorphism: Regional, Thermal, Burial
+		 - Most in sedimentary, occasionally in metamorphic, none in igneous
+	 - Process of fossilization: 
+		 - Most important condition is to be buried rapidly
+		 - Major source of questions
+	 - Tophonomy, role in interpreting fossil record:
+		 - Won't be any questions
+	 - Exceptional fossil preservation:
+		 - Fossil Lagerstatten, preservation of soft body parts and colour pattern
+	 - Geological Time:
+		 - Each topic can have a couple questions
+		 - Steno Principles, Sir William Smith
+		 - Subdivisions of the geological time scale
+			 - Four Eons
+			 - Youngest period of paleozoic era: Permian
+			 - Oldest at the bottom, youngest at the top
+			 - Boundaries between eons and periods of the phanerozoic
+	 - Classification:
+		 - Questions will be about the hierarchies
+			 - What taxonomic level is between subclass and superorder: Infraclass
+		 - Five Kingdoms
+		 - Age of oldest isolated life forms on earth, 3.5 billion years
+	 - Main Fossil Groups:
+		 - Not super detailed, no classifications
+		 - What's the group that includes the solitary representatives of lophophorades (???): Brachiopods
+		 - Red Algae, Green Algae, Charophytes
+		 - Two types of skeletons: Invertebrates, vertebrates
+		 - Graptolites: Started as benthic organisms, eventually became plants
  - **Midterm 2:** 30% (Mar 15th)
  - **Final Exam:** 45%
 	 - 20 + 20 questions copied from the first two midterms (answers will be released)

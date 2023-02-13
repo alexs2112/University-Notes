@@ -62,7 +62,7 @@
 	 - Organisms that get too close to the toxic swamp will suffocate, if they fall in the swamp they will be perfectly preserved
 	 - Perfectly fossilized internal organs
 
-### Exceptional Preservation (Fossil Lagerstatten <- Not Tested)
+### Exceptional Preservation (Fossil Lagerstatten <- Not Tested On Name)
  - Organisms can be very well preserved through casual fossilization processes
 	 - Skeletal parts remain in anatomical connection
 	 - Colour patterns are preserved

@@ -195,3 +195,21 @@
 	 - Addition Time, Harvard Mark I: 0.3 seconds ~WW2 (1939-1945)
  - Significance: Included the concept of a stored program
 	 - Instructions were to be stored on a series of punched cards
+
+### Ada Augusta Countess of Lovelace
+ - Daughter of Lord Byron (famous poet, only legitimate daughter, terrible relationship) and Annabella Milbanke (trained mathematician)
+ - Lovelace became friends with Babbage
+ - While in Italy, Babbage wrote description of the inner workings of the Analytic Engine (Italian)
+ - Lovelace produced an English translation with extensive explanations
+ - Conceived of using the Analytic Engine for purposes other than just calculating numbers
+	 - Abstract symbols allow general instructions
+	 - First programmer
+ - Very good mathematician
+
+### Percy Ludgate (1883-1922)
+ - Designed, may have constructed, his own version of the Analytic Engine (1908)
+	 - Unit controlled by instructions on a paper tape
+	 - Control could also occur from instructions entered on a special keyboard
+	 - Store 192 variables that were 20 digits long
+ - Entirely mechanical, mechanism powered by an electric motor
+ - Somehow his drawings and manuscripts had vanished forever
