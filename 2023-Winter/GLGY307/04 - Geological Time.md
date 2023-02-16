@@ -24,11 +24,11 @@
 	- Thinking at that time that a layer formed in about 5 or 6 years
 		- At least 10000 layers in the succession of layers in Tuscany, at least 50k years
 	- Disproves some of the bible, first sign of split between science and the church, although they still worked together at this time
-1. **Principle of Original Layer Horizontality**
-	- Steno realized that sediments accumulated by the settling of the particles in suspension in a flued
+3. **Principle of Original Layer Horizontality**
+	- Steno realized that sediments accumulated by the settling of the particles in suspension in a fluid
 	- Originally, layers were horizontal, but in outcrops they are folded due to crustal disturbance
 	- The new form is the result of crustal movements
-2. **Principle of Lateral Layer Continuity**
+4. **Principle of Lateral Layer Continuity**
 	- Considered layers of the rivers, when a layer is formed it is formed over the entire surface of the basin
 		- Does not hold all the time, technically not a principle (sediment deposits from rivers in the ocean, creates new layers that don't go everywhere)
 	- Originally deposited strata extend in all directions until they terminate by thinning at the margins of a basin
@@ -92,7 +92,7 @@
  - Phanerozoic: Visible life forms, begins with large size fossils (no microscope)
 	 - Defined by agronomic revolution, formation of burrowers (developing mouths to feed on nutrients in the ground), leading to massive diversification of life forms on Earth. Evolution takes over, shortly after is the first global predator (360* vision)
 	 - Cambrian Explosion
-**Phanerozoic Subdivisions**: (Three Eras, Oldest to Youngest
+**Phanerozoic Subdivisions**: (Three Eras, Oldest to Youngest)
  - Paleozoic: Fossils look like aliens, subdivided into seven more periods:
 	 - Cambrian: Whales
 	 - Ordovician: Ancient Welsh tribes

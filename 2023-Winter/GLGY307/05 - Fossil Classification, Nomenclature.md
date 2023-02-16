@@ -1,5 +1,5 @@
 ### Hierarchical Classification
- - Linean Classification based on Aristotelian philosophy
+ - Linnaean Classification based on Aristotelian philosophy
  - Organisms grouped together based on morphological similarities
  - Fundamental unit is that of species
  - Binomial nomenclature system

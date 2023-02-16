@@ -69,7 +69,8 @@
 	 - Non-mineralized parts of the organisms are preserved
 
 ### Hunsruck Shale - Germany
-[todo]
+ - Pyritization of marine fossils preserving them
+	 - No anoxic sedimentary layer needed
 
 ### Colour Patterns - Ukraine
  - Colour patterns were not preserved
