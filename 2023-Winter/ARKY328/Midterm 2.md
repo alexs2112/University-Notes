@@ -149,3 +149,33 @@
 		 - Women -> Gynaikonitis/Gynaeceum: locked from outside, more mobile decor, assumed mostly in top floors of houses
 		 - Men -> Andronitis/Andron: Formal drinking parties to entertain male guests
 	 - Outside of poleis, peasant mudbrick houses still common, no separations of spaces, most two rooms with small yard
+
+### Readings:
+ - Lantzas 2016: pay attention to how she studies postcollapse in the Argolid.
+	 - Period ignored due to a lack of writing, figural art and monumental architecture  
+	 - Focused on geographical perspectives: built environments, mortuaries, ceramic material, and metal objects to show the development of ideologies, social and economic practices
+	 - Studies site abandonment, use, decrease/increase in sites, architecture built and the uses
+	 - Mortuary Contexts: mortuary practices are integral in creating and reinforcing social relations 
+		 - Shift from the importance of the collective to the individual: increase in individual burials , decrease in chamber tombs
+	 - Mycenaean palatial centre collapse gives an opportunity for new ideologies and social organization
+	 - Sites of palatial centers remained as a focal point of activity instead of using a single location for ritual and socioeconomic practices, many locations in the early iron age served these functions
+	 - Ceramic Material and Metal Objects shows the production and consumption patterns stayed the same
+		 - Suggests that production was already being done domestically
+		 - Continuity in shapes and sizes of both ceramics and metal objects suggest that production was already being done outside the palatial region and their frequency in burials indicates that the people were not as poor as once thought
+ - Liston and Papadopoulos 2004: review the condition in which the Rich Athenian Lady was discovered.
+	 - The bones were handled with care when collected from the cremation pyre & much more of the skull survived than usual 
+	 - Her unusual wealth may have been due to her dying while pregnant or during childbirth rather than her tomb representing vast wealth (indicated by fetal bones)
+ - Lang 2002: pay attention to the approach adopted and why architecture studies are useful. 
+	 - Problem 1: Excavating houses in one go doesnt consider multiple occupation phases and changes in house plan, later building houses can make the structure differ completely and we wouldn't know the original purposes
+	 - Problem 2: Few settlements are excavated in their entirety, the few houses that are aren't necessarily indicative of them all
+	 - Old Approach: Digging Classical would usually stop before Archaic, digging Pre-Archaic would usually destroy Archaic strata
+	 - Need to also keep track of the material culture and inventory instead of just the floor plan of the structure
+ - Neil 2016: focus on periodization.
+	 - Etruria underwent dynamic changes, emergence in highly stratified landscape on emergent urban centers
+	 - Many new forms of material culture used to illustrate evolving social + political relationships
+ - Cunha 2004: compare and contrast the causes of the Athenian Plague.
+	 - Bubonic Plague: Few features consistent with Thucydides description, missing parts he should not have missed writing down. Has extra things that bubonic plague does not have. Also an absence of black rats, prerequisite for bubonic plague
+	 - Typhoid Fever: Death by Typhoid Fever usually occur later than the victims of Athens were dying, also less lethal than it would need to be to kill so many in a short period of time
+	 - Epidemic Typhus: Typically lacks problems in upper respiratory system and fever, also needs black rats. Has many of the same features, more likely than typhoid or bubonic, but not enough characteristics to make it the cause
+	 - Smallpox: Many varieties and has many of the same symptoms as the Athenian plague. Should not have the rash that the Athenians did, lack of pox otherwise mentioned previously makes it also unlikely (but more likely than the others)
+	 - Measles: Lack of sores and blisters, lack of diarrhea and extremity gangrene
