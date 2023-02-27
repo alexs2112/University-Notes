@@ -70,7 +70,7 @@
  - In most cases it is found below (older) than Aurignacian strata, in two examples it is found between Aurignacian levels
  - Suggestion: Chatelperronian and Aurignacian peoples lived at the same time in France and northern Spain, overlap of maybe 2-5k years
  - Archaeologically: Interaction ocurred, Neanderthals were copying the behaviour of modern humans in creating these ornaments (no evidence they made them before H. sapien interaction)
- - Hybridizatin hypothesis is plausible
+ - Hybridization hypothesis is plausible
 
 ### Conclusion
  - Multiregional hypothesis is least likely, no local evolution of Neanderthals into modern humans

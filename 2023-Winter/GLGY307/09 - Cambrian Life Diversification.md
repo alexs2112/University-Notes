@@ -99,3 +99,8 @@
  - Chordate - Pikaia: Cephalocordate, similar to modern lancelet, small antennae on head, tapering tail for swimming
 	 - Full of V-shaped muscles
  - Opabinia: Five eyes protruding from head, elongated, irregular hole in the head for extended mouth (probiscus with mouth on the end), predator to eat burrowers
+ - Anomalocaris: Most important predator, up to one meter in length, body covered with thick and elongated tissues/chitins, had large eyes to spot prey, extremely efficient predator, global range and the first major predator of the cambrian times
+	 - So efficient at hunting they ate everything, had to resort to cannibalism
+ - Wiwaxia: 3-5 cm in length, headless body covered by protective armor plates, long spines
+ - Hallucigenia: Long wormlike organism with appendages on both the top and bottom of the creature. Rounded head. At first thought it lived in turbulent waters, needed legs on its back to flip it back upright. Then realized they were just spines
+ - Ayisheaia: Missing link to Onychophorids (segmented worms without other fossil records)

@@ -30,7 +30,7 @@
  - 6th century BCE: Producing own pottery and metalwork of exceptional quality
 	 - Masters at pouring bronze
 	 - No marble, statues and reliefs from clay
- - Tomb paintins: General social equality between genders
+ - Tomb paintings: General social equality between genders
 	 - Paintings of women wearing outdoor clothes, more public lives
  - Tomb paintings reveal Etruscan origin for Roman Republic things
 	 - Togas
@@ -89,7 +89,7 @@
 
 ### Architecture
  - More complex than the Villanovans due to increasing Greek and Phoenician influences
- - Highly organized houes with series of interconnected rooms and private courtyard
+ - Highly organized houses with series of interconnected rooms and private courtyard
 	 - Stone foundations, solid mudbrick walls, roofed with terracotta tiles
  - Cities demonstrate high political and social organization
  - Architectural marvels of the Roman world prefigured by Etruscans
@@ -118,7 +118,7 @@
  - Underground chambers constructed later than tumuli, most spectacular is Tomb of the Reliefs
  - Sarcophagus of the Spouses
 	 - Molded and fired in four separate pieces
-	 - Figures depicted contemporary Etruscan fasion, including hairstyle and footwear
+	 - Figures depicted contemporary Etruscan fashion, including hairstyle and footwear
 
 ### Etruscan Decline
  - Rival economic interests at the end of the 6th century BCE

@@ -110,5 +110,5 @@
 ### End of Dark Ages: First Alphabet
  - Mid to Late 8th century, Greek speakers adopted Phoenician Semitic script into a new system by introducing vowel sounds
  - Extremely versatile and used by several different eastern Mediterranean societies
- - By end of period, 750-700 BCE, Homeric Poems and works of Heiod recorded in ancient Greek
+ - By end of period, 750-700 BCE, Homeric Poems and works of Hesiod recorded in ancient Greek
 

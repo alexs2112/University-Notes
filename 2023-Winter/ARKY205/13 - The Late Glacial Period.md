@@ -38,9 +38,9 @@
 
 ### Magdalenian Structures
  - Huts are known at many Magdalenian sites
- - Well-known example: Etiolles, 6 m diameter stone citccle surrounding hearth and artifacts
+ - Well-known example: Etiolles, 6 m diameter stone circle surrounding hearth and artifacts
 	 - Some sites, Pincevent, had 100 such rings
- - Presence of so many hunts with variable locations suggest seasonal hunting strategies
+ - Presence of so many huts with variable locations suggest seasonal hunting strategies
 
 ### Magdalenian Exchange
  - Exchange networks continue to expand
@@ -81,7 +81,7 @@
 
 ### End of the Magdalenian
  - Franco-Cantabrian region is likely complex due to glacial refuge
- - People came here to ecape ice, interactions + competition intensified with regional styles emerging
+ - People came here to escape ice, interactions + competition intensified with regional styles emerging
  - Climate ameliorated around 11500 BP start of Holocene, Magdalenian people spread back over central and northern Europe into new areas
 	 - Reindeer migrated far north, Europeans shifted to hunting forest game like deer and boar
 	 - Spear throwers used less, bow becomes main hunting tool
@@ -118,5 +118,5 @@
 	 - Increase in exchange
 	 - Explosion in art, maybe communal rituals
  - Developments were episodic and patchy, not gradual
-	 - Responses to tressful conditions
+	 - Responses to stressful conditions
 	 - Another sign: Upper Paleolithic peoples were shorter than Middle Paleolithic, Mesolithic
