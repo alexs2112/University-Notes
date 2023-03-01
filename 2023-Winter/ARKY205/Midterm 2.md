@@ -48,7 +48,7 @@
  - **Exchange**: Evidence for considerable distances, motivated by adornment, social/economic safety nets (relations > goods)
  - **Clay Figurines**: Dolni Vestonice, Czech Republic: 6000 clay pieces found, for ritual performance of hunting magic/divination
 	 - Venus of Dolni Vestonice: Larger and more detailed figuring
-	 - Venus of Brassempouy: Head of woman wearing a headdress
+		 - Venus of Brassempouy: Head of woman wearing a headdress
 	 - Venus of Willendorf: Chubby, impressions around the head
  - **Burial**: Most single burials with deceased covered in red ochre + grave goods, Sungir burial in russia
 
@@ -83,7 +83,7 @@
  - **Burials**: Most burials in this period, flexed or straight burials, grave goods, defleshed bones, replaced eyes, social inequality?
  - **End**: Warmer climate, people spread over Europe into new areas, reindeer migration, bow > atlatl, adornment declination
 
-### Southeast Asia and Oceana
+### Southeast Asia and Oceania
  - Dhaba on Son River in Northern India: Bridge linking stone tools between Africa and Australia
  - H.erectus in China and Java, unsure about H.sapiens, increase in brain size and stone tools
  - When sea levels were low:
@@ -152,6 +152,8 @@
 	 - Discovery of a series of human footprints in White Sands National Park occuring on multiple stratigraphic levels
 	 - Results indicate humans present on the landscape by at least 23 kya, supporting the Pre-Clovis model
  - Ardelean et al. 2020: pay attention to how they describe their evidence.
+	 - Stone tools and residue evidence present at Chiquihuite Cave
+	 - High altitude breaking pattern of megafauna kill sties, open sites, shallow rockshelters
  - Hoffecker et al. 2016: what is the core aim of the paper?
 	 - Beringian Standstill Hypothesis (2007) derives Native Americans from those occupying Beringia during the Last Glacial Maximum, suggests parallel between ancestral Native Americans and modern humans retreating to other parts of the world during the LGM
 	 - Suggests the settlement of the Americas may be integrated with the global dispersal of modern humans

@@ -50,3 +50,13 @@
 |7|1010|
 |8|1011|
 |9|1100|
+
+[todo up to this point]
+
+### Model VI
+ - After the end of WWII, Stibitz left Bell
+ - Bell still constructed another version of the Stibitz machines in 1950
+	 - Used for the same purpose as the original Complex Number Calculator
+ - Essentially a Model V
+	 - Main difference was that it could store 10 (rather than 7) digit numbers
+	 - Late 1950s, donated to the Polytechnique Institute (Brooklyn), later in 1961 donated to the Bihar Institute of Technology (India) where it eventually became a historical display
