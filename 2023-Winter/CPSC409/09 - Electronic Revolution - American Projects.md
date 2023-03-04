@@ -1,0 +1,47 @@
+### Computing Technology (Pre WWII - WWII)
+ - Computers prior to this period were entirely mechanical or electromechanical in their design
+ - World War II: The electronics industry (radio) was given a tremendous boost
+ - Many people independently thought of using electronics in a calculating machine, costs were high
+	 - First attempt: Schreyer and Zuse
+	 - First prototype: Atanasoff and Berry
+	 - First fully working machine: Mauchly and Echert
+ - This type of technology would derive its results using electronics 
+	 - Non-mechanical, mechanical parts were incidental rather than a key part of the calculation
+
+### The ABC (Atanasoff-Berry Computer)
+ - John Atanasoff: Professor at Iowa State College
+ - Clifford Berry: Graduate student studying under Atanasoff
+ - **Motivations**:
+	 - Atanasoff was researching methods for solving complex physics equations
+	 - Drudgery of using the calculators motivated him to create something better
+	 - Started by modifying the small IBM calculator leased to the college
+	 - Extensive modifications, staff at IBM weren't happy with the modifications
+	 - Atanasoff's experiencecs with modifying the IBM tabulator convinced him that mechanical-based technology was unlikely to have the necessary speed and durability
+	 - Decided to build his own machine, more of a daunting task than first anticipated
+	 - After particularly frustrating night, decided to take a break from the lab, leading to a breakthrough: Used to have a book of binary, thought about it. 
+		 - Decided to use a binary two-state system instead of the current decimal system
+		 - Drove the 200 miles back to write it down in the middle of the night
+ - After enlisting the aid of Berry and several years of hard work, the ABC was nearly completed at the cost of $6000 (including $450 paid to Berry) in 1942
+	 - The first *prototype* electronic computer
+ - At this time the US was involved in the second World War, the government demanded trained technical people to join the war effort
+	 - In 1942 Atanasoff left the project (Naval Ordnance Laboratory)
+	 - The ABC never did become fully operational
+ - The first machine to incorporate regenerative memory that was similar to the kind used in modern D-RAM (memory needs to constantly be refreshed or else it loses its charge)
+	 - Not a stored program computer
+ - **Rotating Drum Memory**: A pair of drums, each containing capacitors that rotate on a common shaft once per second. The capacitors on each drum were organized into bands of 50, speed of 30 additions/subtractions per second (30 bands, 2 additional spare bands)
+	 - Rotating refreshed the charges in the capacitors
+ - **Technical Specifications**:
+	 - Arithmetic unit: 300 vacuum tubes (addition and subtraction)
+	 - Control and memory: 300 vacuum tubes
+ - **Controversy**:
+	 - The fate of Atanasoff and Berry, hard to get credit for it
+	 - Who developed the first electronic computers? (these guys or the creators of the ENIAC)
+		 - ENIAC was derivative of the ABC
+	 - Getting the stamp on their work
+		 - Atanasoff wanted to get a patent for the technology, filing issues, didn't file it immediately and done improperly
+		 - Brought it to court to get the patent -> get credit for it
+	 - Berry: Generally thought it was a suicide, Atanasoff never accepted the suicide verdict and tried to investigate on his own
+		 - Didn't have anybody else to collaborate the technology story with
+ - **Significance**:
+	 - First to demonstrate the use of electronics in a digital calculating machine (excluding Helmut Schreyer and Konrad Zuse)
+	 - First to incorporate regenerative memory
