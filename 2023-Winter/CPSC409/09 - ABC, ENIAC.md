@@ -131,3 +131,91 @@
  - **Energy consumption**: 140 kilowatts
  - **Vacuum tubes**: Original design: 5000 needed, completed design: 18000 used (along with 1500 relays, 10000 capacitors)
  - **Costs**: Original budget cost: $150k, actual cost: over $486k
+
+### The ENIAC: Component Units
+ - Divided up into component units, each unit would be contained behind panels
+	 - Basically a separate programmable unit
+ - Behind the panels:
+	 - A unit would contain its own memory and control (vacuum tubes and relays)
+	 - There was also a complex array of switches, indicator lights, connector sockets
+ - **Type 1**: Memory: 20 accumulators
+	 - Each accumulator could store a 10 digit signed number
+	 - Accumulators could be combined to increase the number of digits
+ - **Type 2**: Multiplication Unit:
+	 - Hard wired single digit multiplication table
+	 - Similar to Napier's bones and paper: Complex multiplication would be determined by computing the partial products and then summing them
+		 - Partial products: 4-5x faster than technology that employs repeated additions
+		 - Two ten digit numbers could be multiplied in under 3 milliseconds
+		 - The ENIAC was an electronic implementation of the Harvard Mark I (electro-mechanical, multiplication of ~6 seconds
+ - **Type 3**: Combined division and square root unit
+ - **Type 4**: Three function tables, could store tables of function values
+ - **Type 5**: Input unit (120 punch cards/minute)
+	 - Memory buffer constructed out of 8 relays
+ - **Type 6**: Output unit (100 punch cards/minute)
+ - **Type 7**: Master programmer (repeating instructions, loops)
+ - The punch card machines were the greatest source of breakdowns in the ENIAC, normally its a very reliable technology
+
+### The ENIAC: Bottleneck
+ - The accumulators were frequently the limiting speed factor of the machine
+ - Sometimes the 20 accumulators could not store all the partial results
+	 - Would then need to be printed and fed back into the machine as a new calculation
+ - Multiplication and division were so resource intensive (partial values), although the machine could perform them quickly if all the results could be stored they were usually avoided whenever possible
+	 - Multiple adds/subtractions
+	 - Bit shifting
+	 - Using the principle of constant differences between functions (Babbage)
+
+### The ENIAC: Cooling
+ - Vacuum tubes technology produces a great deal of heat
+ - The computer was air cooled
+	 - Two 12 horse power motors pumped 600 cubic feet of air per minute through each panel
+	 - Contrast: Home ceiling fans max ranges 400-several thousand cubic feet of air
+ - Each panel had its own thermometer
+	 - The temperature for each panel could be individually regulated
+	 - There was a fail safe that would shut down the entire machine if any panel exceeded 120 F/49 C
+ - During servicing the panels had to be opened (air leak) and the fail safe disabled
+	 - Failure rate: 18k vacuum tubes, one would fail every 2-3 days
+	 - A floor fan could be used to cool a panel during this time
+	 - Due to an unfortunate oversight, a fire occurred that destroyed 2 units
+
+### The ENIAC: Programming
+ - Re-wiring the cables going to/from sockets
+ - Bus wires determine:
+	 - Which units are activated
+	 - Which units to send data
+	 - Whether instructions should be repeated
+	 - If a memory accumulator should be reset to zero
+ - Numerical buses:
+	 - Transmit the number and the complement of the number (subtraction via negation and add)
+	 - 12 wires:
+		 - 10 wires for up to 10 digit numbers
+		 - 1 wire for the sign
+		 - 1 wire for grounding the connection
+ - Far later on, the ENIAC became programmable in the modern sense
+	 - The machines operating speed was now slower, offset by the decreased time needed to setup the machine
+
+### The ENIAC: After Completion
+ - Spring 1945: ENIAC was functioning well, still considered in test mode (beta)
+	 - Had run actual ballistic programs as well as calculations for the Los Alamos atomic energy group
+ - Later in 1945: Dismantled and shipped to the Ballistics Laboratory (Aberdeen, Maryland)
+	 - The war was over, the machine was put to work on a wide variety of problems
+	 - For several years the ENIAC was the only large scale electronic computer used daily
+ - Vacuum tube technology: Very reliable when always on
+ - It continued to provide good, reliable service for another 10 years
+
+### The ENIAC: Later Enhancements
+ - A magnetic drum to store intermediate results
+ - More (core) memory added:
+	 - Store intermediate results
+	 - Act as an input/output buffer
+	 - 100 words (digits) in a cabinet (7' high x 2' wide x 2.5' deep)
+ - The ENIAC was not originally conceived as a stored program computer (SPC)
+	 - Hardwired computer program instructions
+
+### The ENIAC: The End
+ - Shut off for the final time on October 2, 1955
+ - 10 years at Aberdeen Proving Grounds (Maryland) the ENIAC was conjectured to have completed more calculations than the entire human race prior to 1945
+ - Parts of the machines are on display at the National Museum of American History (Smithsonian) and other locations (eg. School of Engineering and Applied Science at the University of Pennsylvania)
+
+### The ABC and the ENIAC
+ - The ABC was the first prototype (partially working) electronic computer (not quite completed)
+ - The ENIAC was the first fully operational electronic computer
