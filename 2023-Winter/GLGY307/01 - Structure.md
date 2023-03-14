@@ -114,7 +114,7 @@
 	 - Interior arrangement of longitudinal partitions, know their names and types
 
 ### **Final Exam:** 45%
- - 20 + 20 questions copied from the first two midterms (answers will be released)
- - Otherwise not cumulative
+ - 10 from first part, 10 from second part, 40 from last part
+	 - 40% for free
  - No Cephalopod Evolution
  - Lecture 11 not tested on

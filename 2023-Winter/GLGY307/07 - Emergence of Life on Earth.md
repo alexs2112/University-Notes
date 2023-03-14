@@ -31,7 +31,7 @@
 	 - Hydrogen and Helium
 	 - Most light gases were removed from the terrestrial planets atmosphere by the solar wind, started with sun ignition
 	 - As a result, the concentration in small monomers increased in Earth's atmosphere, pheomenon that further increased the possibility to chemically react, form larger molecular compounds
- - Major problem in understanding chemical reactions in the planet's early history was the chemical character of the atmospher
+ - Major problem in understanding chemical reactions in the planet's early history was the chemical character of the atmosphere
 	 - Modern atmosphere (dominated by nitrogen, large amounts of oxygen O2) could not have favoured the formation of larger, organic molecules due to oxidizing character
 	 - Early atmosphere had a reducing character instead
 
@@ -63,7 +63,7 @@
 	 - Protein is a polypeptide
 **Sugar Polymerization**
  - Two sugar molecules combine to form a Disaccharide
- - A chain of disaccharides form a polysaccharide, Carbohydrates
+ ****- A chain of disaccharides form a polysaccharide, Carbohydrates
 **Nucleic Acid Polymerization**
  - Sugar plus a base forms a Nucleoside
  - When phosphate is added to the nucleoside, it forms a Nucleotide

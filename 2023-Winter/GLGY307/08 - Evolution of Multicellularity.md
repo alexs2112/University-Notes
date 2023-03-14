@@ -92,7 +92,7 @@
 	 - Animals achieved multicellularity in this time to survive snowball earth
 	 - The sponge **Otavia** evolved in the cryogenian, became extinct by the end of it
 
-### Ediacara Fauna
+### Ediacaran Fauna
  - Southern Australia, Upper part of the Proterozoic
  - Appear as impressions in fine sediments
  - No traces of organs for a long time

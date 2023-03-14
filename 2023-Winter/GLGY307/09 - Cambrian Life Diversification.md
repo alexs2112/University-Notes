@@ -89,7 +89,7 @@
 
 ### Burgess Shale
  - Middle cambrian age
- - Burgess Shale fossils were discovered by Walcott at the very beginning of the XXth (??) century in BC
+ - Burgess Shale fossils were discovered by Walcott at the very beginning of the 19th century in BC
  - Very important fossiliferous points
  - Fossils were buried along the continental slope at the slope base
  - Mobile belts surrounding NA, frequent earthquakes, lots of unconsolidated sediments
