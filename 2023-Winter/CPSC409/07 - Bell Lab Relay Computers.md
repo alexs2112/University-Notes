@@ -6,7 +6,7 @@
 
 ### George Stibitz (1904-1995)
  - York, Pennsylvania
- - Bachelors degree from Denison University, Masters degree from Union COllege (1927), PhD in Mathematical Physics in 1930 from Cornell University
+ - Bachelors degree from Denison University, Masters degree from Union College (1927), PhD in Mathematical Physics in 1930 from Cornell University
  - Later years (1980s-1990s) turned to non-verbal uses of the computer
 	 - Computer art: Commodore Amiga
 	 - Art on display at Denison University
@@ -37,7 +37,9 @@
 	 - Logic was simplified by using a special form of binary (Binary coded decimal)
 		 - Harder UI for the operators, easier for the design of the hardware logic
 		 - Operators were cheap, hardware was expensive
- - Post Results: [todo]
+ - Post Results:
+	 - A technical success, Bell Labs didn't think it would be a commercial success ($20k to develop the first model)
+	 - No other machines were developed
 |Decimal Value|BCD Value|
 |---|---|
 |0|0011|
@@ -51,7 +53,78 @@
 |8|1011|
 |9|1100|
 
-[todo up to this point]
+### The Relay Interpolator (Model II)
+ - After the Complex Number Calculator, Stibitz and Williams returned to their regular jobs
+ - The US enters WWII in 1941: Dec 7, 1941, Japanese attack on Pearl Harbour
+ - George Stibitz was recruited to work on the National Defense Research Council (NDRC)
+ - Doing artillary and anti-aircraft calculations by hand was not feasible, needed a device to do it for them
+	 - Referred to as "The Model II Relay Calculator"" or "Model II Relay Interpolator"
+ - Completed and fully operational Sept 1943
+	 - 493 relays in two racks (5' high x 2' wide)
+	 - It could produce results for addition and subtraction (through negate and add)
+ - Not only adequately performed the task for which it was created (AA-gun tracking) it became a general use computer for the rest of WWII
+ - After, donated to the US Naval Research lab where it was productively used until the Relay Interpolator was shut down in 1961
+ - Reliability:
+	 - Telephone and Computer Relays would eventually fail through wear and tear
+	 - Stibitz was concerned that a failed relay would give an incorrect result with no way to realize the error
+	 - Consequently: Used a bi-quinary system of encoding information stored on the machine, each relay would store 1 bit of info
+
+### Bi-Quinary Encoding
+ - Each decimal would require 7 relays
+ |Digit|Bi-quinary Encoding|
+ |---|---|
+ |0|01 00001|
+ |1|01 00010|
+ |2|01 00100|
+ |3|01 01000|
+ |4|01 10000|
+ |5|10 00001|
+ |6|10 00010|
+ |7|10 00100|
+ |8|10 01000|
+ |9|10 10000|
+  - Machines implementing this method of encoding information were extremely reliable
+	  - If an erroneous result was found and removed the machine could take up the calculation from the point it had been interrupted without an effort
+	  - The (later model V) was used continuously for 167 hours (during most of that time it was unattended)
+
+### Model III ("The Ballistic Computer")
+ - The third of Stibitz's relay computers were designed for the same uses as the Relay Interpolator (Model II)
+ - Under design (1942) before the Model II was complete
+ - Specifications:
+	 - Over 1300 relays (5 frames each 5' high x 3' wide)
+	 - Doubled memory: 5 to 10 registers
+	 - Could perform addition and subtraction in the same was as its predecessors, also did multiplication and division
+	 - Multiplication: ~1 second
+	 - Took input of Airplane Position, Gun, Table of Ballistic Functions, Program Instructions
+ - Based on the same relay technology and bi-quinary storage of numbers with some upgrades
+ - Completed June 1944, remained in service until 1958
+
+### Model IV
+ - Second Ballistic Computer (officially known as "Bell Laboratories Relay Calculator Model IV" or "Error Detector Mark 22")
+ - Completed in March 1945, used for ballistics calculations
+ - Only difference from Model III is that it added features to allow for the calculation of negative angles (for warships)
+
+### Model V ("The Two In One")
+ - The Relay Interpolator and Ballistic Computers were so successful, US Government decided to back the creation of a much larger relay based system
+	 - Also backlog of needed calculations to be completed
+ - Two nearly identical machines built to fulfill the need
+	 - Each half could work on a separate problem, both halves could work together
+ - Reliability:
+	 - Data encoded using the bi-quinary method
+	 - Could handle the case when an error was detected while an instruction was executed
+		 - Extra reliability slowed operations (essentially big try/catch block)
+		 - Slowest machine (other than the Harvard Mark I)
+ - Specifications:
+	 - 44 registers
+	 - 9000 relays
+	 - 1000 square foot 'footprint'
+	 - 10 tons
+	 - Could handle 7 digit numbers
+ - A CADET (Cant Add Doesnt Even Try) architecture for mathematical problems
+ - Fate:
+	 - After the war, one used at Fort Bliss and later given to University of Arizona
+	 - Other donated to Texas Technology College in 1958, truck ended up in car accident, machine was destroyed
+	 - Wrecked machine used for spare parts for the University of Arizona
 
 ### Model VI
  - After the end of WWII, Stibitz left Bell

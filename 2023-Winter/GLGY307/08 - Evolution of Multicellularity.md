@@ -154,3 +154,5 @@
  - Body cavities of oldest creatures form radial symmetries
  - As we get closer to the present, body cavities form bilateral symmetries
  - Arrange organisms stratigraphically, organisms start to coagulate into lineages
+
+![[snowball_earth.png|350]]

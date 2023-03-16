@@ -1,0 +1,100 @@
+### Development in SPC by Country
+ - England
+	 - The Manchester Machine
+	 - Cambridge Machine: The EDSAC
+	 - The NPL Pilot Ace
+ - America
+	 - The EDVAC
+	 - The Institute for Advanced Study (IAS) Machine
+	 - The Eckert/Mauchly Machines: UNIVAC and the BINAC
+	 - SEAC/SWAC
+	 - Project Whirlwind
+
+### English Developments
+ - The British were ahead of the Americans in the development of stored program computers
+	 - The Americans lost their early lead to the British
+ - While the Americans were still working out the design of their computers, British were working debugging programs on their own machines
+	 - The British projects were of a smaller scale but were still counted as SPCs
+	 - This put the early British researchers ahead of their American counterparts, issues that came up while developing software drove the design of the next generation hardware
+
+### The Manchester Machine
+ - After the end of the war, many researches ended up working at Manchester University
+	 - Code breakers working on the Colossus (and the Colossi)
+	 - Alan Turing (Enigma)
+	 - Freddy Williams and Tom Kilburn (Williams' Tubes)
+	 - In 1948: First fully electronic machine that operated based on the instructions stored in its memory
+ - Official title of the lab: Royal Society Computer Laboratory
+	 - Unofficial description of the lab: late lavatorial
+ - Initial machine was extremely limited in its capabilities (operational in 1948)
+	 - Access to stored information was serial
+	 - Instruction set consisted of subtractions, conditional branches, stop instruction
+	 - 32 words of (Williams' tube) memory (32 bits per word)
+	 - Meant to be used as a testbed for Williams' electrostatic memory ideas
+ - First operational on June 21, 1948
+	 - The first machine to execute a stored program
+	 - Was it the first true SPC?
+		 - Very limited capabilites
+		 - No real problems were ever solved using the machine (only tests)
+		 - Not a fully working SPC
+ - After getting the prototype working the machine was upgraded
+	 - April 1949:
+		 - Step 1: 2 CRT Williams' tubes (128 words x 40 bits/word)
+		 - Step 2: Magnetic drum (1024 words)
+		 - Built on multiple floors, data brought between floors of the building
+ - Machines which were modified versions o the prototype were used for actual work
+ - Ferranti Limited:
+	 - Saw the prototype, asked for properly engineered version to be completed
+	 - Ferranti machine, Ferranti Mark I, completed Feb 1951
+	 - Copy sold to University of Toronto for $300k (design of St Lawrence Seaway)
+	 - Improved specifications:
+		 - Level 1 (CRT) memory: 256 words x 40 bits each
+		 - Level 2 (drum) memory: 16384 words
+	 - Speed of improved machine:
+		 - Addition: 1.2 milliseconds
+		 - Multiplication: 2.16 milliseconds
+	 - Probably the first machine to implement a form of virtual memory, 1 million 48 bit words (core + drum)
+
+### Cambridge Machine: The EDSAC
+ - Maurice Wilkes
+	 - Student at Cambridge before the war
+	 - Assisted in the war effort (mathematical projects)
+	 - Returned 1945 as the director of the UML (University Mathematical Library)
+	 - Received and copied a copy of von Neumann's "First Draft on a Report on the EDVAC"
+		 - First conceptual SPC, the one that got him credit on the machine
+	 - Participated in a series of lectures at the Moore School (summer 1946)
+ - Wilkes' Goal: Run real programs for actual work over spectualiting on what it would be like to build certain designs of machines
+ - Used the technology of the day (vs developing a new untested technology)
+	 - Used mercury-based acoustic delay lines
+	 - 16 steel tubes containing mercury
+	 - Each tube could store 17 bits (16 bit digit plus a sign bit)
+ - Funding was provided by J. Lyons and Co. Ltd.
+	 - Started as big baking business
+	 - Needed bookkeeping/accounting
+	 - Needed a computer to automate it, so successful they went into the computer business
+ - The "Electronic Delay Storage Automatic Calculator" (EDSAC) was completed in 1949 at Cambridge
+ - Named after the theoretical machine, the EDVAC, written about in Von Neumann's paper
+ - In order to complete the machine in a useful period of time and cost, Wilkes was pragmatic
+	 - Timing speed was reduced from1 Mhz to 500 kHz
+ - First SPC?
+	 - EDSAC completed a year later than Manchester Prototype (1949 vs 1948)
+	 - Another machine, EDVAC, conceptualized before this but still largely theoretical (US)
+	 - Unlike the Manchester machine, the EDSAC was used to solve real problems
+	 - Speed:
+		 - Addition: ~1.4ms
+		 - Multiplication: 4.5ms
+ - DJ Wheeler: Designed it to allow the address of subparts of the program to be stored in memory, rather than storing the binary instructions for that part repeatedly
+	 - The Wheeler Jump was the predecessor of the modern function/subroutine call
+ - J Lyons and Co Ltd produced a version of the EDSAC for their own use: LEO (Lyons Electric Office)
+	 - Lead off to a series of machines (LEO I, LEO II), company was spun off from the parent: LEO Computers Ltd
+	 - Construction on the LEO began in 1949, completed in 1951
+	 - Used to solve many problems: Payroll (1.5 seconds vs 8 minutes by hand), determining the optimal mix in different brands of tea, etc.
+
+### The NPL Pilot Ace
+ - After end of WWII, Alan Turing joined the National Physical Laboratory in 1945 with the goal of constructing an electronic computing machine: The Automatic Computing Engine (ACE)
+	 - Preliminary designs (V1-4) were completed by Turing
+	 - 1946: James Hardy Wilkinson and Mike Woodger joins the project, assists Turing in the design process (V5-7)
+ - Design effort occurred between 1945-1948
+ - Actual production of the hardware was subcontracted out
+	 - Little progress was made
+	 - 1947: Harry Husky joined the project
+	 - Because of the lack of progress (and the addition of Husky) Turing became quite frustrated with the work

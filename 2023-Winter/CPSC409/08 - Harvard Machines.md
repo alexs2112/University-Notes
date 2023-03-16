@@ -114,8 +114,8 @@
 		 - Compiling statistics
 		 - Accounting/bookkeeping
 		 - Leslie J. Comrie: First use of the Hollerith machines for large scale scientific calculation (lunar motion)
-	 - 1929: Columbia University convinced Thomas J. Watson (senior) into founding COlumbia University Statistical Bureau
-	 - 1930: Statistical Bureau expanded to include wokr on Astronomical calculations
+	 - 1929: Columbia University convinced Thomas J. Watson (senior) into founding Columbia University Statistical Bureau
+	 - 1930: Statistical Bureau expanded to include work on Astronomical calculations
 	 - Early machines based on the same principles as Babbage's Difference Engine
 
 ### Multiplying Punch Card IBM Models

@@ -8,3 +8,4 @@
  - Know the general use of the devices
  - Unless told otherwise, don't need exact and detailed use of these devices
  - Also know a bit about the people behind these devices
+ - Second midterm: 05-11

@@ -1,0 +1,278 @@
+### Babbage (1791-1871)
+ - Grandfather of the computer age, advanced ideas, speed of devices matched technology decades into the future
+ - **Background**:
+	 - Born into wealthy banking family, excelled at work, member of Royal Astronomical Society, founded Royal Statistical Society
+	 - **Childhood**: Broke new toys by deconstructing them
+	 - **Adulthood**: Tried to summon satan to confirm Christianity
+		 - Went to boarding school, snuck out to check out math textbooks by candlelight
+	 - **College**: Cambridge University, useless tutor to prepare him, deeper knowledge of math than his tutors
+		 - Spent most time reading math papers, meeting with advanced students
+		 - Translated, added substantially to calculus textbook by LaCroix, became the English standard
+			 - Co-contributors: George Peacock, John Herschel
+	 - **Recreation**: Active social life, chess club, ghost club, extractors club (proof of sane and insane), kept making social clubs
+	 - **Post-College**: Failed at lectureship appointments, not enough recognition
+		 - Eventually elected Lucasian Professor of Mathematics in Cambridge, still bitter at the school
+	 - **Continental Europe**: Member of 15 European scientific societies, commander of Italian Orders of Saint Maurice + Saint Lazarus
+		 - In Italy, wanted to study active volcano at Mount Vesuvius
+	 - **Logarithms**: 1862, published most accurate set of logarithms. Wanted to reduce chances of misreading the information
+		 - Experimented with typefaces, paper colours, ink colours
+	 - **British Rail System**: Invented the cow catcher, sail above rail car to recover cars during windy days
+	 - **Later Years**: Cantankerous attitude towards life, ran for political office to ban street performers
+	 - **International Connections**: Disliked by common people, strong reputation in academic circles
+		 - Travel to US to teach for a year, his ship sank before the trip, never planned to go to the US again
+ - **Difference Engine**:
+	 - Use the property of differences/difference tables to compute a series of numbers
+	 - Mr E. Klipstein included first reference to such a device (1786). Publication including Captain JH Muller (described more ambitious computing device if more money was available), Muller credited w/ first publication
+ - **Motivations**:
+	 - Only foolproof method of preventing errors in mathematical tables was to remove people entirely from creating them
+	 - Obsession with accuracy and completeness
+	 - Idea in 1812 in Cambridge, face down in library thinking of it
+	 - 1820s: Publishing table of logarithms, wanted to design machine to automate these tables
+	 - 1822: First working model, 6 figure numbers, evaluate any function having constant second difference, 44 calculations/min
+	 - Requested support from Royal Society, denied financial support from Lords of Treasure
+		 - Government provided 1500 pounds, he used 3400 pounds to be reimbursed (handshake deal)
+	 - Able to obtain services of Samuel Clement (very good at trades)
+ - **Life During Design**:
+	 - Babbage suffered from personal tragedies over 4 years: Death of wife, newborn baby daughter, father
+		 - Resulted in health breakdowns and problems with the project, could not get reimbursed from gov't, renegotiating
+	 - Appeals from his friends advanced another 1500 pounds, Duke of Wellington (Napoleon) advanced another 3k pounds with suggestion that Babbage shows evidence of his progress
+ - **Babbage and Clement**:
+	 - Babbage built a closer fireproof house to Clement's workshop, expecting him to join him. Clement refused, the two had a falling out. British law favoured Clement's position, he got the tools, machines, designs
+	 - Work on Difference Engine was halted, Babbage conceived of new machine: The Analytical Engine
+ - **End of Difference Engine**:
+	 - Would be cheaper to build a new machine with different design, announcement not well received by government, lost majority position and had to start dealing with new group of officials
+	 - Tired of process, asked Prime Minister to make a decision on the project, wasn't favourable to Babbage (1842)
+	 - Eventually donated to a museum, British gov't financed the production of a Difference Engine in Sweden
+	 - Cost: Government: 17k pounds, Babbage: 20k pounds
+	 - Machine wasn't complete, overly-extensive description was very difficult to follow (eventually used by Dr Dionysus Lardner)
+ - **Analytical Engine**:
+	 - New concept: Computing machine controlled by external program
+	 - Exact operation unknown, not completed, many iterations continuously produced until his death
+	 - Recreated (1840 design) by Major-General HP Babbage (1906), son of Charles Babbage
+	 - Components:
+		 - Store: Memory, RAM
+			 - Information stored in registers formed by gears, each gear to represent a single digit (10 positions)
+		 - Mill: Performed calculations, ALU
+			 - Complex arrangement of gears and linkages between them. 4 basic operations (+, -, * , /) with option of sqrt
+		 - Control Barrel: Primitive micro-program control unit
+			 - Similar to old-time music box, store microcode instructions
+		 - Counter Mechanism: Loop control
+	 - Significance:
+		 - Babbage conceived of it as an academic exercise, didn't realize how useful it would be
+		 - Much faster speed, more advanced technology (Addition in 3 seconds 1830, 1 second with later version 1871)
+ - **Ada Augusta Countess of Lovelace**:
+	 - Daughter of Lord Byron (bard) and Annabella Milbanke (trained mathematician), friends with Babbage
+	 - Produced English translation of Babbage's Italian technical description of the Analytical Engine
+	 - Conceived of using the Analytical Engine for purposes other than just calculating numbers
+		 - **First Programmer**
+ - **Percy Ludgate (1883-1922)**:
+	 - Designed, may have constructed his own version of Analytical Engine (1908)
+		 - Unit control by paper tape or special keyboard
+	 - Entirely mechanical, mechanisms by electric motor. Drawings and manuscripts lost forever
+
+### Zuse Machines
+ - Originally the V1 (Versuchsmodell-1/Experimental Model 1): After war changed to Z, avoid confusion with weapons by Wernher von Braun
+ - **Konrad Zuse (1910-1995)**:
+	 - Born in Berlin, trained as civil engineer, first person to construct automatically controlled calculating machine
+	 - Many earlier machines financed by himself, friends, family (limited funds)
+ - **Early Designs**:
+	 - Envisioned mechanical machine, table of instructions, mechanical arm as read/write mechanism
+	 - Came up with design of three parts: Control, Memory, Calculator
+ - **Z1** (1938):
+	 - Not familiar with other computers, started from scratch, approach to use binary system (0/1) instead of 10 state gears
+	 - Memory: Solid strips of metal, slot cut into it, pit would rest on one side of the slot (either 0 or 1), metal plats would shift and move to allow memory to pass through different plates
+		 - Worked well, complex routing of the ALU made transport of information problematic
+	 - Development Lab (1936): Pre WWII, couldn't collaborate with others, built lab in his living room
+	 - Overview: Input (decimal) -> Arithmetic (binary) -> Output (decimal)
+	 - Data and instructions on 35mm film tape, low on resources so used random things
+	 - **Helmut Schreyer**: Buddy and assistant
+	 - **Specifications**: 
+		 - Memory: 64x22 bit locations
+		 - Clock Speed: 1 MHz
+ - **Z2** (1939):
+	 - Designed to overcome signal routing/reliability problems by using relays
+	 - Relay Memory: More reliable than mechanical metal sheets, easier to obtain than expensive vacuum tubes
+		 - Rebuilt secondhand relays were used as they were expensive when thousands were needed
+	 - Not reliable enough to put to actual use, but got funding for further work (Z3)
+	 - Schreyer wanted to build it with vacuum tube memory, would have needed thousands, were scarce during the war
+	 - **Specifications**:
+		 - Memory: 64x16 bit locations
+		 - Clock Speed: 3 MHz
+ - **Z3** (1941):
+	 - Funded by German Aeronautical Research Institute, not provided a workspace or staff (still in living room with Schreyer)
+	 - Overcame reliability problems of relay technology by protecting against sparks, wear/tear
+	 - Original destroyed by the allies in 1943-1944, copy made in 1960s to display in museum
+	 - Relatively fast machine (~Harvard Mk I, 2 years later with larger budget), limited resources and isolation of Zuse
+		 - Addition: 0.25-0.3 seconds
+		 - Multiply: Two numbers every 4-5 seconds
+	 - **Specifications**:
+		 - Memory: 64x22 bit locations (64 words), wasn't practical for larger problems
+			 - 22 bits: 1 sign, 14 mantissa, 7 exponent
+		 - Clock Speed: 5-10 MHz
+ - **Z4** (1945):
+	 - Essentially the same as Z3 with a larger word size
+	 - Constructed at the end of WWII, detained by allies, cutting edge technology but language barrier
+	 - After the war, completed with a few upgrades (conditional branch)
+	 - In 1950, only operational computer in Europe, one of the few in the entire world, continued to be used until 1960
+ - Significance:
+	 - First automatically controlled calculating machines that were actually functional
+	 - Comparable speeds to machines developed later under poor working conditions (limited resources, funding, isolation)
+
+### Bell Lab Relay Computers
+ - Developed specialized computer to calculate and manipulate complex numbers, hard to work with on standard computer
+ - **George Stibitz** (1904-1995):
+	 - York, Pennsylvania. PhD in Mathematical Physics (1930) from Cornell University
+	 - Later years (1980s-90s) turned to non-verbal uses of the computer, worked on computer art
+	 - 1937: Mathematician for Bell Labs, noticed similarity between telephone circuit diagrams and binary numbers, would experiment with electronics in his spare time with cast off parts
+ - **Stibitz Prototype** (1938):
+	 - Batter powered
+	 - Dr TC Fry (Head of Stibitz group) happened to be notified of the problems the company had with its calculating load
+ - **The Complex Number Calculator** (1940):
+	 - Work began in 1938, SB William appointed to oversee project
+	 - Stibitz came up with idea, Williams to engineer the relay circuits
+	 - Operations on complex numbers: Add, Subtract, Multiply, Divide
+		 - Keyboard operator, type in calculation, sent to calculator through phone lines, output then printed out
+	 - Significance:
+		 - First Machine to allow for multiple terminal connections (other terminals given a busy signal)
+		 - Remote access to the machine at vast distances through landlines
+	 - Details:
+		 - 450 telephone relays
+		 - Logic simplified by special form of binary (Binary Coded Decimal), harder for operators, easier for hardware design
+	 - Results:
+		 - Technical success, Bell Labs didn't think it would be a commercial success ($20k cost), no other machines developed
+ - **The Relay Interpolator (Model II)** (1943):
+	 - US entered WWII in 1941, Stibitz recruited to work on National Defense Research Council (NDRC)
+	 - Artillary and anti-aircraft calculations by hand was not feasible, needed a device to do it for them
+		 - Eventually became general purpose calculator
+	 - Specifications:
+		 - 493 relays in two racks (5' high x 2' wide)
+		 - Could produce results for addition and subtraction (via negate and add)
+		 - Memory: 5 registers
+	 - Reliability:
+		 - Telephone and Computer Relays would eventually fail by wear-tear, no way to notice incorrect results from errors
+		 - Used bi-quinary system of encoding information, each relay would store 1 bit of info (see below)
+			 - Each decimal would require 7 relays
+			 - Incredibly reliable, found + removed errors and the machine could start calculation from where it was interrupted
+ - **The Ballistic Computer (Model III)** (1944):
+	 - Designed for the same uses as the Relay Interpolator, under design (1942) before the Model II was complete
+	 - Specifications:
+		 - Over 1300 relays (5 frames, 5' high x 3' wide)
+		 - Doubled memory: 10 registers
+		 - Performed addition + subtraction in same way as Model II, included multiplication (~1 second) and division
+		 - Took input of Airplane Position, Gun, Table of Ballistic Functions, Program Instructions
+ - **Second Ballistic Computer (Model IV)** (1945):
+	 - Officially known as "Bell Laboratories Relay Calculator Model IV" or "Error Detector Mark 22"
+	 - Only difference from Model III, added features for calculations of negative angles for warships
+ - **The Two In One (Model V)** (1946):
+	 - Two nearly identical machines to fulfill the need of the US government (success of Model II, Model III)
+		 - Each half could work on separate problems or together
+	 - Reliability:
+		 - Data encoded using bi-quinary method
+		 - Error detection at runtime, extra reliability slowed operations, slowest machine (outside Harvard Mark I)
+	 - Specifications:
+		 - 44 registers, 9000 relays, 1000 square foot footprint, 10 tons
+		 - Could handle 7 digit numbers
+	 - Fate:
+		 - After war: One used at Fort Bliss, eventually given to University of Arizona
+		 - Other donated to Texas Technology College (1958), ended in car crash and was destroyed, spare parts used UofArizona
+ - **Model VI** (1950):
+	 - After the war, Stibitz left Bell, still constructed another version of the Stibitz machine
+	 - Essentially a Model V, main difference to store 10 (rather than 7) digit numbers
+ - **Binary Coded Decimal**: (Complex Number Calculator)
+|Digit|Binary Coded Decimal Value|Bi-Quinary Encoding|
+|---|---|---|
+|0|0011|01 00001|
+|1|0100|01 00010|
+|2|0101|01 00100|
+|3|0110|01 01000|
+|4|0111|01 10000|
+|5|1000|10 00001|
+|6|1001|10 00010|
+|7|1010|10 00100|
+|8|1011|10 01000|
+|9|1100|10 10000|
+
+### Harvard Machines
+ - **Howard Aiken** (1900-1973):
+	 - PhD at Harvard, Military Background, suggested ideas for calculator to others but no takers
+	 - Got help from Harlow Shapley (astronomer) and Theodore Brown (Harvard business prof)
+	 - Got appointment with Thomas J Watson (1937), agreed to have IBM fund the project with different goals
+	 - After Harvard Mark I was demonstrated in 1944, employed in the war effort, navy commander in charge of navy computational projet
+	 - Aware of the problems faced by his predecessors (Babbage)
+		 - Avoided constructing machines that were too cutting edge with untested/unproven technologies
+		 - Mechanical components used were slower than relay based machines
+ - **Harvard Mark I** (1944):
+	 - Huge, 51' long x 8' high, 500 miles of wiring, very expensive
+	 - Program control came from instructions on punched tape (not rewritable)
+	 - **Specifications**
+		 - Motor powered mechanical calculator
+		 - 72 registers, each can store 23 decimal digits (plus a sign bit), can rewire the position of the decimal (15-16th default)
+		 - Speed:
+			 - Additions: 0.3 seconds
+			 - Multiplication: < 6 seconds
+			 - Slower, more accurate than many of its peer machines (comparable to Z3)
+	 - **Uses**:
+		 - Immediately enlisted in the war effort, used entirely for military purposes for the duration of the war
+		 - Afterwards, employed for research, eventually obsolete and dismantled in 1959
+		 - Major impact: Design model, lasted until RAM was invented
+ - **Grace Hopper** (1906-1992):
+	 - Young Lieutenant, assistant to Commander Aiken
+	 - Dismantled 7 clocks as a child, found the first bug in a computer program, eventual PhD from Yale
+	 - 1943: Enlisted in naval reserves, graduated at top of her military class (1944), assigned to project at Harvard
+	 - At Commodore/Rear Admiral Lower Half (1980) she was the oldest serving member of the Navy
+ - **Harvard Mark II** (1945-1947):
+	 - Aiken asked to construct another machine for use at the Naval Proving Grounds (Virginia)
+	 - Access to different and better resources, based entirely on relay technology (considerably faster with mechanical locks):
+	 - Similar to Bell Model V, split into two separate and independent parts. Early parallel computing
+	 - **Specifications**:
+		 - 50 data registers, 2 tape readers for instructions, 4 tape readers for data
+	 - **Speed**:
+		 - Addition: 125 ms
+		 - Multiplication: 750 ms
+ - **Harvard Mark III** (1949):
+	 - After the war, Aiken continued working on machines at Harvard, focus on ease of use over high speeds
+		 - Mark III and IV designed more for accuracy and ease of use than hardware-based increases in speed
+	 - **Mathematical Button Board**:
+		 - Special board for ease of use, buttons labeled in mathematical notation, automatically calls subroutines
+	 - **Specifications**:
+		 - First of Aiken computers to have a stored program
+			 - Data on 8 magnetic drums (4350 16 bit numbers), instructions on a separate drum
+			 - Separation of data and memory known as the **Harvard Architecture**
+		 - Further move away from mechanical parts, split between electronic vacuum tubes and electro-mechanical components
+		 - Multipication: 12.75 ms
+ - **Harvard Mark IV** (1952):
+	 - Used many features of Mark III, employed magnetic core memory. Resided at Harvard, used by US Air Force
+	 - After finishing the Mark IV, Aiken retired from design + construction of computers, became Harvard instructor
+		 - 1961: Founded his own company (Aiken Industries)
+
+### IBM Calculators
+ - **Punched Card Systems**:
+	 - Before computers, IBM in calculating machine business under different names: IBM (NA), Hollerith Equipment (Europe)
+		 - Only real competitor: Remington Rand, much less convenient so everyone went with IBM
+	 - Early punched card machines used to enter/encode data, stored and tabulated, slight speed and accuracy advantage over electric desk calculators
+	 - **Applications**:
+		 - Statistics, Accounting/Bookkeeping
+		 - Leslie J Comrie: First use of Hollerith machines for large scale scientific calculation
+	 - 1929: Columbia University convinced Thomas J Watson into founding Columbia University Statistical Bureau
+	 - 1930: Statistical Bureau expanded to include work on Astronomical calculations
+ - **Multiplying Punch Card IBM Models**:
+	 - **IBM 601** (1935): Punch-based + relay based system, quickly perform multiplications ~1 second
+	 - Relay based machines like the 601: **602, 602A, 603**
+	 - Vacuum tube based machines, programmable plug boards: **604, 605**
+		 - Programmed through two plug board control panels, essentially rewiring the device when needed
+ - **Large IBM Calculators**:
+	 - After success of Harvard Mark I, IBM developed its own series of relay based computers
+	 - **IBM Pluggable Sequence Relay Calculator** (IBM PSRC)
+		 - Controlled by combination of IBM plug boards and punch cards
+		 - Arithmetic unit: 4 standard operations plus square roots
+		 - Faster than regular desktop punched card machines, 10x speed of IBM 602
+ - **The Selective Sequence Electronic Calculator** (SSEC):
+	 - Unveiled in 1948, known as "Poppa"
+	 - Engineers had extensive experience with relay-based technology + punched card machines, ENIAC shows vacuum tubes could reliably be used in a computer
+	 - **Design**:
+		 - Vacuum tubes used in parts of the machine where speed was essential, relays used everywhere else
+		 - 8 high speed registers and the arithmetic unit: 13k vacuum tubes
+		 - 150 slower registers: 23k relays
+		 - Employed Binary Coded Decimal for efficiency, only 4 vacuum tubes for a single digit
+	 - Use of vacuum tubes in the arithmetic unit made the SSEC the **fastest of the mechanical monsters** (addition: 4ms)
+	 - When IBM developed the first electronic stored program computer (**IBM 701**) the SSEC was switched off

@@ -64,7 +64,7 @@
  - Even the Z2 was not reliable enough to be put into actual use
  - One major contribution was to get funding to allow for further work (Z3)
 **Alternate Memory**
- - Schreyer wanted to build the Z2 with cavuum tube memory
+ - Schreyer wanted to build the Z2 with vacuum tube memory
 	 - Demo of a portion of the computer did use vacuum tubes
 	 - During the war, tubes were scarce, would have needed 1000
 	 - Military wouldn't provide the tubes because of the development time needed

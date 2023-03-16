@@ -143,3 +143,77 @@
  - Would decay 5x a second, would need to keep refreshing
 	 - Biggest problem, read around problem
  - A tube would have many displayed bits in the screen, the computer would then read the screen of dots and dashes
+ - **Parallels**:
+	 - Avoiding corrupting memory
+	 - For parallel machines (parallel memory access) each bit of word was stored on separate CRTs
+ - **Timeline**
+	 - Summer 1946: Eckert mentions idea of using CRT as a farm of memory ("iconoscope")
+		 - ideas were only rudimentary, far from being put into practice
+	 - End of 1946:
+		 - Frederick C. Williams applies for a patent, starts work at Manchester University
+		 - Later Tom Kilburn joins work as his assistant
+		 - They developed the first truly high-speed random access memory
+	 - 1947: Working model is completed, can store up to 1000 bits of information (125 bytes)
+	 - 1948: Working model is completed that can store several thousand bits for several hours
+ - **The Selectron**
+	 - Developed at RCA by a team lead by Jan Rajchman
+	 - Looks like a vacuum tube, full of a 2d grid of holes to allow electrons through
+	 - Originally was to be the main memory for the Institute for Advanced Study (IAS) machine
+	 - When that order was canceled, memory used in the "Johnniac" computer (named after John Von Neumann)
+	 - More reliable and faster than the Williams' tube memory, high cost and lack of availablity, only used in one computer
+	 - Both forms of electrostatic memory were eventually replaced by magnetic core memory: Cheaper, more compact
+
+### Rotating Magnetic Memories
+ - Magnetic recording (tapes) proved that audio information could be recorded magnetically
+ - Slow access time of tape (on a long drum) made them impractical for use as main memory with electronic computers
+ - Idea of adding a magnetic coating (nickel or ferrite) to a rotating drum occurred to many people at the same time
+ - Even with a rotating drum, access time was slow as compared to computing speeds
+ - Two level memory model:
+	 - Slower speed, high capacity, stored in a magnetic drum
+	 - High speed, low capacity, stored in Williams' tube
+
+### Booth's Magnetic Memory: Disk
+ - Andrew Donald Booth (again)
+ - Developed a floppy disk based memory
+	 - Mail a voice: used oxide coated paper (mailing magnetic coating on paper recording someones voice)
+	 - Had a bunch of these samples, figured might as well give it a try
+ - 1947: After going through all free samples from Mail-A-Voice, Booth and his father developed their own form of magnetic drum memory
+ - The drum was installed and working in the experimental computer ARC (Automatic Relay Computer)
+ - 1952: Booth was producing large drum memories for others to use
+
+### Static Magnetic Core Memories
+ - 1940s: Prototypes of this technology first developed
+	 - WWII: German warships used core memory in their fire control systems
+	 - After the war, technology was brought to the US and disseminated to many: IBM, Harvard, MIT, ...
+	 - Crossed wires over the magnetic core, detection wire overtop to see where parts of the core was magnetized
+
+### Static Core Memories and Transistors
+ - Static Core Memory: Consists of an array of these guys, origin for "Segmentation fault: Core dumped"
+![[static_core_memory.png|200]]
+ - 1959: Transistors became cheap and reliable enough for use in computers
+	 - Transistors can represent a binary state by acting as a switch
+ - The development of magnetic core memory and transistors is what made computers cost effective
+	 - Magnetic core memory allowed for the stored program computer to be eventually developed
+ - **Significance of Core Memory**:
+	 - Eg. Whirlwind Computer
+	 - Computer speed multiplied
+	 - Maintenance time for memory fell from 4 hours per day to 2 hours per wek
+		 - Increased the mean time passing between failures from 2 hours to 2 weeks
+		 - Increased reliability of memory allowed an entire group of skilled technicians to work on another project
+ - **Advantages**:
+	 - Cores can be small (reduces the size of computers)
+	 - The memory is non-volatile:
+		 - William's tube: Requires electricity to refresh the information
+		 - Rotating drum (ABC): Requires constant mechanical power for the rotation
+	 - Above all: Allow for random access of memory (CD vs Cassette: faster)
+ - **Machines with Static Core Memory**:
+	 - Harvard Mark IV:
+		 - An Wang (student of Aiken) invented the memory used in that machine
+	 - ENIAC 1952: Upgraded to a 2D array of cores
+	 - Whirlwind: Upgraded to a 3D array of cores
+		 - Pre-1953: Used Williams' tubes
+		 - 1953: Installed core memory with the aforementioned changes
+			 - Doubled operating speed
+			 - Memory maintenance time: 4 hours per day -> 2 hours per week
+		 - IBM SAGE computers (Whirlwind II)
+			 - Generated $500 million in contract revenue for IBM in 1950s
