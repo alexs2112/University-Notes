@@ -50,7 +50,7 @@
  - **Place**:
 	 - 1923: Moore School of Electrical Engineering was founded
 	 - Many prominent researchers would visit the school (Vannevar Bush, John von Neumann)
-	 - 1930: School enters relationship wiht the US Army (Aberdeen Proving Ground: Maryland)
+	 - 1930: School enters relationship with the US Army (Aberdeen Proving Ground: Maryland)
 	 - First project: Constructing another Differential Analyzer
 		 - Funded by the government (research proving ground)
 		 - 2 machines (one for Aberdeen, one for Moore)

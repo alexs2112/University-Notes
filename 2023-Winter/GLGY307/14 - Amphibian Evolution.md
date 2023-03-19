@@ -39,3 +39,50 @@
  - Acanthostega was more iamphibious in habitat than Ichthyostega, which apeared to have spent more time on land. However they had more than five toes, a feater that made them closer to crossopterygians
  - Pederpes is the first stem tetrapod with five toes, discovered in the Early Carboniferous of Scotland
 	 - Important, first organism to have limbs with exactly five toes
+ - As they moved inland, they began to reduce their size due to their poorly developed muscles
+ - Earliest tetrapods represent group with high evolution potential, leaving two important descendant groups: Amphibia (Amphibians) and Amniota (birds, reptiles, mammals)
+	 - Distinct groups, ancestors in the early tetrapod group
+	 - Began laying eggs coated by a protective mineralized structure (shell)
+	 - These tetrapods are neither the ancestors of Amphibia or Amniota are the stem tetrapods
+ - **Diversification**: 
+	 - Lower Carboniferous of Scotland: Immediately after Devonian times, Tetrapods found at different levels than fishes, demonstrating a complete separation of habitats
+	 - Amphibians only found in terrestrial deposits, serious inland migration, capable of developing most of their life cycle inland and returned only for reproduction
+	 - Two new groups:
+		 - Anthracosaurians
+		 - Temnospondyls
+
+### Temnospondyls
+ - Considered the ancestors of the modern amphibians (Lisamphibia)
+ - Most diverse group in the Carboniferous, consisting of approx 40 families and 160 genera
+	 - Eryops: Capable of land locomotion, spent most time in the water. Size of a crocodile, similar in habitat. Rather large with muscle, already started to gain a lot of weight. Evolved quite fast
+		 - Top predator of the lower Carboniferous in continental conditions
+	 - Cacops: Completely adapted to terrestrial habitat (Permian), approximately 40cm long
+		 - Looks like a large frog, gave birth to the modern Amphibians
+		 - Lisamphibians: Frogs, Salamanders, Newts
+
+### Modern Amphibians
+ - All small-bodied and soft-skinned, strongly differing from earliest tetrapods
+	 - Very poor fossil record
+ - Living amphibians are newts, salamanders, frogs, etc, in the group Lisamphibia (smooth ambphibians)
+ - Lisamphibians first occurred in the Late Permian
+
+### Anthracosaurians
+ - Ancestors of the amniotes (evolved vertebrates, ultimately lead to evolution of reptiles)
+	 - Crocodile-like fisheaters
+	 - Jaws designed for slamming shut on prey
+	 - Up to 4 meters in length, some with slender bodies, fully adapted for terrestrial life
+ - Major predators, upper part of Mississipian: Replaced Eryops as top predators inland
+ - Limitations: Double respiration, permanently stuck to aquatic life
+	 - No active way of breathing, had lungs but they did not breathe, had to swallow the oxygen, skin had to remain wet all the time
+
+### Seymouria
+ - Permian of Germany, fully adapted to the terrestrial life
+ - Morphological features of a reptile, but does not have a chest bone (could not breathe actively)
+	 - [Or is this backwards? Features of amphibian but with a chest bone]
+ - Size of these guys are approximately 60 centimeters in length
+
+### Amniotes
+ - Most advanced organisms
+ - Egg is inside a membrane, small number of eggs protected by a shell
+ - Amniotes includes the higher evolved vertebrates: Reptiles, Birds, Mammals
+ - New chapter of history of life: One group capable of spending its entire life inland

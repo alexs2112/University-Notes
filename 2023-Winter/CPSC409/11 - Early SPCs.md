@@ -1,9 +1,9 @@
 ### Stored Program Computer
  - Must be possible to erase the contents of the memory and store new data in place of the old
- - Must be possible to store information for logn periods of time
+ - Must be possible to store information for long periods of time
  - Must be inexpensive to construct, needed in large quantities
  - Must be possible to get at the information being stored in very short periods of time, no point in producing high-speed electronic arithmetic and control units if you cannot get at the instructions and data with the same high speeds
- - ABC? [todo, is this SPC?]
+ - ABC: Not programmable
  - Punch cards and punched tape machines (Zuse)? No, instructions rewritable, were very very slow
 
 ### How Did Machines Receive Their Instructions
@@ -87,7 +87,7 @@
 # Computer Memory Types/Technologies
 ### Thermal Memories
  - Andrew Donald Booth (1918-2009, United Kingdom)
-	 - Experimented with thermal memories. Heat part of the bar, to be detected by a heat detector. A fan used to cool the ba
+	 - Experimented with thermal memories. Heat part of the bar, to be detected by a heat detector. A fan used to cool the bar
 	 - Experiment was a failure (unreliable)
 
 ### Mechanical Memories

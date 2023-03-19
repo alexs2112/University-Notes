@@ -21,7 +21,7 @@
  - Poland:
 	 - When the German military began to braodcast radio transmission (1928) using the Enigma encoded messages, the Polish radio operators alerted the Cipher Bureau
 	 - Polish Cipher Bureau: Purhcased and modified a commercial copy of the Enigma
-	 - 1928-1931: Litte headway was made, project was abandoned
+	 - 1928-1931: Little headway was made, project was abandoned
 	 - 1932: Martin Rejewski; Mathematician assigned to study the encryption problem again
 	 - Initial efforts resulted in some success and additional people were added to the project
 		 - ~75% of German messages deciphered

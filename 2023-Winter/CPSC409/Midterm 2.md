@@ -8,7 +8,7 @@
 	 - **College**: Cambridge University, useless tutor to prepare him, deeper knowledge of math than his tutors
 		 - Spent most time reading math papers, meeting with advanced students
 		 - Translated, added substantially to calculus textbook by LaCroix, became the English standard
-			 - Co-contributors: George Peacock, John Herschel
+			 - **Co-contributors**: George Peacock, John Herschel
 	 - **Recreation**: Active social life, chess club, ghost club, extractors club (proof of sane and insane), kept making social clubs
 	 - **Post-College**: Failed at lectureship appointments, not enough recognition
 		 - Eventually elected Lucasian Professor of Mathematics in Cambridge, still bitter at the school
@@ -142,7 +142,7 @@
 		 - Technical success, Bell Labs didn't think it would be a commercial success ($20k cost), no other machines developed
  - **The Relay Interpolator (Model II)** (1943):
 	 - US entered WWII in 1941, Stibitz recruited to work on National Defense Research Council (NDRC)
-	 - Artillary and anti-aircraft calculations by hand was not feasible, needed a device to do it for them
+	 - Artillery and anti-aircraft calculations by hand was not feasible, needed a device to do it for them
 		 - Eventually became general purpose calculator
 	 - Specifications:
 		 - 493 relays in two racks (5' high x 2' wide)
@@ -178,19 +178,6 @@
  - **Model VI** (1950):
 	 - After the war, Stibitz left Bell, still constructed another version of the Stibitz machine
 	 - Essentially a Model V, main difference to store 10 (rather than 7) digit numbers
- - **Binary Coded Decimal**: (Complex Number Calculator)
-|Digit|Binary Coded Decimal Value|Bi-Quinary Encoding|
-|---|---|---|
-|0|0011|01 00001|
-|1|0100|01 00010|
-|2|0101|01 00100|
-|3|0110|01 01000|
-|4|0111|01 10000|
-|5|1000|10 00001|
-|6|1001|10 00010|
-|7|1010|10 00100|
-|8|1011|10 01000|
-|9|1100|10 10000|
 
 ### Harvard Machines
  - **Howard Aiken** (1900-1973):
@@ -245,6 +232,22 @@
 	 - After finishing the Mark IV, Aiken retired from design + construction of computers, became Harvard instructor
 		 - 1961: Founded his own company (Aiken Industries)
 
+### Encodings
+ - Binary Coded Decimal (BCD): Complex Number Ccalculator
+ - Bi-Quinary Encoding: Relay Interpolator (Model II)
+|Digit|Binary Coded Decimal Value|Bi-Quinary Encoding|
+|---|---|---|
+|0|0011|01 00001|
+|1|0100|01 00010|
+|2|0101|01 00100|
+|3|0110|01 01000|
+|4|0111|01 10000|
+|5|1000|10 00001|
+|6|1001|10 00010|
+|7|1010|10 00100|
+|8|1011|10 01000|
+|9|1100|10 10000|
+
 ### IBM Calculators
  - **Punched Card Systems**:
 	 - Before computers, IBM in calculating machine business under different names: IBM (NA), Hollerith Equipment (Europe)
@@ -276,3 +279,197 @@
 		 - Employed Binary Coded Decimal for efficiency, only 4 vacuum tubes for a single digit
 	 - Use of vacuum tubes in the arithmetic unit made the SSEC the **fastest of the mechanical monsters** (addition: 4ms)
 	 - When IBM developed the first electronic stored program computer (**IBM 701**) the SSEC was switched off
+
+### The ABC (Atanasoff-Berry Computer)
+ - First *prototype* electronic computer, completed in 1942
+ - Computers prior to this period were entirely mechanical/electromechanical. This period are entirely electronic
+ - John Atanasoff: Professor at Iowa State College; Clifford Berry: Graduate student under Atanasoff
+ - **Motivations**:
+	 - Researching methods for physics equations, drudgery using current calculators to create something better
+	 - Modified IBM calculator leased to the college, convinced him that mechanical technology isn't fast enough
+	 - Particularly frustrating, break from lab leading to breakthrough: Using binary instead of current decimal system
+ - World War II: Atanasoff left the project (1942, Naval Ordinance Laboratory), and the ABC never became fully operational
+ - First machine to incorporate regenerative memory, needed to be constantly refreshed to not lose its charge
+ - **Rotating Drum Memory**: Pair of rotating drums with capacitors to do additions/subtractions, refreshed capacitor charges
+ - **Technical Specifications**: Arithmetic Unit and Control and Memory both used 300 vacuum tubes
+ - **Controversy**: ENIAC was derivative of ABC, which was first electronic computer? Atanasoff failed to get patent for it (filing issues), brought it to court to get credit for the first electronic computer
+	 - Generally thought Berry committed suicide, Atanasoff didn't accept it, didn't have anyone to collaborate his story with
+ - **Significance**: First to demonstrate the use of electronics in a digital calculating machine (excluding Zuse)
+	 - First to incorporate regenerative memory
+
+### The ENIAC (1944)
+ - Electronic Numerical Integrator and Computer, first fully operational electronic computer
+ - Moore School of Electrical Engineering (1923) entered relationship with the US Army (1930) to construct another Differential Analyzer (Aberdeen Proving Ground: Maryland). Finished in 1934
+ - **Calculating Ballistic Trajectories**:
+	 - Constants: Gun type and size, type of shell being fired, charge of propellant, elevation of the gun
+	 - Firing solution could be calculated from a ballistic table, extremely slow to fill in (20 hours per trajectory, 3k per table)
+ - **John Mauchly** (1907-1980): PhD + Professor of physics at Ursinus College. Designed the ENIAC
+	 - Staff left Moore School for the war, Mauchly was recruited to the school. Met Eckert (lab instructor)
+	 - 1940: American Association for the Advancement of Science: Mauchly met Atanasoff, impressed by his work, visited the ABC
+	 - 1942: Mauchly wrote his ideas in a paper to contrast electronic vs mechanical approaches, nobody realized the significance of the paper (electronic was way faster), eventually they needed the paper and needed to find it again
+ - **J Presper Eckert** (1919-1995): Radar tech, upgraded Differential Analyzer at Moore. Designed individual circuits for the ENIAC
+	 - Virtually a TA at the time, considerable hands on research from radar research, went with tried and true brute force solutions
+ - **Joseph Chedaker**: Supervised the construction team
+ - **Lt Herman H Goldstine**: Acquired parts for the project through the army
+ - **Size**: Huge, 100x bigger than the other machines of the time, most complex bit of electronics ever put together (8'x3'x100')
+ - **Component Units**: Divided into separately programmable units, each unit contained behind panels with its own memory, control
+	 - **Type 1**: Memory, 20 accumulators that could each store a 10 digit signed number and could be combined
+	 - **Type 2**: Multiplication Unit, hardwired single digit multiplication table using **partial products** (very fast)
+	 - **Type 3**: Combined division and quare root unit
+	 - **Type 4**: Three function tables, could store tables of function values
+	 - **Type 5**: Input unit (120 punch cards per minute)
+	 - **Type 6**: Output unit (100 punch cards per minute)
+	 - **Type 7**: Master programmer for repeating instructions and loops
+	 - Punch card machines were the greatest source of breakdowns, normally a very reliable technology
+ - **Bottleneck**:
+	 - Accumulators frequently the limiting speed factor. 
+	 - Sometimes could not store all partial results, need to be printed and fed back into the machine. *  / were resource intensive
+ - **Cooling**:
+	 - Vacuum tubes are very hot, computer was air cooled, each panel with its own thermometer
+	 - During servicing, panels had to be opened (air leak) and failsafe disabled (one fire occurred to destroy 2 units)
+ - **Programming**:
+	 - Rewiring cables going to/from sockes
+	 - Bus wires: which units are activated, where to send data, repeated instructions, memory reset to 0
+	 - Numerical buses: Transmit number and complement of number, 12 wires (10 for digit, 1 for sign, 1 for grounding)
+ - **After Completion**:
+	 - Spring 1945: Functioning well in test mode, run actual ballistic programs and calculations for atomic energy group
+	 - Late 1945: Dismantled, shipped to Ballistics Laboratory (Aberdeen, Maryland), end of war, put to work on general proglems
+	 - Continued to provide reliable service for another 10 years, only large scale electronic computer used daily
+ - **Later Enhancements**:
+	 - Metal core memory added to store intermediate results (and input/output buffer)
+	 - Not originally conceived as a stored program computer with its hardwired computer program instructions
+ - **The End**:
+	 - Shut off for the final time on October 2, 1955
+	 - 10 years at Aberdeen, Maryland, ENIAC completed more calculations than the entire human race prior to 1945
+
+### British Projects
+ - **The Enigma**:
+	 - Developed by Germany between the two world wars (WWI: 1914-1918, WWII: 1939-1945), two versions (military, business)
+	 - Possessing one wasn't sufficient for decryption
+	 - **Poland**: Heard German military transmissions using the Enigma, purchased and modified commercial copy, little headway
+		 - 1932: Martin Rejewski: Mathematician assigned to study the problem again, 75% deciphered, encryption tech race
+	 - Use: Keying in letters into a keyboard passes a signal through a plugboard to change what letter it is, spits out the new letter to a light board of letters. The sender takes the sequence of output letters and sends to the receiver. The receiver punches in the output letters and receives the input letters if they have the same setting
+ - **British Code and Cipher School**: Deciphering German codes at Bletchley Park, outside London
+ - **Alan Turing** (1912-1954): British Mathematician from Cambrige, remained to work at the college and produced famous paper
+	 - During the war he worked at Bletchley park as a code-breaker, contributed to design, applied mathematical knowledge
+ - **The Robinsons**:
+	 - Staffing levels at Bletchley Park required different sections, each section housed in a hut, only hut supervisors could talk
+	 - General Post Office (Telephone Division): Dollis Hill, West London
+		 - **Mr TH Flowers**: Head of group working on telephone switching problems. Commissioned several pieces of machine built for Bletchley Park, people constructing them assumed it was new photoelectric paper tape reader for telegraphs
+	 - MHA Newman: Envisioned a new machine that could automate part of the decryption process
+	 - Dr CE Wynn-Williams: Designed the machine envisioned by Newman, named **Heath Robinson** (after unusual cartoonist)
+	 - Known Specifications:
+		 - Much info still classified, not general purpose computer, partly implemented with vacuum tubes and telephone relays
+		 - Evaluated some boolean operations on information read from two endless loops (punched paper)
+	 - Quickly Constructed:
+		 - Unreliable, but proved high speed electronic devices could be used in the decoding process
+	 - At least three machines were constructed: Heath Robinson, Peter Robinson, Robinson and Cleaver
+ - **The Colossus**
+	 - Mr TH Flowers: Brought directly on to help redesign Robinson machinery to make it more reliable (vacuum tubes over relays)
+	 - First job given to the machine was completed in 10 minutes (The Savior Machine, aka "The Colossus")
+	 - Known Specifications:
+		 - Bi-Quinary storage of information in the registers
+		 - Internal clock used to synchronize operations
+		 - Controlled by plug board and wires
+	 - Good planning, the second Colossus machine was built in less than a year (First: 1943, Second: 1944)
+		 - Believed up to 10 were fully funtional at the end of WWII, fate of most is still unknown (one moved to Iran, Cold War)
+	 - Similar to Robinsons: Colossi required to complete high speed boolean operations on data read from tape
+	 - Forerunner of the modern computer:
+		 - Basic math perations implemented via bool logic, could be general purpose machines
+		 - Conditional branching was possible, different plug board instructions could be executed depending on stored values
+ - **American Bombs**:
+	 - Few details are available
+	 - One of the last remaining American bomb code breakers resides at the Smithsonian (National Museum of American History)
+
+### Early Stored Program Computers (SPCs)
+ - Must be possible to erase contents of memory (storing new data), store information for long periods of time, inexpensive to build
+ - Must be possible to get at stored information very quickly!
+ - **John Von Neumann** (1903-1957):
+	 - Widely credited with coming up with the concept of the SPC at the Moore School
+	 - Controversial, wrote down ideas while people were discussing it, only put himself as the author, meant as a military report
+	 - **Life History**:
+		 - Age 6: Tell jokes in classic Greek, memorize telephone directories on sight, divide two eight digit numbers accurately
+		 - Age 8: Mastered calculus
+		 - Age 15: Advanced calculus, reported to bring his tutor, Mathematician Gabor Szego, to tears
+		 - Age 19: Publishing his own papers in Mathematics
+		 - Age 30: Youngest member of the Institute for Advanced Science (IAS at Princeton)
+	 - **The Moore School**:
+		 - 1944: Mauchly and Eckert ironed out problems in basic ENIAC design, wrote about magnetic calculating machine
+			 - Instructions could be stored and modified on magnetic disks, frequently used instructions could be etched on
+			 - Von Neumann was a regular visitor at the school, too late to participate in ENIAC design, discussed new machine with instructions stored on tape (EDVAC)
+			 - Lt Herman Goldstine requested $100k to the ENIAC budget to research developing the EDVAC
+			 - This point: Von Neumann actively participated in the design of the EDVAC
+		 - 1945: "The First Draft of a Report on the EDVAC"
+			 - Described in great detail the concept of a stored program computer, Von Neumann listed as the sole author
+			 - First document describing in detail the architecture of a modern computer (Von Neumann Machine)
+		 - 1946: Eckert and Mauchly left the Moore school to found their own company (Electronic Control Company)
+			 - "**Theory and Techniques for the Design of Electronic Digital Computers**"
+			 - Design of EDVAC helped developers on both sides of the Atlantic
+			 - First conceived of SPC
+
+### Computer Memory Types/Technologies
+ - **Thermal Memories**:
+	 - Andrew Donald Booth (1918-2009, United Kingdom)
+	 - Heat parts of a bar that would be read by a heat detector, fans would be used to cool the bar
+	 - Experiment was a failure, unreliable
+ - **Mechanical Memories**:
+	 - Used by Zuse in the Z1 with sliding plates, used in other machines with relays (Z2+, Bell Machines)
+	 - Much slower than the arithmetic unit of the electronic computer
+	 - Andrew Booth tried Disk-Pin Mechanical Memory, wasn't fast enough for electronic machines, 0.25s access time
+ - **Delay Line Systems**:
+	 - First to gain widespread acceptance, used in many machines (EDVAC, EDSAC)
+	 - Mercury Acoustic Delay Line:
+		 - Binary number represented with a series of acoustic pulses through quartz -> mercury -> quartz
+		 - Developed by William Shockley (WWII, Bell Labs), refined by  Presper Eckert
+		 - Technical issues: Good contact between quartz and mercury was hard, speed of sound in mercury affected by temperature (inconsistent)
+			 - Turing suggested filling the gap between quartz and mercury with alcohol
+	 - Air-Based Acoustic Delay Line:
+		 - Booth: Inexpensive and theoretically possible
+		 - Sending acoustic pulses through air, constant speed of sound through air
+		 - Lots of interferene, distortion, and echoing
+	 - The Slinky Delay Line:
+		 - Booth, Electrical pulses through a metal slinky to add delay
+		 - Electricity made the charged slinky oscillate wildly, dangerous for users
+	 - Magnetostrictive Delay Line:
+		 - Tightly coiled thin metal wire (nickel), less sensitive than the mercury delay line, pulse would send compression wave down the coil
+	 - Drawbacks of Delay Line technology: The delay
+ - **Electrostatic Memory (Williams' Tube)**:
+	 - First high speed memory, bit access time in microseconds
+	 - Electron gun sends an electron beam to a deflector, diverted to phosphor to energize it. Binary state of Dot (0) and Dash (1)
+		 - Would rapidly decay, need to keep refreshing
+	 - Tube would have many displayed bits on the screen, computer then reads the screen of dots and dashes
+	 - **Parallels**: Avoid corrupting memory, parallel memory access, each bit of word stored on separate CRTs
+	 - **Timeline**:
+		 - 1946: Idea of using CRT (Cathode Ray Tube) tech as a form of memory mentioned by Eckert in a Moore School lecture
+			 - Frederic C Williams and Tom Kilburn developed first truly high speed RAM at Manchester University
+		 - 1947: First working model is completed, store up to 1000 bits of information
+		 - 1948: Working model is completed to store several thousand bits for several hours
+	- **The Selectron**
+		 - Developed at RCA by a team lead by Jan Rajchman, looks like vacuum tube, 2d grid of holes to allow electrons through
+		 - Originally was to be the main memory for the Institute for Advanced Study (IAS) machine
+			 - Order was cancelled, instead used in Johnniac computer (named after John Von Neumann)
+		 - More reliable and faster than Williams' Tube memory, high cost and lack of availability so only used in one machine
+		 - 2d grid of energy, different dots in the grid would become energized and could be interpreted as data
+ - **Rotating Magnetic Memories**:
+	 - Slow access time of tape (for audio) made them impractical for use as main memory with electronic computers
+	 - Idea of adding magnetic coating (nickel or ferrite) to rotating drum occurred to many people at the same time
+	 - Even with rotating drum, access time was relatively slow
+	 - Two level memory model: Slow speed + High capacity: Stored in magnetic drum, High speed + Low capacity: Williams' Tube
+ - **Booth's Magnetic Memory: Disk**
+	 - Developed a floppy-disk based memory using free samples of Mail-A-Voice (magnetic coating on paper to record a voice)
+	 - 1947: Ran out of free samples, Booth and his father developed their own form of magnetic drum memory
+		 - Installed and working in experimental computer ARC (Automatic Relay Computer)
+	 - 1952: Booth producing large drum memories for others to use
+ - **Static Magnetic Core Memories**:
+	 - 1940s: Prototypes first developed
+		 - WWII: German warships used ore memory in their fire control memory
+		 - After the war, brought to the US and dissemnated to many
+		 - Crossed wires over magnetic core, detection wire on top to see which parts were magnetized
+	 - 1959: Transistors became cheap and reliable enough for use in computers (represent binary state, act as switch)
+		 - Development of magnetic core memory allowed for the SPC to be developed
+	 - Significance:
+		 - Computer speed multiplied, maintenance time fell from 4 hours per day to 2 hours per week (reliability)
+	 - Advantages:
+		 - Cores can be small (reduce size of computers)
+		 - Memory is non-volatile
+		 - Allow for fast random access of memory
