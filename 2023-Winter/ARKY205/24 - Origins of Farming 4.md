@@ -94,7 +94,7 @@
 	 - Lifeways broadly similar, every group could respond to changing local conditions more easily
  - Late Archaic: Population densities were high, groups increasingly restricted to small territories specialized in local resources
 	 - Storage technologies emerged, as did extensive trade with neighbours
- - Result: 1700 BCE, more hihgly developed social complexity, status differentiation in burials
+ - Result: 1700 BCE, more highly developed social complexity, status differentiation in burials
  - Inevitable these groups would eventually turn to deliberate food cultivation, they did so independently of other regions
 	 - Between 2500 and 2000 BCE, goosefoot, marsh elder, gourd, sunflowers being planted and harvested
 

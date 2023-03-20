@@ -1,11 +1,208 @@
 ### Early Roman Republic
 [Things to focus on: Why Rome was successful, how they expanded into Etruria, archaeological landscape signatures for colonization, the RPC project, the archaeology of the Punic wars on land and sea, the material culture of Roman indigenous groups (I will show you at least one picture of indigenous pottery for identification), Samnite identity, Roman means of exchange, the architectural precedents of the Roman villa, and the urban archaeology of early Republican urban houses]
+ - **Latial Culture**: Similar to protovillanovans (oval huts with thatched roofs, handmade black burnished pottery, hut urns)
+	 - Earliest evidence for Greek writing: **Osteria dell'Osa** in Latium (inscription of name on pottery vessel)
+	 - Increased wealth from Etruscan trade, real growth in LC IV (more land being cultivated, populations increase)
+	 - Most famous tombs: Barberini and Bernardini tombs from ancient Praeneste (rich burial goods, thought etruscan control)
+		 - Praeneste Fibula, inscribed artifact from Bernardini tomb (Manius made me for Numerius)
+	 - War bands with charismatic leaders, no Roman army
+ - **Early Republican Rome**: Bridge site on major Tiber river and major land route (Etruria -> Latium and Campania)
+ - **Roman Forum**: Most symbolic feature of Roman republican values, strictly political and religious purposes (unlike Greek Agora)
+	 - Arky evidence suggest it was originally a marketplace before adopting political and religious character
+	 - 1930: Mussolini demolished huge portion of the city, exposed new segments of the Forum
+ - **Cloaca Maxima**: Area of the Forum originally marshy wetland, construct Greatest Sewer to drain it into the Tiber
+	 - Originally an open air canal, Tarquinius Superbus ordered original canal enclosed and buried
+	 - Secondary canals eventually cut into it to help with drainage from public buildings, human waste
+ - **Archaic Italy**: Intense aggressive competition between various small city states
+	 - **Roman aggression linked to aquiring grain**, expanding economic, military superiority helped fuel expansion
+	 - Needed support from other Italian communities
+ - **Early Roman Conquests and Colonies**: Cassian Treaty after victory against Latin League, surrounding settlements conscripted
+	 - Agreed to share spoils of ware, share in colonization of conquered lands in informal way (not organized state-led colonies)
+	 - Most newly settled centers developed into large towns
+	 - Roman aristocrats had militarized ethos, warfare needed for status and public office
+		 - Came from anarchic and militarized environment by archaic Latium, survival meant being aggressive with neighbours
+		 - Rome so successful by policy of incorporating former enemies into their society
+ - **Rome v Etruscans**: Rule over Latium escalated conflict w/ Etruscans, Veii is the closest neighbour and major competitor w/ Rome
+	 - 396 BCE: Romans conquered Veii after 10 year siege during third major conflict 
+	 - No evidence for destroying city and slaughtering male population, became a busy market town
+	 - Adopted aspects of Etruscan culture
+ - **Roman War Machine**: Adopted hoplite phalanx model from Etruscans, professionalization of the army continued to evolve
+ - **Roman Expansion into Italy**: 
+	 - After Veii, Rome attacked by other Etruscan cities north of the Tiber. Aggressive response, truce in 350 BCE
+	 - Ancient sources: Rome made numerous treaties, notably with Samnites and Carthaginians (interest in rich Campanian lands)
+	 - Latin League revolted against Rome for being treated like subjects instead of allies, defeated in 338 BCE, lands incorporated into ager Romanus, cities given municipium status, inhabitants became Roman citizens
+ - **Municipium**: Small town not absorbed into Rome itself, two classes of town:
+	 - Civitas Optimoiure: Citizens have full citizenship, voting rights. Civitas Sine Suffragio: Some rights, could not vote
+ - **Centuriation**: More visible archaeological indicator of Roman colonization
+	 - Roman surveyors (agrimensores) laid out grids to create settlement and farming lots (20x20 actus blocks = centuria)
+ - **Roman Roads**: Represent Roman dominance in the landscape, first major road: **Via Appia** (Rome -> Capua)
+	 - Three types of road: Viae Publicae/Privatae/Vicinalas 
+		 - Public military roads; private rural agrarian roads connecting to publicae; rural roads linking farms/villages with roads
+	 - Three types of construction: Viae Terrenae (dirt), Viae Glareata (gravel), Viae Minutae (ditch filled with rocks, sand, cobbles)
+ - **Regional Pathways to Complexity Project (RPC)** (1990s): Compare landscape trends in 3 Italian regions
+	 - Investigate if Roman influence resulted in homogenous process of urbanization
+	 - Look at changing sites of larger sites, scale of rural sites, understand how arrival of Rome impacted organization
+	 - Result: Urbanism wasn't something Rome brought to Italy, part of a wave of urbanization in the peninsula
+ - **Samnite Wars**: First two Samnite wars ended with alliances in favour of Rome due to Alexander the Great
+	 - Samntites tried to unite central Italy (3rd time) against Romans, battle at Sentinum was another Roman victory, Rome moved into Campania and established colonies at Beneventum and Venusia
+ - **The Pyrrhic War** (280-275 BCE): After the Samnite Wars, Greek cities of Magna Graecia concerned with Rome's expansion south
+	 - Called on Pyrrhus for defense, brought army of war elephants, first time Romans fought eastern Mediterranean power
+	 - Last battle outside Benevento, Pyrrhus victory due to elephants but suffered massive losses, abandoned Magna Graecia
+	 - Little direct evidence for the war, some coins in Syracuse with his name
+ - **Italy in 3rd Century BCE**: Rome continues to expand
+	 - Veterans receive land grants, communities receive spoils of war, local aristocracies supported through Roman financing
+ - **First Punic War** (264-241 BCE): Roman expansion very effective on land, little use for a navy, Carthaginians intervene
+	 - First time Romans fought a major overseas power, fought mainly as naval battles around Sicily
+	 - 20 year war, financially devastating for both sides
+	 - End of conflict: Rome rebuilt its fleet using loans from Roman aristocracy, modelled their ships after Greek quinqueremes
+	 - Beginning with this war: Richest landowners in Rome increasingly getting richer
+ - **Battle of the Aegates**: 250 Cathage quinqueremes arrive, plan to come ashore, march to relieve blockade of Lilybaeum
+	 - Romans cut masts and anchors to make themselves more maneuverable, devastating bronze rams (rostra), decisive victory
+	 - Archaeology: Two ornate rostra recovered, one with legible Punic inscription. 10 bronze helms also recovered (Roman commander with lion skin motif). These allow us to precisely locate location of the battle
+ - **Second Punic War** (218-201 BCE): Rome declared war when Carthage took allied city in Spain, Hannibal sent with war elephants
+	 - Largest army Romans ever assembled was defeated at Cannae, many Italians defect to Carthage
+	 - Publius Scipio attackes Carthage, defeats Hannibal, Carthage surrenders, Rome eventually destroys Carthage
+	 - Archaeology of Roman towns demonstrate most under Roman hegemony remained administratively autonomous until after
+ - **Battlefield at Cannae**: No trace of it because:
+	 - No landscape modification from battles, soldiers and equipment recycled, locals scoured land for small items left behind
+ - **Pottery and Italian Culture**: Main arky signs of growth of Roman influence is imported Roman pottery
+ - **Allied Integrations in Samnium**: Cult sites monumentalized with Hellenistic temples, imported foodstuffs from outside Italy
+	 - Revenues from agriculture & craft production allow elites to import olive oil and wine
+	 - Samnium produced its own wine, but imported from all over Italy, need to befit social and political relations with Rome
+		 - Adopted Hellenistic material culture to be seen as partners rather than subjects
+ - **Motor of the Roman Economy**: Agriculture, contributed to by roads, drainage, centuriation
+ - **Exchange**: Barter -> Cattle -> Bronze ingots (aes rude) -> unmarked bars (aes formatium) -> marked bars (aes signatum)
+ - **Roman Material Culture**: For dating in Italy: Fine ware pottery (tableware), coarse ware pottery (cooking, storage) lamps, coins
+ - **Roman Pottery: Black Gloss**: Fine ware indicative of Roman occupation, four colour profiles (Campana A/B/C/D)
+ - **Indigenous Italian Pottery**:
+	 - **Daunian**: Light coloured, mostly geometric design, curvilinear crude human, plant, bird, **askos** looks like a teapot
+	 - **Messapian**: Figurative representations (influence from Athenian red figure), olla (long curved handles), trozzella (long straight handles with ball joints)
+	 - **Gnathian**: Rather than pick out black paint, colour applied directly to black glaze. White paint dominated, shipped out Italy
+ - **Early Republican Villa**: Symbols of Roman rural domination, economic exploitation, essentially large farm complexes
+	 - Rural Architecture: sismple non-rectilinear dry stone foundations, wattle + daub walls
+	 - Poggo Civitate: Likely largest building on the peninsula at end of 6th century, important architectural precedents of scale
+ - **Early Roman Domestic Architecture**: Roman house: The Domus, plot sizes roughly equal, cross shaped interiors (Greek style)
+	 - Designed to be the opposite of Greek oikois by social role, facilitate public display, constantly hosting outsiders
+	 - Role: Muddle-upper classes, display current and past success two social traditions:
+		 - Salutatio: Morning, atrium open to public so clients could present themselvs to their patrons
+		 - Convivium: Evening, honored clients and guests entertained with food, drink, conversation
+	 - Decor: House walls covered with colourful stucco (accessible form of decoration), only small fragments of frescos survive
 
 ### Hellenistic Greece
 [Things to focus on: differences between the classical and Hellenistic landscape, the consequences of Rome’s arrival and the process of Romanization, the role of Hellenistic women, Hellenistic pottery, and I will show you at least one image of an artifact for identification]
+ - **Alexander the Great**: Great success, empire only lasted 2 years, impact felt over Eurasia for centuries, quickly eroded after death
+ - **Hellenization**: Spread of Greek ideas, material culture styles, people, across western Mediterranean into eastern conquered lands
+ - **Macedonians in the Third Century BCE**: Southern Greeks revolted after Alexander's death, Macedonians came to regain order
+	 - Different leagues attempt to counter the Macedonians, none manage to break away fully
+	 - Philip II built up enough wealth and support to challenge southern Greece after the conflicts at the end of Classical Period
+	 - Macedon was a superpower, influx of wealth from Alexander's eastern conquests
+ - **Hellenistic Landscape**: Maintained trends from Classical period (family farms, high populations, dense settlement landscapes)
+	 - Main difference: Wealth concentrated significantly in the north around Macedon, instead of south Athens, Thebes, Sparta
+	 - Otherwise largely similar to the Classical period, all changed with the arrival of Rome
+ - **Hellenistic Cities**: Dynamic fortunes, if a city was liked by Hellenistic ruler it was promoted, otherwise ignored or disadvantaged
+	 - Kings post Alexander favoured Oligarchy over Classical Democracy, political autonomy of city states largely over
+	 - Monuments built by wealthy kings (instead of public funds), cities attempted to win favour by promising support
+		 - **Stoa of Attalos** by King Attalos to honour Athens for providing his education (Stoa -> colonnaded avenues, commerce)
+	 - Inner city gymnasia: Wealthy couldn't participate in politics, cultivated athletic pursuits + body culture, elite male culture
+ - **Commerce**: Elite barred from politics, new interest in commerce, businesses begin to emerge in urban spaces
+	 - Commerce more important than Classical due to growing personal wealth, new scale of dynastic kingdoms (economy)
+ - **Urban Life**: Reorientating around powerful families, wealth creation is most important social responsibility, larger role of women
+	 - Wealthy landowners spending money on public infrastructure and events, women help distribute wealth
+ - **Hellenistic Houses**: Differentiation in size and decoration, places for public display of wealth and status, less female seclusion
+ - **Vergina-Aigai Royal Palace**: Most spectacular example of changing attitude toward domestic space, built by Philip II
+	 - First capital of the Macedonian Kingdom, monumental east facade, giant court, many rooms, halls, apartments
+	 - Rich urban houses emulate these palaces
+ - **Hellenistic Pottery**: Swift decline in red-figure pottery, plain black/grey-gloss (some w/ incised ornamentation) are common
+	 - Rise in molded ceramics rather than wheel thrown with impressed (stamped) decorations)
+ - **Hellenistic Death and Burial**: No more limits on burial ostentation, stratified society with lavish tombs and Classical art
+	 - Most spectacular: Aigai, original Macedonian capital
+ - **Hellenistic Hygiene**: Grave goods of strigils and mirrors, increase in personal grooming, rise of individualism
+	 - Participation of women -> depict women as attractive and desirable rather than simple managers of the household
+ - **Arrival of Rome**: Abolition of Macedonian state, defeat of Achaean League at Corinth -> 5th Roman province: Macedonia
+	 - Rome opened Greece to international markets, wealthy Romans invested in Greek estates, commerce industries
+	 - Did not stimulate rapid prosperity in Greece: arrival resulted in destruction of cities, crops, and enslavement
+	 - Social breakdown in Greece, great inequality between cities, less populated, less intensively cultivated, less urbanized
+ - **Romanization**: Worked both ways, influence from Rome on Greece (social, economic, cultural) and Greece on Rome (Italian elites)
+ - **Hellenistic Art**: Statuary becomes more individualized, focuse on unique features of people, elite sculpture focus on godlike elites
+ - **Roman Influence on Greek Material Culture**: Two ways for adopting Greek cultural models: take by force/sale, commission style
+	 - Roman demand for Greek art fueld Hellenistic eclecticism movement, Classical + Hellenistic styles mixed
+	 - Shifted to other goods as well, famous example: **Medici Vase**, krater from Pentelic marble, 170 cm tall
+ - **Roman Landscape Legacy**: Major building works in surviving cities (rarely expanded) due to rich Romans, wealth disparity
+	 - Areas of prosperity shift: Northern prosperity declines outside Macedon, instead of old agricultural lands it shifts to new places (Roman colonial foundations at Corinth, Patras, Thessaloniki, Gortryn)
+	 - Small farms replaced by fewer middle/upper class Roman villas, expansion of rural settlement
 
 ### Late Roman Republic
 [Things to focus on: Roman aggression, 4 questions related to the architectural structures presented in Lecture 10.1, 2 questions about the construction styles presented in Lecture 10.2, 2 questions about the Late Republican agricultural system, 3 questions about Late Republican Roman villas (look at villa types), and amphora classification scheme]
+ - **The Republic at 200 BCE**: After the Second Punic War: Italy began experiencing fast imperial economic + territorial expansion
+	 - Effectively an empire without an emperor, last century BCE: civil wars, lead end of Roman constitution, start of dictatorship
+ - **Roman Army**: War machine, quickly annexed territories, professional army with decorated commanders and political opportunity
+	 - Most warfare occured outside Italy, internal battles left few real archaeological traces, external battles leave lots of evidence
+ - **Late Republic Intensification**: Roman world changing at unprecedented scale during Late Republic
+	 - Roman ideals, politics, culture, economy, spread through military and commercial connections all over the Mediterranean
+	 - Social prestige from warfare created powder keg situation, inevitably lead to strong military tyrant
+ - **Bricolage of Late Republican Society**: Complex patchwork of elements of various ages and provenance, **Romanitas**
+	 - Not a static or hybrid material culture of Italian and Greek forms, application of different cultural elements is fully Roman
+	 - Example: Act of bathing, not the first to enjoy bathing, advanced by changing it to a daily act of pleasure (vs hygiene)
+ - **Late Republican Urbanism**: Grow in size, embellishment, number of public buildings. New structures, wider roads, cleaner cities
+ - **Basilica**: Large rectangular multi-functional public space adapted from Stoa Basileios in Athens
+	 - Originally: Court structures, central row with two flanking aisles, separated by columns. Gain association as religious structure
+	 - First known: Basilica Porcia, in Roman Forum. End of 2nd century BCE, emerging everywhere, essential for urban status
+ - **Roman Theater**: Free standing, enclosed on all sides. Copied and improved on Greek designs
+	 - Originally proud of makeshift wooden theaters, not permanent. Eventually replaced by stone and concrete versions
+	 - Theater of Pompey: First permanent theater in Rome, instantly ridiculed by aristocracy (eastern decadence weaken values)
+		 - Added monumental garden (Curia of Pompey), senatorial meeting space, to make it seem more official
+	 - Theater of Balbus: Important for early medieval studies, layers of garbage deposits allow dating 7th, 8th century pottery
+ - **Aqueduct**: Highly symbolic of quick urbanization over the late Republic, mastery of Rome over the environment
+	 - Water drawn into cities, relied on gravity, waterproof cement, sedimentation sluices, mastery of the arch
+	 - Aqua Appia: First aqueduct built in Rome, another four by the end of the period
+ - **Peristyle Garden**: Extensive colonnaded peristyle after contact with Greece
+	 - Increased social competition, new rooms added to atrium house design, support domestic rituals, bolster political careers
+ - **Vitruvius and De Architectura**: Vitruvius writings help interpretation of houses and **construction styles**
+	 - **Opus Quadratum**: Squared blocks of similar height to create even courses (differ in height between layers), mortar not used
+		 - Technique often for monumental (Colosseum) or load bearing structures like arches
+	 - **Opus Isodomum**: Extremely even form of wall construction with perfectly cut regular ashlars
+		 - Style differs from opus quadratum as courses are roughly the same height
+		 - Used throughout most periods, not useful for establishing construction dates
+	 - **Opus Caementicium**: Roman concrete, hydraulic-setting cement "Pozzolana" using volcanic sand
+		 - Imperial period: Often faced with stone or bricks, could build underwater port structures
+	 - **Opus Incertum**: After Caementicium, concrete core in which fist-sized rocks were inserted to create a moderately flat surface, all typically irregular
+	 - **Opus Reticulatum**: Concrete core, using diamond-shaped cubilia placed in regular net-like pattern
+		 - Characterizes transition between Republic and Imperial periods
+	 - **Opus Latericium**: Also called **opus testaceum** (using tiles), Roman brick masonry
+	 - **Opus Mixtum**: Mix of Reticulatum and Latericium, popular during reign of Hadrian
+	 - **Opus Vittatum**: Popular in 4th century CE, several different styles, used until 6th century CE Italy
+ - **Late Republic Countryside**: Rise of great slave-owning estates at the expense of small farmers (couldn't compete) is overstated
+	 - It did happen, impacts were regional, impossible to identify single landscape-scale trend for all of Italy
+	 - Very few comparative archaeology surveys are attempted as each research group has their own methods
+ - **Republican Farming**: Socially seen as the hallmark of an idealized life (profitable, freeing from city obligations)
+	 - Very diverse rural economy, Pliny: wheat and barley were un-Roman and unused (emmer was best cereal); but this is false
+	 - Farm estates could be two general sizes: fundus (small/individual) and ager (larger estate)
+	 - Eventual wheat monocropping from barley and emmer, which is risky (may be due to decline of chora and asty)
+ - **Grapes and Olives**: grapes introduced to Italy naturally, olives transplanted by people
+ - **Late Republic Villa**: Expand in size and grandeur, aristocrats rely on them more to consolidate economic, territorial authority
+	 - Two opposing aspects in rural life: Negotium (duty of urban, political, economic life) and Otium (leisure, country living, villas)
+		 - Otium villas: extremely large or opulent, limited production
+ - **Villa Typologies**: Country residence, opposite of the urban domus. Two main forms:
+	 - **Villa Urbana**: Refined and comfortable (country domus); **Villa Rustica** (more humble, large-scale farming center)
+	 - Further divisions: Villas had a pars rustica (rural dwelling), pars urbana (urban dwelling), pars fructuaria (storage vats, presses)
+ - **Settefinestre, Ager Cosanus**: Vast majority of known villas engaged in productive activites. One exception is Settefinestre
+	 - Interpreted as villa schiavistica (slave run villa), Varro suggests this is the most economical (slave quarters of 45 individuals)
+ - **Amphora**: Heavy and clunky ceramic containers to ship and store food products, manufactured everywhere in the Mediterranean
+	 - Can estimate contents by identifying resin in the interior (resin then wine or garum; otherwise oil), stamps provide maker info
+	 - Dressel Classification (Heinrich Dressel, 1899): Several modifications made to the scheme to further subdivide into classes
+		 - Most classifications up to 1980s relied on morphology of the vessels
+		 - Recent studies increasingly turn to petrological analysis to determine where certain styles originated
+		 - Commonly based on class (morphology) and type (origin, ie. Campanian or Catalan)
+		 - Dressel 1 are probably the most common class, huge amount of variation in these amphoras
+		 - Lamboglia class made on Adriatic coast, commonly confused with Dressel 1A due to rims (less studied, harder to date)
+		 - Brindisi class made around Brindisi in central Puglia, also on Adriatic coast, at least four forms are recognized
+	 - Don't necessarily tell us much about production, invaluable to shipping information
+
+### Potential Bonus Question:
+[Your bonus question will come from Lecture 10.2.]
+ - Mosaics: Opus tessellatum (tesserae > 4 mm) and opus vermiculatum (tesserae < 4 mm), both styles often used at once
+ - Floor styles: Opus signinum (mixing pozzolana mortar with random crushed tile and brick pieces); Opus sectile (regular cut pieces of marble to make regular geometric or lifelike scenes); Opus spicatum (long thin rectangular pieces laid in herringbone pattern)
+ - The different construction styles listed above, likely by pictures given in the slides
 
 ### Readings
  - Becker 2013: Pay attention to how Becker describes the transition in villa culture and architecture between the early and mid-Republican period and the late Republic

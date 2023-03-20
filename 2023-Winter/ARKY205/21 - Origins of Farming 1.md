@@ -41,7 +41,7 @@
  - Stone tool technology: Lunate (crescent-shaped) bladelets for mounting on bone knife or sickle, first ground tools in the region
  - Houses appear to have been wooden or brush superstructures on stone foundations. Shrunk rapidly in size and number during Younger Dryas cold period
  - People buried under the floors of the houses during this period, heads were removed
-	 - Burial contained shell necklaces, traded fromt he Mediterranean and Red Sea (distant)
+	 - Burial contained shell necklaces, traded from the Mediterranean and Red Sea (distant)
 
 ### Pre-Pottery Neolithic A
  - Pre-Pottery groups (PPN) between 12k and 6k BP

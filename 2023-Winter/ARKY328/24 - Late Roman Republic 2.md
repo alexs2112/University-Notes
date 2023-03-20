@@ -65,4 +65,8 @@
 	 - Colonial settlements could act to push or pull settlement around it, largely depending on preexisting indigenous settlement pattern
 	 - Fertility of the soil and hydrological resources could affect chances of finding large-scale productions
 
-### Re
+### Republican Landscape
+ - Generalizations that archaeology has helped make about the late Republican rural landsacpe:
+	 - Environmental parameters largely determined the altitudinal ranges that certain plants and terees could grow, humans ultimately decided these ranges. Over time, ranges fluctuated with climatic change
+	 - Certain parts of the peninsula were more appropriate for particular kinds of agrarian systems, much variety at local level
+	 - Roman victories over indigenous Italian groups caused general shift from nucleated settlement to dispersed settlement, most obvious in territories around large Roman cities and colonies

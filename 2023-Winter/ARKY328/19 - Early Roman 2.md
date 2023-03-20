@@ -38,7 +38,7 @@
 ### Italy in the 3rd Century BCE
  - Rome continues to expand, Italians profited from association with Rome
 	 - Veterans received land grants, communities received spoils of war, local aristocracies supported by Rome through financing and nepotism
-	 - Ethnicities were reinforced rather than stamped out, reducing animosity towards ROmanization
+	 - Ethnicities were reinforced rather than stamped out, reducing animosity towards Romanization
  - Urban centers in central, southern Italy grew larger
 	 - Cities in Etruria and Latium, urbanised earlier, continue to flourish
 	 - Each city had group of elected magistrates, worked with local elites to fund public works
@@ -126,7 +126,6 @@
 ### Motor of the Roman Economy
  - Centuriation, roads, drainage programs, all contributed to the engine of the Roman economy: **Agriculture**
  - Regional variations, decline in occupation in Bruttium and Lucania despite praries and forests dominating the landscape
-
 
 ### Mediums of Exchange in the Early Republic
  - Fifth century Rome exported little, relied on importing grain due to mountainous, marshy territory

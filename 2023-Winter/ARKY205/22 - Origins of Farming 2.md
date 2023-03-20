@@ -137,7 +137,7 @@
  - By 3500, conditions deteriorated again, herders moved south, likely using domesticated crops now
 
 ### Early Food Production in Sub-Saharan Africa
- - After Pleistocene, inhabitants of SubSaharan Africa probably adopted early form of vegeculture on fringes of rainforest
+ - After Pleistocene, inhabitants of Sub-Saharan Africa probably adopted early form of vegeculture on fringes of rainforest
  - African yams easily resprout if the top is replanted
 	 - May have been tradition leading to adoption of cereal cultivation
  - As the Sahara was drying up after 6000 BCE, pastoral people moved south in the savannah belt

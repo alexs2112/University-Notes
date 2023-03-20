@@ -84,7 +84,7 @@
 	 - Problem: Authors writing as if Rome was predestined to be a regional (eventually imperial) power. Not the case until after the Second Punic War
 
 ### Early Roman Conquests and Colonies
- - Legend: Roman victory against the Latin League at the Battle of Lake Regillus resulted in the Cassian Treaty of 493 BCE. Beginning of ROme's domination in Latium
+ - Legend: Roman victory against the Latin League at the Battle of Lake Regillus resulted in the Cassian Treaty of 493 BCE. Beginning of Rome's domination in Latium
 	 - Surround settlements of Sabines, Aequi, Volscians were required to fight for Rome
  - Romans also agreed to share spoils of war and share in colonization of conqured lands in an informal way
 	 - Not organized state-led colonization

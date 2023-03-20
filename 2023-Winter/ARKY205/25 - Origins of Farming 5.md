@@ -75,7 +75,7 @@
 
 ### Early Neolithic
 **Enclosures**:
- - Many types of closures all over Europe, rondels (ditched enclosures) most common
+ - Many types of enclosures all over Europe, rondels (ditched enclosures) most common
  - Debate over the purpose of these places continue, variety of functions
  - Most interpretations highlight their symbolic aspect, stood out in the landscape
 	 - Some even associated with star alignments (calendars)

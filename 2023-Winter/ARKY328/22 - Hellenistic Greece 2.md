@@ -29,7 +29,7 @@
  - Survey around Koressia on Kea: Late Hellenistic times, polis shrank to size of village with no recovery until medieval times
  - Survey in Boeotia: Town of Haliartos was destroyed by Romans in 171 BCE, never recovered. Surrounding landscape was depopulated and poor in Late Hellenistic/Early Roman
  - Berbati survey in NE Peloponnese: Landscape emptied out over the Late Hellenistic, only one significant site remained in the whole valley
- - Same trends in Attica and Laconia, core Classical regions experience decline and depopulation in the Hellenistic and early ROman periods
+ - Same trends in Attica and Laconia, core Classical regions experience decline and depopulation in the Hellenistic and early Roman periods
  - Overall: Early Roman Greece was less populated, less intensively cultivated, less urbanized than during the Classical or Hellenistic periods
 
 ### Early Greco-Roman Material Culture

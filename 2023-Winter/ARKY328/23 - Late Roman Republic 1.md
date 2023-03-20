@@ -104,4 +104,4 @@
  - Increased avenues for social competition, new rooms added to the atrium house design
  - Peristyle used to support domestic rituals and bolster political careers, very different from the private spaces of Greek houses
 	 - No andron or evidence of gender divisions
-	 - Oeci and exedrae used for reception, not private activitiess
+	 - Oeci and exedrae used for reception, not private activities

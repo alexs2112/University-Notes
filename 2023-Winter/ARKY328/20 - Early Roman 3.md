@@ -92,7 +92,7 @@
 	 - Quickly replace MGS type
 	 - Italy's economic core moves from the south to the center of the peninsula
 
-### RIch Getting Richer
+### Rich Getting Richer
  - Economic trend from 266-200 BCE: Italy suddenly withdraws from significant interregional exchange networks and production on the peninsula splits into smaller regions and intensifies
 	 - Pottery manufacturers in Latium and Campania begin signing vessels with maker marks, describing families, origins, specialties
 	 - Southern Italy, production of bricks and tiles (opus doliare) was always publically administered. Over 3rd century BCE, productions are privatized, according to brick and tile stamps

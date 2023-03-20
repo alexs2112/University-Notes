@@ -8,7 +8,7 @@
 ### Introducing Rice and Millet
  - Rice was earliest plant domesticated in the Yangtze Valley, millet was domesticated in colder Yellow River north
 	 - Rice: Marsh grass, flourishes in warm conditions as last Ice Age ended
- - Initial propagation of these wilde ancestors: Alluvial swamp area in the middle Yangtze Valley at the northern limits for rice cultivation
+ - Initial propagation of these wild ancestors: Alluvial swamp area in the middle Yangtze Valley at the northern limits for rice cultivation
 	 - Seasonal flooding would disperse the seeds throughout the wetlands
 	 - Wetland habitats: Perfect for water chestnuts, camellia roots, lots of fish, attracted deer and pigs
  - Rice was minor in diets because mature seeds easily shatter and are hard to harvest

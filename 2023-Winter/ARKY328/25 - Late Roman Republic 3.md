@@ -34,7 +34,7 @@
  - Some villas during the late Republic expanded in size and grandeur, Aristocrats relying on them more to convey and consolidate economic and territorial authority locally.
  - Villas frequent in Roman sources
 	 - Agronomists discuss them at length
- - Roman aristocrats would speak of two apposing aspects of rural life:
+ - Roman aristocrats would speak of two opposing aspects of rural life:
 	 - Negotium: Duty of urban, political, economic life
 	 - Otium: Pursuit of leisure, relaxation, contemplation, and country living (aka, Villas)
  - Early studies of villas were limited to extremely large or opulent ones, "otium villas", limited production
@@ -69,7 +69,7 @@
 	 - Large semi-subterranean structure (cryptoporticus) included a huge wine fermentation vat (lacas vinarium)
 	 - Under the atrium, two cisters to collect rainwater from impluvium and terracotta drains
  - Service courtyard south of main villa structure, included a kitchen, stables, cella
-	 - Slave quarters for about 45 individuals\\
+	 - Slave quarters for about 45 individuals
 
 ### Amphora
  - Ceramic containers designed to ship and store food products made in the villa dominated landscape
