@@ -82,7 +82,7 @@
  - Size of these guys are approximately 60 centimeters in length
 
 ### Amniotes
- - Most advanced organisms
+ - Most advanced organisms, needed to evolve to not require wet skin
  - Egg is inside a membrane, small number of eggs protected by a shell
  - Amniotes includes the higher evolved vertebrates: Reptiles, Birds, Mammals
  - New chapter of history of life: One group capable of spending its entire life inland

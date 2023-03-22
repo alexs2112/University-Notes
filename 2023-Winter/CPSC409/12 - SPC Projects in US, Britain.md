@@ -98,3 +98,143 @@
 	 - Little progress was made
 	 - 1947: Harry Husky joined the project
 	 - Because of the lack of progress (and the addition of Husky) Turing became quite frustrated with the work
+ - Eventually both Turing and Husky left the project
+ - Turing returned in 1948, then left for good to join Williams and Kilburn on the Manchester machine
+ - Finally it was decided that V5 of the design should be the one to implement Ted (1949)
+ - Eventually known as The Pilot ACE
+ - The first program would turn on the output lights in succession ("suck digs" program as standard test)
+ - Derivative machines:
+	 - 1954: English Electric: DEUCE (Digital Electronic Universal Computing Engine)
+	 - 32 more were manufactured in the 1950s and 1960s
+	 - Inside of the DEUCE machines built to allow easy servicing
+	 - Space was rumored to be put into some unexpected and unorthodox uses (change room, clothes dryer, dangerous liaisons)
+ - The NPL-based machines were often faster than its contemporary computers, even ones with greater memory resources
+	 - Timing clock operated at a speed that was faster
+	 - Allowed for some complex programming optimizations
+
+### American Developments
+ - End of the second world war, Americans attained many advancements in electronics
+	 - Completion of the first fully functional electronic computer: the ENIAC
+ - Moore School lectures outlined the design of the stored program computer (1946)
+ - Believed the Americans would develop the first SPC in a matter of months
+ - Early lead lost to the British because of a number of factors:
+	 - Loss of post-war funding for electronics research
+	 - Feuding: Eckert and Mauchly vs John von Neumann (paper seen as an attempt to take credit)
+ - Eckert and Mauchly were the main leads behind the development of the ENIAC, formed the concept of the SPC long before von Neumann visited the Moore School
+ - US Official Secrets Act: Prohibited Moore School personnel from publishing anything about either the ENIAC or the EDVAC (von Neumann wasn't a member of the team, under no constraints)
+ - Disputes over patent rights:
+	 - Eckert/Mauchly believed main people behind the work should be the owners of any patents
+	 - University of Pennsylvania believed the university should own the rights
+	 - Moore School required all staff to sign over their patent rights, Eckert and Mauchly left in 1946
+		 - Electronic Control Company, built BINAC and UNIVAC, eventially taken over by Remington Rand
+
+### Lecture: Theory and Techniques for the Design of Electronic Digital Computers
+ - Free lectures about the idea of an SPC in 1946
+ - Many notable attendees: Eckert and Mauchly, Stibitz, von Neumann, Aiken, Maurice Wilkes
+ - Lecture marked a major turning point in the development of computers
+	 - Many projects directly advanced as a result (Wilkes working on the EDSAC)
+
+### The EDVAC
+ - Electronic Discrete Variable Arithmetic Computer
+ - Funded by US Army Ordnance
+ - Conceived of by the Moore School staff while they were still working on the ENIAC
+	 - First SPC to be conceptualized
+	 - Informal discussions, many staff members involved in discussions
+	 - Formal description: "First Draft of a Report on the EDVAC" (von Neumann)
+	 - Was to use mercury delay line memory, single bit accessed at a time (serial) to keep design simple
+ - Eckert and Mauchly resigned in March 1946: ENIAC engineer Kite Sharpless took over the EDAC project
+	 - Herman Lukoff assigned to solve problems with the mercury delay line technology (radar left on, scrambling the bits)
+ - Spring 1947: Delay line memory for the machine was working well enough for a demonstration
+ - Project progressed until summer 1947, Kite Sharpless and others left to form their own company (Technitrol Engineering)
+ - Morale sank earlier with the problems with Eckert, Mauchly, von Neumann, fell again with the loss of the projects leader once more
+	 - Finally, Richard Snyder appointed the chief engineer, saw the project to its conclusion in 1952
+ - First conceived of SPC, not the first one completed
+	 - Plagued with personnel and political problems
+	 - Unlike many contemporary machines the EDVAC project required many components to be developed alongside the machine
+	 - Extraordinary mechanisms used to ensure the accuracy of the results
+ - **Specifications**:
+	 - Mercury delay-line memory: 1024 word capacity, 44 bits/word
+	 - Magnetic drum memory: 4000 words
+	 - Clock pulses at the rate of 1 million per second
+	 - Speeds:
+		 - Addition: ~1 ms
+		 - Multiplication/Division: 3 ms
+
+### Institute for Advanced Study (IAS) Machine
+ - John von Neumann and Herman Goldstine ended association with Moore Schoole to return to the IAS
+ - Funding obtained from the same military groups that funded the ENIAC and EDVAC
+	 - Von Neumanns "pull" within the military
+	 - Wasn't clear which machine would be superior (IAS vs UNIVAC)
+ - Other funds came from the Atomic Energy commission and RCA
+ - March 1946: Eckert and Mauchly going through patent problems with the Moore School
+ - Von Neumann invited Eckert to join him as project leader
+	 - Wanted open research, Eckert wanted inventors patent rights
+	 - Julian Bigelow finally offered the position
+ - Memory:
+	 - Designed to access memory in parallel (instead of contemporary serial based machines)
+	 - Originally to use RCA Selectron memory
+	 - Delays in production of working Selectron tube required a switch to Williams' Tube memory
+ - June 1952: Machine officially unveiled publically, enhancements still made after this
+ - Machine processed data in parallel, was very fast:
+	 - Additions: 60 microseconds (EDVAC = 1000 microseconds)
+	 - Multiplications: 300 microseconds (EDVAC = 3000 microseconds)
+ - 1960: Original machine donated to the Smithsonian
+ - Von Neumann believed in open research project, copies of plans sent to many other groups to make other copies
+ - Many copies were made ("IAC"/"AC" series based on the "IAS" machine)
+	 - JOHNNIAC (Rand Corporation)
+	 - MANIAC (Los Alamos Laboratiory)
+	 - AVIDAC, ORACLE, GEORGE (Argonne National Laboratory)
+	 - ORDVAC, ILLIAC (University of Illinois: Former for the Aberdeen Proving Grounds, latter for own use)
+	 - SILLIAC (Sidney Australia)
+
+### UNIVAC/BINAC
+ - **Background**:
+	 - 1946: Eckert and Mauchly could see deteriorating situation at the Moore School, took appropriate measures to secure their own future (with some self promotion)
+	 - When Eckert and Mauchly left the Moore School they founded the Electronic Control Company
+		 - Groundwork laid to allow them to get a warm reception from the Census bureau
+		 - Unfortunately, law prevented the Census bureau from contracting research work (only purchase a fully working machine)
+	 - Set up a 3 way agreement between their company, Census bureau, National Bureau of Standards
+		 - Army Ordnance ($300k) -> Census Bureau -> National Bureau of Standards ($75k) -> Eckert and Mauchly
+		 - Only got $75k out of the $300k requested
+	 - Originally called an EDVAC type machine, problems with Moore School, changed to UNIVAC (Universal Automatic Computer)
+	 - Finances: Cost $400k, Census Bureau Funding $300k, National Bureau of Standards $75k
+		 - Short by about $25k-$100k
+	 - 1947: Eckert and Mauchly changed their business partnership to a formally incorporated entity: Eckert-Mauchly Computer Corporation to attract outside investment
+		 - Incorporating: Separate financial entity to sell stocks
+	 - Government funding only brought limited cash flow
+	 - October 1947: Northrop Aircraft Company agreed to fund the development of a BINary Automatic Computer (BINAC)
+		 - $80k upfront, $20k upon completion
+		 - Target completion date: May 15, 1948 (would have been first working SPC)
+		 - Actual completion date: 1949 (first SPC in North America)
+ - **BINAC**:
+	 - Memory:
+		 - Main: Mercury Delay lines: 512 words (for each half) x 31 bit/word
+		 - Secondary: Nickel-coated bronze (magnetic) tape
+	 - Accounting:
+		 - Amount paid by Northrop: $100k
+		 - Actual cost to produce the machine: $278k
+		 - Problem: $-178
+	 - Completion of a working machine allowed prospective clients to put in orders for the (still theoretical) UNIVAC
+		 - 3 government agencies
+		 - AC Nielsen
+		 - Prudential Insurance
+	 - Contract price was insufficient to cover the research and development costs
+ - **UNIVAC**:
+	 - 1950: Imminent insolvency, the Eckert-Mauchly Computer Corporation was sold to Remington Rand
+		 - Senior Remington Rand executive put in charge, Eckert and Mauchly kept on staff
+		 - Remington Rand attempted to renegotiate the 5 contracts
+		 - 2 private sector contracts were cancelled, 3 government contracts successfully renegotiated
+		 - First UNIVAC delivered to the Census Bureau March 1951
+		 - Second (after the Ferranti Mark I) electronic computer to be produced under contract for a commercial costumer
+	 - At first Remington Rand didn't fully understand the significance of the technology it had bought
+		 - Didn't think it was useful, their customers clamored for computers
+	 - Total of 44 UNIVAC computers produced for government and industry
+	 - Made Remington Rand the first large scale computer company, for several years "computer" was equivalent with "Remington Rand"
+	 - CBS used a UNIVAC computer to predict the 1952 US presidential election, ran simulations
+		 - First Run: Landslide victory for Eisenhower, didn't want to broadcast it so tweaked it, most accurate one
+		 - Second Run: Still a solid win for Eisenhower
+		 - Third Run (broadcast on network TV): Relatively close, Eisenhower slightly wins
+	 - **Specifications**:
+		 - Memory: 1000 words
+		 - Timing Clock: 2.2 MHz
+		 - 

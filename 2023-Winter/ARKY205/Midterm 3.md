@@ -182,7 +182,30 @@
 
 ### Readings
  - For Hodder 2022: focus on the terminology he uses to discuss organizational differences at Catalhoyuk
+	 - Molar: Emphasize the whole of something, unifiable, totalizable, organizable
+		 - Early + Middle phase, highly complex overlay of demands on constituent units (over-coding, hierarchical)
+	 - Molecular: Constituent parts, composed of particles
+		 - Mode of articulation allowing for greating independence, autonomy of parts (egalitarian)
  - For Zeder 2011: review all the plant species she discusses
+	 - New archaeologial insight into plant domestication:
+		 - Cereals: Einkorn, Rye, Barley, Wheat
+		 - Pulses: Lentils, Chickpeas, Faba Beans
+		 - Figs: Tree crop of Figs
+		 - Plant Management: Sea club-rush, Dock/Knotgrass, Large Seed Legumes, Almonds, Pistachios
+			 - Emmer?
  - For Jones et al 2021: be sure to understand their conclusions
+	 - Plant evidence first to show ecological processes played significant part in plant domestications, origins of agriculture
+	 - Size is important factor in selection of crop progenitors, seed size != yield, bigger seeds not of human selection
+	 - Crop progenitors germinate faster, selected for suite of traits to give advantage in resource abundant environments
+		 - Rapid germination, early growth rate as particularly advantageous attributes of early selection
+	 - Unintended selctive pressures: Plant size and photosynthetic capacity, coevolutionary factors rather than intended
+	 - Pace of domestication dependent on relative roles of human intent and selective pressures
  - For Fuller et al 2011: focus on their core argument
+	 - Instead of rapid plant domestication in a single area, numerous parallel processes of domestication across region
+	 - PPNA cultivation was widespread, early stage on slow millenial road to domestication and agriculture
+	 - Evidence from Near East indicates complex mosaic of crop origins and animal domestications
  - For Morales et al. 2013: focus on the nature of the archaeological site itself
+	 - Ifri Oudadane: Maquia-forest type of small trees, human activities responsible for deforestation, depletion of resource
+	 - Cave divided into 2 occupation periods: Epipaleolithic period, possible Early Neolithic (pottery, domestic bones)
+		 - Neolithic further divided into three sublayers (Early Neolithic A, B, C)
+	 - LIkely seasonally occupied, foragers with high marine diet, mostly for processing+consumption of marine resources

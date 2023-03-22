@@ -206,8 +206,14 @@
 
 ### Readings
  - Becker 2013: Pay attention to how Becker describes the transition in villa culture and architecture between the early and mid-Republican period and the late Republic
+	 - Early and Mid: Proliferation of small farms in central Italy
+	 - Late: Explosion in villa architecture, radically changed the landscape
  - Laubenheimer 2013: The core artifact used to discuss wine distribution in Gaul is the amphora. The question asked will require you to know some very high-level trivia about them in the context of this chapter.
+	 - Monopoly of Italian wines in Gaul ends after Caesar's conquest -> rarer amphoras, packed in different containers
+	 - Shipwrecks containing thousands and thousands of amphoras
  - Versluys 2013: Focus on the social mechanisms that Versluys describes when discussing how Roman and Greek identity were constructed in the late Republic.
+	 - Roman and Greek were opposite, different constructions functioning interchangeably for different contexts, code-switching is of great importance
+	 - Roman national identity is political status one could be obtained through citizenship, could develop into normative/emotional identification
  - Bintliff 2012: Focus on what Bintliff describes in terms of the effect Roman hegemony had on Aegean towns.
  - Antikas 2016: The question I’ll ask is related to some trivia about the tomb: create a list of some high-level facts related to the cremains individuals, their identities, and the finds.
  - Post 2017: Pay attention to the sources of evidence Post describes.
