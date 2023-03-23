@@ -237,4 +237,72 @@
 	 - **Specifications**:
 		 - Memory: 1000 words
 		 - Timing Clock: 2.2 MHz
-		 - 
+		 - Speed: Addition: 0.5ms, Multiplication: 2ms, Division: 4ms
+		 - Similar to the BINAC, each operation completed independently by half of the computer and then the results were compared
+
+### SEAC/SWAC
+**SEAC**:
+ - During the Great Depression, a US government - National Bureau of Standards (NBS) - stimulus program involved hiring the unemployed to create mathematical tables
+ - National Applied Mathematics Laboratories was set up as a special division
+	 - Nathional body to lead the development of new computational technology, perform large-scale calculations
+ - One of the leaders on the project (chief mathematician) George Dantzig tired of the delays in the development of the UNIVAC and the IAS machine
+ - Late 1948: Dantzig convinced the US Air Force to provide funding to the Applied Mathematics Laboratories to produce a small computer as a stop gap
+	 - Initially known as the National Bureau of Standards Interim Computer
+	 - Later became known as the SEAC (Standards Eastern Automatic Computer)
+ - **Specifications**:
+	 - Mercury delay line memory
+	 - Input/Output: hexadecimal, via a single teletype, paper type punch and reader
+	 - Simple instruction set: Addition, subtraction, multiplication, division, comparison, input, output
+	 - Clock: 1 MHz
+	 - Memory: 512 words x 45 bits/word
+ - **Construction**:
+	 - Consisted of a simple design that was constructed as quickly as possible to avoid major technical problems
+	 - Low clock speed to avoid interference between electronic components
+	 - Soldering was sometimes poorly done, required unique and ingenious maintenance techniques
+		 - Needed to jump up and down to shake up the soldering
+	 - SEAC was fully operational during the first demonstration (April 1950)
+		 - Contrast: BINAC ran some test programs in August 1949 but was still incomplete
+**SWAC**:
+ - Standards Western Automatic Computer (SWAC)
+ - Intitute for Numerical Analysis (INA) was a research group within the (National) Applied Mathematics Laboratories
+ - 1948: Harry Husky came over from the National Physical Laboratory (Britain) and initiated the INA computer construction project Jan 1949
+	 - To reduce the risk of investing in an unproven technology (Williams Tube) the NBS opted to make the SWAC a parallel machine using Williams Tubes (primary) and magnetic drum (secondary)
+ - Similar to the SEAC, the SWAC was meant as a stop-gap computer
+ - **Specifications**:
+	 - Memory:
+		 - Primary: 256 words x 37 bits/word
+		 - Secondary: 8000 words
+	 - Speed:
+		 - Addition: 64 microseconds
+		 - Multiplication: 384 microseconds
+		 - As of its completion date (July 1950) it was the fastest machine in the world (until IAS machines a year later)
+
+### Project Whirlwind
+ - 1943: Louis de Florez (US Navy, Aeronautics)
+ - Flight simulator with real time responses
+ - 1944: Jay Forrester, graduate student with the Servomechanisms Laboratory (MIT) was asked to look into the project
+	 - Initially, analog technology was investigated but it proved to be too slow for the simulator
+ - Late 1945: Machine's design was switched entirely to digital electronic
+ - Early 1950s: Focus of the Whirlwind computer switched from acting as a flight simulator to coordinate a defense against the possibility of an enemy bomber attack (Cape Cod)
+	 - Tracking incoming bombers
+	 - Scrambling fighter interceptors
+ - First went online on April 20, 1951
+ - First computer to utilize magnetic core memory
+ - Successful, many of the Whirlwind staff were transferred to work on a continent wide system: SAGE (Semi Automatic Ground Environment) Air Defense System
+	 - Work contracted out to IBM
+	 - Machines known as AN/FSQ7 (first mass produced machine to utilize core memory)
+	 - Referred to as Whirlwind II, of a different design
+	 - The AN/FSQW7 machines provided the central air defense radar system (North America) until the 1980s
+
+### Comparison of the First SPCS:
+|Name|Completion|Addition (ms)|Multiplication (ms)|
+|---|---|---|---|
+|Manchester Machine|**June 1948**|1.2 ms|2.16 ms|
+|EDSAC|**1949**|1.4 ms|4.5 ms|
+|NPL|DEUCE 1954, Pilot ACE 1959|NA|NA|
+|EDVAC|1952|1 ms|3 ms|
+|IAS Machine|1952|**0.06 ms**|**0.3 ms**|
+|UNIVAC|1951|0.5 ms|2 ms|
+|SEAC|April 1950|NA|NA|
+|SWAC|July 1950|0.064 ms|0.385 ms|
+|Project Whirlwind|April 1951|NA|NA|

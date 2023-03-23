@@ -1,0 +1,76 @@
+### IBM
+ - As previously discussed: Around the early 1900s IBM developed a reputation producing large calculators
+	 - By 1950s, produced several different lines of scientific and business computers
+	 - Were a leader with a US market share of 70% from 1950s onward
+	 - Done by extensive spending on research and development, estimated to be around $500m with laboratories from coast to coast (US) and in Europe
+		 - High entry barriers to the industry (expensive R&D)
+		 - Almost no manufacturers save IBM made a profit selling large computers in the 1950s
+**The NORC**
+ - Naval Ordinance Research Calculator
+ - Goal was to produce the fastest machine possible
+	 - Few customers for such an expensive undertaking
+	 - Fastest computers of the time: The NORC is generally regarded as the first super computer
+ - The US Navy's Bureau of Ordnance was having trouble finding someone to produce a machine capable of this type of large scale computational problem
+	 - To help generate good-will and a positive corporate image, IBM agreed to develop the machine even though it wouldn't make any money
+ - Ready for delivery for the US navy at the end of 1954
+ - **Specifications**:
+	 - Memory:
+		 - 264 Williams tubes
+		 - 3600 words x 16 bit words (17th bit for error checking)
+	 - Speed:
+		 - Addition: 15 microseconds (4x faster than IAS)
+		 - Multiplication: 31 microseconds (10x faster than IAS)
+		 - Focus on reliability over brute speed for this machine
+ - **Significance**:
+	 - Changes in technology that came about as a result of the work on the NORC
+	 - Significant improvements in the design of the magnetic tape drives (x5 speed)
+	 - Improvements in the design of the memory (read around problem)
+**IBM 701**
+ - Designed at the same time as the NORC
+ - Targeted towards defense agencies for the Korean War effort "Defense Calculator"
+	 - Eventually known as the 701 computer
+ - 1951: The decision was made to produce the 701
+	 - Many design issues had been worked out earlier: Feasibility of Williams' Tube memory and the desire for improved input (replacement of standard punched cards with tape)
+ - 1953: The 701 was complete
+	 - Working out the design issues had given IBM an advantage over its competitors
+	 - Original quote was $8000/month with 50 pre-orders
+	 - After completing the 701 the quote had to be revised to $15000/month, sign ons dropped to 5
+ - **Specifications**:
+	 - Memory:
+		 - Williams' Tubes
+		 - 4096 words x 36 bit word size
+		 - Unfortunately the memory tubes were visible through glass and doors, problems arose during formal unveiling (1953)
+			 - Running a demo for the press
+			 - One reporter came too close, the flash of the camera screwed up the Williams Tubes (light sensitive)
+	 - Speeds (according to IBM):
+		 - Addition: 60 microseconds
+		 - Multiplication: 456 microseconds
+ - **Successors**:
+	 - 702 (along with 701, part of the first group)
+	 - 704, 705 (second group)
+	 - 709 (replacement for machines in the second group)
+**The Stretch**:
+ - After the completion of the NORC, IBM initiated a research project to determine the feasibility of developing a machine at least 100x faster than the current technology
+	 - Actual: only 30x faster
+ - Official Name: IBM 7030
+ - Common name: Stretch (Stretch the state of the art in processing speed)
+ - Technical improvements employed in the Stretch
+	 - Use of high speed transistors in the process (x10 speed increase over the 704)
+	 - Used improved high speed core memory employed in the SAGE
+ - Technical improvements coming out of work on the Stretch:
+	 - Improved magnetic storage devices (multiple read/write arms in a disk pack over magnetic drum)
+	 - Pipelining
+ - **Instruction Pipelining**:
+	 - Memory is sometimes idle
+	 - To increase speed as one instruction was decoded and executed, the next 5 would be accessed and partially decoded
+	 - Memory locations that were numerically adjacent were stored in different banks
+ - **Specifications**:
+	 - Addition: 1 microsecond
+	 - Multiplication: 1.8 microseconds
+ - **Completion**:
+	 - 1961: First one delivered
+	 - Later: Seven others were delivered (mostly for atomic energy or defense-related research)
+		 - One modified for use by the NSA (National Security Agency) for use in code breaking
+	 - Resulted in many technological advances
+	 - However not as fast as hoped or promised, not regarded as financially stable
+	 - Not enough demand for such a high end (and expensive) machine to justify the development cost
