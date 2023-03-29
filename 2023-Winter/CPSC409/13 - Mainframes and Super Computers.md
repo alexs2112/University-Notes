@@ -74,3 +74,102 @@
 	 - Resulted in many technological advances
 	 - However not as fast as hoped or promised, not regarded as financially stable
 	 - Not enough demand for such a high end (and expensive) machine to justify the development cost
+
+### LARC
+ - Livermore Atomic Research Computer (LARC)
+ - IBM and UNIVAC were the only major players in the production of computers
+ - When IBM was starting the Stretch, UNIVAC was working on the LARC for the Lawrence Radiation Laboratory (Livermore, California)
+ - **Specifications**:
+	 - Memory, divided into eight independent banks:
+		 - Each bank could store 2500 words x 11 decimal digits/word = 20k words, upgradable to 97.5k words
+	 - Two computers:
+		 - 1. Input/output
+		 - 2. Arithmetic
+	 - Speed:
+		 - Addition: 4 microseconds
+		 - Multiplication: 8 microseconds
+	 - Comparable Computational Times:
+		 - Stretch < Atlas < LARC < UNIVAC 1103A < IBM 704
+ - **Success?
+	 - It is very fast
+	 - Similar to the Stretch, a combination of high development costs and minimal demand
+		 - Lawrence Radiation Labs (Livermore, California)
+		 - US Navy Research and Development Center (Washington DC)
+
+### Ferranti Atlas
+ - University of Manchester: Fred Williams and Tom Kilburn produced the initial "Manchester Machine"
+	 - Joined with Ferranti to produce several others: Mercury, Pegasus, Orion (Greek series)
+ - 1956: Kilburn leads a team to investigate the construction of the Ferranti Atlas
+	 - Atlas: Holds up the world, powerful machine for a powerful titan
+	 - A powerful machine requires a great deal of memory
+ - **Memory**:
+	 - Used a design that gave the illusion of a single-level fast memory of large capacity (virtual memory)
+		 - Implementation of virtual memory allowed for a total memory of 100k words * 48 bits/word
+		 - 16k words in magnetic core memory
+		 - 96k words in magnetic drum memory
+		 - (Up to 1 million locations were addressable)
+ - **Speed**:
+	 - Comparable computation times: Stretch < Atlas < LARC
+	 - Addition: 1.4-2 microseconds
+	 - Multiplication: 4.7 microseconds
+ - **Success?**:
+	 - Not a commercial success either, only three were installed
+		 - University of Manchester
+		 - University of London
+		 - Atlas Computer Laboratory (Chilton Oxford shire, England)
+			 - "Alien"
+	 - One of the planned abilities: Time sharing terminals were scrapped due to budget limitations
+		 - Could have made the design financially feasible, made mass time-sharing available earlier
+
+### IBM 360 Machines
+ - Problems with existing computer market:
+	 - Machines were not backward compatible (incompatible peripherals and software)
+	 - Most computers were designed either for commercial data processing or scientific applications (massive calculating power needed)
+		 - For many organizations, often a need to solve problems in both areas
+ - 1961: IBM decided to produce a family of computers (360)
+	 - Small and inexepensive to ones more powerful than the Stretch (addition in 200 microseconds to 1 microsecond)
+	 - Each would run the same operating system (variants of 360, with some subvariants)
+		 - Basic operating system 360, Tape operating system 360, Disk operating system 360, etc
+	 - This ensured all the machines were capable of the same operations
+	 - Character and numeric information were stored in a standard form: 8 bit bytes
+		 - IBM: EBCDIC (Extended Binary Coded Decimal Interchange Code)
+		 - Everyone else: ASCII
+	 - Eventually a number of different machines had similar operations to the IBM System/360 line
+ - This resulted in many other companies producing their own lines of machines that were compatible with the IBM 360
+
+### IBM and Computers of the 1960s-1970s
+ - IBM Dominated the mainframe (computer) market in and around the 1950s-1960s
+	 - 70% market share with yearly sales in the billions
+	 - Next closest competitor was Sperry Rand (UNIVAC) with sales ~100 million
+	 - BY 1970s, other companies like General Electric and RCA left the market, leaving the BUNCH
+		 - Burrows
+		 - UNIVAC
+		 - NCR
+		 - Control Data
+		 - Honeywell
+	 - This group remained stable until the 1980s and the advent of the microcomputer
+
+### High End Competition: Seymour Cray
+ - Initially helped design super computers for CDC (Control Data Corporation)
+ - Eventually left to form his own company: Cray Computers
+ - On the high end of computing for customers like the NSA, sheer performance over compatibility was of importance
+	 - IBM unable to effectively compete on this high end
+
+### 360 Clones
+ - IBM provided a great deal of technical specifications to its customers and to software developers
+ - IBM became powerless from preventing others from building what it referred to as a "clone" of the 360
+	 - Companies like RCA could sell clone versions of 360 for less than IBM (no development costs)
+	 - Later UNIVAC (part of Sperry-Rand) bought out RCA's market, sold their own 360 clones
+	 - Soviet Union: Building 360 compatible computers became a quick way for the USSR to construct powerful mainframes
+
+### IBM 370
+ - Finally the 160 architecture could no longer meet with the needs of the times
+	 - Timesharing (360 wasn't incompatible with it, not built to take advantage of it)
+		 - Did allow it, just not very well
+	 - Timesharing: Multiple users on one computer
+	 - Allow access to a computer to groups who couldnt afford to buy one
+	 - Reduced inefficient computer use (rare that any one developer would really push the hardware)
+ - Late 1960s: IBM System/370 came out as a replacement for the 360 design
+	 - Better support for time sharing
+	 - Among other things: Helped IBM's problems with 360 cloning
+		 - RCA sold its market to Sperry-Rand after the withering effect from the release of the 370
