@@ -15,7 +15,7 @@
 	 - **Yunnanozoon**: True chordate, occurs in vast numbers
 	 - **Myllokunmingia**: Chordate that starts making a transition to the true vertebrates, has a weird notochord
 	 - **Haikouichthys**: Very well developed vertebral column. The first vertebrate, very well documented in the history of life
-	 - **Cheungkongella**: First tunicates (benthic and plantic, aka ascidians ?). Attached to seafloor with thin notochord
+	 - **Cheungkongella**: First tunicates (benthic and plantic, oldest ascidian). Attached to seafloor with thin notochord
  - Very well defined segment from the lower -> lower-middle Cambrian documenting the evolution of vertebrates
 
 ### Conodonts
@@ -36,7 +36,7 @@
 	 - Symmetric chewing apparatus
  - **Conodont Types**:
 	 - Morphological types of these conodonts (pieces)
-	 - ![[conodont_types.png|450]]
+		![[conodont_types.png|450]]
  - **Conodont Growth**:
 	 - Three types of growth, in order of growing complexity through evolution
 	 - When looking at the ring at the base of the growth, we realized we know what they are

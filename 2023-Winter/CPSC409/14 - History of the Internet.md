@@ -151,5 +151,90 @@
  - With this new protocol, the host computers (and not the less powerful IMP computers) were now responsible for the connections
  - Similar to Baran's (nuclear weapon-proof) network, TCP focused on robustness over central control (source of confusion for the purpose of the internet)
  - Late IP (Internet Protocol) was developed, added to handle communications between networks
- - 1977: Testing the robustness of the protocol by streaming music from USA to the UK without losing any packets
+ - 1977: Testing the robustness of the protocol by streaming music while travelling around the USA to the UK without losing any packets (some breaks and delays but the packets were recovered)
  - January 1, 1983: Transition made from NCP to TCP/IP
+ - At this point ARPA was no longer funding pure computer science research, instead it worked on "military interesting" research:
+	 - Decentralized militaries needed to access the resources of central command, smaller (micro) computers to talk to the bigger computers
+ - When microcomputers (desktop) appeared, there was skepticism that the hardware could handle the big and complex TCP protocols
+	 - Disproven with a demonstration by researchers at MIT who connected a Xerox workstation and then an IBM PC
+
+### Four Ground Rules Critical to Kahn's Early Thinking
+1. Each network would be distinct
+	 - It should be able to stand on its own, no internal changes required to connect to the internet
+2. Communications would be done on a best effort
+	 - Retransmit failed packets until it succeeds
+3. Black boxes (eventually named gateways or routers) would connect the networks
+	 - Pass information from network to network
+4. There would be no global control of the operations of the network
+
+### PRNET (Packet Radio Network)
+ - Came out of the work at the University of Hawaii
+ - Needed to connect the 7 campuses spread across 4 islands
+	 - Leased telephone lines were expensive and too poor in quality to carry data (very slow), researchers looked to radio transmissions
+	 - Unlike point to point phone signals, radio indiscriminately sent to all receivers in range
+	 - Information broadcast by different parts of the network could collide and destroy each other
+	 - Immediately resending the packets wasn't a solution
+ - 1969: Simple but effective solution was implemented: The ALOHA method
+ - Solving the problem of transmitting packets via radio was timely
+	 - US Senate just cut $400m from defense spending
+	 - All funded research must have a direct and apparent relationship to a specific military function
+ - Department of Defense not only wanted to use the capabilities of the mainframe centrally (Pentagon) but also in the field (deployed troops)
+	 - Placing mainframes in/near combat zones was not feasible
+	 - Solution was to have weaker portable computers communicating with the mainframe
+	 - Existing infrastructure (telephone lines) were too vulnerable, direct connections were needed and had to be able to be reestablished if lost
+ - Aloha Method would allow the US Central Command's mainframes to communicate with troops in the field
+	 - Didn't require wired telephone connections
+	 - Used packets rather than a direct point to point connection
+
+### Centrifugal Nature of the Internet
+ - Messages don't take a single path (and lock that route) like telecommunication information
+ - Data is broken up and take whatever path is available
+ - Instead of centralized control, control is delegated to individual hosts (each host is equal to each other)
+
+### Email
+ - March 1972: Ray Tomlinson wrote the first hot application: Email
+ - Motivation: Provide ARPA developers an easy way of coordinating their work
+ - Mailing lists allowed large groups of people to discuss a topic via an asynchronous mass medium, instead of a synchronous point to point one
+	 - First mailing list: SF-LOVERS (science fiction)
+	 - Soon joined by many others: NETWORK-HACKERS, WINETASTERS, etc
+ - Email remained the most popular application in the network for over a decade
+	 - 75% of ARPA network traffic was email
+
+### Transition From ARPANET to the Modern Internet
+ - Exact time is unclear, tehre are no precise milestones
+ - Original idea was that there would be multiple independent networks
+	 - Each network would be separately designed and maintained
+		 - Each would suit the needs of its individual users, not The Internet as a whole
+	 - First of these networks was the ARPANET
+		 - Others were soon connected (PRNET, SATNET, etc)
+ - Things that helped increase the usage of the early Internet:
+	 - AT&Ts free distribution of USENET (online discussion groups)
+	 - The rise of national commercial networks: ISPs such as PSI, UUNET, ANS CO+RE (for profit subsidary of the non-profit Advanced Network and Services), etc
+	- 1970s: Ethernet allowed for a fast and easy way to transport data
+		- Ethernet cables made network connectivity easier and faster
+		- Increased use of networks increased the size of the internet
+	- 1988: National Research Council committee (Kleinrock, Kahn, Clark) produced a report: Towards a National Research Network
+		- It influenced (then senator) Al Gore, its invention was then attributed to him (put lots of funding into it)
+			- Pushed for laws and bills to support the development of the internet
+	- The World Wide Web (WWW) was a major factor
+- 1980s:
+	- While the ARPANET was created for military purposes, some organizations using it (universities, businesses, etc) found it useful for other purposes
+	- Also the US department of defense realized that having military data/programs was a security risk
+	- The ARPANET was split into two parts:
+		- MILNET (military)
+		- ARPANET (non-military)
+	- MCI upgraded the telephone connections from 56Kbps (1985) to new T-1 lines 1.5 Mbps (1988)
+	- NSFNET went online in 1986: IBM upgraded the rest of the network (routers) to take advantage of the upcoming T-1 lines
+- 1991: T-3 lines used for the internet (45 Mbps)
+- Initially the ARPANET was the Internet
+- Other major additions (PRNEt, SATNET, etc) meant that the ARPANET was only a portion of the Internet
+	- Remained the backbone
+- Eventually the ARPANET was too old/slow to serve as the backbone
+- Sometime afterward the ARPANET portion of the Internet was shut down
+
+### History of the World Wide Web
+ - Designed in 1989 by Tim Berners-Lee and scientists in Geneva who were interested in making it easier to share research documents
+ - Documents could be linked through a protocol called http (hypertext transfer protocol)
+ - Documents were made available for free browsing and downloaded from the web (substantially easier than the alternative)
+	 - Initially there was no interest
+ - 1990: First web browser WorldWideWeb (later renamed Nexus) was written
