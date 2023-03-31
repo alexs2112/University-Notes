@@ -1,0 +1,68 @@
+### CompuServe
+ - Classmates Jeff Wilkins, John Goltz set up a time sharing service: CompuServe Networks Inc, as part of the Golden United Life Insurance company
+ - Goltz served as the first president
+ - The network was built using lines that were leased from AT&T
+ - Using proprietary network hardware and software, their network outperformed AT&Ts
+ - Unlike traditional timeshare, CompuServe developed programs that were installed on CompuServe's computers and managed by their staff
+	 - Clients paid extra to use them
+ - Also experimented with performing information products:
+	 - Database of an extensive list of consumer merchandise
+ - Company was successful, only flaw was that 50% of the time the network was idle
+ - Microcomputer users (available since the early 1970s) became a market
+	 - People bought modems with the microcomputers even though there was little to connect to: 110-300 bps
+ - At the same time, prices of mainframes began to drop sufficiently, companies began to buy rather than timeshare
+ - CompuServe had idle computers and a local phone number in almost every city
+ - Wilkins saw three things to draw in microcomputer users to CompuServe:
+	 - Speed and ower of the mainframes
+	 - Storage: At the time nobody made harddrives for micros (floppy drives cost almost as much as the computer ~$500) so most data was stored on tape
+		 - CompuServe's mainframes used several 20 MB hard drives
+	 - Communication: Email and a public bulletin board system where users could read and leave public messages under different threads
+	 - Ability to purchase and download software
+		 - No computer store could stock them all, CompuServe provided greater selection
+		 - Games were text only and considerably smaller (StarTrek was the most popular one)
+ - Initial user group consisted of technically-minded people who could/would program for the network
+	 - At first they tried free access for these early adopters
+ - 1979: Implemented pay only: $9 startup fee, $5/hour during off hours, $12/hour primetime
+	 - 100 bps (regular), 300 bps (premium), eventually upgraded to 1200 bps
+	 - In these days, $3-4 would pay for a movie
+ - Command line interface like the micro computers of the time
+	 - Menu interface developed quickly when more users connected
+
+### The Source
+ - Founded by Bill Von Meister
+ - Technical whiz kid
+	 - Alarm of approaching dad to make some tea
+ - An entrepreneur: Started 9 companies in 10 years, longest he stayed at was 2 years, forced out of most of them
+	 - Liked the excitement of starting a new company but not the drudgery of running one
+ - Envisioned a system: InfoCast
+	 - Sometime after 1978 when FCC legalized the public piggybacking of digital data on FM radio broadcasts
+	 - Send news, weather, business, sports reports from a central location to FM stations around the country via PSNs (Packet Switched Networks) and phone lines
+	 - The company DBC (Digital Broadcast Corporation) was formed to produce and market InfoCast
+ - Homes would receive broadcasts through rented receivers
+ - Users would be able to send data, even exchange messages
+ - Jack Taub and Consolidated Industries of America provided financial backing (1978)
+ - Von Meister soon realized it wasn't feasible to outfit millions of American households with receiver/transmitters (and infrastructure to broadcast/decode)
+	 - Would require hundreds of millions of dollars
+	 - Wireless connections through cellular signals wasn't an option
+ - He got GTW Telenet (later SpringNET) to provide their network on off peak hours
+ - For Telenet, their upfront cost was nil (no risk)
+ - Customers would pay $100 signup fee and $4.60/off hour
+	 - Regarded as a bargain
+	 - $100/hour for access to the New York Times Information Bank
+ - CompuCon (Von Meister's network) was to provide but not create content (third parties like New York Times, Prentice Hall, Dow Jones would do so)
+	 - Provided information, messaging, games (all produced by others)
+ - Interface: Choice of text menu or command line
+ - Went live in late spring 1979, not as CompuCon but as The Source
+ - Acted like the early web
+ - By Oct 1979 DBC (company behind the Source) was bogged down in $5m in debt
+	 - Taub fired Von Meister
+ - Technical problems: only 80-100 could log in at a time, time lags of up to 10 seconds during peak hours
+	 - Solutions were a year away
+ - Some customers left for CompuServe, some returned back to the Source because it was familiar to them and there was a sense of community
+ - Eventually Taub himself was fired from the Source, retained control of DBC
+ - Taub reorganized the company as NIU (National Information Utilities)
+	 - System was to broadcast computer games and other programs
+		 - Might also be the ability for subscribers to record their favourite TV programs for a fee
+	 - The idea went nowhere
+ - Eventually CompuServe bought out the Source
+	 - Memberships were terminated, members could become CompuServe members and get some free time

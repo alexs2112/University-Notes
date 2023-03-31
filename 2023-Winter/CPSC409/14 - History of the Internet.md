@@ -238,3 +238,15 @@
  - Documents were made available for free browsing and downloaded from the web (substantially easier than the alternative)
 	 - Initially there was no interest
  - 1990: First web browser WorldWideWeb (later renamed Nexus) was written
+ - 1993: Mark Andreessen of NCSA (National Center for Super Computing Applications) launched Mosaic X, the first popular web browser
+ - 1995: Mosaic became Netscape
+	 - Many consider the IPO (Initial Public stock Offering) of Netscape to be the start of the Dot-com stock boom
+ - Mid 1990s: Netscape share of the browser market: ~85%
+	 - Microsoft initiated an extremely successful campaign to promote their browser by bundling it with their operating system
+	 - Sharp increase of growth of the WWW from 1997
+ - 2003: Netscape held ~1% of the market (now defunct)
+
+### Impact of the Web
+ - Prior to the advent of the WWW, the Internet was largely used by a niche user group
+ - With so much information available, there were many who tried to come up with a way to find the information
+	 - Thus the rise of the search engines

@@ -1,3 +1,4 @@
+# Latin Names
 ### Chordates
  - Have notochord, not vertebral column, focused on Cambrian times
  - Pikaia: Burgess shale (Canada, BC), first chordate, middle Cambrian
@@ -27,7 +28,7 @@
 
 ### Fish
  - Acanthodi: 
-	 - Earliest Gnthostomes (mouths with jaws)
+	 - Earliest Gnathostomes (mouths with jaws)
  - Placoderms:
 	 - Arthrodires
 		 - Dunkleosteus: Devonian (top predator)
@@ -112,3 +113,40 @@
  - Confuciusornis: Lower Cretaceous
  - Hesperornis and Parahesperornis: Upper Cretaceous
  - Diatryma: Eocene (Middle Paleogene)
+
+# Major Chordate and Vertebrate Subgroup Diagnoses
+ - Chengjiang Fauna, lower Cambrian age
+	 - First occurrance of the Chordates (Lower Cambrian - Today)
+		 - Organisms with a notochord but without a well-defined head (never have a chewing apparatus)
+	 - Incertae sedis (uncertain position) - Myllokunmingia
+		 - Intermediate morphology between chordates and vertebrates
+	 - Vertebrates (Lower Cambrian - Today)
+ - Cephalochordates (Conodonts), essentially Chordates with a well-defined head (Upper Cambrian to Triassic)
+	 - Still have notochord, has a mineralized chewing apparatus
+	 - Not from Chengjiang Fauna
+ - Agnathans: Don't have jaws, the mouth is surrounded only by muscles (Ordovician, still exist today as lampreys, hagfishes)
+	 - Vertebral Column, well-developed head, no jaws
+	 - Subclasses: 
+		 - Ostracoderms (Ordovician - Devonian): Anterior part of the body consists of a cephalic shield of few plates
+		 - Thelodonts (Upper Ordovician - Devonian):  Cephalic shield broken into smaller bony plates that partly cover the body (mostly the anterior)
+		 - Ostreostracans (Upper Silurian - Devonian): Cephalic shield is in a single large piece
+			 - Very heavy and thick, not good swimmers
+		 - Heterostracans (Silurian - Devonian): Bony plates covering anterior part of the body have differing shapes
+ - These three (Chordates, Cephalochordates, Agnathans) all evolved independent of each other
+	 - [insert diagram from lecture]
+ - Gnathostoma (Silurian - Today): Vertebral column, well-developed head, mouth with jaws
+	 - Acanthodi: Cartilaginous skeleton, fins with bony spines
+	 - Placoderms: Anterior part of the body is covered with a relatively small number of bony plates
+		 - Anthrodires: Plates connected in points
+		 - Antiarchs: massive cephalic shield, anterior paired fins (pectoral fins) covered with plates
+	 - Chondrichtyes (Late Silurian - Today):  Cartilaginous skeleton
+	 - Osteichthyes (Late Silurian - Today): Bony skeleton
+		 - Dipnoi (Devonian - Today): Lungfishes, evolved last
+		 - Actinisca (Devonian - Today): Lobed-fin fishes, extension of muscle tissue at the base of the fins
+ - Amphibians (Uppermost Devonian - Today): Bony skeleton with four well-developed limbs, double respiration through skin and lungs
+	 - Stem Tetrapods (Uppermost Devonian - Permian): Primitive morphologies, strongly resembling the fish ancestors
+	 - Temnospondyles (Pennsylvanian - Cretaceous): Ancestors of the modern amphibians
+	 - Lisamphibia: Modern amphibians
+	 - Anthracosaurians (Pennsylvanian - Permian): Ancestors of the reptiles
+ - Reptiles (Mississippian - Actual): Chestbone, respiration entirely using lungs
+ - [to finish on monday]
