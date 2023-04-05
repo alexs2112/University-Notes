@@ -66,3 +66,131 @@
 	 - The idea went nowhere
  - Eventually CompuServe bought out the Source
 	 - Memberships were terminated, members could become CompuServe members and get some free time
+
+### Gameline
+ - Von Meister thought of a gaming service for a new company he founded (CVC, Control Video Corporation) after leaving the Source/DBC
+ - Atari 2600 was a game console that was released in the late 1970s
+ - Von Meister envisioned an oversized cartridge for $60 that would plug into the console, contained:
+	 - A modem (dials a toll free number) and download data
+	 - Memory so it could store a game (cost $1) as well as transmit joystick and trigger movements back to Gameline's mainframe computer
+	 - Atari market was huge, ~13m in the US alone
+ - The game would remain on the machine until it was shut off or another game was downloaded
+ - Theoretical benefits:
+	 - Gamer got to try out many games ($40+ each)
+	 - Game companies got royalties
+ - Problems:
+	 - None of the game companies would provide the executable for their games (so it could be downloaded) so games had to be reverse engineered
+ - 1983: Steve Case was hired by Gameline
+	 - Younger brother of a major Gameline investor (hired to watch over Von Meister and his spending)
+	 - Case knew nothing about computers besides a college course from years ago (he hated it)
+	 - Intelligent, but quiet and thoughtful (the least quotable human at the company)
+ - Later problems:
+	 - May 1983: Atari announced it had lost a billion dollars in the first quarter of 1983 (first business to lose so much money in so short period of time). Gamelines success depended entirely on Atari's success
+	 - The 2600 was old, Atari was focusing on the Atari 400 computer to keep up with newer game consoles
+	 - Developers were producing discounted cartridge (Atari discounted console prices, was counting on cartridge sales)
+ - Eventually CVC closed down
+
+### Quantum Computer Services
+ - CVC was reincarnated on May 1985 as Quantum Computer Services with a deal with Commodore for an online service
+ - Down to 10 employees, to ramp up the Commodore service 15 more were hired
+ - Nov 1, 1985: New online service Q-Link went live, people began logging in immediately
+ - Q-Link had the usual online features: Email, games, bulletin boards, file downloads, shipping, chat, news, SIGS
+	 - Many ambitious plans: eg, A Dungeons and Dragons role playing MMORPG
+	 - It charged $9.95/month and $0.08 a minute for most of the services
+	 - Packet switched networks connected at 300-1200 bps with access only after 6 PM weekdays (all day weekends)
+	 - Games were programmed in BASIC and assemby
+ - Eventually Quantum finally got Apple to agree to a deal to develop an online service for them
+	 - Helped that Q-Link was a graphical system that was regarded as the easiest online service to use
+ - AppleLink-Personal Edition went live May 1988
+ - Quantum marketed the service with ads and disks in computer magazines (foreshadowing AOLs free disk distribution campaigns)
+ - PC-Link: Developed for Tandy's (Tandy Radio Shack) IBM compatible computers, went online August 1989
+ - Additional Quantum client resulted in problems:
+	 - Apple didn't like Quantum spending time on the PC version, they wanted major changes in the service
+		 - Devote all their free time to Apple, wanted Quantum to spend more on marketing (money that they didn't have)
+	 - Before the end of 1989, just as the Macintosh version was to go online, the plug was pulled on AppleLink-Personal Edition
+	 - However the contract did not prohibit Quantum from running an Apple online service, this was done by retooling the software to exclude the Aple logo
+	 - The Apple name couldn't be used, new name: America Online was used for Quantum's onine service
+
+### AOL
+ - America Online (named by Steve Case, noticed many successful American companis has 3 letter names)
+ - Case decided the service should be friendlier than others
+	 - "Welcome", "You've got mail", "File's Done", "Goodbye"
+	 - Voices could be turned off or substituted with other sounds
+ - October 1989: America Online went online
+ - October 1991: Quantum legally changed its name to America Online, more commonly known as AOL
+ - RPG: Neverwinter Nights
+	 - Implemented, almost entirely, the DND roleplaying rules
+**Marketing**:
+ - 1993: AOL marketer Jan Brandt (successful direct marketing campaign for children's books) developed a direct marketing campaign for AOL
+ - Initial test: Disks sent to general mailing lists
+	 - Many weren't even computer users, or they didn't own computers with modems
+	 - Initial conversion rate was 10% (200k people at the cost of $250k), much higher than typical 1%-2%
+ - Marketing program that followed: Disks were not only mailed out but given out en masse: concerts, in stores, bundled with other products, etc
+	 - Carpet bombing America with disks
+ - Campaign was too successful:
+	 - AOL soon grew to 500k members
+	 - So many that people couldn't log on when they wanted to, or they experienced slow downs when they did
+	 - New members continued signing on
+
+### BBS Connections
+ - Microcomputer Bulletin Board Systems (BBS)
+ - Connection wasn't to a network, instead it was a connection to another computer via modem
+	 - Software: Accept calls, handle logins, transfer files, send emails (not always real time), message boards
+	 - 1978: First bulletin board set up by Ward Christensen and Randy Seuss: CBBS (Computerized Bulletin Board SYstem)
+	 - By late 1980s: Magazines like Popular Mechanics and Thrasher skateboarding set up their own BBSs to complement or substitute for their presence on CompuServe or AOL
+ - BBSs helped sell modems: BBS users outnumbered CompuServe and The Source users for many years
+ - Modems and software became easier to use, cost drops helped speed migration to online services, eventually to the Internet
+	 - Early internet users established their connections with modems (2400-14400 bps)
+ - Some BBSs ran software (like FIDO and GTE PowerComm) formed the basis of national networks relaying information between nodes
+	 - BBS users paid a small fee for the relay service, to some it was worth it to communicate with someone around the world
+ - Direct dial to a network was faster than indirect connections via a PSN but a long distance charge must be paid
+ - Some of the largest boards were miniature versions of CompuServe or the Source (256 users at once)
+ - Release of the Web caused BBS membership to steeply decline, BBS companies who didn't become ISPs shut down
+	 - Some have resurrected themselves, can be accessed via remote logins (eg telnet) instead of a modem
+ - **Canadian Conenctions**:
+	 - DataPac: Canadian regional network operated by Bell Canada and Northern Telcom
+	 - Nucleus: Started as Calgary based BBS with the goal of becoming one of the largest BBSs in Western Canada
+
+### Evolution of the Networks
+ - Games:
+	 - Commercial games could be downloaded (sans packaging and manuals, greater selection and lower cost)
+	 - Online gaming:
+		 - At first: Text only adventure, role playing games on CompuServe and The Source
+		 - Later games with graphics were added
+ - Online Chat:
+	 - Jeff Wilkins (CompuServe CEO) didn't see its value at first
+	 - Wasn't listed in the menu, users could secretly access the chat functionality (`go cb`)
+		 - Number of secret accesses was greater than expected
+	 - When chat became the largest billing product it was finally added (officially) to the menu
+ - Some members were addicted to the online world such that they couldn't pay their bill
+	 - Some bills would reach $700 (movies were only a few dollars)
+	 - A few members would disappear one month while they paid down their bills and returned later
+ - The term "Phising" was not used then, occurrences of members impersonating system administrators in order to get access to another member's account
+	 - Fake administrator would rack up charges on the compromised member's account
+ - Interface:
+	 - Initially, text and command line (32 or 40 columns x 16 lines)
+	 - Later menus (text) were added (command line shortcuts were still possible)
+	 - Most online services: GEnie, DELPHI, etc, focused on improving reliability and response time
+		 - CompuServe stayed up  (because of redundancies and good coding practices) when other services went down during the crash of 1987
+		 - GEnie included satellite links so 87 San Francisco users could still login even when links to all phone lines were broken by the earthquake
+	 - Success of QLink and AOL proved that appearance and ease of use were just as important
+	 - By the time that ease of use issues were addressed it was sometimes too little, too late (Source, bought out)
+
+### MCI & AT&T
+ - 1983: MCI Telecommunications launched its $100m email service
+	 - First large brand name company to establish a commercial online service
+ - Also pioneered email connection to the internet (hired Vint Cerf)
+ - Built what would become the backbone of the internet
+	 - National Science Foundation Network (NSFNET) in the late 1980s
+ - AT&T responded with AT&T mail (similar to MCI) but added Mail Talk (robot read emails)
+ - These big companies had little effect on the online services like CompuServe (provided more than just email)
+
+### Delphi
+ - Parent was General Videotext Corp (GVC)
+ - Went live March 1983
+	 - Online access to the Cadillac Modern Encyclopedia, news, weather, classified as well as gateways to other services
+	 - Delphi Oracle would answer any question (often tongue in chief)
+ - 1984, other features were added: Chat, SIGS (Special Interest GroupS)
+ - Set up local dial up numbers in major cities to reduce the (minimal) cost of PSNs for a flat fee
+	 - The customer could transition to a national service and pay regular Delphi rates
+ - Through the 1980s it vied with the Source to be the second largest online service

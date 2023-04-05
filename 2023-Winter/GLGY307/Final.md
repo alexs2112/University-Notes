@@ -114,7 +114,7 @@
  - Hesperornis and Parahesperornis: Upper Cretaceous
  - Diatryma: Eocene (Middle Paleogene)
 
-# Major Chordate and Vertebrate Subgroup Diagnoses
+# Major Chordate and Vertebrate Groups
  - Chengjiang Fauna, lower Cambrian age
 	 - First occurrance of the Chordates (Lower Cambrian - Today)
 		 - Organisms with a notochord but without a well-defined head (never have a chewing apparatus)
@@ -149,4 +149,25 @@
 	 - Lisamphibia: Modern amphibians
 	 - Anthracosaurians (Pennsylvanian - Permian): Ancestors of the reptiles
  - Reptiles (Mississippian - Actual): Chestbone, respiration entirely using lungs
- - [to finish on monday]
+	 - Earliest reptiles: Diapsids
+	 - First dominating reptile group in the Late Permian: Pelycosaurs
+	 - Therapsids: Dominant in the Permian-Middle Triassic
+ - Aquatic Reptiles
+	 - Placodonts (Triassic)
+	 - Nothosaurs (Traissic)
+	 - Plesiosaurs (Jurassic - Cretaceous)
+	 - Ichthyosaurs (Jurassic - Cretaceous): Best adapted to life in aquatic environment
+ - Flying Reptiles (Upper Triassic - Cretaceous)
+ - Dinosaurs (Upper Triassic - Cretaceous)
+	 - Tracks from Middle Triassic - Cretaceous, possible he asks about specifically the tracks
+	 - Saurischians:
+		 - Staurikosaurian (Upper Triassic)
+		 - Theropods (Upper Triassic - Cretaceous)
+		 - Sauropods (Upper Triassic - Cretaceous)
+	 - Ornithischians:
+		 - Ornithopods (Upper Triassic - Cretaceous)
+		 - Pachycephalosaurs (Jurassic - Cretaceous)
+		 - Stegosaurs (Jurassic - Cretaceous)
+		 - Ankylosaurs (Jurassic - Cretaceous)
+		 - Ceratopsids (Jurassic - Cretaceous)
+ - Birds (Aves) (Paleocene - Actual)

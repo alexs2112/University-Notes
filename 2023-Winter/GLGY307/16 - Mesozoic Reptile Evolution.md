@@ -171,6 +171,8 @@
 	 - More precisely, from a group known as theropods
  - Earliest reptiles with avian features are known in the late Jurassic, close ancestors to birds did not evolve until the early Cretaceous (ornithuromorpha)
 	 - Real birds didn't evolve until the Cenozoic
+	 - Don't know where the exact boundary is between reptiles and birds
+		 - Safest interpretation: Birds evolved when all the avian features were achieved (Paleocene)
  - Preavian Theropods: Theropods with some avian features, not all of them
  - Ornithuromorpha: Greek -> reptiles with bird form, not the first real birds yet
 ![[bird_fossil_groups.png|200]]
