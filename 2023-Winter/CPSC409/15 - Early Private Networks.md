@@ -194,3 +194,126 @@
  - Set up local dial up numbers in major cities to reduce the (minimal) cost of PSNs for a flat fee
 	 - The customer could transition to a national service and pay regular Delphi rates
  - Through the 1980s it vied with the Source to be the second largest online service
+
+### GEnie
+ - GEnie (General Electric Network for Information Exchange)
+ - General Electric offered time sharing services in the 1960s under the name General Electric Information Services (GEIS)
+	 - At this time, biggest player in time sharing, 40% of the market
+ - GEnie went live October 1985 with some basic services: Email, personal computing SIGs, news, weather, sports
+ - Game offerings started out sparse, later change as online multiplayer games would become a major focus
+	 - Multiplayer BattleTech (MechWarrior I)
+ - Half the cost of CompuServe at the higher speeds ($5 an hour at 1200 and 2400 bps)
+
+### Playnet
+ - Howard S. Goldberg and David Panzl left General Electric in 1982 to found Playnet Inc. associated with Rensselaer Polytechnic Institute (RPI)
+ - Unique features: Graphics and colour (often used templates and graphical elements) were loaded from disk and combined in different ways, didn't need to be downloaded
+ - Games and other programs were also on the user's disk
+	 - If parts of Playnet changed then the user's disks would be updated while the member was online
+	 - Playnet distributed the software on 3 disks (only way to access)
+	 - Games and other programs were also on the users disk
+ - Development time took so long the software focused on Commodore computers (IBM and Apple versions planend)
+ - 1980s: 3 million Commodore users
+	 - 1985: CompuServe had 130k subscribers, the Source had 40k
+ - 1984: Playnet opened and it offered email, bulletin boards, chat, instant messages
+	 - Also single and multiplayer games (checkers, poker, bridge, etc)
+ - Compared to other services, Playnet was a bargain: $29.99 signup (3 disks), $6 per month plus $2/hour
+ - Commodore already had a very profitable deal with CompuServe, didn't support Playnet much but it still flourished
+ - Playnet was a trailblazer: Stunning Commodore graphics, multiplayer online games
+
+### Prodigy
+ - April 11, 1988: CBS, Sears, IBM released the service Prodigy with limited rollout in few US cities
+	 - National introduction was September, by then CBS had financial problems and dropped out
+ - Meant for non-computer modem users (just start the software and go)
+ - Advertised in magazines, newspapers, and on TV
+	 - It was expensive: $1500 to acquire a new customer, GEnie was only $35, CompuServe was less than half
+ - Looked just like TV graphics, better even than AOL
+ - Lacked some things, offered some innovations: Flat rate pricing $9.95 per month, online shopping
+ - Membership grew quickly, by 1991 it had 600k subscribers, second only to CompuServe's 750k
+	 - Illegitimate counting?
+ - Made money through online ads at the bottom of each screen and from a portion of the sales made
+ - Had great graphics, was fast as the most common accessed material was cached on a local machine in each city (assumed most traffic would just be passive reading)
+	 - Leased lines would transfer data for requested information between cities
+ - Didn't have any downloading, not even email or bulletin board text could be saved to disk
+	 - Trying to avoid problems and legal infringements
+	 - Manually write it down yourself
+ - Presented as a family friendly place that was open to everyone: Sponsored summer picnics and rental amusement parks, inviting all members
+ - Software was a closed system, could not upload/download or save anything to disk
+ - With a family friendly image, staff felt the need to control content
+	 - 1991: Began to censor boards (inspired by anti-semitic comments copied from private email message and replies to those boards)
+	 - Post was deleted by staff, poster attempted to repost several times, each time it was deleted
+	 - Became a big issue, eventually censored all boards with certain words, posts with member names (defamation), brand names were excluded (copywrite)
+	 - Trying to control some posts incited other members to post even more offensive material
+		 - Had to pay a lot to hire censors
+	 - Members retaliated by organizing mass mailings, adding a few words and then resending them
+		 - Telecommunications costs grew
+ - Due to rising costs, had to go from flat rate to a usage-based model, people were unhappy
+	 - Popularity fell
+	 - Jan 1, 1991: 30 messages per month free, after that 25c per message
+	 - Flat rate was raised from $12.95 to $14.95
+	 - "Prodigy sucks!" t-shirts rose in popularity
+ - 1994: Implemented a chat that offered unlimited service with no surcharge
+	 - Costs skyrocketed and Prodigy had to shut down the chat
+	 - Out came the "Prodigy sucks!" shirts again
+ - Eventually Y2K problems forced it to either spend more money or shut down, the latter occurred
+
+### 1989 Memberships
+ - CompuServe 500,000
+ - AOL 100,000
+ - GEnie 100,000
+ - The Source 50,000 (eventually bought out by CompuServe)
+ - DELPHI 60,000
+
+### 1991 Memberships
+ - CompuServe 750,000
+ - Prodigy 600,000
+ - AOL 300,000
+
+### Private Networks: 1990s and Beyond
+ - 1988: Non-research, non-government, non-military civilians were given a public link to the Internet through the FidoNET BBS network (BBS newsgroups)
+ - 1990: Several more public links to the internet were created:
+	 - UUNET began operating as a nonprofit commercial source of Usenet newsgroups
+	 - CIX in the UK began providing email and newsgroups
+	 - MCI, CompuServe, Sprint all had email links to the internet
+	 - 3 commercial ISPs were created: UUNET, PSINET, CERFNET
+ - Usually access included email and newsgroups
+ - Web wasn't wildly popular until the Mosaic browser was released in 1993
+ - Overt commercial use of the internet was originally forbidden, 1992 DELPHI found a legitimate reason to include it in its online offerings
+	 - Nov 1992: Internet email added
+	 - Shortly after that, Usenet, Telnet, FTP, MUDs and text-based web access was added
+	 - $3 surcharge per month for internet access
+ - 1993: National Infrastructure Act passed, makes access to the internet as wide as possible
+	 - Restriction on commercial usage is relaxed
+ - 1993: All/most of the private networks began to offer an internet connection in a piecemeal fashion
+	 - First with email
+	 - Later other services like newsgroups and ftp were added gradually
+ - Internet was a fair learning curve for most users of private networks
+	 - Lots of configuration of your computer and memorization of steps
+ - Web itself was a bit overwhelming in detail:
+	 - Which browser to use (unless preconfigured by the ISP)
+	 - What could and could not be done
+	 - Determine how to collect email
+	 - Where to find the interesting material online
+	 - Etc
+ - AOL merged with Time Warner 2000 (eventually split 2009), was the largest ISP
+ - CompuServe acquired in 1998 by AOL which remains as an ISP
+ - GEIS sold GENIE which was eventually shut down (GEIS was later sold by GE)
+ - DELPHI was sold to Rupert Murdoch's New Corporation (1993)
+	 - Some of Delphi's original management bought it back in 1996
+
+### Internet vs Private Networks
+ - Pre 1990s, early 1990s: Proprietary networks had millions of users, internet was largely obscure
+|Private Networks|Internet|
+|---|---|
+|Controlled by one company (access, content)|Network built by researchers, gov't people with no central direction|
+|More secure (fewer problems with illegal behaviour and threats), less innovation|Not designed to have mainstream dominance|
+|Users connected to a network like CompuServe through dumb terminals: Could exchange data but not programs|Internet became so popular by assuming everyone was contributing goodwill, people would not behave destructively even without ways to monitor or stop them|
+| |For the early years, this assertion largely held|
+**Security and Software**
+|Private Networks|Internet|
+|---|---|
+|Networks could not be programmed by users, software was centrally distributed by administrators working for the company|Internet of 1988 had no central control points to scan traffic for malware and stop it|
+|Software only include what the company thought was economically viable (safer, restricts innovation)|End Points of the internet could become infected because they were general purpose computers, connection to the network not strictly controlled|
+|Networks evolved slowly, few changes being made (good or bad)|Sometimes administrators of endpoints didnt bother fixing vulnerabilities, or set up network in secure fashion (bad passwords)|
+|They were secure, it was sterile vs the internet|Many of the early users are even more ignorant and neglectful of good security practices|
+| |Reduced consequences in mid 1990s most users only connected via slow dialups, werent always on|
+

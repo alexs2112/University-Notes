@@ -14,7 +14,8 @@ Evolved from Agnathans with the evolution of jaws
  - Remarkable active dwellers, either in oceanic water mass or in the proximity of the sea floor
  - Hid their lower body behind bony plates, very strong
  - Two groups:
-	 - Arthrodires: Formidable predators of large dimensions, up to 10 meters in length. Biggest predators of the Devonian
+	 - Arthrodires: Formidable predators of large dimensions, up to 10 meters in length
+	 - Biggest predators of the Devonian
 	 - Antiarchs: Mud-grubbers like their ostracoderm ancestors
 
 ### Arthrodires
@@ -36,8 +37,8 @@ Evolved from Agnathans with the evolution of jaws
 			 - Large numbers
 			 - Needed to be faster, suck water from surrounding environment and send to the gills, more oxygen to the lungs
 		 - None of the above helped, the vertebrates evolved differently to survive:
-			 - They got out of the water, conquest of land (Osteichthyes)
-			 - Conquest of land attempted many times, only succeeded once: Late Devonian
+			 - They got out of the water, conquest of land (Osteichthyes), very high adaptability
+			 - Conquest of land attempted many times, only succeeded in the Late Devonian
 
 ### Ancient Sharks - Devonian
  - Most frequent sharks: Cladoselache
@@ -70,13 +71,13 @@ Evolved from Agnathans with the evolution of jaws
  - Short extensions of muscle at the base of their fins, a step towards the evolution of limbs
  - Fossil dipnoi: 
 	 - Largest lungfish today is 1.5 meters (Australia)
-	 - In the past they were gigantic
+	 - In the past they were gigantic, achieved gigantism
 
 ### Order Actinisca
  - Made history towards amphibians
  - Evolved rapidly in the Devonian
  - Some of the best specimens come from Lebanon
- - Long fins, extension of the muscle tissue down the base of the fins
+ - Long fins, extension of the muscle tissue down the base of the fins, lobed-fin fishes
  - Extremely diverse, not important predators until the Cretaceous times (rather small, perfect prey)
 	 - As perfect prey, needed to adapt to new conditions
 

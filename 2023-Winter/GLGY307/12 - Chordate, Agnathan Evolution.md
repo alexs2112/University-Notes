@@ -50,7 +50,7 @@
 	- Conodonts evolved independently of those vertebrates in the Chengjiang fauna
 - **Conodont Extinction**:
 	- Conodonts evolved very rapidly during the Paleozoic
-	- Descendants of the chaetognath worms (arrow worms)
+	- Descendants of the **chaetognath worms** (arrow worms)
 	- Strongly affected numerically at the Permian/Triassic boundary
 	- Became extinct at the Triassic/Jurassic boundary
 - **Reconstruction of the Conodont Animal**: 

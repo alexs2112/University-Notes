@@ -18,6 +18,7 @@
  - Most obvious general aspect is the limbs
  - Respiration was both lungs and skin, needed their skin to be kept wet
  - Lay a huge number of unprotected eggs (like fish)
+	 - Required water to hatch, or else they would dry out and die
 
 ### Major Changes in Fin-Limb Structure
 ![[fin-limb_structure.png|300]]
@@ -53,6 +54,7 @@
 
 ### Temnospondyls
  - Considered the ancestors of the modern amphibians (Lisamphibia)
+	 - Stayed as amphibians, did not continue to evolve
  - Most diverse group in the Carboniferous, consisting of approx 40 families and 160 genera
 	 - Eryops: Capable of land locomotion, spent most time in the water. Size of a crocodile, similar in habitat. Rather large with muscle, already started to gain a lot of weight. Evolved quite fast
 		 - Top predator of the lower Carboniferous in continental conditions
@@ -76,7 +78,7 @@
 	 - No active way of breathing, had lungs but they did not breathe, had to swallow the oxygen, skin had to remain wet all the time
 
 ### Seymouria
- - Permian of Germany, fully adapted to the terrestrial life
+ - Permian of Germany, fully adapted to the terrestrial life, small number of protected eggs
  - Morphological features of a reptile, but does not have a chest bone (could not breathe actively)
 	 - [Or is this backwards? Features of amphibian but with a chest bone]
  - Size of these guys are approximately 60 centimeters in length

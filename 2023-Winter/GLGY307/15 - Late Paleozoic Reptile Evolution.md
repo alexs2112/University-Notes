@@ -59,7 +59,7 @@
  - Formation of Pangaea resulted in the appearance of a zone with potential to be invaded
  - Invasion of Gondwana (in Pangaea) happened with adaptation to the colder environments
 
-### Mammal-like Reptiles
+### Therapsids: Mammal-like Reptiles
  - Therapsid stock developed at mid and high latitudes
  - Their bodies appear adapted to retain the heat (massive bodies, thick limbs)
 	 - Limbs positioned at the bottom of their bodies, not the sides (like reptiles)
