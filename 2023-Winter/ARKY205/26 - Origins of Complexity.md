@@ -2,7 +2,7 @@
  - Today: Institutionalized power in government, police, law, ownership, is a fact of life
 	 - Almost entirely linked by centralized authority, economic inequality, concentration of wealth
  - None of this was true for almost all of human existance, these states exist through growing complexity
- - Emergence of these state socieities was a major event in human adaptation
+ - Emergence of these state societies was a major event in human adaptation
  - We use civilization as a shorthand for urbanized state-level societies
 	 - Not civilized vs barbaric
  - States have the following features:
