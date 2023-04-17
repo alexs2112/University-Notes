@@ -44,7 +44,7 @@
  - **Mesa Verde**: Small communities emerged here with links to the ceremonial center
 	 - Severe drought from 1130 to 1180 (early Pueblo III) led to depopulation of the San Juan Basin, many people migrated out of Chaco Canyon to Mesa Verde
 		 - Led to intensification in agriculture, deforestation to help build pueblos
-	 - Massive multistory buildings emerged in places like Cliff Palac, stone towers built as testimony to increasing warfare brought on from severe drought of the 12th century (1276-1299)
+	 - Massive multistory buildings emerged in places like Cliff Palace, stone towers built as testimony to increasing warfare brought on from severe drought of the 12th century (1276-1299)
 		 - Violence + cannibalism are documented
 	 - Interpretation: Ancestral Puebloans experienced environmental stress that destroyed their food supply, most groups migrated south, this area mostly abandoned into the contact period
  - Chaco was not a town, other Great Houses were equally as sparsely occupied, lots of effort in building them

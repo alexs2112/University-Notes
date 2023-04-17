@@ -50,7 +50,7 @@
 	 - Influence of Uruk in Mesopotamia grew rapidly thanks to two factors: Writing and Metallurgy
 
 ### Cuneiform and Bronze
- - Earliest writing predates Uruk by millenia: Small cclay seals with images of food products as early as 8000 BCE
+ - Earliest writing predates Uruk by millenia: Small clay seals with images of food products as early as 8000 BCE
  - First conventionalized language around 3500 BCE: Cuneiform
 	 - Besides cuneiform: Cylinder Seals also appeared in Uruk period
  - Mesopotamia had no minerals: Sumerians at Uruk imported copper, gold, other ores from Iranian highlands as early as 3500 BCE
@@ -59,7 +59,7 @@
 
 ### Early Dynastic Period
  - Growth of early Mesopotamian cities based on agricultural surplus, therefore irrigation
- - By 3000 BCE: Clear differencecs in wealth and privilege emerge
+ - By 3000 BCE: Clear differences in wealth and privilege emerge
 	 - Royal Tombs at Ur (1920s, Leonard Woolley), staggering amount of wealth buried with early royalty
  - Present with the tombs: Death Pits
 	 - Dozens of men, women, oxen, carts, all ritualistically killed as part of burial rites of the royalty
@@ -127,7 +127,7 @@
 	 - King Snefru of the Fourth Dynasty (2600 BCE) was responsible for the first true pyramid
 	 - Construction attempted three times before succeeding:
 		 - Broken pyramid at Meydum collapsed during construction
-		 - Bent pyramid at Dahshur had slop for 60* for the bottom half, 44* for the top half
+		 - Bent pyramid at Dahshur had slope for 60* for the bottom half, 44* for the top half
 		 - Successful attempt: Red Pyramid at Dahshur, 105m high
 	 - Pyramid building reached its apex during the Fourth Dynasty with Khufu/Cheops, Khafre, Menkaura, who built their tombs at Giza
 		 - Pyramid of Khufu: Largest over built (irony: our only depiction of Cheops is an 8cm statue)

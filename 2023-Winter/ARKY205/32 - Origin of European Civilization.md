@@ -6,7 +6,7 @@
 	 - Minoans: Sir Arthur Evans named after Minotaur and King Minos of Crete
 
 ### Bronze Age
- - Convenient name for a crucial period between the dominance of small-scale faraming societies and the rise of major state level societies
+ - Convenient name for a crucial period between the dominance of small-scale farming societies and the rise of major state level societies
  - Bronze: Alloy of copper with lead, arsenic, tin (much less toxic)
 	 - Melts at a lower temperature than copper, easier to cast, produces a harder metal
  - Very little bronze is found on sites in this period, use varied over time and place
@@ -88,7 +88,7 @@
 **State?**:
  - Still look more like Cahokia or Pueblo Bonito than the state societies of Sumer and Egypt
  - Palaces engaged in production, consumption, storage, distribution
-	 - No evidence they controlled the ecconomies or politics of their territories
+	 - No evidence they controlled the economies or politics of their territories
  - Written script being developed, perhaps to handle a growing administration
  - 1700 BCE: These first palaces were all destroyed, likely due to earthquakes, no evidence for military invasion
 	 - Almost every major site is rebuilt by 1650 BCE, start of the Late Minoan (LM) phase
@@ -104,7 +104,7 @@
 	 - Palaces exerting control over the landscape
 **Knossos**:
  - Prior to Mycenaean domination, not clear that Knossos was the seat of a king/queen
-	 - Rebuilt after the collapse of the First Palaces (1700 BCE), mayby still a ceremonial center
+	 - Rebuilt after the collapse of the First Palaces (1700 BCE), maybe still a ceremonial center
  - Women prominant on many Minoan frescoes dating from the LM I period
 	 - Likely ruling Crete for 200 years between collapse of palaces, later domination by Mycenae
 **Atlantis Destroyed**:

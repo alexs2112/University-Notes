@@ -110,7 +110,7 @@
  - Appear in Mediterranean and Western Europe around 2900 BCE, central Europe around 2500 BCE
 	 - Lasts until 1900 BCE
 	 - Often associated with megaliths, overlap Corded Ware, also an early Bronze Age group
- - Recent radiocarbon evidenec: Originated in Spain, south France, north Italy, spread from SW to NE
+ - Recent radiocarbon evidence: Originated in Spain, south France, north Italy, spread from SW to NE
  - Know almost everything about them from burial contexts
  - Spread extremely widely and quickly with similar material culture
 	 - Perhaps ethnic migration inspired by economic or technical specializations (speculative)

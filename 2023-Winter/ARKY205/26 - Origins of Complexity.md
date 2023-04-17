@@ -12,7 +12,7 @@
 	 - Impressive public buildings and monumental architecture
 	 - Some form of all-embracing state religion where the ruler plays a leading role
  - **Political Complexity**:
-	 - Why did people go from small Neolithic farming communities to massive cities with centralized authority, weath inequality, forced labbour?
+	 - Why did people go from small Neolithic farming communities to massive cities with centralized authority, weath inequality, forced labour?
 	 - Many point to political complexity, assumption that as populations get bigger they need more complicated governmental structures
 		 - Core issue: Legitimacy, why/when were states granted authority over their subjects
 		 - Consensus or coercion? Often a mix of both
@@ -31,12 +31,12 @@
 ### Ladders of Political Complexity
  - Attempted to place state societies in systems of growing evolutionary complexity. Find models of commonalities in how political complexity develops
  - Morton Fried (1967): Four types of societies:
-	 - Egalitarian: Differences between members based n skill at subsistence activities, age, gender.
+	 - Egalitarian: Differences between members based on skill at subsistence activities, age, gender.
 		 - Production is household level, exchange based on reciprocity
 	 - Ranked: Fewer positions of prestige, status in birth order rather than ability
 		 - No hierarchy, no real political power or exploitation. Leaders collect and redistribute, not expropriate and consume
 	 - Stratified: All people don't have access to key resources, access linked with prestige
-		 - Growth of explotation, organization based on communities vs houses/kin groups
+		 - Growth of exploitation, organization based on communities vs houses/kin groups
 	 - State: Power is based on supra-kin basis, task of using power to maintain hierarchy through borders, legal systems, police, taxation, conscription
  - Fried saw the evolution of political complexity as a gradual process. Units of organization shifted from kin groups to supra-king communities
  - Elman Service (1971) made similar scheme shortly after. (Bands, Tribes, Chiefdoms, States)
