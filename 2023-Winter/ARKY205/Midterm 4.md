@@ -196,6 +196,10 @@
  - **Corded Ware People**: Knwon as Battle Axe people, frequently buried with military axes (no use as tools)
  - **Bell Beaker People**: Often associated with megaliths, spread extremely quickly, famous warrior archers
 	 - Distinctive ceramics, also produced daggers, flat axe heads, halberds
+ - **Artifacts**:
+	 - Bronocice Pot: Inscribed with possible four-wheeled vehicle
+	 - Jemdet Nasr: Square tablet covered in seals
+	 - Globular Amphora: Super round and fat guy with tiny handles on the shoulders
 
 [Conceptualizing the Bronze Age and two questions about Minoan palaces]
 [Show you an artifacts related to an Aegean society and ask you to identify it]
@@ -222,9 +226,10 @@
 	 - **Akrotiri on Thera (Santorini)**: Bronze Age Pompeii, most of the city was perfectly preserved. Some houses:
 		 - Xeste 3: Rites of passage of young girls (frescoes); West House: Elite mansion of textiles, international trade
  - **Artifacts**:
-	 - Bronocice Pot: Inscribed with possible four-wheeled vehicle
-	 - Jemdet Nasr: Square tablet covered in seals
-	 - Globular Amphora: Super round and fat guy with tiny handles on the shoulders
+	 - Depas Cup from Troy: Long thin cup with two handles
+	 - Marble folded-arm sculptures from the Keros-Syros Culture: Folded armo guys
+	 - Syros Frying Pan: Looks like a tennis racket without the handle
+	 - Phaisos Disc: Disk covered in inscriptions to "decipher" Linear A
 
 [this might be the bonus question, otherwise final lecture is useless]
 ### Core Tenants of Archaeological Interpretation
