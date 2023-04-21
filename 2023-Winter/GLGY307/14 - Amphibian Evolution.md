@@ -37,7 +37,7 @@
 
 ### Stem Tetrapods
  - Several tetrapod lineages in the Devonian and Carboniferous
- - Acanthostega was more iamphibious in habitat than Ichthyostega, which apeared to have spent more time on land. However they had more than five toes, a feater that made them closer to crossopterygians
+ - Acanthostega was more amphibious in habitat than Ichthyostega, which apeared to have spent more time on land. However they had more than five toes, a feature that made them closer to crossopterygians
  - Pederpes is the first stem tetrapod with five toes, discovered in the Early Carboniferous of Scotland
 	 - Important, first organism to have limbs with exactly five toes
  - As they moved inland, they began to reduce their size due to their poorly developed muscles

@@ -97,7 +97,7 @@
 	 - Tyrannosaurus: Upper Cretaceous
 	 - Caudipteryx: Lower Cretaceous
 	 - Micropraptor: Lower Cretaceous (China)
- - Saudomorphs
+ - Sauromorphs
 	 - Plateosaurus: Upper Triassic-Lower Jurassic
 	 - Ultrasaurus: Upper Jurassic
  - Ornithischians

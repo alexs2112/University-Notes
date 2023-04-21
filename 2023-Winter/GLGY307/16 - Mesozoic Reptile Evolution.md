@@ -44,7 +44,7 @@
 			 - Warm blooded
 	 - Wings consisted of extended skin, attached to the modified arm skeletal elements over the whole length; wings could be moved through the action of massive pectoral muscles
  - Extremely diverse in terms of feeding:
-	 - Dimorphodon: Insectivores, manythin-narrow teeth
+	 - Dimorphodon: Insectivores, many thin and narrow teeth
 	 - Rhamphorhynchus: Fish eaters, like seagulls, hair on the beak and claws
 	 - Ctenochasma: Fed on plankton at the surface of the ocean, skimmed it off the top
 	 - Pteranodon: Very streamlined head, no teeth, large beak like a pelican, swallowing fish whole
@@ -85,7 +85,7 @@
 		 - Staurikosauria
 		 - Theropoda
 		 - Sauropodomorpha
-	 - Name indicates that the pelvic girlde of the dinosaurid grouphas resemblances to that of the modern lizards
+	 - Name indicates that the pelvic girdle of the dinosaurid group has resemblances to that of the modern lizards
  - **Ornithischian Dinosaurs**:
 	 - Pelvic girdle with the pubis bone in verntral position, parallel to the ischium that is extended backwards
 	 - Five suborders included in this order:
@@ -104,7 +104,7 @@
 	 - Earliest dinosaurs were bipedal small carnivores (2-4 meters)
 		 - Two late Triassic earlier dinosaurs are Staurikosaurus (Brazil) and Herrerasaurus (Argentina)
 		 - Anterior limbs are very well developed with well developed claws, used for hunting
-	 - Pelvic girdle presents resemblences with those of their thecodont ancestors
+	 - Pelvic girdle presents resemblances with those of their thecodont ancestors
 	 - Discoveries in all the continents indicate the representatives of this group were highly adaptable since the beginning of dinosaur evolution
  - **Suborder Theropoda**:
 	 - Theropods are carnivorous dinosaurs of variable size, ranging from 1 meter (Microraptor) to over 15 meters (Tyrannosaurus, Gigantosaurus)
@@ -143,7 +143,7 @@
 	 - Evolutionary origins are not precisely known
 	 - Examples: Stegaceras, Pachycephalosaurus
  - **Ornithischians - Stegosauria**:
-	 - Quadrupeda, medium-sized herbivores of Jurassic and early Cretaceous age, as long as 9 meters
+	 - Quadrupedal, medium-sized herbivores of Jurassic and early Cretaceous age, as long as 9 meters
 	 - Present osteoderms (plates, spines, spikes), larger spines occur in the tail distal portion
 		 - Original: Defense against bites of predators
 		 - Now: Body thermoregulation
