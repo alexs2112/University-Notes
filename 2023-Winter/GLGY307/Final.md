@@ -133,7 +133,6 @@
 			 - Very heavy and thick, not good swimmers
 		 - Heterostracans (Silurian - Devonian): Bony plates covering anterior part of the body have differing shapes
  - These three (Chordates, Cephalochordates, Agnathans) all evolved independent of each other
-	 - [insert diagram from lecture]
  - Gnathostoma (Silurian - Today): Vertebral column, well-developed head, mouth with jaws
 	 - Acanthodi: Cartilaginous skeleton, fins with bony spines
 	 - Placoderms: Anterior part of the body is covered with a relatively small number of bony plates
