@@ -116,6 +116,10 @@
 [six questions about the architecture of late antiquity, including spolia, the differences between imperial and late antique mosaics, reusing temples for Christian purposes, basilicas, roof tiles (look at alla cappucina burials), and town walls.]
 [late antique landscape including Melania the Younger, abandoned lands in Italy, the economic boom of Greece, and I will show you a picture of a site and ask you to identify its location.]
 ### The Dominate
+**Problems With Understanding Late Antiquity Archaeologically**:
+ 1. Requires working with well-known historical sources that have been studied for centuries, careful of teleology, avoid seeing every change as "decay"
+ 2. Desire to generalize using little data, widescale interpretations for late antiquity flatten out intricacies of the past
+ 3. Changes in pottery supply + distribution, can't date sites with as much chronological detail as Early Imperial
 **Conceptualizing Late Antiquity**:
  - **Diocletianic Reforms**: Begins Late Antiquity, empire was too large and complex to function under the Augustan princeps model
 	 - 239-305: Separated rule between 4 emperors (Tetrarchy) to better manage growing insecurity on provincial borders
@@ -153,6 +157,7 @@
 	 - Basilica repurposed as Christian church, many of the few buildings constructed were basilicas
  - **Sarcophagus of Junius Bassus**: Old St Peter's Basilica was demolished, monumental marble sarcophagus of Junius Bassus discovered. Senator in charge of Rome, converted to Christianity on deathbed. Most exquisite late antique Christian sarcophagus
  - **Death and Burial**: Most people buried in earthen graves or alla cappucina tombs, increasingly appeared in cemeteries around martyrial shrines. First time in Roman period, burials encroaching on civic spaces
+	 - **Alla Cappuccina Tombs**: Tent-like structure made of recycled roof tiles, sometimes two tiles combined to create libation tomb to pour wine for the deceased after internment
  - **Outside the Capitals**: Early phase of long period of urban decay. Steep decline in private euergetism (no point if not a capital)
 **Fifth Century CE**:
  - Barbarian raids by Goths, Vandals, Franks, Saxons. Wanted lands to farm and build homes, Rome didn't accept their warrior ethos
@@ -197,6 +202,7 @@
  - **The Rotunda**: Monumental domed temple to Zeus at the Palace of Galerius, Constantine would convert to a church
 	 - Decline of civic culture marked by rarity of new public secular buildings/inscriptions/statues, now dedicated to Christianity
 	 - Churches continue to be constructed or converted, mosaics remain advanced, Rotunda transformed and covered w/ mosaics
+	 - **Mosaics** remained advanced but largely similar to early imperial times
  - **Rise of the Kastra**: Fortified centers to house garrisons of militia and troops along with local admins, bishop, staff (castles)
 	 - Curiales leave the cities and insecurity builds, many cities shrink and are reduced only to central kastra
 	 - Forts come to represent small defended communities oriented around defense and Christian worship
@@ -238,7 +244,8 @@
 	 - Evidence for significant refortification, walls difficult to date, proxy evidence of updated defenses during occupation
  - **Basilica of San Vitale**: Ostrogoths were Arian Christians, this basilica represents height of late Roman religious construction
 	 - Perfect blend of eastern and western architecture at the very end of the Roman period
-	 - Best preserved golden mosaics outside Istanbul
+	 - Best preserved golden mosaics outside Istanbul. Tesserae made of glass, pearl, silver/gold marble. Shimmer in candlelight
+		 - Examples: Lamb of God, Empress Theodora and Her Court, Emperor Justinian and His Court
 **536 CE: Worst Year in Human History**:
  - **Byzantine-Gothic War (535-554)**: Not war of numerous pitched battles, late antiquity tactics promote siege warfare
 	 - 535 CE: General Belisarius lands in Italy after defeating Persians and North Africa for Justinian
@@ -273,3 +280,50 @@
 	 - Decomplexified, reduced aristocratic bureaucracy, imposed military control (thema)
 	 - Made eastern empire medieval: Emperor controlled the army directly and the army controlled the land
 	 - World of decentralized and small militarized polities, democracy was gone, rural people subjugated + pressed into serfdom
+
+### Readings
+[**For Papaioannou 2018**: pay attention to the locales that she discusses when surveying Greek villas  ]
+- Macedonia: Farming residences covering 0.2-0.4 ha are strategically located along major routes
+- Epirus: Rural villas display characteristics of villa estates elsewhere in the empire: Access to major roads, abundant water supply, scenic view, strategic + defendable locations, close proximity to urban centers, cemeteries/private mausolea
+- Achaea: More abundant and of variable size and diversity in Roman Achaea than in rural Epirus
+	- Patrae: Major port connecting Italy to south Greece, 80+ villas of varying size, most were small and near the city
+	- Corinth: North underwent intensification of agriculture, each colonist alloted land, fewer sitses than Patrae
+
+[**Martyn et al. 2020**: on the topic of the death of the Herculaneum victims, review the connection between collagen yields, the temperature to which they were exposed, and the vaporization of soft body tissues.  ]
+ - Collagen: Should represent 22% of total weight of bone
+ - Collagen gelatinises at temperatures > 500 celsius, good collagen preservation from the site falls within the range indicative of no to low-intensity burning events
+	 - Suggests Hurculaneum victims were **NOT** exposed to significantly high temperatures at the time of death
+	 - Either previous estimates of temperature are too high, or other mechanisms protected skeletons from full exposure
+	 - Estimate temperature to have been approximately 350-400 celsius
+ - Why victims were exposed to temperatures significantly lower than expected pyroclastic movements:
+	 - Presence of soft tissue at the time of impact, soft tissue density plays role in preservation and protection from heat
+	 - Heating of cadavers caused outer tissues to swell, movement of water into central portion of cadaver may have served to bake (rather than burn) the skeleton
+	 - Instantaneous soft tissue vaporization and displacement with ash was not possible
+ - **Basically**: Soft tissues did not vaporize by the heat, protected the collagen in the skeleton from high temperatures
+
+[**For Scarpati et al. 2020**: review what the authors concluded in relation to Pliny’s account of the AD 79 eruption.  ]
+ - Pliny's account described in two letters to historian Tacitus. Reports prolonged eruption event in two phases
+ - Despite his letters there is evidence to identify two hiatuses, short pauses could have pushed people to leave their homes
+	 - Second phase of the eruption, 49% of victims were on the roads, evidence of the pause
+
+[**For Carannante 2019**: review the fish species mentioned in the text and how they related to garum production.  ]
+ - Garum: Fish sauce
+ - Fish species mentioned in relation to Pliny's account of the AD 79 eruption:
+	 - Small fish such as Garos and Apua (white bait from anchovies)
+ - Once created with the Garos fish, now known as anchovies
+ - Eventually the sauce began to be produced at home from useless miniscule little fish called Apua (whitebait from young anchovies)
+
+[**For Christie 2016**: review the topics he discusses related to ‘Changed Landscapes’.]
+ - Seat of the empire shifts from Milan to Raveena
+ - **Defensive structures/Militarized landscapes**
+ - Works and repairs in urban centers
+ - The church
+ - **Roads**, mainly for defense, maintenance was problematic
+ - **Rural Change**: War didn't target rural communities, prosperous villas in the north
+
+[**For Gallimore 2016**: I will show you a picture of a Cretan amphora and ask you to identify it (1, 2, 3, or 4).  ]
+ - Cretan 1: Small and short handles on the shoulder
+ - Cretan 2: Largest guy, handles are very pointed, nearly at a right angle
+ - Cretan 3: Slightly rounder handles, still pointed, not quite a right angle
+ - Cretan 4: Very skinny, handles are extra pointy
+![[cretan_amphoras.png]]
