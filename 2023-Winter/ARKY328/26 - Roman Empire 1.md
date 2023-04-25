@@ -53,15 +53,15 @@
 	 - Pompeii: One of the oldest, not as grand as Rome or Verona, very well preserved
 
 ### Pompeii
- - Devestating earthquake in 62 CE, Mount Vesuvius eripted in 79 CE
+ - Devestating earthquake in 62 CE, Mount Vesuvius erupted in 79 CE
 	 - Cities of Pompeii, Herculaneum, Oplontis, Stabiae were all destroyed
  - Cloud of tephra and gas erupted in height over 30km, ejected pumice and hot ash causing most of the building roofs to collapse
  - Eruption lasted two days. Eyewitness: Pliny the Younger, Pliny the Elder died when helping with evacuations
  - "Pompeii" likely refers to its earliest settlers being of the family Pompeia
- - Wealth, if small, town for Roman Italy
+ - Wealthy, if small, town for Roman Italy
  - Exact town location lost over medieval period, identified in 1590s by villagers digging a trench
  - First excavations occurred in 1748, site not confirmed as Pompeii until inscription found in 1763
-	 - Guiseppe Fiorelli became director in 1860, began careful excavations (previously veyr haphazard)
+	 - Guiseppe Fiorelli became director in 1860, began careful excavations (previously very haphazard)
 	 - About 1/3 of the town site remains unexcavated
  - Largely a complete record of daily life preserved, snapshot int ime
  - Highlights of what we have learned:

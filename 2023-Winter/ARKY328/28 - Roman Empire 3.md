@@ -22,7 +22,7 @@
  - Example of Italy becoming a net importer of goods
 
 ### Age of the Antonines
- - 100 CE: Italians lived well, prosperity was result of political stability and good economic markeets
+ - 100 CE: Italians lived well, prosperity was result of political stability and good economic markets
 	 - No technology developments can explain this growth, just due to social stability and economy
  - Would not last, Military was stalling in Germania and against Parthians (east)
 	 - Easy money from looting neighbours through tribute was harder

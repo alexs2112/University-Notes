@@ -17,7 +17,7 @@
 
 ### Middle Roman Landscape
  - Greece entered a period of recovery and economic growth
- - Only demographic impace before crisis years (3rd century) was the Antonine Plague (165-180)
+ - Only demographic impact before crisis years (3rd century) was the Antonine Plague (165-180)
 	 - Know about it thanks to writings of Greek physician Galen
 	 - First plague to affect Roman people, unyielding to traditional sacrifice to gods may be responsible for rise of Christianity
  - Archaeologically: Small peasant farmsteads not reoccupied. Growth of villa estates and villages
@@ -32,9 +32,9 @@
 	 - Small farmsteads mostly better suited for smaller patches of arable land
  - With Rome: Villas appear in regions with largest and most fertile lands (several plains)
  - Middle and lower classes declined, small plots disappear, others in the hands of the rich
- - Possible the landscape wasn't entirely controlled by villa elites. Poor farmers working villa estates along with their own smaller plots of land (commuter-farming) is archaeologically invisible)
+ - Possible the landscape wasn't entirely controlled by villa elites. Poor farmers working villa estates along with their own smaller plots of land (commuter-farming) is archaeologically invisible
  - Villas in Macedon see major wave of construction in second century CE
-	 - New villas more modest in size with standard ROman features, decorated with opus sectile and opus signium
+	 - New villas more modest in size with standard Roman features, decorated with opus sectile and opus signium
  - Villas around mountainous Epirus (pastoral+livestock based) see wave of construction from 1st-3rd centuries
  - Greek villas use Italian-style decoration (b+w mosaics, opus spicatum floors) but often built as Greek-style corridor farmhouses more often than the atrium or peristyle villas of Italy
 

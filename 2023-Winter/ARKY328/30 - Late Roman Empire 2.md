@@ -3,7 +3,7 @@
  - 376 CE: Emperors Valentinian II (West) and Valens (East) decreed no local officials could build new structures in Rome, must instead improve old buildings
  - Many monuments and buildings went into a state of decay during the third century by neglect of Rome from the Tetrarchy
  - Roman Forum underwent period of restoration
-	 - Aristocrats and politicians used this as an excuse to put theor names to older structures
+	 - Aristocrats and politicians used this as an excuse to put their names to older structures
 **The Curia Senatus (The Senate House)**:
  - Tetrarchy and Constantine paid to have the old senate house (Curia Julia) restored in Roman Forum
  - Roman senate, no longer internationally powerful, was still involved in administrating Italy

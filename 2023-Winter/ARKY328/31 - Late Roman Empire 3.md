@@ -20,7 +20,7 @@
 
 ### Cities in the Late Roman Period
  - After Pausanias (180) textual references decline dramatically, moreso after Emperor Caracalla grants Roman citizenship to all inhabitants of the empire in 212 (recording of patronage on new buildings loses value)
- - Rural intensification increases over Late ROman in Greece, cities do not expand to earlier sizes
+ - Rural intensification increases over Late Roman in Greece, cities do not expand to earlier sizes
 	 - Decline in number, those that remain are smaller than before
  - Corinth experiences earthquake in 4th century
 	 - Originally thought to signal the decline, recent work shows the exact opposite and Corinth prospered
