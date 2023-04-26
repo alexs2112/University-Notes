@@ -107,7 +107,7 @@
 	 - Classical heritage for building inspiration, traditional cut stone methods for public buildings, didn't use Roman concrete
 	 - Rebirth of Athens: sponsored by Emperor Hadrian, reoriented to focus on Roman Agora with library and University
 	 - Roman Thessaloniki: Sided with Roman victors during early Republic, favoured regional center, rebuilt their town walls
-	 - 2nd Century: Slwo introduction of concrete and brick, Roman games become popular, theaters set in hills w/ Roman styles
+	 - 2nd Century: Slow introduction of concrete and brick, Roman games become popular, theaters set in hills w/ Roman styles
 		 - Constructing aqueducts were significant improvements. Most spectacular: Hadrianic aqueduct of Corinth (100km long)
  - **Women in Roman Greece**: Elite women had more civic influence than Hellenistic period (Roman customs), new public offices
 	 - Many statues & honorific inscriptions dedicated to elite women. New offices of gymnasiarchs and managing public revenue
@@ -148,6 +148,7 @@
  - **Age of Recycling**: Major theme is spoliation: destroying older structures to use their pieces (spolia) to create new ones
 	 - Access to resources was limited due to crisis years
 	 - Three forms: Buiding new structures with old parts; Renovating structures with new & old materials; Repurposing structures
+ - **Late Antique Artwork**: Coin of Magnetius, Battle of Milvian Bridge (painting)
 **Restoring the Empire**:
  - 376: Emperors Valentinian II (West) and Valens (East) decreed no more new structures, must improve old ones instead
 	 - Old monuments & buildings were in state of decay by neglect of Rome from Tetrarchy, Roman Forum underwent restoration
@@ -257,7 +258,7 @@
 		 - Alpine Glaciers: 5 out of 20 of the coldest decades over the entire Holocene occurred between 500-600
 	 - Theory: Volcanic events created dust veil that engulfed the entire planet
 		 - Period of intense famine and disease. Christian writers described as the end of the world
- - **The Justiniac Plague (541-750)**: First noted in Egyot in 541, by 543 the illness is described in Italy and Greece
+ - **The Justiniac Plague (541-750)**: First noted in Egypt in 541, by 543 the illness is described in Italy and Greece
 	 - Bubonic Yersina Pestis, the Black Death. 1/3-1/2 of Europe killed. Travelled from black rats to humans via flea bites
 	 - Mostly disease of the cities (interconnected trade), spread nearly everywhere, continued to flare in Constantinople until 750s
 	 - Justinian attempted to dispose of corpses by digging mass graves outside Constantinople, none have been found
