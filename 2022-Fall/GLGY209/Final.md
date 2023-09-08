@@ -1,4 +1,0 @@
- - 80 qs
- - 20 copied from M1 (copied and pasted, answers on D2L)
- - 20 copied from M2 (copied and pasted, answers on D2L)
- - Avg 76
