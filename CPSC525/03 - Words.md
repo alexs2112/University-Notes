@@ -27,3 +27,33 @@
  - Often implementers add additional functionality
  - From a security & privacy perspective, extra behaviour is bad
  - When implementing a security or privacy relevant program, you should consider "and nothing else" to be implicitly added to the spec
+
+### ASCII
+ - American Standard Code for Information Interchange
+ - Assign each "standard" character a 1-byte representation (true ASCII uses only 7 bits per char)
+	 - Represent English text as a binary (hexadecimal) string
+	 - Each character occupies 8 consecutive bits (2 hex digits)
+ - 0x00-0x1f (0-31): non-printable "control" characters
+ - 0x20-0x7e (32-126): printable characters
+ - 0x7f (127): the "delete" character
+
+### C Strings
+**Null-Terminated Strings**
+ - C-style strings consist of a contiguous sequence of chars terminated by (and including) the first NULL character
+	 - NULL is denoted by `\0`
+	 - Byte value: `0b00000000` - 8 zeros
+	 - Hex value: `0x00`
+**String Functions**
+ - C offers four main operations on strings
+1. `strcpy`: copy one string to another
+	- can copy arbitrary data, nothing like balance checking
+	- Also: `strncpy` and `strcpy_s`
+2. `strcat`: Append one string to another
+	 - Also: `strncat` and `strcat_s`
+	 - Can overflow where you are writing
+3. `strcmp`: Compare lexicographic order of strings
+	 - Also: `strncmp`
+4. `strlen`: Determine length of a string
+	 - Also: `strnlen` and `strlen_s`
+**printf**:
+ - `printf` prints until it finds a null terminator, if you don't have one at the end of your string then it breaks and prints random garbage

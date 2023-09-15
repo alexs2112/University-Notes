@@ -110,3 +110,18 @@ svnadmin create /home/alexste/repo
    `# Mistakenly edit file2.c` 
    `svn revert file2.c`
    `svn commit -m "Revert edit to file2.c"`
+	 - Use `-R` to apply this to an entire directory or the entire project
+	   `svn revert -R directory`
+	   `svn revert -R .`
+ - Revert a committed revision: do a reverse merge from the latest revision to an earlier one
+   `svn merge -r 5:4 .` (reverse entire project from version 5 to 4)
+   `svn commit -m "reverted to r4"`
+	 - This creates a revision 6, identical to revision 4
+ - Release tag from a working copy:
+	 - Make sure the project is up to date (`svn update`)
+	 - If not done already, create a `tags` subdirectory for the project in the repository
+   `svn mkdir file:///home/alexste/repo/panther/tags -m "Created tags subdirectory"`
+	 - Use `copy` to create a tagged version in the newly created subdirectory in the repository
+   `svn copy . file:///home/alexste/repo/panther/tags/Rev1 -m "Created Rev1 tag"`
+	 - Later you can use this tag to checkout this set of files
+	`svn co file:///home/alexste/repo/panther/tags/Rev1 panther`

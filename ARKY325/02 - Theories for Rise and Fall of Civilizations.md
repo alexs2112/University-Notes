@@ -71,3 +71,40 @@
  - **Economic Power**: Ability to create specialized workforce, organize surplus storage, distribute (include trade for prestige goods)
  - **Social Power**: Requires development of an ideology of social relations and an understanding of the world that bonds a group of unrelated people
  - **Political Power**: Tied into social and religious ideology represented in symbols, architecture, art that legitimates social inequality and the right of priests/rulers to surplus production and prestige
+
+### Performance and Monumental Architecture
+ - **Core of Cities**: Temples, pyramids, plazas for elaborate ceremonies where ideologies were enacted
+ - Religious/secular rulers perform rituals in these settings to show that they were the rightful keepers of the cosmic order
+ - Had right to surplus wealth, power, prestige
+
+### Political Power
+ - Ideology, symbols, architecture, performance
+ - Ability to impose authority through administration and military who are not their kin
+ - Had to provide spiritual, economic, and physical security for those they governed
+ - Needed to be successful in war and diplomacy
+ - States were hard to maintain
+
+### Internal Structure of States
+ - Research tends to focus on occupational hierarchy as social difference
+ - States and empires were ethnically diverse
+	 - Created different factions in society
+ - Different groups introduced new ideas, technologies, religions, political ideas
+ - Sometimes factions seized opportunities to overthrow the state
+
+### Concept of Cycling States
+ - Explains how internal differences and external competition cause states to rise and fall
+ - New larger polities can develop from state collapse
+	 - An introduce new ways of administration, new ideologies and technology
+	 - Can lead to collapse and a breaking-down into many new competing states that are economically more sustainable
+ - Collapse can result in opportunities
+
+### Collapse and Sustainability
+ - States require enormous organization and resources, unlike any other type of society
+	 - States tend to be fragile
+ - No single factor causes states to rise or fall
+ - Multiple factors lead to collapse:
+	 - Environmental disasters or plagues
+	 - Impact of state on its environment (stress resources)
+	 - Weak rulers or rulers who fail to control the forces of the cosmos
+	 - Warfare
+	 - Civil war
