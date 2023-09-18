@@ -16,12 +16,13 @@ int main(int argc, char * argv[])
 	printf("\n");
 
 	// TODO 1: use a cast to make bar point to the *exact same address* as foo
-	uint64_t * bar;
+	uint64_t * bar = (uint64_t)&foo;
+
 	// TODO 2: print the hex representation of bar[0], bar[1], bar[2]
-	printf("bar: ??\n");
+	printf("bar: %x%x%x\n", bar[0], bar[1], bar[2]);
 
 	// TODO 3: print strlen(foo) and sizeof(foo) and sizeof(bar)
-	printf("baz: ?? =?= ?? =?= ??\n");
+	printf("baz: %zu =?= %lu =?= %lu\n", strlen(foo), sizeof(foo), sizeof(bar));
 
 	return 0;
 }

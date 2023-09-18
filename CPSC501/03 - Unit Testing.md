@@ -24,7 +24,48 @@
 		 - JUnit for Java
 		 - NUnit for C#
 
-**Example Method**: (contains some bugs)
+### Working with JUnit
+ - Will describe version 4.8
+ - Version 4.0 (2006) and later uses Java annotations
+	 - Requires Java 5
+ - Can be downloaded from junit.org
+	 - `junit.jar`
+	 - `hamcrest-core.jar`
+ - To install:
+	 - Copy the two JAR files into your install directory
+	 - Set your classpath to point to these frameworks
+ - The JUnit framework does the following:
+	 - Sets up conditions needed for testing
+		 - Creates objects, allocates resources, etc
+	 - Calls the method
+	 - Verifies the method worked as expected
+	 - Cleans up (deallocates resources, etc)
+ - All test methods must be annotated with `@Test`
+	 - Are invokes automatically by the framework
+	 - With JUnit 3.x, test methods must start with `test` (no annotations)
+ - Each method uses various `assert` helper methods
+	 - Aborts the test method if the assertion fails
+	 - Reports fails to the user
+ - JUnit asserts:
+	 - `assertEquals([String message], expected, actual)` (message is optional)
+	 - `assertEquals([String message], expected, actual, tolerance)` (useful for imprecise floats)
+	 - `assertNull([String message], Object object)`
+	 - `assertNotNull([String message], Object object)`
+	 - `assertSame([String message], expected, actual)` (expected and actual point to same object)
+	 - `assertTrue([String message], boolean condition)`
+	 - `assertFalse([String message], boolean condition)`
+	 - `fail([String message])`
+		 - Fails the test immediately
+		 - Used to mark code that should not be reached
+ - Use `@Before` to mark a method used to initialize the testing environment
+	 - Allocate resources, initialize state
+ - Use `@After` (or `@AfterEach`) to mark a method used to clean up after a test
+	 - Deallocate resources
+ - These are invoked before and after *every* test method is run
+	 - Tests can be run independently, in any order
+
+### Example 1: 
+ - Method: (contains some bugs)
 ```java
 public class Largest {
     public static int largest(int[] list) {
@@ -66,3 +107,77 @@ public class TestLargest {
 	 - Initialize `max = 0;`
  - Recompile and run the test again:
 	 - Should report: `OK (1 test)`
+ - Adding some more tests:
+```java
+public class TestLargest {
+    @Test
+    public void testOrder() {
+        assertEquals(9, Largest.largest(new int[] {8, 9, 7}));
+        assertEquals(9, Largest.largest(new int[] {9, 8, 7}));
+        assertEquals(9, Largest.largest(new int[] {7, 8, 9}));
+    }
+}
+```
+ - Recompiling and rerunning the tests fails (boundary is skipping the end of the list `i < list.length - 1`)
+	 - Off by one bug
+ - Add methods to test for duplicates, lists of size one, negative numbers, empty lists
+```java
+public class TestLargest {
+    @Test
+    public void testDuplicates() {
+	    assertEquals(9, Largest.largest(new int[] {9, 7, 8, 9}));
+    }
+
+	@Test
+	public void testOne() {
+		assertEquals(9, Largest.largest(new int[] {9}));
+	}
+
+	@Test
+	public void testNegative() {
+		assertEquals(-7, Largest.largest(new int[] {-9, -8, -7}));
+	}
+	// This will result in another bug as the initial max value is at 0
+	// Can fix by setting as Integer.MinValue
+
+	@Test (expected=RuntimeException.class)
+	public void testEmpty() {
+		Largest.largest(new int[] {});
+	}
+	/* In the function `largest`, should throw exception on list size 0
+	if (list.length == 0) {
+		throw new RuntimeException("largest: empty list");
+	}
+	*/
+}
+```
+
+### Example 2
+ - Before and After tags
+```java
+public class TestDB {
+	private Connection dbConn;
+
+	@Before
+	public void setup() {
+		dbConn = new Connection(...);
+		dbConn.connect();
+	}
+
+	@After
+	public void teardown() {
+		dbConn.disconnect();
+		dbConn = null;
+	}
+
+	@Test
+	public void testReadDB() {
+		...
+	}
+	
+	@Test
+	public void testWriteDB() {
+		...
+	}
+}
+```
