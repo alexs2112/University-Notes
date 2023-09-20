@@ -63,7 +63,42 @@
 	 - Deallocate resources
  - These are invoked before and after *every* test method is run
 	 - Tests can be run independently, in any order
+ - By default, the test runner uses *all* methods of a class annotated with `@Test`
+	 - A *suite* of tests is created for you automatically
+ - You can combine tests from several classes into a suite using the `@RunWith` and `SuiteClasses` annotations
 
+### Things to Test
+ - Use the mnemonic `Right-BICEP`
+	 - Are the results **right?**
+		 - Does the code do what is intended?
+	 - Check **B**oundary conditions
+		 - Beginnings/ends of lists, files, etc
+		 - Badly formatted data
+		 - Empty or missing values
+		 - Out of range values
+		 - Duplicates in lists that should have unique data
+		 - Ordered lists that arent, vice-versa
+		 - Things that arrive out of order
+		 - Etc
+	 - Check **I**nverse relationships
+		 - Square the result of a square root method
+	 - **C**ross check by other means
+		 - Use a proven sorting algorithm to check the results of a new sorting method
+	 - Force **E**rror conditions
+		 - Incorrect input parameters
+		 - Problems in the environment
+			 - Running out of RAM
+			 - Running out of disk space
+			 - Dropped network connections
+			 - High system load
+			 - Etc
+		 - Can be simulated using mock objects
+			 - Objects that stand in for system resources
+	 - Check **P**erformance characteristics
+		 - Make sure performance doesn't degrade
+			 - With large inputs
+			 - When adding new functionality
+	 - Always ask yourself what else can go wrong
 ### Example 1: 
  - Method: (contains some bugs)
 ```java
@@ -181,3 +216,19 @@ public class TestDB {
 	}
 }
 ```
+
+### Example 3
+ - Combine tests from `TestLargest` and `TestSmallest` classes
+```java
+// AllTests.java
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+
+@RunWith(Suite.class)
+@SuiteClasses({TestLargest.class, TestSmallest.class})
+public class AllTests { }
+
+// Run with java org.junit.runner.JUnitCore AllTests
+```
+

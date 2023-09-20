@@ -15,6 +15,16 @@
 		 - Can refactor during design, coding, and testing (not analysis)
 		 - Refactoring is a cyclical process
 
+### Refactoring Tools
+ - Automate the refactoring process
+	 - Restructures code while preserving behaviour
+	 - Reduces the need to test
+ - Are incorporated into some IDEs
+	 - Xcode supports 6 common refactorings:
+		 - Rename, Extract, Create Superclass, Move Up, Move Down, Encapsulate
+	 - Eclipse supports ~18 refactorings
+	 - Note that the textbook lists ~72 refactorings
+		 - Manual refactoring will still often be necessary
 ### Simple Examples
 **Rename Method** refactoring (p. 273)
 ```java
