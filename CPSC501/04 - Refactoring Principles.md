@@ -31,3 +31,62 @@
 **Don't Refactor When**:
 - Its easier to rewrite from scratch
 - You are close to a release deadline
+**Refactoring and Design**
+ - Refactoring is not a replacement for upfront design
+ - Lets you create a simple, upfront design that does not build in unneeded flexibility
+	 - You can always refactor later if necessary
+**Refactoring and performance**
+ - Refactoring usually makes software run more slowly
+ - Also more amenable to performance tuning
+	 - If well factored, *hot spots* will be isolated to a few short methods (found using a profiler late in development)
+ - Tune the hot spots only, tuning other code is a waste
+
+### When to Refactor
+ - No hard and fast rules
+	 - Best to use informed intuition, try to detect "bad smells in code"
+ - Duplicated code (*Extract Method*)
+	 - If the same code is in two or more places in the same class
+	 - The same code in two sibling classes (*Pull Up Method*)
+	 - Similar code in sibling classes (*Form Template Method*, put common code in superclass)
+	 - Same code in unrelated classes (*Extract Class* in one class, then use new class in other classes)
+ - Long method
+	 - Decompose into small methods (sometimes just one line long)
+	 - *Extract Method* on blocks of code that can be separated out
+		 - May need to *Replace Temp with Query* to enable the extraction
+ - Large classes
+	 - Tries to do too many different things
+		 - Too many instance variables and/or too much code
+	 - *Extract Class* or *Extract Subclass* to separate out bundles of data and responsibilities
+ - Long parameter list
+	 - Better to pass in an object, so the method can get the data it needs
+	 - Shorten list with *Preserve Whole Object* or *Introduce Parameter Object*
+ - Divergent change
+	 - Occurs when a class changes in distinct ways for differing reasons
+		 - Eg. you change 3 methods together for one reason, and 5 other methods for another
+		 - Suggests responsibilities of the class are divergent
+	 - Determine what changes for a single cause, use *Extract Class* to bundle these together
+ - Shotgun surgery
+	 - A single change causes many little changes to several different classes
+	 - Use *Move Method* and *Move Field* to put changes into a single class
+		 - Sometimes best to *Inline Class*
+ - Feature envy
+	 - A class does a calculation that belongs elsewhere
+		 - ie. uses too much data from another class
+	 - Put it into the proper class with *Move Method*
+ - Data clumps
+	 - Data clusters together in fields or parameter lists
+	 - *Extract Class* to change clumps into an object
+	 - Shrink parameter lists with *Introduce Parameter Object* or *Preserve Whole Object*
+ - Primitive obsession
+	 - Often better to use a class instead of a primitive data type
+		 - Allows things like range checking, formatting, etc
+		 - Done with *Replace Data Value with Object*
+	 - If the primitive is a type code, use
+		 - *Replace Type Code with*
+			 - *Class*
+			 - *Subclass*
+			 - *State/Strategy*
+ - Switch statements
+	 - Are rare in good OO code
+	 - If switching on a type code: *Replace Conditional with Polymorphism*
+		 - Easier to add subclasses than changing many switch statements

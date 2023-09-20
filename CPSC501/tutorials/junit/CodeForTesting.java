@@ -1,6 +1,10 @@
 import java.util.*;
 public class CodeForTesting {
 
+    public static void main(String[] args) {
+        System.out.println("Hello???");
+    }
+
     public static int fibonacci(int n) {
         if (n <= 0) {
             throw new IllegalArgumentException("Input must be a positive integer.");
