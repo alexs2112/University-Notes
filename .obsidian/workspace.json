@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPSC525/04 - SSH.md",
+                "file": "CPSC501/04 - Refactoring Principles.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC525/04 - SSH.md",
+                "file": "CPSC501/04 - Refactoring Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPSC525/04 - SSH.md",
+                "file": "CPSC501/04 - Refactoring Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPSC525/04 - SSH.md"
+                "file": "CPSC501/04 - Refactoring Principles.md"
               }
             }
           },
@@ -159,44 +159,51 @@
   },
   "active": "94ff5eaa2479bb9e",
   "lastOpenFiles": [
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/world/WorldBuilder.class",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/world/World.class",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/world/Tile$Type.class",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/world/Tile.class",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/tools/Point.class",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/tools/PathFinder.class",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/tools/Path.class",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/tools/Load.class",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/tools/Line.class",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/tools/FieldOfView.class",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/screens/StartScreen.class",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/application/resources/tiles/snowpile3.png",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/application/resources/tiles/snowpile2.png",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/application/resources/tiles/snowman.png",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/application/resources/tiles/floorbig.png",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/application/resources/players/beaver_moving.gif",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/application/resources/objects/money10.png",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/application/resources/icons/player-bar.png",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/application/resources/icons/WinPrompt.png",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/application/resources/icons/tim-hortons.png",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/Hackathon/bin/application/resources/icons/health-bar.png",
-    "CPSC501/04 - Refactoring Principles.md",
+    "CPSC501/assignments/A1/Most recent/unit_tests/__pycache__/__init__.cpython-310.pyc",
+    "CPSC501/assignments/A1/Most recent/unit_tests/__pycache__/test_metadata.cpython-310-pytest-7.4.2.pyc",
+    "CPSC501/assignments/A1/Most recent/unit_tests/__pycache__/test_download.cpython-310-pytest-7.4.2.pyc",
+    "CPSC501/assignments/A1/Most recent/build/YTMP3/localpycs",
+    "CPSC501/assignments/A1/Most recent/application/__pycache__/song.cpython-310.pyc",
+    "CPSC501/assignments/A1/Most recent/application/__pycache__/downloader.cpython-310.pyc",
+    "CPSC501/assignments/A1/Most recent/unit_tests/__pycache__",
+    "CPSC501/assignments/A1/Most recent/unit_tests/__init__.py",
+    "CPSC501/assignments/A1/Most recent/unit_tests/test_metadata.py",
+    "CPSC501/assignments/A1/Most recent/unit_tests/test_download.py",
+    "CPSC501/assignments/A1/Most recent/unit_tests/lofi-chill.mp3",
+    "CPSC501/assignments/A1/Most recent/resources/Screenshot.png",
+    "CPSC501/assignments/A1/Most recent/resources/icon.png",
+    "CPSC501/assignments/A1/Most recent/README.md",
+    "CPSC501/assignments/A1/Should be working/resources/Screenshot.png",
+    "CPSC501/assignments/A1/Should be working/resources/icon.png",
+    "CPSC501/assignments/A1/Should be working/README.md",
+    "CPSC501/assignments/A1/CPSC501-YTMP3 - Copy/resources/Screenshot.png",
+    "CPSC501/assignments/A1/CPSC501-YTMP3 - Copy/resources/icon.png",
+    "CPSC501/assignments/A1/CPSC501-YTMP3 - Copy/README.md",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/resources/Screenshot.png",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/resources/icon.png",
+    "CPSC501/assignments/A1/temp/CPSC501-YTMP3/resources/icon.png",
+    "CPSC501/assignments/A1/temp/CPSC501-YTMP3/resources/Screenshot.png",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/README.md",
+    "CPSC501/assignments/A1/2/README.md",
+    "CPSC501/assignments/A1/3/README.md",
+    "CPSC501/05 - Catalog of Refactorings.md",
     "DueDates.md",
+    "CPSC501/assignments/A1/Report.md",
+    "CPSC501/assignments/A1/Untitled.md",
+    "CPSC525/Online Lectures.md",
+    "CPSC501/04 - Refactoring Principles.md",
+    "CPSC501/03 - Unit Testing.md",
+    "CPSC501/assignments/A1/CPSC-501-Sabacc/README.md",
+    "ARKY325/07 - Mesopotamia - Akkadian Empire.md",
+    "README.md",
+    "ARKY325/06 - Mesopotamia - Sumerian Early Dynastic Period.md",
+    "ARKY325/Overview.md",
+    "ARKY325/01 - Introduction.md",
+    "CPSC525/04 - SSH.md",
     "CPSC501/01 - Refactoring.md",
     "CPSC501/Overview.md",
-    "ARKY325/Overview.md",
-    "ARKY325/06 - Mesopotamia - Sumerian Early Dynastic Period.md",
     "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/README.md",
     "ARKY325/05 - Mesopotamia - Uruk Period.md",
-    "CPSC501/03 - Unit Testing.md",
-    "CPSC525/04 - SSH.md",
-    "CPSC501/02 - Version Control.md",
-    "ARKY325/04 - Mesopotamia - Ubaid.md",
-    "CPSC525/03 - Words.md",
-    "ARKY325/03 - Gobekli Tepe.md",
-    "ARKY325/02 - Theories for Rise and Fall of Civilizations.md",
-    "CPSC525/02 - What is Privacy.md",
-    "CPSC525/01 - What is Computer Security.md",
-    "ARKY325/01 - Introduction.md"
+    "CPSC501/02 - Version Control.md"
   ]
 }

@@ -1,7 +1,6 @@
 ```
-SEP 22: ARKY305 - Quiz 1
 OCT 02: ARKY305 - Midterm 1
-OCT 02: CPSC525 - Assignment 1
+OCT 06: CPSC525 - Assignment 1
 OCT 06: ARKY305 - Quiz 2
 OCT 06: CPSC501 - Assignment 1
 OCT 20: ARKY305 - Quiz 3
@@ -18,4 +17,9 @@ DEC 06: CPSC525 - Assignment 3
 DEC 07: CPSC525 - Final Project
 
 Final: CPSC 501
+```
+
+### Done
+```
+SEP 22: ARKY305 - Quiz 1
 ```
