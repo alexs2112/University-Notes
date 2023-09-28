@@ -1,0 +1,28 @@
+### Basic Concepts
+ - Definition: *Reflection* is the ability of a running program to:
+	 - Examine itself and the run-time environment (*Introspection*)
+	 - Change its behaviour, structure, or data depending on what it finds
+ - To do introspection, a program must have a representation of itself available at runtime
+	 - Called *metadata*
+	 - In an OO language, metadata is organized using *metaobjects*
+		 - In Java, these are typically instances of classes like `Class.Method`, and `Field`
+ - The normal, non-reflective part of a program is called the *base program*
+	 - Consists of *base-level objects*
+ - Each base-level object is an instance of some class
+	 - This class is represented at the *metalevel* as a *class object* (an example of a metaobject)
+ - The fields and methods for a class are represented with `Field` and `Method` metaobjects
+	 - Are contained within the class object
+ - Once introspection is done, you can change a program's structure, data, or behaviour
+	 - Three general techniques:
+		 - Direct metaobject modification
+			 - Eg: Add methods or fields to an existing class
+			 - Not possible in Java (avoids complications)
+		 - Operations using metadata
+			 - Eg: Dynamic method invocation, dynamic class loading, reflective construction
+		 - *Intercession*
+			 - Where code intercedes to modify its behavior as the program runs
+			 - Typically involves intercepting method calls
+			 - In Java, limited to dynamic proxies
+ - Only a few languages support reflection
+	 - Typically when run in an interpreter
+	 - Eg: Java, Smalltalk, Python, Objective-C, Prolog, etc

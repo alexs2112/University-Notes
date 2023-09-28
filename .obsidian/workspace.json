@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "73351a93fddfc5b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPSC525/05 - Buffer Overreads & Overflows.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -159,17 +171,24 @@
   },
   "active": "94ff5eaa2479bb9e",
   "lastOpenFiles": [
-    "CPSC501/assignments/A1/Most recent/unit_tests/__pycache__/__init__.cpython-310.pyc",
-    "CPSC501/assignments/A1/Most recent/unit_tests/__pycache__/test_metadata.cpython-310-pytest-7.4.2.pyc",
-    "CPSC501/assignments/A1/Most recent/unit_tests/__pycache__/test_download.cpython-310-pytest-7.4.2.pyc",
-    "CPSC501/assignments/A1/Most recent/build/YTMP3/localpycs",
-    "CPSC501/assignments/A1/Most recent/application/__pycache__/song.cpython-310.pyc",
-    "CPSC501/assignments/A1/Most recent/application/__pycache__/downloader.cpython-310.pyc",
-    "CPSC501/assignments/A1/Most recent/unit_tests/__pycache__",
-    "CPSC501/assignments/A1/Most recent/unit_tests/__init__.py",
-    "CPSC501/assignments/A1/Most recent/unit_tests/test_metadata.py",
-    "CPSC501/assignments/A1/Most recent/unit_tests/test_download.py",
-    "CPSC501/assignments/A1/Most recent/unit_tests/lofi-chill.mp3",
+    "CPSC501/assignments/A1/Report.pdf",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/Say Goodbye.temp.mp3",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/Say Goodbye.mp3",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/Say Goodbye.webm",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/Say Goodbye.webm.part",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/Never, Forever.temp.mp3",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/Never, Forever.mp3",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/Never, Forever.webm",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/Never, Forever.webm.part",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/Life Sentence.temp.mp3",
+    "CPSC501/assignments/A1/CPSC501-YTMP3/Life Sentence.mp3",
+    "CPSC525/05 - Buffer Overreads & Overflows.md",
+    "CPSC525/06 -.md",
+    "CPSC501/06 - Reflection.md",
+    "CPSC501/04 - Refactoring Principles.md",
+    "CPSC501/05 - Catalog of Refactorings.md",
+    "ARKY325/09 - Ancient Egypt Early Dynasty, 2nd Intermediate.md",
+    "ARKY325/08 - Ancient Egypt Intro, Protodynastic.md",
     "CPSC501/assignments/A1/Most recent/resources/Screenshot.png",
     "CPSC501/assignments/A1/Most recent/resources/icon.png",
     "CPSC501/assignments/A1/Most recent/README.md",
@@ -186,12 +205,10 @@
     "CPSC501/assignments/A1/CPSC501-YTMP3/README.md",
     "CPSC501/assignments/A1/2/README.md",
     "CPSC501/assignments/A1/3/README.md",
-    "CPSC501/05 - Catalog of Refactorings.md",
     "DueDates.md",
     "CPSC501/assignments/A1/Report.md",
     "CPSC501/assignments/A1/Untitled.md",
     "CPSC525/Online Lectures.md",
-    "CPSC501/04 - Refactoring Principles.md",
     "CPSC501/03 - Unit Testing.md",
     "CPSC501/assignments/A1/CPSC-501-Sabacc/README.md",
     "ARKY325/07 - Mesopotamia - Akkadian Empire.md",
@@ -199,11 +216,6 @@
     "ARKY325/06 - Mesopotamia - Sumerian Early Dynastic Period.md",
     "ARKY325/Overview.md",
     "ARKY325/01 - Introduction.md",
-    "CPSC525/04 - SSH.md",
-    "CPSC501/01 - Refactoring.md",
-    "CPSC501/Overview.md",
-    "CPSC501/assignments/A1/CPSC-501-Beaver-Fever/README.md",
-    "ARKY325/05 - Mesopotamia - Uruk Period.md",
-    "CPSC501/02 - Version Control.md"
+    "CPSC525/04 - SSH.md"
   ]
 }
