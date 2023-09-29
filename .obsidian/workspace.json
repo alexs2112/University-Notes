@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "efa035337e0327ab",
+        "id": "a552ffcb40d3ea2f",
         "type": "tabs",
         "children": [
           {
-            "id": "94ff5eaa2479bb9e",
+            "id": "fccd57d7d5f07d40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPSC501/04 - Refactoring Principles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73351a93fddfc5b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPSC525/05 - Buffer Overreads & Overflows.md",
+                "file": "ARKY325/04 - Mesopotamia - Ubaid.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC501/04 - Refactoring Principles.md",
+                "file": "ARKY325/Midterm 1 Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPSC501/04 - Refactoring Principles.md",
+                "file": "ARKY325/Midterm 1 Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPSC501/04 - Refactoring Principles.md"
+                "file": "ARKY325/Midterm 1 Review.md"
               }
             }
           },
@@ -169,25 +157,80 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94ff5eaa2479bb9e",
+  "floating": {
+    "id": "760bed3d24f2d232",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2fb92828ecb73462",
+        "type": "window",
+        "children": [
+          {
+            "id": "3f7dd969cedb34d9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "73351a93fddfc5b7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ARKY325/Midterm 1 Review.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 736,
+        "height": 864,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "73351a93fddfc5b7",
   "lastOpenFiles": [
-    "CPSC501/assignments/A1/Report.pdf",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/Say Goodbye.temp.mp3",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/Say Goodbye.mp3",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/Say Goodbye.webm",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/Say Goodbye.webm.part",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/Never, Forever.temp.mp3",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/Never, Forever.mp3",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/Never, Forever.webm",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/Never, Forever.webm.part",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/Life Sentence.temp.mp3",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/Life Sentence.mp3",
+    "ARKY325/04 - Mesopotamia - Ubaid.md",
+    "ARKY325/03 - Gobekli Tepe.md",
+    "ARKY325/Midterm 1 Review.md",
+    "ARKY325/02 - Theories for Rise and Fall of Civilizations.md",
+    "ARKY325/01 - Introduction.md",
     "CPSC525/05 - Buffer Overreads & Overflows.md",
-    "CPSC525/06 -.md",
     "CPSC501/06 - Reflection.md",
-    "CPSC501/04 - Refactoring Principles.md",
-    "CPSC501/05 - Catalog of Refactorings.md",
+    "CPSC525/Worksheets/worksheet09.pdf",
+    "CPSC501/07 -.md",
+    "CPSC501/Overview.md",
     "ARKY325/09 - Ancient Egypt Early Dynasty, 2nd Intermediate.md",
+    "DueDates.md",
+    "README.md",
+    "ARKY325/10 - Ancient Egypt New Kingdom.md",
+    "CPSC501/04 - Refactoring Principles.md",
+    "CPSC501/assignments/A1/git_log.txt",
+    "CPSC501/assignments/A1/New Text Document.txt",
+    "CPSC501/assignments/A1/unit_tests.zip",
+    "CPSC501/assignments/A1/unit_tests/__pycache__/__init__.cpython-310.pyc",
+    "CPSC501/assignments/A1/unit_tests/__pycache__/test_metadata.cpython-310-pytest-7.4.2.pyc",
+    "CPSC501/assignments/A1/unit_tests/__pycache__/test_download.cpython-310-pytest-7.4.2.pyc",
+    "CPSC501/assignments/A1/unit_tests/__pycache__",
+    "CPSC501/assignments/A1/unit_tests/__init__.py",
+    "CPSC501/assignments/A1/unit_tests/test_metadata.py",
+    "CPSC501/assignments/A1/LatestVersion/LatestVersion/resources/Screenshot.png",
+    "CPSC501/assignments/A1/LatestVersion/LatestVersion/resources/icon.png",
+    "CPSC501/assignments/A1/LatestVersion/LatestVersion/README.md",
+    "CPSC501/assignments/A1/LatestVersion/resources/Screenshot.png",
+    "CPSC501/assignments/A1/LatestVersion/resources/icon.png",
+    "CPSC501/assignments/A1/LatestVersion/README.md",
+    "CPSC501/assignments/A1/CPSC501-YTMP3 - Copy/resources/Screenshot.png",
+    "CPSC501/assignments/A1/CPSC501-YTMP3 - Copy/resources/icon.png",
+    "CPSC501/assignments/A1/CPSC501-YTMP3 - Copy/README.md",
+    "CPSC525/06 -.md",
+    "CPSC501/05 - Catalog of Refactorings.md",
     "ARKY325/08 - Ancient Egypt Intro, Protodynastic.md",
     "CPSC501/assignments/A1/Most recent/resources/Screenshot.png",
     "CPSC501/assignments/A1/Most recent/resources/icon.png",
@@ -195,27 +238,9 @@
     "CPSC501/assignments/A1/Should be working/resources/Screenshot.png",
     "CPSC501/assignments/A1/Should be working/resources/icon.png",
     "CPSC501/assignments/A1/Should be working/README.md",
-    "CPSC501/assignments/A1/CPSC501-YTMP3 - Copy/resources/Screenshot.png",
-    "CPSC501/assignments/A1/CPSC501-YTMP3 - Copy/resources/icon.png",
-    "CPSC501/assignments/A1/CPSC501-YTMP3 - Copy/README.md",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/resources/Screenshot.png",
-    "CPSC501/assignments/A1/CPSC501-YTMP3/resources/icon.png",
-    "CPSC501/assignments/A1/temp/CPSC501-YTMP3/resources/icon.png",
-    "CPSC501/assignments/A1/temp/CPSC501-YTMP3/resources/Screenshot.png",
     "CPSC501/assignments/A1/CPSC501-YTMP3/README.md",
     "CPSC501/assignments/A1/2/README.md",
     "CPSC501/assignments/A1/3/README.md",
-    "DueDates.md",
-    "CPSC501/assignments/A1/Report.md",
-    "CPSC501/assignments/A1/Untitled.md",
-    "CPSC525/Online Lectures.md",
-    "CPSC501/03 - Unit Testing.md",
-    "CPSC501/assignments/A1/CPSC-501-Sabacc/README.md",
-    "ARKY325/07 - Mesopotamia - Akkadian Empire.md",
-    "README.md",
-    "ARKY325/06 - Mesopotamia - Sumerian Early Dynastic Period.md",
-    "ARKY325/Overview.md",
-    "ARKY325/01 - Introduction.md",
-    "CPSC525/04 - SSH.md"
+    "CPSC501/assignments/A1/Report.md"
   ]
 }

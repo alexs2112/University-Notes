@@ -1,11 +1,26 @@
-Github Repository: https://github.com/alexs2112/CPSC501-YTMP3
+# CPSC 501 - Assignment 1
+### Alex Stevenson - 30073617
 
-First commit made for this assignment: 
+A python application to handle downloading the audio from a list of youtube videos as MP3 files. Additional functionality to set MP3 metadata and rename those files once they have been downloaded.
+	
+This project uses the `pytest` unit testing framework.
+
+Libraries in use:
+ - `tkinter`: User interface
+ - `yt-dlp`: Library that downloads video links from Youtube as MP3 files
+ - `eyed3`: Library to handle modifying metadata in downloaded MP3s
+
+**Github Repository**: https://github.com/alexs2112/CPSC501-YTMP3
+
+Initial commit before refactorings are performed: 
+[6edefd8816490cf08f2bf5d50997b79238380211](https://github.com/alexs2112/CPSC501-YTMP3/commit/6edefd8816490cf08f2bf5d50997b79238380211)
 ```
 Sep 23, 2023: Add unit tests for metadata
 6edefd8816490cf08f2bf5d50997b79238380211
 ```
-[6edefd8816490cf08f2bf5d50997b79238380211](https://github.com/alexs2112/CPSC501-YTMP3/commit/6edefd8816490cf08f2bf5d50997b79238380211)
+![[Screenshot.png|400]]
+<div style="page-break-after: always;"></div>
+
 
 ### Refactoring 1
 **Git Commit**: [3c953ce373c4d2050c2d8e21aba573037f59861f](https://github.com/alexs2112/CPSC501-YTMP3/commit/3c953ce373c4d2050c2d8e21aba573037f59861f)
@@ -20,46 +35,43 @@ Sep 23, 2023: Add unit tests for metadata
 class Application:
     def __init__(self):
         ...
-	    self.downloader = Downloader()
-	    self.window.iconbitmap(self.downloader.executable_path("icon.ico"))
-	    self.downloader.check_for_ffmpeg(self)
-
-	...
-
-	def download(self):
+        self.downloader = Downloader()
+        self.window.iconbitmap(self.downloader.executable_path("icon.ico"))
+        self.downloader.check_for_ffmpeg(self)
+    ...
+    def download(self):
         self.downloader.download(
             self,
             self.song_input.get("1.0", tkinter.END).split('\n'),
             self.directory.get(),
-            self.metadata.get(),)
+            self.metadata.get())
     ...
 
 class Downloader:
-	def executable_path(self, path):
-		...
-
-	def check_for_ffmpeg(self, application):
-		...
-
-    def sort_songs(self, directory, songs):
-	    ...
-
-	def get_playlist_songs(self, application, url):
-		...
-
-	def get_downloader(self, application, directory, embed_metadata):
-		...
-
-	def download(self, application, data, directory, add_metadata):
-		...
+    def executable_path(self, path):
+        ...
+    def check_for_ffmpeg(self, application):
+        ...
+    def sort_songs(self, directory, songs):
+        ...
+    def get_playlist_songs(self, application, url):
+        ...
+    def get_downloader(self, application, directory, embed_metadata):
+        ...
+    def download(self, application, data, directory, add_metadata):
+        ...
 ```
+<div style="page-break-after: always;"></div>
+
 **Testing**:
  - This change was tested manually, by considering a variety of download links and potential errors while making sure that everything downloaded correctly and messages were displayed as expected. The executable was then built through the `build.bat` script, and the tests were manually performed again.
  - Unit testing will need to be implemented after further refactoring is done. Currently the download process requires the entire application to be running to handle logging messages. See *Refactoring 3*.
+
 **What Comes Next**:
  - The code is better structured as this refactoring was able to remove over 100 lines of code from the large `Application` class. This makes it more succinct and ensures that download related code is handled within a download class, instead of all in the main class. This will allow further bug fixes and changes regarding downloads to be created easier.
  - As mentioned above, unit tests are currently out of scope for this change as the entire `Application` process gets passed between various download related functions as a parameter to handle logging. A new class to specifically handle logging messages that can be stored in `Application` and passed to `Downloader` would be a much better solution (*Refactoring 3*)
  - Another refactoring that can be considered is with the `Downloader.download` method. This method is quite long (50 lines of code) and can be broken down further (*Refactoring 2*)
+<div style="page-break-after: always;"></div>
 
 ### Refactoring 2
 **Git Commit**: [67849005238c4353f24987fa35c136428ddd6888](https://github.com/alexs2112/CPSC501-YTMP3/commit/67849005238c4353f24987fa35c136428ddd6888)
@@ -68,8 +80,10 @@ class Downloader:
  - This method essentially does 2 things:
 	1. Parse the list of links input by the user captured by the `data` variable. This will return a list of links in a standardized format while also parsing playlists of multiple files to download in a single list.
 	2. It then fetches the downloader object that uses `yt-dlp`, called here as `self.get_downloader`, which is then used to iterate over the standardized list of links and downloads them in order.
+
 **Steps**:
  - Performed the `Extract Method` refactoring on `Downloader.download`. It is relatively easy to chop the method into two different methods, now to be known as `process_data` and `download`, where `download` calls `process_data` to return a list of links to download.
+
 **Code Snippets**:
  - The `Downloader.download` function before the refactoring was extremely large and handles two distinct processes.
 ```python
@@ -77,23 +91,7 @@ def download(self, application, data, directory, add_metadata):
 	# Handle processing user input data
 	songs = []
 	for link in data:
-		if "youtu.be" in link:
-			songs.append(link)
-		elif "playlist" in link:
-			ids = self.get_playlist_songs(application, link)
-			for id in ids:
-				songs.append(f"https://youtu.be/{id}")
-		elif "music.youtube" in link:
-			songs.append(link)
-		elif "www.youtube.com" in link:
-			video_code = link.split("?v=")
-			if len(video_code) == 2:
-				code = video_code[1].split("&")[0]
-				songs.append(f"https://youtu.be/{code}")
-			else:
-				application.error(f"Could not split {link} by '?v='")
-		elif len(link.strip()) > 0:
-			application.error(f"Could not read {link}, skipping.")
+		... # Handle URL type between playlist and video links
 	if (len(songs) == 0):
 		application.error("No songs to download")
 		return
@@ -105,12 +103,7 @@ def download(self, application, data, directory, add_metadata):
 		url = songs[i]
 		try:
 			data = audio.extract_info(url)
-			try:
-				filepath = data['requested_downloads'][0]['filepath']
-				title = os.path.basename(filepath)
-			except Exception as e:
-				title = f"{data['title']}.mp3"
-			application.add_song(title)
+			...
 		except Exception as e:
 			print(e)
 			failed.append(i)
@@ -120,8 +113,6 @@ def download(self, application, data, directory, add_metadata):
 		application.error(f"\n{str(len(failed))} Failures Detected")    
 		for i in failed:
 			application.print(songs[i])
-
-	application.print(f"\nDownload Complete!\nFiles located at {directory}\n")
 ```
  - This is refactored into what follows:
 ```python
@@ -134,22 +125,30 @@ def download(self, application, data, directory, add_metadata):
 	songs = self.process_data(application, data)
 	# Iterate over `songs`, downloading each file as above
 ```
+
 **Testing**:
  - Manual testing is performed as above on both individual songs and playlists of multiple songs. This change is isolated to the `download` method so no further testing on the rest of the system is required.
+
 **What Comes Next**:
  - As with *Refactoring 1*, the `Application` object is still being passed between different methods in `Downloader` and is now being passed into the additional method created for this refactoring.
  - Unit tests for downloading songs and playlists will be created as part of *Refactoring 3* to ensure that this functionality is never in a failing state.
+<div style="page-break-after: always;"></div>
+
 
 ### Refactoring 3
 **Git Commit**: [5cb799f5b98be8888b959ff533e7084b76d0c9aa](https://github.com/alexs2112/CPSC501-YTMP3/commit/5cb799f5b98be8888b959ff533e7084b76d0c9aa)
 **Improvement**: Inappropriate Intimacy (*Extract Class*, *Move Method*)
  - While this is not strictly correct, as python doesn't really have private variables, it is bad practice for the new `Downloader` class to be taking the `Application` class as a parameter just to access various logging methods. These logging methods should otherwise be kept private.
+
 **Steps**:
  - Performed *Extract Class* to create a new `Logger` class and *Move Method* on those logging methods from `Application` into `Logger`. This takes the window console as a constructor parameter so must be initialized in `Application` after the GUI is set up.
  - Change each method in `Application` to use the new `Logger` object rather than itself when printing messages to the console.
  - Pass the new `Logger` object into the `Downloader` as a constructor parameter. Change each method in `Downloader` to use this `Logger` object rather than passing `Application` into each method.
  - The `Download` method in `Downloader` still uses `Application` to add songs to the list of completed songs upon successful download. This is changed to instead pass the `Application.add_song` method into `Download` as a parameter. This is not the best solution, however due to the downloads running in a separate thread it is the best one to not interrupt workflow.
 	 - An alternative solution would be to return the list of successful songs at the end of `Download` and add them all to the list in `Application`, however this means that the list will *not* update itself while downloads are still running.
+<div style="page-break-after: always;"></div>
+
+
 **Code Snippets**:
  - New `Logger` class extracted from `Application`
 ```python
@@ -167,14 +166,12 @@ class Logger:
 
     def debug(self, msg):
         msg.strip()
-        if "[download]" in msg and "[download]" in self.last_log and "Destination" not in self.last_log:
+        if "[download]" in msg and ... # String parsing
             last = self.console.index("end-1c linestart")
             self.console.delete(last, END)
         self.print(msg if "[" in msg else f"[debug]: {msg}")
-
     def warning(self, msg):
         self.print(f"[warning]: {msg}")
-
     def error(self, msg):
         self.print(f"[error]: {msg}")
 ```
@@ -198,6 +195,9 @@ self.logger.debug("Message")
 self.logger.warning("Message")
 self.logger.error("Message")
 ```
+<div style="page-break-after: always;"></div>
+
+
 **Testing**:
  - Testing the new logging messages through the same manual tests as in *Refactoring 1*
  - Now that this `Logger` object is created, unit tests for downloads can be created. Example:
@@ -214,6 +214,8 @@ def test_download(self):
 **What Comes Next**:
  - A logging object was desperately needed after the previous refactoring. Passing the entire `Application` object into `Downloader` to access the console log was extremely bad practice.
  - This refactoring on its own does not lead to any others. The program should have had a logging object from the beginning.
+<div style="page-break-after: always;"></div>
+
 
 ### Refactoring 4
 **Git Commit**: [055be880bf9495d601d641c3f0d8316ec72b0878](https://github.com/alexs2112/CPSC501-YTMP3/commit/055be880bf9495d601d641c3f0d8316ec72b0878)
@@ -229,12 +231,16 @@ def download(self, data, directory, add_metadata, add_song_method):
 	 - `directory`: A string that is extracted from a `tkinter.Entry` object
 	 - `add_metadata`: A boolean value that is extracted from a `tkinter.IntVar()` initialized in `Application`
 	 - `add_song_method`: A method that is called later in `Downloader.download`, introduced as part of Refactoring 3 along with justification for its existence.
+
 **Steps**:
  - Introduce a new Parameter Object called `DownloadData`. Constructor arguments are most of the parameter list for the original method.
 	 - Change `data` to `input` to be clearer when calling `DownloadData`.
 	 - Keep `add_song_method` as part of the parameters for `download` as it is a method instead of data.
  - Use this new `DownloadData` object as a parameter to `Download` in both `Application` and `test_download` unit tests
  - `data` is a local variable that is used twice in `download`. Break this up into `download_data` and `song_data`
+<div style="page-break-after: always;"></div>
+
+
 **Code Snippets**:
  - New `DownloadData` class, simply stores those parameters in an easy to access object that keeps them together
 ```python
@@ -255,12 +261,17 @@ def download(self):
             download_data,
             self.add_song)
 ```
+
 **Testing**:
  - A simple and short manual test to download a single song.
  - Rerun unit tests that handle downloads.
+
 **What Comes Next**:
  - This makes the code a little cleaner to read as `download_data` is separate from `Downloader.download`. Especially as the three inputs to `DownloadData` are actually method calls to objects storing primitive data types.
  - This does not lead to any more refactoring as it is a rather small change.
+
+<div style="page-break-after: always;"></div>
+
 
 ### Refactoring 5
 **Git Commit**: [e7fcf1ca2944f71369a7f010144b1d7d25942480](https://github.com/alexs2112/CPSC501-YTMP3/commit/e7fcf1ca2944f71369a7f010144b1d7d25942480)
@@ -268,6 +279,7 @@ def download(self):
  - The largest refactoring that this codebase requires.
  - `Application` contains an overabundance of fields and methods that are solely related to handling the UI interface through the tkinter library.
  - These fields and methods can be moved to a new class and then the required ones can be called by `Application`, instead of storing them all in `Application` and only using a few of them for non-UI purposes.
+
 **Steps**:
  - Extract a new `Interface` class to handle all of the tk GUI code. `Application` now creates an `Interface` object
  - This class handles all elements created in `Application.setup`, everything regarding button clicks and widget keybindings, everything regarding the directory the application is running in, and everything regarding how the song is displayed and handled in the UI.
@@ -275,16 +287,17 @@ def download(self):
  - Create several helper classes so that `Application` can access important fields in `Interface` (such as `directory` and `metadata` to pass into `Downloader`)
 	 - Pass the `Application.start_download` method into `Interface` to access this functionality through a button press.
  - Move the ability to sort songs from `Downloader.sort_songs` to `Interface`. It makes more sense here as it handles how songs are displayed in the UI.
+<div style="page-break-after: always;"></div>
+
+
 **Code Snippets**:
  - Several fields that were previously in the constructor for `Application` can now be moved to the new `Interface` constructor, as `Application` never touched them outside of UI purposes.
 ```python
 def __init__(self, songs, start_download_method):
-	...
 	self.last_artist = ""
 	self.last_album = ""
 	self.metadata = tkinter.IntVar()
 	self.selected_song = tkinter.StringVar()
-	self.initialize_colours()
 	...
 ```
  - Certain helper functions are created in `Interface` to provide a cleaner way for other objects to get certain data from the UI
@@ -309,27 +322,29 @@ def get_metadata(self):
 def __init__(self):
 	...
 	self.interface = Interface(self.songs, self.start_download)
-	...
 	self.interface.reset_directory()
 	self.interface.initialize_songs()
 	...
 def start_download(self, _):
 	if self.check_thread():
-		self.logger.debug("Initializing download.")
-		self.thread = threading.Thread(target=self.download)
-		self.thread.daemon = True
-		self.thread.start()
-
+		...
 		self.interface.disable_directory()
 ```
+<div style="page-break-after: always;"></div>
+
+
 **Testing**:
  - An additional unit test was added to `test_download.py` that ensures the application does not crash when the user inputs no URLs to download in the Interface.
  - Manual testing was done on most of the UI portion. Further automated testing would require testing the whole pipeline of events (input data into `Interface` -> Click button that calls `Application` to start the download -> `Downloader` performs the download) which stops being a unit test.
 	 - These other individual portions are unit tested already
+
 **What Comes Next**:
  - The code is many times cleaner now that downloading, logging, and the UI are all handled in their own classes instead of the monolithic `Application`.
  - One further refactoring will be done for this assignment as `Interface.setup` is over 100 lines of setting up every individual widget and frame in a single method.
  - `Interface` could be refactored into two more sections. One handling the `directory` specific methods, and the other handling `song` specific methods.
+
+<div style="page-break-after: always;"></div>
+
 
 ### Refactoring 6
 **Git Commit**: [5ada1b8781b84cb7caf85864fd739291f494eeb2](https://github.com/alexs2112/CPSC501-YTMP3/commit/5ada1b8781b84cb7caf85864fd739291f494eeb2)
@@ -342,11 +357,15 @@ def start_download(self, _):
 	 - Every other widget also includes `bg=self.colour_background`, however these are more unique and difficult to turn into a query. They will remain as is for this refactoring
  - The ugliest part of the method handles song metadata. It consists of 5 nearly identical chunks of code that each creates a new variable (such as `song_filename`, `song_album`, etc). This could be broken up into iterating over the list of 5 elements.
 	 - These methods still need to be accessible. This can be turned into a dictionary of text entry fields stored under their metadata name.
+
 **Steps**:
  - Identify different chunks of `Interface.setup` that can be extracted into their own methods. These are typically centered around certain frames.
  - For each of these methods, determine which widgets need to remain assigned to `self` and which can be set as local variables.
  - Perform *Replace Temp with Query* on all `tkinter.Frame` calls into its own method with a single parameter of `master`.
  - Break up the repeated code handling `song_frame` into iterating over a list of attributes that are stored as a class variable.
+<div style="page-break-after: always;"></div>
+
+
 **Code Snippets**:
  - A portion of the original `setup` method, continue for over 100 lines and you have an unreadable mass of code.
 ```python
@@ -383,6 +402,9 @@ def setup(self, start_download_method):
 	self.get_directory_frame(right_frame)
 	right_frame.grid(row=0, column=1)
 ```
+<div style="page-break-after: always;"></div>
+
+
  - A portion of the `song_frame` part of `setup`. This small chunk of code happens 5 times to handle different song metadata. This is now rewritten to iterate over a class variable.
 ```python
 # Old Code, this is repeated 5 times
@@ -408,9 +430,11 @@ def get_song_metadata_frames(self, field_frame, entry_frame):
 		entry.pack()
 		self.song_data[metadata] = entry
 ```
+
 **Testing**:
  - Reran all unit tests
  - Manually downloaded an album, ensured all button functionality worked and that tab autocompletion was still there.
+
 **What Comes Next**:
  - This refactoring cleaned up several things that needed to be fixed with `Interface.setup`
 	 - Reduced the size of the method from over 100 lines to 15 by extracting several other methods. This has been broken up from 1 method into 11!
@@ -418,47 +442,43 @@ def get_song_metadata_frames(self, field_frame, entry_frame):
 	 - Broke up 5 different instance variables, instead storing those variables in a single directory that is accessed by other parts of the code.
 	 - Reduced a lot of repeated code by creating a query method that creates a `tkinter.Frame` object.
 
+<div style="page-break-after: always;"></div>
+
+
 ### `git log`
 ```
 commit 5ada1b8781b84cb7caf85864fd739291f494eeb2 (HEAD -> master, origin/master, origin/HEAD)
 Author: alexs2112 <alexander.stevenson@ucalgary.ca>
 Date:   Thu Sep 28 11:50:33 2023 -0600
-
     Refactoring 6: Clean up monolithic setup method
 
 commit e7fcf1ca2944f71369a7f010144b1d7d25942480
 Author: alexs2112 <alexander.stevenson@ucalgary.ca>
 Date:   Wed Sep 27 13:31:27 2023 -0600
-
     Refactoring 5: Extract Interface Class
 
 commit 055be880bf9495d601d641c3f0d8316ec72b0878
 Author: alexs2112 <alexander.stevenson@ucalgary.ca>
 Date:   Tue Sep 26 14:44:21 2023 -0600
-
     Refactoring 4: Introduce DownloadData parameter object
 
 commit 5cb799f5b98be8888b959ff533e7084b76d0c9aa
 Author: alexs2112 <alexander.stevenson@ucalgary.ca>
 Date:   Mon Sep 25 12:49:07 2023 -0600
-
     Refactoring 3: Extract Logging Class
 
 commit 67849005238c4353f24987fa35c136428ddd6888
 Author: alexs2112 <alexander.stevenson@ucalgary.ca>
 Date:   Mon Sep 25 12:33:47 2023 -0600
-
     Refactoring 2: Extract Method from Downloader.download
 
 commit 3c953ce373c4d2050c2d8e21aba573037f59861f
 Author: alexs2112 <alexander.stevenson@ucalgary.ca>
 Date:   Mon Sep 25 12:17:27 2023 -0600
-
     Refactoring 1: Extract Downloader Class
 
 commit 6edefd8816490cf08f2bf5d50997b79238380211
 Author: alexs2112 <alexander.stevenson@ucalgary.ca>
 Date:   Sat Sep 23 12:27:03 2023 -0600
-
     Add unit tests for metadata
 ```

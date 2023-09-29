@@ -173,3 +173,41 @@
  - Isis turns herself into a bird, hovers over Osiris saying magic words, conceives Horus
  - Osiris is reincarnated as god of the dead
  - Horus avenges his father by killing his uncle Seth
+**Story is a metaphor of the Nile, relationship of Nile with Kingship**:
+ - Osiris is the Nile, Seth the hot desert wind
+	 - Osiris is dead when the river is dry
+	 - Isis finds his body on the start of the annual flood
+	 - Osiris fertilizes Isis bringing forth new life in Horus
+		 - As Nile brings new life to Egypt
+ - Osiris is the Nile, Isis is the Earth
+ - Pharaoh is manifestation of Osiris - Giver of Life
+**Funerary Objects**
+ - Mass consumption and national adoption of elite culture
+ - More people had wealth and wanted to go to the afterlife
+ - Mass production of cheaper objects for funerary use
+	 - Modeled on Old Kingdom elite objects
+ - Increased demand for goods
+	 - Massive expansion of trade
+
+### Second Intermediate
+ - 1640-1550 BCE
+**The Hyksos**:
+ - Not clear why MK declines
+ - Second intermediate marked by rise of the Hyksos in Lower Egypt
+	 - Theban rulers in Upper Egypt
+ - End of MK large number of Asiatics living in Egypt
+	 - Cooks, brewers, artisans, winemakers from Syria
+	 - Cosmopolitan society
+ - Merchants moving caravans of goods by donkey from Levant to Lower Egypt
+**Hyksos Pharaohs**:
+ - Hyksos gain political control of Lower Egypt with capital at Avaris
+	 - Northeast part of Nile Delta
+ - Archaeologists have found friezes painted by Minoan artists of bull-leaping scenes in the palace
+	 - Potential marriage agreements
+ - Hyksos respected Egyptian traditions, took on the titles, traditions, religious beliefs of the pharaohs
+ - Also brought innovations to Egypt:
+	 - Bronze technology
+	 - Improved weaponry
+	 - Horse drawn war chariot
+ - Drew Egypt into the "global economy"
+	 - Mediterranean + Near Eastern economy

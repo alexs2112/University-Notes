@@ -149,3 +149,45 @@ void main() {
 }
 ```
  - This program prints 0 as it overflows the return address
+
+### Interactive Class
+Using `/srv/lamest_joke.c`
+
+only time privileges matter for a1 is when creating or opening a file
+ - drop privileges after that
+
+If you can make a program seg fault, theres a good chance you can own the program
+ - indicative of memory error that the attacker is triggering
+ - if you can then make it not seg fault again, you can manipulate execution flow
+
+**GDB:**
+ - compile with `-g`
+ - gdb ./<program>
+ - breakpoints: `break <line>` (probably the next line to ensure the line you want has executed)
+ - run code: `r`
+ - print variable: `p <var>`
+ - quit: `q`
+
+```
+(gdb) info frame
+Stack level 0, frame at 0x7fffffffe440:
+ rip = 0x5555555553a0 in foo (lamestjoke.c:29); saved rip = 0x555555555482
+ called by frame at 0x7fffffffe480
+ source language c.
+ Arglist at 0x7fffffffe430, args: offset=0
+ Locals at 0x7fffffffe430, Previous frame's sp is 0x7fffffffe440
+ Saved registers:
+  rbp at 0x7fffffffe430, rip at 0x7fffffffe438
+```
+ - `saved rip` is where the return address of the function is stored
+ - rbp: return base pointer
+ - rip: return instruction pointer: when this stack frame is popped, what value goes into instruction pointer register (currently at the current instruction)
+ - sp: stack pointer: where to push new stack frames
+ - clobber this
+
+Goal for `/srv/lamest_joke.c`
+ - Determine what value the input should be to not cause a seg fault
+ - Get return address of frame of foo (rip)
+ - Get address of bar
+ - Input the difference of these two things so that the return address of foo points to bar?
+
