@@ -85,7 +85,7 @@
  - Gilgamesh was a historic king of Uruk (2600 BCE), considered part god and part human
 	 - The epic also describes the city of Uruk
  - He was a young king who exploited his people building his great city and its walls
-	 - His people appealed for help from the ksy god Anu
+	 - His people appealed for help from the sky god Anu
  - Anu creates a wild man called Enkidu in the forest who eventually goes to Uruk and meets Gilgamesh
  - After a good fight, the two become best friends and have many adventures
  - One adventure: Gilgamesh rejects the amorous advances of the goddess Innana, seeks her revenge by killing Enki**du

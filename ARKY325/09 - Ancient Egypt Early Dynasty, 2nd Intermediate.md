@@ -113,7 +113,7 @@
  - Khufu builds Great Pyramid on Giza plateau (near Cairo)
 	 - Smooth sided pyramids with limestone blocks with paved causeways linked to mortuary temples
  - Khafre builds the middle pyramid with the Sphinx guarding his mortuary temple
- - Monkaure builds the last and smallest pyramid using red granite
+ - Menkaure builds the last and smallest pyramid using red granite
 	 - Quality over quantity?
 **Sphinx: First Monumental Sculpture**:
  - Carved from the bedrock of the plateau, also the quarry for the pyramids
@@ -137,7 +137,7 @@
  - As more people were wealthy, they began to demand privileges that Old Kingdom reserved for the elite
  - Nature of Egyptian society was sustained (religion, hierarchy)
 	 - Vibrant culture of ordinary people continued
-	 - Not a breakdown of Egyption society
+	 - Not a breakdown of Egyptian society
 
 ### The Middle Kingdom
  - 2040-1640 BCE

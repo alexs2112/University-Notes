@@ -69,7 +69,7 @@
  - These recipes are similar to those used 2500 years later by Egyptian embalmers of the New Kingdom and in the linens from 4500 BCE
 **Developing Complex Technology: Egyptian Faience**: (UE)
  - Not invented in Egypt on its own, but used
- - Made of crushed quartz or sand crystals mixed with sodium, potassium, calcium, magnesium, copper oxides that produce blue, green, or turqoise colour
+ - Made of crushed quartz or sand crystals mixed with sodium, potassium, calcium, magnesium, copper oxides that produce blue, green, or turquoise colour
 	 - Faience paste was shaped in molds and fired in a kiln (1000 C)
 	 - Calcium silicates in the paste produced a glass surface
  - Objects were also dipped into faience powder or painted with a slurry of the paste, fired, and produced the glassy surface
