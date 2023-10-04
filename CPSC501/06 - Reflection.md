@@ -100,10 +100,53 @@
 		 - To check if an interface, use `isInterface()`
  - Methods for a class or interface are represented with metaobjects of the type `java.lang.reflect.Method`
  - Methods can be found at runtime by querying the class object
-	 - To find a public method (either declared or inherited), use 
+	 - To find a **public** method (either declared or inherited), use 
 	   `Method getMethod(String name, Class[] paramTypes);`
 	 - Eg: `Method m = classObject.getMethod("setColor", new Class[] { Color.class });`
-
+	 - If no parameters, use `null` or zero-length array for the 2nd argument
+ - Use `getDeclaredMethod()` to find a method explicitly declared by the class (not inherited)
+	 - Returns methods of all visibilities (public, protected, package, private)
+ - To find *all* public methods of a class (either declared or inherited) use: `Method[] getMethods()`
+	 - To get all declared methods of any visibility: `Method[] getDeclaredMethods()`
+ - A method object can be queried with:
+	 - `String getName()`
+	 - `Class getDeclaringClass()`
+	 - `Class[] getExceptionTypes()`
+	 - `Class[] getParameterTypes()`
+	 - `Class getReturnType()`
+	 - `int getModifiers()`
+		 - The returned int can be decoded with methods in Modifier class
+ - To call a method dynamically, use: `Object invoke(Object obj, Object[] args)`
+	```java
+	Object myObj = new ...;
+	Class classObject = myObj.getClass();
+	Color c = new ...;
+	Method m = classObject.getMethod("setColor", new Class[] {Color.class});
+	m.invoke(myObj, new Object[] {c});
+	```
+	- If there are no arguments, use null or zero length array for the second parameter
+	- If a static method, use null for the 1st parameter
+- Primitives are passed as parameters by putting them into a "wrapper object"
+	```java
+	int i = 10;
+	Method m = classObject.getMethod("get", new Class[] {int.class});
+	m.invoke(myObj, new Object[] {new Integer(i)});
+	```
+ - If a method normally returns a primitive, `invoke()` will return the primitive in a wrapper object
+	 - Since typed as Object, you must cast it to the correct type
+	 - Then unwrap it using an xxx Value() method
+	 - Note: Java 5.0 introduced automatic boxing and unboxing
+	```java
+	int code;
+	Method m = classObject.getMethod("hashCode", null);
+	code = ((Integer)m.invoke(myObj, null)).intValue();
+	```
+ - To find the superclass object of a class object, use `Class getSuperClass()`
+	 - `Class superclassObject = classObject.getSuperClass();`
+	 - Returns null if `classObject` represents a primitive type, void, an interface, or Object class
+	 - Returns class object for Object if an array
+ - Use `Class[] getInterfaces()` on a class object to find all interfaces that the class directly implements
+	 - If used on a class object that represents an interface, then returns the direct superinterfaces
 ### Simple Example
 ```java
 import java.lang.reflect.*;
