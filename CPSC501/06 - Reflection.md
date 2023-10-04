@@ -56,6 +56,53 @@
 		 - `Method`
 		 - `Field`
 		 - `Constructor`
+		 - etc
+ - `java.lang.Object`
+	 - Is the root superclass of every object in a program
+	 - Each base-level object keeps a reference to its class object
+		 - Accessed with the method `public final Class getClass()`
+		 - Eg. `Object myObj = new ..; Class classObj = myObj.getClass();`
+ - `java.lang.Class`
+	 - Is the class of metalevel class *objects*
+	 - Has many useful reflective methods to:
+		 - Create new instances
+		 - Find methods, constructors, and fields of a class
+		 - Traverse the inheritance hierarchy
+ - Finding class objects
+	 - For an already instantiated base-level object, use `getClass()`
+	 - If you know the class name  at compile time, use the class literal `.class`
+		 - `Class classObject = Color.class;`
+	 - If the class name is represented as a String (usually at runtime) use the method:
+		 - `public static Class forName(String className);`
+		 - If not already loaded, dynamically loads the class from bytecode in the .class file
+		 - If the class is in a named package, use the fully qualified name
+			 - To work, the classpath must be set properly
+		 - `String name = "java.io.File"; Class classObj = Class.forName(name);`
+ - Java uses class objects (instances of Class) to represent the types of all entities:
+	 - Ordinary objects
+	 - Primitives (int, float, char, etc)
+		 - Although primitives are not objects, Java uses class objects to represent their type
+		 - Use a class literal to specify the class object
+		 - `int.class, double.class`
+		 - `void.class` represents the void return type
+		 - To check if primitive, use `isPrimitive()` on the class object (`if (classObject.isPrimitive()) ...`)
+	 - Arrays
+		 - Java arrays are objects whose classes are created at runtime by the JVM
+		 - A new class for each element type and dimension
+		 - Use a class literal to specify the class object
+			 - `int[].class.Object[].class`
+		 - To check if an array, use `isArray()`
+		 - To find the base type of an array, use `public Class getComponentType()`
+	 - Interfaces
+		 - Each declared interface is represented with a class object
+		 - Can be specified with a class literal (`Collection.class`)
+		 - Can be queried for supported methods and constants
+		 - To check if an interface, use `isInterface()`
+ - Methods for a class or interface are represented with metaobjects of the type `java.lang.reflect.Method`
+ - Methods can be found at runtime by querying the class object
+	 - To find a public method (either declared or inherited), use 
+	   `Method getMethod(String name, Class[] paramTypes);`
+	 - Eg: `Method m = classObject.getMethod("setColor", new Class[] { Color.class });`
 
 ### Simple Example
 ```java
