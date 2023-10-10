@@ -147,6 +147,62 @@
 	 - Returns class object for Object if an array
  - Use `Class[] getInterfaces()` on a class object to find all interfaces that the class directly implements
 	 - If used on a class object that represents an interface, then returns the direct superinterfaces
+**Fields**:
+ - Fields for a class or interface are represented with metaobjects of the type `java.lang.reflect.Field`
+ - Fields can be found at runtime by querying the class object
+	 - To find a public field (either declared or inherited), use:
+	   `Field getField(String name)`
+	   `Field f = classObject.getField("id");`
+	 - Use `getDeclaredField(String name)`  to find a field explicitly declared by the class or interface (not inherited)
+		 - Returns fields of all visibilities
+	 - To find *all* public fields of a class (either declared or inherited) use
+	   `Field[] getFields()`
+	   `Field fArray[] = classObject.getFields();`
+	 - To find *all* declared fields of any visibility, use `Field[] getDeclaredFields()`
+ - A Field object can be queried with:
+	 - `String getName()`
+	 - `Class getDeclaringClass()`
+	 - `Class getType()`
+	 - `int getModifiers()`
+		 - The returned int can be decoded with methods in Modifier class
+ - You can find the value of a field reflectively using `Object get(Object obj)`
+   ```java
+   Object myObj = new ...
+   Class classObject = myObj.getClass();
+   Field f = classObject.getDeclaredField("id");
+   Object value = f.get(myObj);
+	```
+	 - If the field type is primitive, the returned value is wrapped in the appropriate wrapper object
+	 - If you know the type of the primitive you can access the value directly using methods like
+	   `boolean getBoolean(Object obj)`, `double getDouble(Object obj)`
+	   `int value = f.getInt(myObj)`
+ - Fields can be set reflectively using `void set(Object obj, Object value)`
+	 - Eg. `f.set(myObj, newValue);`
+	 - You must wrap primitive values, or use methods like
+	   `void setBoolean(Object obj, boolean value)`, `void setDouble(Object obj, double value)`, etc
+	   `f.setInt(myObj, 37);`
+**Field Access**:
+ - Any Class, Method, or Field object can be queried using `getModifiers()`
+	 - Returns an int where particular bits represent one of the 11 modifiers in java
+		 - `public`, `protected`, `private`, `static`, `abstract`, etc
+	 - Can be decoded using static methods in `java.lang.reflect.Modifier`
+		 - `boolean isPublic(int mod)`
+		 - `boolean is Protected(int mod)`
+		 - etc
+    ```java
+    Field f = classObject.getField("id");
+    int mod = f.getModifiers();
+    
+    if (Modifier.isStatic(mod)) { ... }
+	```
+ - Can print out all modifiers using `toString(int mod)`
+   `System.out.println(Modifier.toString(mod));`
+ - Normally, non-public fields and methods cannot be accessed from outside the class
+	 - Access checking can be bypassed using `void setAccessible(boolean flag)`
+	  ```java
+	  f.setAccessible(true);
+	  Object value = f.get(myObj);
+	  ```
 ### Simple Example
 ```java
 import java.lang.reflect.*;
