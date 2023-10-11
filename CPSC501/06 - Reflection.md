@@ -62,6 +62,7 @@
 	 - Each base-level object keeps a reference to its class object
 		 - Accessed with the method `public final Class getClass()`
 		 - Eg. `Object myObj = new ..; Class classObj = myObj.getClass();`
+**Classes**:
  - `java.lang.Class`
 	 - Is the class of metalevel class *objects*
 	 - Has many useful reflective methods to:
@@ -98,6 +99,7 @@
 		 - Can be specified with a class literal (`Collection.class`)
 		 - Can be queried for supported methods and constants
 		 - To check if an interface, use `isInterface()`
+**Methods**:
  - Methods for a class or interface are represented with metaobjects of the type `java.lang.reflect.Method`
  - Methods can be found at runtime by querying the class object
 	 - To find a **public** method (either declared or inherited), use 
@@ -201,8 +203,63 @@
 	 - Access checking can be bypassed using `void setAccessible(boolean flag)`
 	  ```java
 	  f.setAccessible(true);
-	  Object value = f.get(myObj);
+	  Object value = f.get(myObj)
 	  ```
+**Arrays**:
+ - `java.lang.reflect.Array` provides static methods to operate reflectively on array objects
+ - `Object newInstance(Class componentType, int length)`
+   `Object myArray = Array.newInstance(int.class, 10);`
+ - `int getLength(Object array)`
+   `int length = Array.getLength(anObj);`
+ - `Object get(Object array, int index)`
+	 - Returns the element at index, wrapping primitives if necessary
+	 - `Object obj = Array.get(myArray, 3);`
+	 - Wrapper methods like `getBoolean(...)`, `getDouble(...)`, etc
+		 - `int i = Array.getInt(myArray, 3);`
+ - `void set(Object array, int index, Object value)`
+	 - Sets the element at index to a specified value, unwrapping primitives if necessary
+	 - Also has methods like `setBoolean(...)`, `setDouble(...)`, etc
+	 - `Array.setInt(myArray, i, iVal);`
+**Constructors**:
+ - Constructors for a class are represented with metaobjects of the type `java.lang.reflect.Constructor`
+ - Constructors can be found at runtime by querying the class object
+	 - To find a public constructor (either declared or inherited) use
+	   `Constructor getConstructor(Class[] parameterTypes)`
+	 - Example:
+	```java
+	Constructor c;
+	c = ClassObject.getConstructor(new Class[] {int.class, double.class});
+	```
+	 - If no parameters, use `null` or zero-length array for the argument
+	 - Throws `NoSuchMethodException` if not found
+ - Use `getDeclaredConstructor(...)` to find a constructor (of any visibility) explicitly declared by the class
+ - To find *all* public constructors of a class (inherited or declared) use
+   `Constructor[] getConstructors()`
+   `Constructore cArray[] = classObject.getConstructors();`
+ - To find all declared constructors of any visibility, use
+   `Constructor[] getDeclaredConstructors()`
+ - A constructor object can be queried with:
+	 - `String getName()`
+	 - `Class getDeclaringClass()`
+	 - `Class[] getExceptionTypes()`
+	 - `Class[] getParameterTypes()`
+	 - `int getModifiers()`
+**Reflective Instantiations**:
+ - Can be done using `newInstance()` on the class object
+	```java
+	class classObject = ...
+	Object myObj = classObject.newInstance();
+	```
+ - Implicitly uses the no-arg constructor
+ - Can be done using a constructor metaobject and the method:
+   `Object newInstance(Object[] initargs)`
+    ```java
+	Constructor c;
+	int iVal;
+	...
+	c = classObject.getConstructor(new Class[] {int.class});
+	Object myObj = c.newInstance(new Object[] {new Integer(iVal)});
+	```
 ### Simple Example
 ```java
 import java.lang.reflect.*;

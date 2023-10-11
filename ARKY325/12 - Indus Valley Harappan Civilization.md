@@ -141,3 +141,95 @@
 		 - Can tell where they have been based on the water they have consumed
 	 - Indicates the draw of the city from different parts of the region
  - Strong bond held these cities together
+**Writing**:
+ - Harappan script remains undeciphered
+ - Various theories that the language represents ancient Dravidian, but Indian scholars argue it is early Sanskrit
+ - 400-450 pictographs (possibly more)
+ - Computer analysis indicates symbols are sounds and words (logosyllabic)
+ - Symbols deciphered are people's names and rank
+	 - Some are a measuring system
+	 - Possibly document trade accounts
+ - Read right to left (boustrophedon style)
+ - Date to 2800 BCE, most from mature Harappan (2500-2050 BCE)
+**Seals**:
+ - Carved in soft soapstone
+ - Depict people, animals
+	 - May have been religious symbols or tags for goods sent in trade
+ - Possible that daily writing was on ola leaves (type of palm), used until recent times
+ - Leaves were soaked and pounded
+	 - Provide smooth surface for daily writing by scratching on surface, then wiping with ink-covered cloth
+ - Unclear if writing for economic or religious reasons
+**Technology and Trade**:
+ - Cities and other walled settlements were the setting for craft production
+ - Craftworkers were settled in separate parts of the cities
+ - Bead makers, copper workers, weavers, potters, stamp steal makers
+ - Metalworkers cast objects using the lost wax technique
+**Craft Materials**:
+ - Local materials (clay) with potters' workshops
+	 - Also precious stones and metal through long-distance exchange
+ - Uniform style of the Indus Valley is thought to have developed not through centralized control but through intensive exchange over the lowlands
+ - Beads made of carnelian, faience, precious metals and stones
+**Economy**:
+ - System of standardized weights and measures
+	 - Includes the 1/2 oz. weight
+		 - Common in the region until the 19th century CE
+	 - Suggests tight control of trade and exchange
+	 - Found as far as the Persian Gulf
+ - Most stone weights in Mohenjo-Daro made of chert and organized into a series
+	 - Smaller ones in jewelers' shops
+ - Seals, weights, writing, long-distance exchange
+	 - Suggests economic bureaucracy
+**Toys? And Games!**:
+ - Elaborate pottery wheeled cart with oxen, a toy?
+ - Many other types of toys
+	 - Cattle with a string to make head move
+	 - Monkeys that go up a stick
+ - Dice invented in Harappa, spread with trade
+ - Early version of chess or parcheesi
+**Religious Beliefs**:
+ - May have begun with beliefs in the fertility goddess
+	 - One female deity with conspicuous breasts and sexual organs
+ - Seal from Mohenjo-Daro shows a three-headed figure in a yogic position wearing a horned headdress surrounded by wild animals
+ - Possibly forerunner to Hindu god Shiva: Role as Lord of the Beasts
+**Early Hinduism**:
+ - Many seals depict cattle that may be symbols of Shiva
+ - Possible connections to Hinduism
+ - Other elements include:
+	 - Fire altars in homes
+	 - Worship with fruit and flowers
+	 - Meditation and astronomical knowledge
+	 - Importance of water and bathing
+
+### End of Harappan Civilization
+ - Collapse of trade with the Near East after 2300 BCE
+ - Urban populations decline and disperse
+	 - Indus script stops
+ - Demise of Sarasvati river from tectonic change
+ - Climatic change to drought conditions in the valley (2100 BCE) would disrupt agriculture
+ - Forest clearance for farmland, firing bricks
+	 - May have caused large scale soil erosion resulting in uncontrolled flooding
+**Collapse or Societal Reorganization?**
+ - Cold arid phase persisted till 1500 BCE due to weakened summer monsoons
+ - By 1700 BCE, cities like Mohenjo-Daro were in decline and then abandoned
+ - After 1500 BCE, post-Indus phase characterized by increase in numbers of settlements on the margins of the Indus Zone
+	 - Populations flourish, may even have grown
+ - Indo-Aryan speaking peoples settle in northwest India during this period as well, an event described in the Rigveda
+	 - Supported by recent genetic evidence
+ - By 1500 BCE, rice cultivation in the Ganges basin in areas unsuitable for wheat and barley
+	 - Millet introduced to southern India from Africa
+
+### Summary
+ - Mehrgarh
+	 - Aceramic Neolithic: 7000-6000/5500 BCE
+	 - Ceramic Neolithic: 6000/5500-3300 BCE
+	 - Increase in settlement size and density; formal habitation structures aligned to standard orientation
+ - Early Harappan (3300-2600 BCE)
+	 - Walled villages; some large cities by 2800 BCE (Kot Diji; Kalibangan)
+ - Mature Harappan (2600-1900 BCE)
+	 - Height of Indus Valley Civilization
+	 - Expansion of large urban centers and population growth
+	 - Trade with Near East/Persian Gulf groups
+ - Late Harappan (1900-1300 BCE)
+	 - Decline and abandonment of urban centers; population movement to the south and east
+	 - Indus Valley script falls into disuse
+	 - Long-distance trade networks disrupted
