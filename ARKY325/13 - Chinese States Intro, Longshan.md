@@ -123,3 +123,58 @@
  - Associated with fragments of clay statues, some life-size or larger
  - Niuheliang Temple: Completes life-sized clay female head, jade eyes found in cruciform structure 25m long, with semi-subterranean chambers
  - Hongshan is a proto-state
+
+### Huanghe River Valley: Longshan Culture
+ - 2700-2000 BCE
+ - Northern China: Longshan (Lungshan) follows the Yangshao
+ - Clear evidence of social ranking, unequal distribution of wealth, increased violence (fortified cities/skeletons with trauma)
+ - Increased political complexity
+ - Craft specialization in pottery, copper/bronze, and jade
+ - Larger villages with tamped-earth walls
+ - Many elements of Longshan are precursors to the Shang state
+**Political Complexity**:
+ - Interaction sphere of many independent polities
+ - Interaction spheres stimulate spread of technology, shared ideology represented in shared material symbols
+ - With time, material culture becomes more homogenous
+ - Different polities may unite into a state
+**Pottery and Ritual**:
+ - Pedestal bowls (tou) and cooking pots (ting)
+	 - Solid and hollow legs
+ - Ceramics are highly burnished, wheel-made, thin walled (eggshell) black wares
+ - Fired at 1200 celsius
+ - Longshan are also called the "black pottery culture"
+ - Finely made black wares were used as elite grave goods
+	 - Forerunners of the Shang bronzes
+**Communities**:
+ - Defensive rectangular walled communities
+ - Construction technique called *hang tu* (rammed earth)
+	 - Rammed earth walls were up to 10 meters thick, several meters high
+ - Spread layer upon layer of loess soil and pounded it with wooden poles
+ - Defensive structures had guardhouses of sun dried brick at the entrance
+ - Unclear if rammed earth enclosures are evidence for an early state
+	 - They required organized workforce to construct
+ - Inside the walls had craft areas and houses
+ - Later in Longshan, settlements have rammed earth platforms that might be foundations for palaces/elite residences
+ - Human sacrifices were found in the foundations
+**Burials**:
+ - Stratified social classes (high, medium, low with further stratification within each of these classes)
+ - Highest status: wooden coffins, jade ornaments, ceremonial weapons, fine pottery
+ - Evidence of widespread violence
+ - At *Ch'enh tzu-yai* (Jiangou): 6 individuals in one house scalped, many men, women, children decapitated and thrown down a well
+**Scapulimancy**:
+ - Ritual practice to predict the future
+ - In Shang times, questions were posed to the deities and ancestors
+ - Written on the shoulder blade of an ox or on a turtle shell
+ - Hot metal rod is applied
+ - Pattern of cracking determined the answers to the questions
+	 - Answers also recorded on the bone/shell in Shang times
+ - No inscriptions on Longshan oracle bones - just cracking
+**Taosi**:
+ - Most important Longshan site
+ - 280 hectares enclosed with rammed earth wall
+ - Elite residences are separated from commoners by dividing walls
+ - Taosi had a 3-tiered class system and a 3-tiered settlement hierarchy
+ - Abandoned at the end of the third millenium BCE (as were others)
+ - Archaeology indicates that the Longshan was a period of warring elites
+ - During this period: Shift in ritual vessels from pottery to copper or bronze
+ - Prefigures the Shang state

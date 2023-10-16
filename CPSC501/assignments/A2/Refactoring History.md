@@ -9,3 +9,15 @@
  - Big refactoring, previously would store all output lines of text into an ArrayList in Inspector, and then iterating over these strings and print them to the console
  - Unit testing needed to parse this output and handle string formatting with whitespace
  - Created new `InspectorOutput`, `InspectorConstructor`, `InspectorMethod` classes to handle storing the inspector output. This is much cleaner and makes the tests much nicer as well.
+**Extract method for parsing non-array fields**: [881a4dc523a935f12310184130e59bd46bc4be6d](https://github.com/alexs2112/CPSC501-ObjectInspector/commit/881a4dc523a935f12310184130e59bd46bc4be6d)
+ - Small refactoring
+ - The commit directly before this introduced a method for parsing array fields while leaving the code for non-array fields as is. This results in duplicated code in two places in the inspector
+ - Move the non-array field code to a new method that is similar to parsing array fields.
+
+Stuff to do:
+ - Handle object references in fields
+ - Handle fields of multi dimensional arrays
+ - Handle fields if class is an array
+	 - `length`
+	 - Each index value (`[0]`, `[1]`, ...)
+ - Recursive

@@ -161,3 +161,24 @@ if (isset($_GET['ip'])) {
 	 - Passed (user-provided) environment variables to CGI script
 	 - Maliciously crafted environment variables exploited a bug in Bash to execute arbitrary code
  - Within hours of disclosure, botnets were active exploiting the vulnerability
+**Other Injection Vectors**:
+ - User inputs
+ - Cookies
+ - Environment variables
+ - Stored data
+ - ...
+**Client-side Mediation**:
+ - Many web forms perform client-side mediation
+	 - Clicking submit triggers JavaScript code that validates data before sending to the server
+ - Relatedly, many websites keep client-side state
+	 - Store data in hidden fields, cookies, or URLs
+ - Problems:
+	 - User can disable JavaScript
+	 - User can edit hidden form fields, cookies, URLs
+	 - User can interact with server using something else (telnet)
+ - Useful for friendlier user interfaces, *useless for security purposes*
+	 - Always do security-relevant mediation at the server
+ - For values entered by the user
+	 - Carefully check the values of all fields
+	 - Values can be arbitrary -> don't assume text fields only contain valid ASCII
+
