@@ -151,7 +151,7 @@
 	 - If used on a class object that represents an interface, then returns the direct superinterfaces
 **Fields**:
  - Fields for a class or interface are represented with metaobjects of the type `java.lang.reflect.Field`
- - Fields can be found at runtime by querying the class object
+	 - Fields can be found at runtime by querying the class object
 	 - To find a public field (either declared or inherited), use:
 	   `Field getField(String name)`
 	   `Field f = classObject.getField("id");`
@@ -183,13 +183,13 @@
 	 - You must wrap primitive values, or use methods like
 	   `void setBoolean(Object obj, boolean value)`, `void setDouble(Object obj, double value)`, etc
 	   `f.setInt(myObj, 37);`
-**Field Access**:
+**Modifiers**:
  - Any Class, Method, or Field object can be queried using `getModifiers()`
 	 - Returns an int where particular bits represent one of the 11 modifiers in java
 		 - `public`, `protected`, `private`, `static`, `abstract`, etc
 	 - Can be decoded using static methods in `java.lang.reflect.Modifier`
 		 - `boolean isPublic(int mod)`
-		 - `boolean is Protected(int mod)`
+		 - `boolean isProtected(int mod)`
 		 - etc
     ```java
     Field f = classObject.getField("id");
