@@ -15,9 +15,4 @@
  - Move the non-array field code to a new method that is similar to parsing array fields.
 
 Stuff to do:
- - Handle object references in fields
- - Handle fields of multi dimensional arrays
- - Handle fields if class is an array
-	 - `length`
-	 - Each index value (`[0]`, `[1]`, ...)
- - Recursive
+ - Recursion

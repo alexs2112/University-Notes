@@ -77,3 +77,41 @@
  - 11 of the burials fit well with the 11 Shang kings recorded as having ruled Anyang (last one was burned by Zhou)
 	 - Recently, more large burials found at another site called Xibeigang
 	 - Possible that these others are queens tombs, unclear
+**Lady Fu Hao's Burial**:
+ - Fu Hao is often mentioned in oracle inscriptions
+ - 1 of 60 wives of King Wu-Ding and she was the greatest general of the Shang
+	 - Led major military campaigns on behalf of the king
+	 - Acted as his stand-in for state functions
+ - Tomb discovered in 1976 intact
+ - Body in lacquered wooden coffin, 440 bronzes, weapons, 590 jades, stone, ivory goblets, turquoise
+**Chariot Burials**:
+ - Chariots, drivers, and horses slaughtered and placed in pits near rulers' tombs for use in afterlife
+ - Drivers were slaves or individuals of low status
+ - Chariot was introduced from Southwest Asia (1300 BCE)
+ - Chariot and bronze-tipped arrows instrumental in warfare until Qin-Han period when archers were replaced with infantry
+ - Important role of warfare was to take slaves for labour and sacrifice
+**Shang Oracle Bones**:
+ - Oracle bones were used in earlier societies (Longshan) but oracle bones with inscriptions are from the Shang
+ - Older records may be on perishable material (wood, silk)
+ - Shang oracle bones used 5000 symbols, basis of later Chinese characters
+ - King posed questions to ancestors about the future (divination)
+	 - Guided decisions of rulers of states
+ - Writing may have been developed to record divinations
+**Scapulimancy/Plastromancy**:
+ - Scapula or tortoise shell (plastron) was cleaned, smoothed, soaked
+	 - Wrote questions to gods/ancestors on front
+ - Depressions carved in one side
+	 - Hot metal rod applied to depression on other side to create cracking pattern
+	 - Recorded interpretation of the outcome
+ - Read by professional class of shaman 
+	 - Ancestors "spoke" in cracking sounds when the bone cracked
+**Shang Kings' Concerns**:
+ - By Shang times, divination was under bureaucratic control of King and advisors
+	 - Legitimated the kings actions
+	 - King needed ancestral guidance to rule the court
+ - Diviners also recorded information of astronomical phenomena
+ - Other writing media probably included:
+	 - Strips of bamboo tied together with strings
+		 - Character for book in Shang is bundle of tied sticks
+	 - And writing on silk
+		 - Do not preserve or were burned
