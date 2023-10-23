@@ -150,3 +150,38 @@
  - Code covers ransom payments for war prisoners, debts, and punishments for adultery, treatment of thieves, medical malpractice
  - Society was divided into aristocrats, commoners, slaves
 	 - Women's status was less than that of men but women could hold property and could divorce abusive husbands (if they were virtuous women)
+**Old Babylon**:
+ - The capital was Babylon
+	 - Little known as it is buried below the water table and later Neo-Babylonian buildings
+ - Tablets from this period indicate a time of literacy and science
+	 - Tablet example is thought to be music for a lure (tuning of lyre on other tablets)
+	 - Other tablets found with hymns
+	 - Earliest record of melodies in the world
+**The Mari Letters** (1810-1750 BCE):
+ - Mari was a city state that rivalled Babylon until it was conquered by King Hammurabi
+ - Flourished between 2900-1759 BCE
+ - Destroyed in the 23rd century BCE by the Akkadians
+	 - Became independent again after disintegration of the Akkadian Empire
+ - Destruction of Mari by Hammurabi conserved the palace of King Zimri-lim & 20k clay tablets called the Mari letters
+ - Zimri-Lim was King of Mari, he details court life between 1810-1750 BCE
+ - Lots of texts of warfare, food and drink, use of icehouses, social conditions, craft (textiles, metalwork)
+ - Administrators of departments reported directly to the king and officials
+	 - Collected taxes from territories in the kingdom
+ - Women had fewer opportunities than men
+ - Zimri-lim also sent letters to his wife: Queen Shibtu
+	 - They were fond of each other, discussed domestic life
+	 - Shibtu was in charge of the administration, palace, and temple in the king's absence
+**Mari Palace**:
+ - Previously, cities were dominated by the temple complex, role of king was High Priest
+ - Shift in this period to large scale royal palaces in the cities, less dependency of rulers on religious sanction
+ - Multi-storied buildings (260 rooms) with  painted frescoes on principal rooms and courtyards
+	 - Mari palace covered 2.5 hectares
+	 - Storerooms, workshops, apartments, archive, toilets
+**Collapse of Old Babylon**:
+ - After Hammurabi's death, centralized power broke down
+ - Policy of centralization brought king wealth
+	 - Hard to implement, deeply resented by the conquered cities
+	 - Cities seceded, lost revenue, central authority became corrupt
+ - Final blow in 1595 BCE from Hittite King Mursilis I who sacks Babylon
+ - Power in Mesopotamia now decisively shifts from southern Mesopotamia to the north
+ - 150 years of "dark ages" in southern Mespotamia
