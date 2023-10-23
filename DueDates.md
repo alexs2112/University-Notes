@@ -1,6 +1,4 @@
 ```
-OCT 20: ARKY305 - Quiz 3
-OCT 20: CPSC501 - Assignment 2
 OCT 25: CPSC501 - Midterm
 NOV 03: ARKY305 - Quiz 4
 NOV 03: ARKY305 - Midterm 2
@@ -22,4 +20,6 @@ OCT 02: ARKY305 - Midterm 1
 OCT 06: CPSC501 - Assignment 1
 OCT 06: CPSC525 - Assignment 1
 OCT 06: ARKY305 - Quiz 2
+OCT 20: ARKY305 - Quiz 3
+OCT 20: CPSC501 - Assignment 2
 ```

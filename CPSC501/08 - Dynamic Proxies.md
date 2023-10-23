@@ -53,3 +53,106 @@
 	 - Is an object that implements the `InvocationHandler` interface
 		 - Must implement the `invoke()` method
 		 - Must also keep a reference to the target object
+```java
+public class MyIH implements InvocationHandler {
+	private Object target;
+
+	public MyIH(Object obj) {
+		target = obj;
+	}
+
+	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+		// Merely forwards the message to the target
+		return method.invoke(target, args);
+	}
+}
+```
+ - Could add pre- or post-processing to the invoke method
+```java
+	public Object invoke(...) {
+		Object result = null;
+
+		// Preprocessing here
+		result = method.invoke(target, args);
+		// Postprocessing here
+
+		return result;
+	}
+```
+
+### Example - Tracing Proxy:
+ - Target interface
+```java
+public interface MyInterface {
+	public void print();
+	public void display();
+}
+```
+ - Target class
+```java
+public class MyClass implements MyInterface {
+	public void print() {
+		System.out.println("Hello, world!");
+	}
+	public void display() {
+		System.out.println("Goodbye, cruel world!");
+	}
+}
+```
+ - Invocation handler
+```java
+public class TracingIH implements InvocationHandler {
+	public static Object createProxy(Object obj) {
+		return Proxy.newProxyInstance(
+			obj.getClass().getClassLoader(),
+			obj.getClass().getInterfaces(),
+			new TracingIH(obj)
+		);
+	}
+
+	private Object target;
+	private TracingIH(Object obj) {
+		target = obj;
+	}
+
+	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+		Object result = null;
+		
+		try {
+			System.out.println(method.getName() + "() begins");
+			result = method.invoke(target, args);
+		} catch(InvocationTargetException e) {
+			System.out.println(method.getName() + " throws " + e.getCause());
+			throw e.getCause();
+		}
+		System.out.println(method.getName() + "() returns\n");
+		
+		return result;
+	}
+}
+```
+ - Client code
+```java
+public class Test {
+	public static void main(String[] args) {
+		MyInterface obj = new MyClass();
+		if (args.length > 0 && args[0].equals("trace")) {
+			obj = (MyInterface)TracingIH.createProxy(obj);
+		}
+		
+		// If trace is not set, works on the original object
+		obj.print();
+		obj.display();
+	}
+}
+```
+ - Sample run: `java Test trace`
+```
+print() begins
+Hello, world!
+print() returns
+
+display() begins
+Goodbye, cruel world!
+display() returns
+```
