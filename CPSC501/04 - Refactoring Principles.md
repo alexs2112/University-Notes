@@ -135,7 +135,7 @@
 **Refused bequest**:
  - A subclass doesn't use all the methods and data that it inherits
  - Reorganize the class hierarchy
-	 - *Push Down Method* and *Push DOwn Field* to create a sibling for the unused behaviour
+	 - *Push Down Method* and *Push Down Field* to create a sibling for the unused behaviour
  - If the subclass does not support the superclass interface: *Replace Inheritance with Delegation*
 **Comments that explain bad code**:
  - *Extract Method* on commented blocks of code
