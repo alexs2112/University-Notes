@@ -33,3 +33,65 @@ Keep things in little endian
  - You can set a symlink to make it think its name is different (`fake_argv0_example_ln.sh`)
 `stack_example`
  - x/10xg $rsp
+ - Easiest way to specify values on the command line: `$'0x30'`
+	 - $ followed by single quotes
+`printf_example`
+ - `env -i ./printf_example $'a%97$n%p%p%p%p%p%p' $'\x1f\xed\xff\xff\xff\x7f' "" "123456"`
+
+### 2023-10-27
+ - The first 6 arguments are passed into registers that are either integral or pointer type
+	 - Doubles and floats are passed differently
+	 - Everything after those are passed onto the stack
+ - For a printf call, that is the string and then the next 5 variables, the next ones are passed onto the stack
+ - See `lecture0f/invalid_func_args.c`
+```c
+printf("%lx, %lx, %lx, %lx, %lx, %lx, %lx, %lx\n",
+	0x1111111111111111,
+	0x2222222222222222,
+	0x3333333333333333,
+	0x4444444444444444,
+	0x5555555555555555,
+	0x6666666666666666,
+	0x7777777777777777,
+	0x8888888888888888);
+printf("%lx, %lx, %lx, %lx, %lx, %lx, %lx, %lx\n");
+```
+```output
+these 8 are given values into printf
+1111111111111111, 2222222222222222, 3333333333333333, 4444444444444444, 5555555555555555, 6666666666666666, 7777777777777777, 8888888888888888
+
+these 8 are read from memory
+5555555592a0, 0, 0, 0, 8f, 0, 7ffff7dda083, 200000008
+```
+```gdb
+(gdb) x/10i $rip
+ - prints assembly calls
+(gdb) si
+ - step into
+(gdb) info registers
+ - print values stored in current registers
+(gdb) x/10xg $rsp
+ - Print values off the stack, these will be the 6th, 7th, + arguments in printf
+```
+ - The following example, you can see it moving given values into registers
+```
+(gdb) start
+...
+Temporary breakpoint 1, main () at invalid_func_args.c:6
+6           printf("%lx, %lx, %lx, %lx, %lx, %lx, %lx, %lx\n",
+(gdb) si
+0x0000555555555155      6           printf("%lx, %lx, %lx, %lx, %lx, %lx, %lx, %lx\n",
+(gdb) x/10i $rip
+=> 0x555555555155 <main+12>:    push   $0xffffffff88888888
+   0x55555555515a <main+17>:    movl   $0x88888888,0x4(%rsp)
+   0x555555555162 <main+25>:    push   $0x77777777
+   0x555555555167 <main+30>:    movl   $0x77777777,0x4(%rsp)
+   0x55555555516f <main+38>:    push   $0x66666666
+   0x555555555174 <main+43>:    movl   $0x66666666,0x4(%rsp)
+   0x55555555517c <main+51>:    movabs $0x5555555555555555,%r9
+   0x555555555186 <main+61>:    movabs $0x4444444444444444,%r8
+   0x555555555190 <main+71>:    movabs $0x3333333333333333,%rcx
+   0x55555555519a <main+81>:    movabs $0x2222222222222222,%rdx
+(gdb) info register
+// I do not understand how to see these values in the actual registers
+```

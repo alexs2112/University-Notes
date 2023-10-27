@@ -75,3 +75,80 @@
 	 - Eg: `time java Test`
 		   `1.09u 0.12s 0:01.27 95.2%`
 		- User CPU time, System CPU time, Real time
+- In C and C++, use the `clock()` function to measure the CPU time used by a function or section of code
+	- Eg:
+    ```c
+	#include <time.h>
+	#include <stdio.h>
+	...
+		clock_t before;
+		double elapsed;
+
+		before = clock();
+		long_running_function();
+		elapsed = clock() - before;
+		printf("function used %.3f seconds\n", elapsed/CLOCKS_PER_SEC);
+	```
+	 - If the function takes a fraction of a second, run it in a loop to get a more accurate measurement
+	```c
+		before = clock();
+		for (int i = 0; i < 1000; i++)
+			short_running_function();
+		elapsed = (clock() - before) / double(i);
+	```
+ - In Java, use the `nanoTime()` method
+```java
+long startTime = System.nanoTime();
+longRunningMethod();
+long elapsedTime = System.nanoTime() - startTime;
+// Result in nanoseconds (10^(-9)s)
+```
+
+### Algorithm-Based Optimization
+ - Choosing a more efficient algorithm or data structure is often the best way to improve program efficiency
+ - Look for algorithms that reduce the order of complexity
+	 - Eg. Binary search `O(log n)` vs linear search `O(n)`
+	 - Eg. Merge sort `O(n log n)` vs bubble sort `O(n^2)`
+ - Do this first before attempting other optimizations
+	 - Hand tuning an `O(n^2)` algorithm won't yield near the same gains as using an `O(n log n)` algorithm
+ - Beware of situations that trigger worst-case performance
+	 - Some algorithms may not achieve their average Big-O performance under certain conditions
+	 - Eg. Quicksort degenerates to `O(n^2)` with nearly-sorted inputs
+ - Sometimes an inefficient algorithm is fine for small inputs
+	 - The overhead of a complicated algorithm may make it slower than a simple one
+	 - And harder to debug and maintain
+ - Measure performance to make sure you've made the right choice
+
+### Compiler-Level Optimization
+ - Enabling compiler optimization can improve speed by as much as 2 times
+ - Most compilers turn off optimization by default
+	 - Optimized code tends to confuse debuggers
+ - Works best with straightforward code
+	 - Hand tuned code may actually be harder for the compiler to optimize
+ - Some compilers optimize better than others
+ - Aggressive optimizers may introduce bugs
+	 - Rerun regression tests to ensure correctness
+ - `gcc` optimization flags:
+	 - Optimize: `-O` or `-O1`, `-O2`, `-O3`
+	 - Don't optimize (default): `O0`
+	 - eg. `gcc -O2 -o myprog myfile.c`
+
+### Code Tuning
+**Guidelines**:
+ - Save each version of your code using version control
+ - Use the profiler to find a bottleneck
+ - Tune the bottleneck, using just one technique
+ - Measure the improvement
+	 - If none, revert to the prior version
+ - Repeat until desired performance is achieved
+**Logic Techniques**:
+ - Stop testing when answer is found (break out of loops as soon as possible)
+	```java
+	negFound = false;
+	for (int i = 0; i < count; i++) {
+		if (input[i] < 0) {
+			negFound = true;
+			break;
+		}
+	}
+	```
