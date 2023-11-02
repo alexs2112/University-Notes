@@ -145,8 +145,8 @@
 				 - Use `getText()` and create appropriate wrapper object
 			 - If a reference, use the unique identifier to find the corresponding instance in the table
 			 - May need to `setAccessible(true)`
-		 - Array objects are treated specially:
-			 - Find the element type with `getComponentType()`
-			 - Iterate through each element of the array
-				 - Set the element's value using `Array.set()`
-				 - As above, treat primitives differently than references
+	 - Array objects are treated specially:
+		 - Find the element type with `getComponentType()`
+		 - Iterate through each element of the array
+			 - Set the element's value using `Array.set()`
+			 - As above, treat primitives differently than references

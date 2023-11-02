@@ -47,3 +47,59 @@
 	 - When this function is called, it will go to the `vtable`, which points it to your table to be executed
 	 - Overflow the heap buffer so that the `vtable ptr` of a nearby object is overwritten to a table of shellcode function pointers
 ![[cpp_object_layout_evilt.png|400]]
+
+### Heap Spraying
+ - Problem: The heap is rather large, hard to predict where the shellcode will end up
+ - Solution: Allocate many large memory blocks, place NOP sled + shell code in each
+	 - If we fill enough memory, then a randomly chosen memory address probably points into a NOP sled
+```c
+<script language="text/javascript">
+	shellcode = unescape("%u4343%u4343%u4343...");
+	var nop = unescape("%u9090%u9090");
+	while (fullblock.length < 0x100000) {
+		nop += nop;
+	}
+	sprayContainer = new Array ();
+	for (i = 0; i < 1000; i++) {
+		sprayContainer[i] = fullblock + shellcode;
+	}
+</script>
+```
+
+### TOCTTOU
+ - Time Of Check To Time Of Use
+	 - **Check**: Establish some precondition
+	 - **Use**: Act, assuming precondition is (still) satisfied
+ - Essentially, a race condition against the attacker
+ - Dangers: Validating if a user can access a file, and then opening the file
+	 - The file can be switched out between checking and using the file
+```c
+void main() {
+	int fd;
+	// N.B.: setuid program; check if
+	// user has permission to read “foo”
+	if (access(“foo”, R_OK) != 0)
+		exit(-1); // Danger, Will Robinson!
+
+	// symlink("secret", "foo")
+
+	fd = open(“foo”, O_RDONLY);
+	//...
+}
+```
+ - Attack program must run concurrently with victim, switch link at precisely the right moment
+**The Fix**:
+ - Idea: Force victim program to perform an expensive I/O operation
+	 - While waiting for I/O to complete, victim will yield CPU to attacker, giving an opportunity to switch symlinks
+ - But how:
+	 - Make sure file being accessed is not in file system cache
+	 - Force victim to traverse very deep directory structures
+ - Symlink attack: Each symlink directing to a huge number of other symlinks and inodes, causing the executable to sleep until the intended file is fetched
+	 - While it is traversing the maze to check if the file is safe to open, you can replace the first symlink.
+	 - It will see that the original file is safe to open, then goes to open the symlink again which is now pointing at an evil file
+**Defenses**:
+ - When performing privileged actions, ensure all access control information remains constant between time of check and time of use
+	 - Keep a private copy of requests so it can't be altered
+	 - When possible, act directly on object, not on some level of indirection
+		 - Make access control decisions based on file handles, not filenames
+	 - Use locks to ensure state cannot be changed
