@@ -103,3 +103,74 @@ void main() {
 	 - When possible, act directly on object, not on some level of indirection
 		 - Make access control decisions based on file handles, not filenames
 	 - Use locks to ensure state cannot be changed
+
+### Memory Management Faults
+ - Many common memory-management faults can result in exploitable vulnerabilities
+	 - Initialization errors
+	 - Neglecting return values
+	 - Writing to already-freed memory ("use-after-free")
+	 - Freeing the same memory twice
+	 - Mismatched alloc/dealloc (malloc/delete; new/free)
+	 - etc
+**Memory and Address Protection**:
+ - Prevent one program from reading or corrupting other programs data, operating system, or (maybe) even its own code
+ - Memory protection is part of translation from virtual to physical addresses
+ - Often the OS can exploit hardware support
+	 - Memory management unit generates an exception if something is wrong with virtual address or associated request
+	 - OS maintains mapping tables used by MMU and deals with raised exceptions
+**Memory Protection Techniques**:
+ - **Fence register**:
+	 - Raise an exception if process tries to access memory *below* specified address
+	 - Address stored in CPU *fence register*
+	 - Protects OS memory from programs running in user space
+	 - Doesn't help isolate users from one another
+ - **Base/bounds register**:
+	 - Raise an exception if process tries to access memory *above* or *below* specific addresses
+	 - Base address stored in CPU *base register*
+	 - Offset stored in CPU *bound register*
+	 - Different values for each user program
+		 - Maintained by OS during context switches
+		 - Protects programs from one another
+ - **Tagged architecture**:
+	 - Each memory word has one or more extra bits to indicate access rights to that word
+	 - Extremely flexible, high overhead
+	 - Difficult to port from one OS to another
+	 - Has been used in very few systems in practice
+ - **Segmentation**:
+	 - Modern systems use segmentation along with paging
+	 - Each program has multiple address spaces (called *segments*)
+	 - Different segments for code, data, and stack
+	 - Virtual address is an ordered pair `:(segment, offset)`
+	 - OS maps segment names to base addresses in a per-process Segment Table
+	 - OS can transparently relocate and/or resize segments, share them between processes
+	 - Segment table also stores protection attributes
+	 - Advantages:
+		 - Every address reference checked by hardware
+		 - Different classes of data can be assigned different access rights
+		 - Users can share segments, perhaps with different access rights
+		 - No way for users to reference unpermitted segments
+	 - Disadvantages:
+		 - External fragmentation
+		 - Dynamic lengths -> costly out-of-bounds checking
+		 - Segment names are difficult to implement efficiently
+ - **Paging**
+	 - Virtual address space divided into fixed-size chunks called pages
+	 - Physical memory divided into fixed-size chunks called frames
+	 - 1-to-1 mapping between pages and frames
+	 - OS keeps mapping from page number to base address of frame in a Page Table
+	 - Page table also stores protection attributes
+	 - Advantages:
+		 - Every address reference checked by hardware
+		 - Users can share segments, perhaps with different access rights
+		 - No way for users to reference unpermitted segments
+		 - Unpopular pages can be moved to disk to free up memory
+	 - Disadvantages:
+		 - Internal fragmentation
+		 - Assigning different levels of protection to different classes of data is not feasible
+
+### x86/x86-64 Architecture
+ - x86 and x86-64 supports both segmentation & paging
+	 - Linux and Windows use both
+	 - Relatively basic form of segmentation
+ - Memory protection bits indicate no access, read/write access, or read-only access
+ - Most CPUs also support some form of No eXecute bit

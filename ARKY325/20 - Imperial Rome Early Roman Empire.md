@@ -81,3 +81,84 @@
  - Sedimentation tanks helped reduce debris and sluices and stopcocks regulated supply, overflow stored in cisterns
  - Many aqueducts have since collapsed for been destroyed
 	 - Some remain, like the Zaghouan Aqueduct in Tunisia, flowing 132 km (longest in Empire)
+
+### Roman Society
+**The Military Establishment**:
+ - Large military key to Roman rule, no "national" army until 550 BCE
+ - Early Roman army based on compulsory levy from male citizens in years of war
+	 - Men had to pay for their own equipment
+ - Legion: Largest military unit in the Roman army
+	 - Size of legion varied through time from 3000 men (Republic) to 5200 (Empire)
+		 - Legion reduced in size to 1000 around 4th century CE
+	 - Legion drawn exclusively from Roman citizens, supported by auxiliaries recruited from subject peoples
+	 - Not permanent units, formed, utilized, disbanded as needed
+	 - About 50 legions have been identified
+**Imperial Frontiers**:
+ - Roman army spent much of its time guarding and patrolling the frontiers
+ - Three categories:
+	 - River Frontiers: Rhine, Danube, Euphrates
+	 - Desert Frontiers: Syria, Arabia, North Africa
+	 - Northern Frontiers: Northern Britain, Upper Rhine and Danube
+ - Roman forts:
+	 - Temporary camps: bank and ditch reinforced by wooden stakes, enclosing rectangular area to protect soldiers
+	 - Permanent camps: earth and timber in early periods, stone forts b 2nd century CE
+ - Barracks blocks divided into 10 rooms holding 8 men (80 men = Roman Century)
+	 - Cohort: 480 men (6 centuries)
+	 - Legion: 60 centuries
+	 - Auxiliary Troops: 5-10 centuries
+**Physical Barriers**:
+  - Forts typically placed at fords/bridging points
+	  - Watchtowers along river banks
+  - Physical barriers sometimes needed
+	  - Oued Djedi, Algeria: 60km length of stone wall and ditch
+	  - Emperor Hadrian: Erected timber palisade in Germany, partially rebuilt in stone
+	  - Hadrian's Wall, North Britain: 117km stone wall, coast to coast
+  - Hadrian's Wall (122 CE):
+	  - Marked boundary between Roman Britannia and unconquered Caledonia to the north
+	  - Solid wall (3-3.7 m high, 2.4-3 m wide), paralleled by large ditches
+	  - Soldiers garrisoned along the wall in forts, fortlets (milecastles), and turrets
+  - Antonine Wall (142 CE) extended Roman territory 160 km north of Hadrian's Wall
+**Roman Navy**:
+ - Navy never enjoyed prestige of legions, Rome remained a primarily land-based force
+ - First evidence of Roman warships by early 4th century BCE
+ - Roman fleets expanded during the First Punic War, mainly to patrol along Italian coasts and rivers
+ - Relied on allies such as Greek  cities of southern Italy to provide ships and crew
+ - Expansion to around 1000 ships during the Early Roman Empire
+	 - Reliance on lighter oar and win-driven warships such as biremes
+	 - Ship's main weapon was ram, later the harpax (catapult-fired grappling hook)
+**Roman Highways**:
+ - Strategic military roads ran along each Roman frontier
+ - Defensive, communication, and trade purposes
+ - 1st Roman roads constructed in Italy
+	 - Via Appia (312 BCE)
+	 - Via Flaminia (220 BCE)
+ - Roads allowed messengers to travel up to 240 km per day
+ - Construction techniques varied form region to region
+	 - Eastern Provinces: Gravel surfaces held in place by curbstones, drained by gullies
+	 - Italy and Western Provinces: Carefully fitted paving stones
+ - Small spans bridged by stone arches, longer spans by timber superstructures supported by stone pillars
+**Roman Seaways**:
+ - Rome heavily dependent on seaborne supplies of grain from Egypt
+ - Rome itself too far upriver to be reached by larger ocean-going vessels
+	 - Relied on river and coastal ports such as Ostia and Portus
+	 - Additional ports constructed in Roman territory throughout Mediterranean and Britain
+ - Roman concrete (*opus caementicium*) had the ability to set under water
+	 - Suitable for artificial harbor networks
+ - Many harbors also equipped with lighthouses, such as Pharos lighthouses at Alexandria
+	 - One of 7 Wonders of the Ancient World
+**Commerce and Coinage**:
+ - Before Roman times, barter economics were common
+ - Bullion bars and ingots used as money in Mesopotamia since the 7th millenium BCE
+ - Invention of coinage in Lydia during 7th century BCE: Gold, silver, electrum
+ - Introduction of government-sponsored Roman currency in the 4th and 3rd centuries BCE: Gold, silver, bronze, orichalcum
+	 - Juno Moneta became personification of money in Rome (Moneta = Money)
+	 - Roman coins often depicted ancestors or gods
+		 - Replaced by current emperors by the times of Julius Caesar
+		 - Populations would often learn about the death of a ruler through new mints
+	 - Silver denarius worth a day's pay for a skilled labourer
+ - Coins attempted to make the emperor appear god-like through association with attributes normally seen in divinities, or relationships with a particular deity
+	 - Julius Caesar issued coins depicting himself and Venus or Aeneas (ancestors of Romans)
+ - Denarius was the backbone of the Roman economy from 211 BCE to the 3rd century CE
+ - State and local municipalities issued the coins and guaranteed their purity
+ - By 3rd century CE: Weight and purity of coins decreased due to lack of precious metals, trade with India, poor state finances
+	 - First Denarii were nearly pure silver (4.5 grams), approx $4.50 CAD

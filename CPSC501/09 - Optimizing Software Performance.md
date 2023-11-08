@@ -366,6 +366,7 @@ long elapsedTime = System.nanoTime() - startTime;
     ```Visual Basic
     Dim x As Integer
 	```
+**Arrays**:
  - Reduce array dimensions where possible
 	```C
 	for (row = 0; row < numRows; row++) {
@@ -380,3 +381,185 @@ long elapsedTime = System.nanoTime() - startTime;
 		matrix[entry] = 0;
 	}
 	```
+ - Minimize array references
+	```java
+	for (i = 0; i < size; i++)
+		for (j = 0; j < n; j++) 
+		rate[j] *= discount[i];
+	
+	for (...) {
+		temp = discount[i];;
+		for (...)
+			rate[j] *= temp;
+	}
+	```
+ - Use supplementary indices:
+	 - Length index or arrays
+		 - Add a string-length field to C strings
+		 - Faster than using `strlen()` which loops until `null` is found
+	 - Parallel index structure
+		 - Often easier to sort an array of references to a data array, then the data array itself
+		 - Avoids swapping data that's expensive to move (ie. is large or on disk)
+**Expressions**:
+ - Use caching:
+	 - Save commonly used values, instead of recomputing or rereading them
+	```java
+	private double cachedH = 0, cachedA = 0, cachedB = 0;
+	public double Hypotenuse(double A, double B) {
+		if ((A == cachedA) && (B == cachedB)) { return cachedH; }
+		cachedH = Math.sqrt((A*A) + (B*B));
+		cachedA = A;
+		cachedB = B;
+		return cachedH;
+	}
+	```
+ - Expressions
+	 - Exploit algebraic identities
+		 - Replace expensive expressions with cheaper ones
+		 - `not a and not b = not (a or b)`
+		 - `if (sqrt(x) < sqrt(y)) = if (x < y)`
+ - Strength reduction
+
+| Original | Replacement |
+| --- | --- |
+| Multiplication | Repeated Addition |
+| Exponentiation | Repeated Multiplication |
+| Trig Routines | Trig Identities |
+| Long Ints | Ints |
+| Floats | Fixed Point Numbers/Ints |
+| Doubles | Floats |
+| Mult/Div by Power of 2 | Left/Right Shift |
+ - Initialize at compile time
+	 - Use constants where possible
+	```java
+	unsigned int Log2(unsigned int x) {
+		return (unsigned int)(log(x) / log(2));
+	}
+
+	const double LOG2 = 0.69314718;
+	unsigned int Log2(unsigned int x) {
+		return (unsigned int)(log(x) / LOG2);
+	}
+	```
+ - Use the proper data type for constants
+	 - Avoid runtime type conversion
+	```java
+	double x;
+	...
+	x = 5;
+
+	// Better as
+	x = 5.0;
+	```
+ - Eliminate common subexpressions
+	 - Assign to a variable, use it instead of re-computing
+	```java
+	p = (1.0 - (r / 12.0)) / (r / 12.0);
+	
+	// Better as
+	y = r / 12.0;
+	p = (1.0 - y) / y;
+	```
+ - Precompute results
+	 - Often better to look up values than to recompute them
+	 - Values could be stored in constants, arrays, or files
+**I/O Techniques**:
+ - Minimize disk and network accesses
+	 - Use buffered I/O, instead of single reads/writes
+ - Use RAM instead of disk whenever possible
+	 - Cache commonly used data
+ - Localize memory accesses
+	 - Reading/writing registers is faster than cache memory, faster than DRAM
+	 - C and C++ provide the `register` keyword
+		 - Is a hint to the compiler to use a register instead of RAM (`register int x;`)
+**Assembly Language Techniques**:
+ - Specific to a CPU architecture
+	 - Not generally portable
+ - Goal is to minimize the number of clock cycles it takes to execute an algorithm
+	 - Generally: Code the algorithm using the fewest number of instructions possible
+	 - A *clever* programmer can usually beat the best optimizing compiler
+ - We can quantify execution time precisely, as each instruction takes a defined number of clock cycles to complete
+	 - A fixed number on a RISC CPU
+	 - A variable number on a CISC CPU
+		 - Some assemblers produce output files showing this *cycle count*
+ - Eliminate instructions where possible
+	 - SPARC example
+	```
+	cube:   save    %sp, -96, %sp
+			smul    %i0, %i0, %l0
+			smul    %i0, %l0, %i0
+			restore
+			ret
+			nop
+	```
+	 - Eliminate 2 instructions by converting into a leaf subroutine
+	```
+	cube:   smul    %o0, %o0, %o1
+			smul    %o0, %o1, %o0
+			ret
+			nop
+	```
+ - Reorder instructions to keep the pipeline full or to avoid pipeline stalls
+	 - Above code can be changed to
+	```
+	cube:   smul    %o0, %o0, %o1
+			retl
+			smul    %o0, %o1, %o0     // filled the delay slot
+	```
+ - Use macros to inline subroutines
+	 - Avoids call/return overhead
+	```
+	...
+	mov     5, %o0
+	call    cube
+	nop
+	...     // 6 instructions executed
+	```
+	 - A macro such as
+	```
+	define(cube,   `smul    $1, $1, %g1
+					smul    $1, %g1, $1`)
+	...
+	mov     5, %o0
+	cube(%o0)
+	...
+	```
+	 - This gets expanded to
+	```
+	mov     5, %o0
+	smul    %o0, %o0, %g1
+	smul    %o0, %g1, %o0
+	// 3 instructions executed
+	```
+ - In extreme cases, one might try to inline *every* subroutine
+	 - Usually results in a much bigger executable (more RAM is used, trading memory for speed)
+ - Note that some compilers allow one to inline assembly code into C or C++ code
+	 - `sdcc` example:
+	```c
+	unsigned char counter;
+	...
+	counter = 0;
+	__asm
+		inc     _counter
+	__endasm;
+	```
+ - Use SIMD instructions to move data while calculating
+	 - Single Instruction, Multiple Data
+	 - Motorola DSP56001 example:
+	```
+	MPY     X0, Y1, A
+	MOVE    X:(R0)+, X0
+	MOVE    Y:(R4)+, Y0
+	MAC     X0, Y0, A
+	// 4 cycles, can be improved to
+	MPY     X0, Y1, A    X:(R0)+, X0    Y:(R4)+, Y0
+	MAC     X0, Y0, A
+	// 2 cycles
+	```
+ - There are libraries available that use SIMD instructions on vectors of data
+	 - May be able to exploit the parallelism of multi-core CPUs
+	 - Intel Vector Math Library (VML)
+		 - C/C++ API for Windows, Linux, OSX
+		 - Part of the Intel Math Kernel Library (MKL)
+	 - Accelerate Framework
+		 - Is a C API for OSX
