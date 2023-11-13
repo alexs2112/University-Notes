@@ -51,5 +51,55 @@
 	 - AIFF: Audio Interchange File Format (`.aiff`)
 	 - Sound Designer II (`.sd2`)
 	 - Sun & NeXT computers: (`.au` or `.snd`)
+ - Most formats have two basic parts:
+	 - Header: Describes sample rate, sample size, number of channels, encoding, etc
+	 - Data: The sound samples
+		 - If multichannel, the samples for each channel are normally *interleaved*
+**WAVE File Format**:
+ - Is a subset of RIFF (Resource Interchange File Format) for multimedia files
+	 - Has a header plus a variable number of "chunks"
+ - A WAVE file usually has a single WAVE chunk divided into 2 sub-chunks
+	 - Format chunk: describes the format of the samples that follow
+	 - Data chunk: ChunkID + ChunkSize + samples
+ - Numeric values are 2-byte or 4-byte integers in little-endian format
+	 - Special processing is necessary on a big-endian CPU
+ - Strings are written to file in natural order, one ASCII character at a time
+![[WAVE_file_format.png|450]]
+
+### Time-Domain Convolution
+ - *Convolution* is a mathematical operation that takes 2 input signals, `x[n]` and `h[n]`, to produce a 3rd signal `y[n]`
+	 - Represented mathematically as:
+	   `x[n] * h[n] = y[n]` (`*` is used in this case to represent convolution, not multiplication)
+ - Input Side Algorithm, (array implementation):
+```java
+void convolve(float x[], int N, float h[], int M, float y[], int P) {
+	int n, m;
+
+	/* Clear output buffer y[]*/
+	for (n = 0; n < P; n++) {
+		y[n] = 0.0;
+	}
+
+	/* Outer Loop: Process each input value x[n] in turn */
+	for (n = 0; n < N; n++) {
+		/* Inner Loop: process x[n] with each sample of h[n] */
+		for (m = 0; m < M; m++) {
+			y[n+m] += x[n] * h[m];
+		}
+	}
+}
+```
+ - Note:
+	 - N, M, and P are the number of elements in each array
+	 - P *must* equal N + M - 1
+	 - The signals `x[n]`, `h[n]`, and `y[n]` are floating point numbers scaled to the range: -1.0 to +1.0
+		 - You may need to convert to/from signed integers
+	 - This algorithm can be adapted to deal with samples stored in audio files
+ - Convolution is a *commutative* operation
+	 - That is: `x[n] * h[n] = h[n] * x[n] = y[n]`
+ - The signals `x[n]` and `h[n]` can be any arbitrary kind of signal
+	 - However, `x[n]` is usually an input signal that you want to process
+	 - And `h[n]` is the *impulse response* (IR) of a system you want model
+
 ### Processing Diagram
 ![[digital_signal_processing.png]]

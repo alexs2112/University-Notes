@@ -104,3 +104,40 @@
 
 # Initial Period (1800-800 BCE)
 ### Northern Coast
+ - Coastal area: Greater reliance on maize and cotton
+ - People move inland to locations where they could build irrigation networks
+	 - Irrigation coincides with construction of monumental centers of U-shaped platforms, pyramids, sunken & raised plazas
+	 - Structures often covered in adobe friezes
+ - Political organization is unclear
+	 - Possibly small kingdoms on north and central coast where large irrigation networks could be developed
+		 - Moche, Casma, Chillon river valleys
+ - Period of greater social complexity
+**Sechin Alto Complex**: (2150-1200 BCE)
+ - Casma Valley on North Coast
+ - U-shaped ceremonial structures appear with the establishment of irrigation agriculture
+	 - 40m high Longitudinal platform faced in stone with raised and sunken platforms
+ - Architectural means to communicate with spirit world
+	 - Manipulated water and smoke to bridge different parts of their cosmos
+	 - Characteristics of Andean ritual centers
+ - Sechin probably had irrigated gardens
+**Cerro Sechin**: (1600 BCE)
+ - One of several ceremonial complexes in Casma River Valley
+ - Art emphasizes warfare and mutilation of war captives
+ - Guinea pigs and llamas introduced to coastal lowlands
+**El Paraiso**: (1800 BCE)
+ - In Chillon River Valley (near Lima)
+ - U-shaped complex made of 6 square buildings built with stone blocks
+	 - Open end faces east or upstream (common of U-shaped platforms)
+	 - Covered in adobe friezes on its walls
+ - Built by several surrounding small communities
+ - Few people lived in this center, different groups came here for rituals
+ - Built in a period of increasing reliance on irrigation schemes and moving communities inland
+	 - Irrigation: new level of organization brings social change
+	 - Abandoned in this period of change
+ - Bull-dozed illegally by a building company in 2013
+**Early Kingdoms after 1000 BCE**:
+ - Small kingdoms emerge along Peru's north and central coast
+ - Developed version of mit'a tax system
+	 - In Inka times, mit'a tax meant each household owes state agricultural goods, cloth, labour
+	 - *Ayllus* were the kinship groups that were responsible for the mit'a tax
+ - State feeds, clothes, houses people while they supply labour

