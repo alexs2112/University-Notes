@@ -87,7 +87,9 @@
 	 - Warfare is an ongoing theme
  - Many large cities are supported by complex trade & irrigation agriculture
  - Small city states with their own distinct pottery traditions
-**North Coast: Moche Civilization**: (100-700 CE)
+
+### North Coast: Moche Civilization
+ - 100-700 CE
  - Individual kingdoms in different river valleys
 	 - Relied on maritime resources and irrigation agriculture
 	 - Populations were increasing, differences in wealth emerged
@@ -118,3 +120,82 @@
 	 - More than 100 different signs on the bricks
  - Bricks bearing same sign cluster in segments of structures
 	 - Interpreted as sections constructed by work parties from same social groups
+**Huaca del Sol**:
+ - Largest prehispanic structure in the Americas (40m high, 340x160m at base)
+ - Domestic refuse and burials found on Huaca del Sol
+ - A pyramid used as platform for royal palace and necropolis
+	 - Much of the pyramid was destroyed by Spanish, diverting streams to wash out gold artefacts
+		 - Found 2788 kg of gold
+**Huaca de la Luna**:
+ - Smaller pyramid (30m high)
+ - No domestic refuse (swept clean), probably used for state rituals
+ - Upper structures covered in painted murals
+ - 70 warriors sacrificed & dismembered under one plaza
+	 - Buried with clay figures of naked males with symbols on the bodies
+**Moche Expansion**:
+ - Reached greatest influence in 500 CE
+	 - Pottery displaces local pottery styles
+ - Little interaction between north and south
+	 - Different political structures in each
+ - **North**: Many subjects or autonomous kingdoms
+ - **South**: Ruled indirectly via conquest and conquered rulers to help govern their people
+ - Moche also occupied off-shore islands
+	 - Some mined for guano fertilizer
+ - Military conquest:
+	 - Scenes of warfare on pots
+	 - Construction of fortresses in conquered valleys indicates control by military force
+**Moche Elites**:
+ - Society highly stratified
+	 - Elites were powerful and wealthy
+	 - Burials and architectural remains indicate huge differences in distribution of wealth
+ - Status was inherited
+ - No apparent distinction between religious and political authority (priest kings)
+ - Some portrayed on pots
+**Moche Metallurgy**:
+ - Coastal people involved in metallurgy for a long time
+	 - Moche refined techniques
+ - Gold panned in streams, hammered into sheets, embossed with raised designs
+ - Depletion Gilding: Alloy of copper and gold
+	 - Annealing technique that oxidizes gold to produce a gold-like finish (as low as 12% gold)
+ - Set turquoise, shell, and other stones into gold
+### Moche Burials
+**Moche Site of Sipan**:
+ - 150km north of Moche Valley
+ - Enormous pyramids, badly looted and much lost to private collectors
+ - 3 tombs are recovered, all with a central figure
+	 - Figure wears costume of gold and silver ornaments, worked shell, gemstones, metal finery
+	 - Accompanied by human (usually female) and animal sacrifices
+ - Burials appear to support scenes of sacrifice, ceremony, and presentation
+	 - Scenes portrayed on Moche pots
+	 - Archaeologists believe these were real events
+**Sacrifice Ceremony and Presentation Theme**:
+ - Rolled out scenes from pottery, similar scenes on architecture
+ - In one scene, an individual (warrior-priest) oversees sacrifice ritual of enemy warriors
+	 - Someone extracts blood by slitting throats of naked and partially painted individuals
+ - Blood from sacrifices is presented in goblet to a man with rays shooting from shoulders, wearing conical hat, semi-lunar/crescent headdress
+ - Ruler always portrayed with spotted dog
+**Lord of Sipan**:
+ - Richest burial in the western hemisphere
+ - Central male buried w/ 3 young women, 3 men, 1 child, dog, llamas, objects of incredible wealth
+ - 3 individuals had left foot removed
+ - Chris Donnan believes the man is the warrior-priest from the Presentation Theme
+	 - Rulers were warrior priests
+	 - Buried with gold mask, lamp-shaped scepter or war club (also shown in scene)
+	 - Dog may be spotted dog
+ - Quality of metal and other objects indicate skill of artisans
+**Moche Burials at Dos Cabezas**:
+ - 3 noblemen (450-550 CE)
+	 - Each with small copper statue depicting the deceased
+ - These men were exceptionally tall relative to the population
+ - Most important man was buried with ceramic bat
+	 - Sacred animal to Moche, scenes of human sacrifice and blood drinking
+	 - Also buried with weapons, coppery funerary mask with gold+silver+shell elements, holding metal working equipment
+ - Female sacrificial victim and llama placed nearby
+
+### Moche Collapse
+ - Possibly destroyed by flooding and drought resulting from an El Nino event (564-594 CE)
+	 - Sand encroached on site and clogged irrigation canals
+ - Other scenarios include earthquakes shifting the river course and silting canals
+	 - Unlikely as this was a decline over 3 centuries
+ - Capital eventually had to be abandoned
+ 

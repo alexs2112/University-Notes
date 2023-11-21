@@ -100,6 +100,14 @@ void convolve(float x[], int N, float h[], int M, float y[], int P) {
  - The signals `x[n]` and `h[n]` can be any arbitrary kind of signal
 	 - However, `x[n]` is usually an input signal that you want to process
 	 - And `h[n]` is the *impulse response* (IR) of a system you want model
+ - The IR of a system is found by inputting a normalized impulse (*delta function*) into the system, and measuring or calculating the output
+ - If the system is *linear* and *time-invariant* (LTI), the impulse response perfectly characterizes the system
+	 - That is, we know how the system will respond to *any* input it receives
+	 - We can thus simulate how a system would respond to an input signal by convolving the input signal with the system's IR
+ - The IR of a concert hall can be found by firing a starting pistol (an approximate delta function), and using a microphone to record to the system's response
+	 - Convolving a "dry" recording of an instrument with the IR results in an output signal where it sounds like the instrument is playing in the hall
+		 - This is the basis for a *convolution reverb* digital effect
+
 
 ### Processing Diagram
 ![[digital_signal_processing.png]]
