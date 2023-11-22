@@ -60,3 +60,78 @@
  - Interior of Puma Punku complex has sunken court with stelae
 	 - Probably where Gateway of the Sun came from originally
  - Complex directs rain runoff into a surrounding moat so platform becomes an island
+
+### Wari Empire
+ - 500-850 CE
+ - Tiwanaku's rival
+	 - Similar imagery to Tiwanaku: Staff gods, felines, eagles, serpents
+	 - Relationship between Tiwanaku and Wari is unclear
+ - Centered around Ayacucho
+	 - Controlled northern highlands
+	 - Highly stratified society, elite controlled irrigation system
+ - Wari connected its empire with a system of roads
+ - Expanded by moving its own people into river valleys
+	 - Then set up field terraces, irrigation canals under administrative centers governed by nobles
+ - Expert traders between coast and Amazon Basin
+**El Castillo de Huarmey**:
+ - Unlooted royal Wari tomb reported in 2013
+ - 60 individuals buried seated in rows with tombs of 3 Wari queens (mummified)
+ - Sophisticated gold and silver jewelry, bronze axes and tools
+ - Mummies may have been displayed
+**Wari and Tiwanaku**:
+ - Collapse: ~1000 CE
+ - Why these 2 empires collapsed is unclear
+	 - Probably large scale drought; internal warfare
+ - Broad geographic influence and trade organization influences the Inka
+ - Both are important because they represent small regional states being integrated into larger ones
+
+# Late Intermediate: 1000 - 1400 CE
+### Sican
+ - 700-1375 CE
+ - Develops in Lambeyeque Valley after Moche declines
+ - Sican culture had most extensive irrigation networks in South America
+	 - Advanced metallurgy
+	 - Traded for copper and other metals along Ecuadorian coast
+ - Crab masks for Sican lord/deity
+ - Rich burials for the rulers with human sacrifices
+	 - One grave had 1.2 tons of grave goods, including metals
+ - Overthrown by the Chimu state in 1375
+
+### Chimu/Chimor
+ - 1100-1400 CE
+ - Chimor also rises with collapse of Moche
+ - Moche River Valley
+	 - Expanded irrigation in the valley
+	 - Constructed terraces, large storage reservoirs
+	 - One canal between river valleys was 65 km long
+ - Greatly increased productivity
+**Chimor Farming**:
+ - Controlled 12 river valleys (from Lima to Ecuador) until it was conquered by Inka in 1476
+ - Controlled 1000 km of coastline, 2/3 of irrigated land in north coast
+	 - Northern coast under one state for the first time
+**Chimor Roadways and Conquest**:
+ - Created a network of roads to move troops to conquer other valleys
+ - Chimor broke power of conquered groups by resettling them in other parts of the state
+ - Practice later adopted by the Inka
+ - Chimor conquered by the Inka (1462-1470)
+**Chan Chan**:
+ - City center with 10 walled compounds of buildings
+	 - Buildings made of adobe brick surrounded by a wall 10m high
+	 - Functioned as individual palaces of 10 successive rulers
+		 - Served as burial place for ruler in death
+ - 300+ female human sacrifices with each ruler
+ - Complexes called ciudadelas
+**Split Inheritance**:
+ - Title passes from father to son, but not his wealth or land
+	 - Dead ruler took his wealth into afterlife
+	 - Some wealth given to junior kinsmen who maintained his mausoleum
+ - Each new ruler inherited large labour force
+ - Had to build his own ciudadela and create his own wealth through farming and conquest
+**Last Chimor Rulers**:
+ - Each valley under a local authority who was responsible to the king
+	 - Highly stratified society
+	 - Eg. Preparer of the Way: Threw crushed spondyllus shell dust wherever ruler walked
+ - Form of healthcare: Herbalists paid by the state to look after the sick
+**Chimor End**:
+ - Conquered by the Inka in 1470
+ - Inka incorporated their road system, moved skilled gold workers to Cuzco along with Minchancamon (last ruler)

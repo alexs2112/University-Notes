@@ -108,6 +108,5 @@ void convolve(float x[], int N, float h[], int M, float y[], int P) {
 	 - Convolving a "dry" recording of an instrument with the IR results in an output signal where it sounds like the instrument is playing in the hall
 		 - This is the basis for a *convolution reverb* digital effect
 
-
 ### Processing Diagram
 ![[digital_signal_processing.png]]
