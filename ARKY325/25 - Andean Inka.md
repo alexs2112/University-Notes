@@ -90,3 +90,107 @@
  - Series of administrative centers along the roadways, about a day's walk apart
  - Contained supplies, accommodation for government officials, seats of local government, watchtowers, craft production
  - Housed chasquis (messengers)
+**Administration**:
+ - No written language
+ - Inka kept records of taxes, economic transactions using decimal system
+ - Records kept on *khipu*
+	 - Knotted strings of cotton of different colours
+**Khipu**:
+ - Elaborate system of knots and coloured strings
+	 - Used to codify laws
+	 - Provide data for tax inspections
+	 - Ensure social conformity
+ - Kept by specialists called *Khipucamayocs*
+	 - Recited information to officials
+ - May also have conveyed a code for certain narratives
+**Agriculture**:
+ - Created landscape of terraced fields on steep mountain slopes
+ - Terraces were built up with gravel, rich soil, and stone retaining walls
+ - Markets were small because state controlled collection and redistribution of goods
+
+### Cuzco
+ - Royal capital, 3500m asl
+ - Home of Inti (sun god)
+	 - Inti was patron of state
+ - Gold images of Inti and other gods in sanctuary in Cuzco called Coricancha, "House of the Sun"
+ - Laid out in shape of giant puma
+ - Residences of Inka and nobility
+ - Population of 40k at contact
+	 - Mainly priests, administrators, soldiers
+ - Large granaries kept outside of city
+	 - Storehouses for goods that came in as tribute
+**Coricancha: "House of the Sun"**
+ - Exterior walls covered in thick gold frieze
+	 - Entrances covered in heavy gold plates
+	 - Interior walls covered in gold
+ - Garden made of gold plants, animals, clods of soil
+ - Mummies of dead rulers were kept inside these rooms
+ - Coricancha was central point in celestial calendar or sundial
+ - Sighting lines run out from it to track celestial movements in relation to the agricultural season
+**Stone Work**:
+ - Incredible construction
+ - Ashlar construction: Put together without the use of mortar, just tightly fitting stones
+	 - This portion of the Andes is very tectonically active
+	 - The stones must be able to hold up to earthquakes
+ - Include polygonal construction for retaining walls
+**Sacsahuaman**:
+ - Above Cuzco, located on a hill
+ - Finest Inka polygonal stone structure
+	 - Some blocks weigh more than 120 tons
+ - Top of hill are fine ashlar buildings for elites/ritual
+ - Some structures involved ritual manipulation of water
+ - Only royalty were said to be allowed to enter the site
+
+### Inka State
+ - Important government posts held by close relatives of the Inka
+ - Local nobles were used as local governors, as long as they were loyal
+ - Inka took their children to educate in Cuzco
+ - Inka used mitmaq system of colonization
+	 - Shifted troublesome populations from one area to another to prevent uprisings
+	 - Many different cultures and languages
+**Economy**:
+ - Highly integrated system of fishing, herding, farming, and mining
+ - Rivers channeled into stone lined irrigation canals
+ - Potatoes stored by freeze-drying and making chuno
+ - Maize and other grains made into chicha beer, provided to labourers by the state
+ - State also provided soldiers with textiles provided by mit'a tax of women, old men, and children
+**Metallurgy**:
+ - Metals were used for ceremonial and practical objects
+ - Gold and silver also made into religious objects and jewelry of nobility
+ - Bronze tools for agriculture:
+	 - *Taclla* (foot plough) used in potato planting and harvesting
+**Machu Pichu**:
+ - Site between 2 mountains overlooking Urubamba River
+	 - Hard to access, removable bridges, single entry
+ - Residence for ruler Pachacuti and entourage in dry season
+	 - Probably housed 500-750 people at one time
+	 - Terraces for agriculture, including orchids
+ - Intihuatana: hitching post of the sun
+ - Cave below the site may have been observatory for December solstice
+
+### Conquest
+ - Francisco Pizarro arrived during civil war 1532
+ - Empire was becoming large and difficult to govern
+	 - Large number of nobility dedicated to looking after mummies
+	 - Squabbles over succession
+	 - Communication across vast empire was problematic
+	 - Smallpox ravaging its way through population from earlier Spanish contacts in Panama
+**1532**:
+ - Huayna Capac dies of smallpox in 1525
+ - His sons Atahualpa and Huascar were fighting over succession
+	 - Atahualpa wins, many military losses from both sides
+ - Pizarro arrived with handful of men in 1532
+ - Atahualpa meets Pizarro for peaceful meeting at Cajamarca
+	 - Does not take the Spanish force seriously
+	 - Captured by Pizarro
+**Ransom of Atahualpa**:
+ - Spanish demanded a room filled with gold, then filled twice with silver for his ransom
+ - Ransom was paid, Pizarro had Atahualpa killed
+	 - Gold paid is estimated at $50 million
+**Conquest**:
+ - Spanish marched on Cuzco in 1533
+ - City conquered, set up puppet ruler (Manco)
+	 - Sapa Manco led a revolt in 1536 but lost after much bloodshed
+ - Spanish burned the city and built their own buildings on top of Inka foundations
+ - Few decades after conquest:
+	 - Population reduced to 2 million people from disease and abuse under the Spanish

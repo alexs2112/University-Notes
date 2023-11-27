@@ -95,3 +95,67 @@ Temporary breakpoint 1, main () at invalid_func_args.c:6
 (gdb) info register
 // I do not understand how to see these values in the actual registers
 ```
+
+### 2023-11-24
+```c
+void foo() {
+	printf("foo invoked by uid: %u\n", geteuid());
+}
+
+int main(int argc, char* argv[]) {
+	pid_t child = fork();
+	if (!child) {
+		signal(SIGUSR1, foo);
+		while (1);
+		// Wait until we can catch any signals, inefficient but works
+		/*
+		pause();
+		pause();
+		
+		// or
+		while(1) pause;
+		*/
+		// pause(); does nothing until a signal is given, much better than busy looping
+	} else {
+		uid_t ruid = getuid();
+		setresuid(ruid, ruid, ruid);
+		foo();
+
+		sleep(1);
+		kill(child, SIGUSR1);
+		sleep(1);
+		kill(child, SIGUSR1);
+		sleep(1);
+		kill(child, SIGKILL);
+	}
+	return 0
+}
+```
+```
+>>> ./setuid
+foo invoked by uid: 1011
+foo invoked by uid: 1058
+foo invoked by uid: 1058
+```
+ - To share memory between processes:
+	 - malloc won't work as each process has its own memory space
+	 - https://man7.org/linux/man-pages/man2/mmap.2.html
+```c
+// Define the shared memory
+char * shared_memory; // This should be a global var
+shared_memory = (char *)mmap(NULL,
+							 4096,
+							 PROT_READ|PROT_WRITE,
+							 MAP_SHARED|MAP_ANONYMOUS,
+							 -1,
+							 0);	
+
+// Now children can print into shared memory
+fprintf(shared_memory, "foo");
+
+// And then the parent can print the shared memory at a future date
+printf("%s", shared_memory);
+
+// And then you should always unmap your shared memory at the end
+munmap(shared_memory, 4096);
+```

@@ -136,5 +136,7 @@
  - Once the padding check succeeds, you know you have turned it into a 1
 	 - You know that you have turned it into a 1 by XORing it with a fixed value, so you know what the original value is
  - Then you can turn it into a 2, try to figure out the next byte in the block, then rinse and repeat
+	 - Take the resulting value, XOR it with 0x01 to get 0x00, then XOR that with 0x02 to set it to 0x02 to then check the next segment
+		 - Will look something like `Dk(C4) XOR C3 XOR 0x01 XOR 0x02 = 0x02`
 
 Example process in [[worksheet11.pdf]]

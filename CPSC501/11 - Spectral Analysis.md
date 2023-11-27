@@ -110,3 +110,31 @@ for (k = 1, j = N-1; k < N/2; k++, j--) {
 	 - Where `X[k]` and `H[k]` are the spectra of `x[n]` and `h[n]`:
 		 - `X[k] = DFT[x[n]]`
 		 - `H[k] = DFT[h[n]]`
+ - We can calculate the convolution by
+	 - Transforming both `x[n]` and `h[n]` into the frequency domain using the FFT
+		 - Note: Zero-padding will have to be used so that `x[n]` and `h[n]` have the same length
+			 - The length is a power of 2 (needed for FFT) and is long enough to avoid circular convolution (wrap around, probably just double the length and add until its a power of 2)
+			 - `x[n]` is typically much smaller than `h[n]`
+	 - Multiplying `X[k]` by `H[k]` point by point
+		 - Note: This will be complex multiplication
+	 - Converting the result back to the time domain using the inverse FFT (IFFT)
+		 - Note: The output from either the FFTs or the IFFT (but NOT both) will have to be scaled by dividing each data point by N, if the FFT/IFFT algorithm you are using doesn't already do scaling
+		 - Eg.
+		```c
+		for (k = 0, i = 0; k < N; k++, i += 2) {
+			/* Scale the real and imaginary parts of a data point */
+			x[n] /= (double)N;
+			x[i+1] /= (double)N;
+		}
+		```
+ - This technique can be applied using the *entire* `x[n]` and `h[n]` signals, provided zero-padding is used so that their lengths are the same
+	 - Not usually practical, since `x[n]` is usually much longer than `h[n]`
+	 - Usually better to break `x[n]` into segments, then process each using the *overlap-add method*
+		 - Detailed in Smith, p.313
+	 - Each segment of `x[n]` is processed separately
+		 - Detailed in Smith, p.315
+[insert diagrams from Chapter 18 - FFT Convolution]
+  - Note that complex multiplication is used:
+	 - `Re Y[k] = Re X[k] Re H[k] - Im X[k] Im H[k]`
+	 - `Im Y[k] = Im X[k] Re H[k] + Re X[k] Im H[k]`
+ - This technique is faster than standard convolution when the length of `h[n]` > 60 samples
