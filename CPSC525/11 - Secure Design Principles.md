@@ -44,3 +44,44 @@
  - Minimize interactions among privileged programs
  - Minimize unexpected use of privilege
  - Analogous to the "need to know" principle
+
+### #7 Least Common Mechanism
+ - Minimize the amount of mechanism (a) common to more than one user and (b) depended on by all users
+	 - Eg. Shared variables
+ - Users shouldn't share system mechanisms except when absolutely necessary
+	 - Shared mechanisms might provide unintended communication paths or means of interference
+
+### #8 Psychological Acceptability
+ - It is essential that the human interface be designed for ease of use, so that users routinely and automatically apply the protection mechanisms correctly
+ - Least surprise: Align design with mental model
+	 - Beware of designs that require end-user training
+
+### Use Time-Tested Tools
+ - Prefer established methods to accomplish security
+	 - Protocols, primitives, toolkits, paradigms...
+ - Heavily scrutinized tools are less likely to be fatally flawed
+ - Do not roll your own crypto
+ - Reinventing the wheel is a great way to learn, but a poor way to achieve security
+
+### Evidence Production
+ - Logging systems can promote accountability
+	 - When sudo used by an authorized party
+	 - When somebody logs in to a server
+	 - When somebody plugs in a USB drive
+	 - When somebody accesses a file or network resource
+	 - When file permissions or special directories are modified
+ - Helps discover attacks, determine effect
+ - Help build intrusion-detection systems
+
+### Reluctant Resource Allocation
+ - Be reluctant to expend effort or allocate resources
+	 - Especially with unauthenticated, external agents
+ - Be reluctant to elevate privileges for, or act on behalf of, another agent
+ - Place burden of proof on those who initiate communication
+	 - Remember complete mediation
+
+### Know Thy Enemy
+ - Security threats and defenses defined relative to an adversary
+ - Adversary wants to break security
+	 - Has specific goals/motivation, budget, capabilities, (inside) knowledge
+ - You must understand potential attackers to make wise security decisions
