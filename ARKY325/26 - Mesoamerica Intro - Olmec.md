@@ -149,7 +149,7 @@
  - Structures painted red, yellow, and purple
  - Jaguar imagery associated with ruler
  - 4 massive stone heads
- - Mosiacs:
+ - Mosaics:
 	 - 3 large jaguar mosaics (4.5m x 6m) of green serpentine blocks buried around northern plaza and pyramid
 	 - Each mosaic under layers of clay with jade and magnetite offerings
 	 - 400 years of trade for ceremonial jade and serpentine from as far away as Costa Rica

@@ -37,3 +37,46 @@
 	 - 2007: Diebold patches the issues their last patches created
 	 - 2007: Latest patches found to introduce more vulnerabilities
 	 - 2007: Diebold changes its name...
+
+### Fallacy #6
+**Our system is secure because we had it audited by third-party consultants.**
+ - History says otherwise
+	 - Diebold machines are regularly audited, yet researchers routinely find problems
+ - It can be hard to misuse crypto bad enough to fail Apple's AppStore "audits"
+
+### Fallacy #7
+**In order to increase security, we'd have to decrease safety and/or usability.**
+ - No you wouldn't
+ - Balancing these goals is challenging, not impossible
+ - To make educated decisions and arguments:
+	 - Explore solution space
+	 - Gauge what is possible
+	 - Assess levels of security and usability provided by each option
+
+### Fallacy #8
+**We don't need client devices to be secure, because our backend is heavily fortified.**
+ - That’s great! Let me congratulate you with this handmade wooden horse!
+ - Security is only as strong as the weakest link
+
+### Fallacy #9
+**Only sophisticated adversaries will be able to successfully attack our system.**
+ - Attacks only get easier to mount over time
+ - Some bad guys are rather sophisticated
+ - Sophisticated attackers make tools, unsophisticated attackers use them
+
+### Fallacy #10
+**Insiders are not going to be adversaries.**
+ - r/antiwork
+ - Humans are alarmingly sentient beings
+
+### Fallacy #11
+**We've thought of everything.**
+ - No
+
+### Fallacy #12
+**Our system is secure because we followed a checklist and are PCI DSS compliant.**
+ - No checklist is sufficient
+	 - Arguably encourage doing the "bare minimum"
+ - Certifications -> last decades bare minimum
+
+![[security_tips.png|400]]

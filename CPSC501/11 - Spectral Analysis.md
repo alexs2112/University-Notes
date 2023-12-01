@@ -114,7 +114,7 @@ for (k = 1, j = N-1; k < N/2; k++, j--) {
 	 - Transforming both `x[n]` and `h[n]` into the frequency domain using the FFT
 		 - Note: Zero-padding will have to be used so that `x[n]` and `h[n]` have the same length
 			 - The length is a power of 2 (needed for FFT) and is long enough to avoid circular convolution (wrap around, probably just double the length and add until its a power of 2)
-			 - `x[n]` is typically much smaller than `h[n]`
+			 - `x[n]` is typically much larger than `h[n]`
 	 - Multiplying `X[k]` by `H[k]` point by point
 		 - Note: This will be complex multiplication
 	 - Converting the result back to the time domain using the inverse FFT (IFFT)
@@ -130,11 +130,25 @@ for (k = 1, j = N-1; k < N/2; k++, j--) {
  - This technique can be applied using the *entire* `x[n]` and `h[n]` signals, provided zero-padding is used so that their lengths are the same
 	 - Not usually practical, since `x[n]` is usually much longer than `h[n]`
 	 - Usually better to break `x[n]` into segments, then process each using the *overlap-add method*
-		 - Detailed in Smith, p.313
-	 - Each segment of `x[n]` is processed separately
-		 - Detailed in Smith, p.315
-[insert diagrams from Chapter 18 - FFT Convolution]
+	 - Each segment of `x[n]` is processed separately using FFT convolution
   - Note that complex multiplication is used:
 	 - `Re Y[k] = Re X[k] Re H[k] - Im X[k] Im H[k]`
 	 - `Im Y[k] = Im X[k] Re H[k] + Re X[k] Im H[k]`
  - This technique is faster than standard convolution when the length of `h[n]` > 60 samples
+
+### FFT Convolution
+ - (a) transforms the filter kernel into real (b) and imaginary (c) parts using the FFT
+ - (d) transforms the input segment into real (e) and imaginary (f) parts using the FFT
+ - Those real and imaginary parts are then multiplied using complex multiplication to get (h) and (i)
+ - (h) and (i) are then put through the IFFT to get (g), the output segment
+![[FFT_convolution.png|600]]
+
+### Overlap Add Method
+ - Note: When an N sample signal is convolved with an M sample filter kernel, the output signal is N + M - 1 samples long
+ - Input signal (a) (300 samples) is broken up into 3 segments, each of 100 samples long
+ - The filter kernel (b) is 101 samples long, thus the resulting signal will be 400 samples long (300+101-1)
+ - Each segment of the input signal will be processed individually. As they are 100 samples long and the filter is 101 samples long, each segment output will be 200 samples long
+	 - So each input segment (c), (d), (e), has to be padded by 100 extra 0s
+ - Each segment is then individually convolved using the FFT algorithm detailed above
+ - Those output segments are now overlapping each other, these overlapping output segments are simply added together to get the full output signal (i)
+![[overlap_add.png|600]]
