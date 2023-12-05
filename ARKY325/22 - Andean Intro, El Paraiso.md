@@ -67,7 +67,7 @@
  - Contemporary sites along river valleys used irrigation to grow maize, squash, sweet potatos, beans, cotton
  - Trade between Aspero and Caral (and other inland centers)
 **Caral**: (3000 BCE)
- - Super River Valley, 22km inland
+ - Supe River Valley, 22km inland
 	 - 6 platform mounds built of quarried stone and river cobbles in one or two phases
  - Used net bags to carry stones to build mounds
 	 - Type of construction called *shicra construction*
