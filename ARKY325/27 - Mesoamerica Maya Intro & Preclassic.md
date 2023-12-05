@@ -89,3 +89,47 @@
  - Kings/queens were divine shamans that operated in the otherworld through ritual performance
 	 - Mostly blood-letting to keep both worlds in balance
  - Shamanic practices also involved a lot of hallucinogenic drugs
+
+### Mayan Writing
+ - Maya script was a logosyllabic system
+	 - Used from 3rd century BCE until Spanish conquest
+	 - Decoded without a parallel script
+ - Sources: Writing on pots, architecture, friezes, Mayan books (codices)
+	 - No evidence of daily life in script
+ - Remaining texts indicate endemic warfare of competing kings, brutal conquests, and political intrigue
+**Mayan Codices**:
+ - Texts written on bark paper and folded
+	 - Script painted by scribes using red, black, yellow ink and Maya blue
+	 - Jaguar skin covers
+ - Only 4 books remain
+	 - Others burned by Bishop Diego de Landa as idol worship in 1562
+ - Mainly histories of elite succession, political interaction, sacred and mathematical information (astronomy and astrology)
+**Mayan Number System**:
+ - 20 based system (vigesimal)
+ - Invented the zero
+ - Sophisticated mathematicians (add, subtrace, multiply, and divide)
+ - 3 symbols: Dot = 1, Bar = 5, Shell = 0
+	 - `**** = 4`
+	 - `**_` = 7 (stacked on top of each other)
+	 - `* shell` = 20
+**Calculations for Solar Year**:
+ - Maya determined the length of the solar year as 365.242 days
+ - Gregorian Calendar: 365.2425
+ - Modern high-tech calculation: 365.242198 days
+**Maya Calendars**:
+ - Calendar and astronomical observances were form of astrology
+	 - Predict the future and reigns of kings
+	 - Vital to daily life
+ - Determined political strategy, timing of rituals, and social events
+	 - Determined by specialists
+**Several Calendars Produce Cycles**:
+ - Sacred Almanac: 260 day calendar, *Tzolk'in*
+ - Solar Calendar: 365 days, *Haab'*
+ - Intermesh sacred and solar calendar for 52 year cycle
+ - Mayas and other Mesoamerican civilizations were embedded in unfolding cyclical time
+**The Long Count
+ - Events that span more than 52 years calculated using the Long Count
+	 - Long Count has a cycle of 5200 years
+ - Mythical starting date: August 11, 3114 BCE: Maya beginning of the current world
+ - Last cycle ended on December 21 (23), 2012
+	 - World did not end, but a new cycle began (13th B'ak'tun)
