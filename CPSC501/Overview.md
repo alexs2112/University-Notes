@@ -23,3 +23,17 @@
 	 - Other reflective techniques
  - Nothing directly on version control or unit testing
 
+### Final:
+ - Saturday, December 9th, 5-7 PM, Auxiliary Gym (KNA 117)
+ - Open book exam like the midterm
+ - 3 long answer questions, equally weighted
+ - First question: Refactoring
+	 - Java code, asked to do 3-4 refactorings to it, at least one substantial refactoring
+	 - Official name, bad smell, how it improves the code, rewrite the code with the refactoring
+ - Second question: Reflective Programming Techniques
+	 - Java code, very similar to A2 + A3, particularly A3
+	 - Serialization + Deserialization will tell us exactly what will need to be produced (in XML)
+ - Third question: Optimization Techniques
+	 - C code, asked to do a series of hand-tuning optimizations
+	 - No algorithm-based or compiler-level optimizations, no assembly optimizations
+ - No digital signal processing, only learnt that so A4 would be difficult
