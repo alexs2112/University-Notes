@@ -148,7 +148,7 @@ shared_memory = (char *)mmap(NULL,
 							 PROT_READ|PROT_WRITE,
 							 MAP_SHARED|MAP_ANONYMOUS,
 							 -1,
-							 0);	
+							 0);
 
 // Now children can print into shared memory
 fprintf(shared_memory, "foo");

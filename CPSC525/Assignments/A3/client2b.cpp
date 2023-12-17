@@ -13,6 +13,9 @@
 
 #include "constants.h"
 
+#define CTFILE "./ciphertext2b"
+#define ORACLE "/usr/bin/oracle2b"
+
 // xorbuf is to be xored with the second last block of cipher text before passing it to the oracle
 unsigned char query_oracle(unsigned char ctbuf[], size_t ctlen, int ifd[2], int ofd[2], unsigned int xorbuf[16]) {
     int status;
@@ -51,40 +54,31 @@ unsigned char query_oracle(unsigned char ctbuf[], size_t ctlen, int ifd[2], int 
 
         if (bytes_written != ctlen) error(1, errno, "writing ciphertext");
 
+        // if working on ciphertext2b, record how long the response takes
+        std::chrono::time_point<std::chrono::system_clock> start, end;
+        start = std::chrono::system_clock::now();
+
+        // read from the oracle
         unsigned char result = 0;
-        if (CTFILE == "./ciphertext2b") {
-            // if working on ciphertext2b, record how long the response takes
-            std::chrono::time_point<std::chrono::system_clock> start, end;
-            start = std::chrono::system_clock::now();
+        ssize_t bytes_read = read(ifd[0], &result, sizeof(char));
 
-            // read from the oracle
-            ssize_t bytes_read = read(ifd[0], &result, sizeof(char));
+        // get the elapsed time of the response
+        end = std::chrono::system_clock::now();
+        std::chrono::duration<double> elapsed = end - start;
+        unsigned int e = elapsed.count() * 1000000  ;
 
-            // get the elapsed time of the response
-            end = std::chrono::system_clock::now();
-            std::chrono::duration<double> elapsed = end - start;
-            unsigned int e = elapsed.count() * 1000000  ;
+        // reap the execl'd child before we return
+        waitpid(pid, &status, 0);
 
-            // reap the execl'd child before we return
-            waitpid(pid, &status, 0);
-
-            // return a response based on how long it took the oracle to respond
-            if (result == 'B') {
-                if (e > SLEEP_BADMAC_CONST) {
-                    return 'M';
-                } else {
-                    return 'P';
-                }
+        // return a response based on how long it took the oracle to respond
+        if (result == 'B') {
+            if (e > SLEEP_BADMAC_CONST) {
+                return 'M';
             } else {
-                // this should never happen
-                return result;
+                return 'P';
             }
         } else {
-            // if working on ciphertext2a, simply read the response of the oracle
-            ssize_t bytes_read = read(ifd[0], &result, sizeof(char));
-            
-            // reap the execl'd child before we return
-            waitpid(pid, &status, 0);
+            // this should never happen
             return result;
         }
     }
