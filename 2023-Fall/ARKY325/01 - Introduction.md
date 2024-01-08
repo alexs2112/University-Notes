@@ -111,3 +111,21 @@
 	 - Acquire, redistribute resources
 	 - Build needed infrastructure (irrigation, trade routes)
 	 - Ideology to legitimate authority and unify population into a system of inequality
+**Centralized Political Unit**:
+ - Nature of governing body varies (despots, kings, councils, priests)
+ - Monumental architecture includes a state style of art and architecture
+	 - Expressed in palaces, temples, city walls, elaborate tombs, storage facilities, public buildings (theaters)
+ - Often have standardized systems of writing and/or notation
+
+### When do States Emerge
+ **Origins of Agriculture**:
+  - First cities arise about 5500 years ago
+  - No single geographic origin, arose in many places around the globe
+  - Until 12-10 kya, all people were hunter-gatherers
+  - 10kya people began to domesticate plants and animals
+  - Origins of agriculture eventually led to large scale food production needed to support urban populations
+**Domesticated Plants**:
+ - Wheat, barley, rye, rice, sorghum, millets, maize
+	 - Also potatoes, yams, taro, bananas
+ - All developed in the Neolithic (12-5 kya)
+ - Produce storable resources

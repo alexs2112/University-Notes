@@ -1,5 +1,7 @@
 **Grade Structure**:
  - Two midterms: 25% each
+	 - Midterm 1: Lectures 1-9
+	 - Midterm 2: Lectures 10-19 (?)
  - Final exam: 15% (in class)
  - Five bi-weekly online quizzes: 7% each
 

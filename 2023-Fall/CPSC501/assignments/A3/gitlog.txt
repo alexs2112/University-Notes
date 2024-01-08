@@ -1,0 +1,185 @@
+commit a2d523a672e92b9778e74e6b19e76a2b603d35ae
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Wed Nov 1 19:40:17 2023 -0600
+
+    Update README with usage instructions
+
+commit 11b4e5db4aeaaafb725c7f2171d6da3a400373e9
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Wed Nov 1 19:23:56 2023 -0600
+
+    Serialize/Deserialize all types of Collections, not just ArrayLists
+
+commit 02229565772999f69235f103d3d65a6ddde278de
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Wed Nov 1 15:24:27 2023 -0600
+
+    Add visualizer for arrays and arraylists
+
+commit 87814a70ead6e0fbedc035c4663ede475846ff22
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Wed Nov 1 14:47:22 2023 -0600
+
+    Add visualizer for normal objects
+
+commit 211fc393217cb80db4be4fcf6f4e405886b79ac9
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Wed Nov 1 12:45:12 2023 -0600
+
+    Implement deserialization
+
+commit 1560d405e2e81a8dde572fe6ad322d29a716e082
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Mon Oct 30 13:41:53 2023 -0600
+
+    Add screen to serialize objects and send them to receiver
+
+commit 5b60ef1a759f3de57fe2c0317d7c3173dce975cc
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Mon Oct 30 12:38:45 2023 -0600
+
+    New main menu
+
+commit 683db6558d3c6f8a0bae5a53dea0667ea4116502
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Mon Oct 30 12:24:12 2023 -0600
+
+    Add basic networking functionality
+
+commit 435981f00e4c4e013940644031876efa6369e6d1
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 19:33:24 2023 -0600
+
+    Fix bug with declared classes of fields
+
+commit 48adbbf8a4320d9865e0b90e09da6e225f587577
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 17:47:14 2023 -0600
+
+    Serialize arraylist objects
+
+commit 47d7682f569cc42f7d8e37bba756333e5a2252c1
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 17:42:28 2023 -0600
+
+    Extract serializeValue method to remove duplicated code
+
+commit cd5efe663619113ebb5129ccfdec4539f25ba5b0
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 17:39:30 2023 -0600
+
+    Serialize array objects
+
+commit ab1d68ea01760ee6a3806b6b2f8d985af380fb27
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 16:51:55 2023 -0600
+
+    Map arrays and arraylists as their own objects
+
+commit 39a3be35c68da24ef0b379179fcb22613739a39c
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 16:23:20 2023 -0600
+
+    Extract FieldHelper class from ObjectMap
+
+commit a2e3b9f4bd27e4299c253af4ac42de78375877fb
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 16:19:48 2023 -0600
+
+    Serialize normal fields of an object
+
+commit ad801973f2b6e3d9f7f7ef3725f35c65cd41c786
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 14:45:01 2023 -0600
+
+    Extract ObjectMap class
+
+commit f6f2d662fc455cf5e5874c8b1e6d7e0cf08f9c28
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 14:22:52 2023 -0600
+
+    Extract method to validate object for map
+
+commit e72bceb281ccebe518a180d90fa932e104129dad
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 14:19:37 2023 -0600
+
+    Map ArrayLists when serializing
+
+commit 1c2c71905e475fac05afdc1c3288fbb01c2ac560
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 14:04:28 2023 -0600
+
+    Add unit tests for basic serialized mapping
+
+commit 60bd0897c05f3ff3e2423138d420f77b00a8bde4
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 13:50:11 2023 -0600
+
+    Populate hashmap with array values of objects
+
+commit 4f1aa5fe4377889e376c3ab6e072a8a3e0359f0a
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 29 13:39:09 2023 -0600
+
+    Get all non-array objects associated with the given object in serializer
+
+commit 9673e959b14c5c4d99edd782f45dcc8ba915e867
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Fri Oct 27 13:35:26 2023 -0600
+
+    Suppress rawtypes warning in object helper
+
+commit 00da16fd462a43d5220c2cbb02b8f3fd33355232
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Fri Oct 27 13:29:41 2023 -0600
+
+    Allow editing already-made objects
+
+commit 5c2fdc7c5a399afdd46178cc2c99da61b1e9c09f
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Fri Oct 27 12:15:48 2023 -0600
+
+    Refactor out different types of Arrays from ModifyArray into several subclasses
+
+commit 0997820e8624db66ccf8375e0a74188ba26a87be
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Thu Oct 26 20:49:49 2023 -0600
+
+    Refactor moving displaying object info from ObjectTypes into static ObjectHelper class
+
+commit 763b8a02cef5fd885337a6cc76d544b52ace3b7a
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Thu Oct 26 15:43:56 2023 -0600
+
+    Add ability to create reference arraylists
+
+commit 76aa3877b60a1cbb408bb85bf36ef3fecf257d8a
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Wed Oct 25 14:07:34 2023 -0600
+
+    Add ability to create an array of reference objects
+
+commit e669fef04386327530fbf1bec57e0042f7afb4c0
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Mon Oct 23 20:09:03 2023 -0600
+
+    Add ability to create arrays of primitives
+
+commit 9a739aa6f847bbdb611b5985d818b78a3f5671cf
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Mon Oct 23 15:11:27 2023 -0600
+
+    Add ability to create reference objects
+
+commit c91b822d6f0379b798d60438f66b0186c172102b
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Mon Oct 23 12:55:03 2023 -0600
+
+    Object creation UI framework, primitive objects can be created
+
+commit 9a85564f1e26cbf948546bcbba4cd6643ed6558f
+Author: alexs2112 <alexander.stevenson@ucalgary.ca>
+Date:   Sun Oct 22 19:42:11 2023 -0600
+
+    initial commit
