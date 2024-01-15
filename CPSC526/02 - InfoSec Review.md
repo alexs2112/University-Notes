@@ -66,6 +66,8 @@ struct State { int n_people = 0; ... };
 bool perform_action(Action &action, State &state) {
 	if (action == ARRIVE) {
 		state.n_people++;
+		// Bug here, the integer will eventually wrap around
+
 		return true;
 	}
     

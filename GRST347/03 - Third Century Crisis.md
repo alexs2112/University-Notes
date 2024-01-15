@@ -43,15 +43,46 @@
 	 - Mobile field army (usually on horseback)
 	 - Stationary frontier force
 
-**Lucius Domitius Arelianus** (270-275)
- - Emperor Aurelian
- - Coinage reform: a disaster which led to higher inflation
+### Lucius Domitius Aurelianus
+ - Emperor Aurelian (270-275)
+ - Coinage reform:
 	 - Changed composition of the gold coin, added more precious materials
 	 - Attempted to show the empire was strong with expensive currency
+	 - A disaster which led to higher inflation
+		 - Coins based on the value of their material, the gold coins were now more expensive than before
+	 - Had to collect all of the gold coins from previous emperors, to smelt them down and recast the new gold coins
  - Restructured the borders of Rome
 	 - Important moment for the Romans
+	 - Reduced the size of the Roman empire to make it easier to protect
 	 - Re-established frontiers, getting closer to Rome
- - Constructed Aurelian Walls in Rome as a precaution
+ - Constructed Aurelian Walls in Rome as a precaution, dichotomy with new coins
 	 - Coins say everything is okay and the empire is undefeated
 	 - Still have to construct big ass walls after centuries of safety because all of a sudden it is in danger
- - Completed 3 very successful campaigns
+ - Completed 3 very successful campaigns to regain glory of Rome
+ - City of Rome is losing relevance, not everything is done in Rome anymore, power spread throughout the empire
+	 - Emperor and his court is moving around
+
+**Eastern Empire of Palmyra**
+ - Under Zenobia Queen of Palmyra
+ - Originally wanted to guarantee power for her son under the Roman Empire, eventually claimed power and started minting coins of herself
+ - When the son came of age he became an adversary of Aurelian, his mother stayed in power
+ - Eventually crushed and reintegrated into Roman civilization
+	 - Big military accomplishment, intended to bring out the son and mother to publicly execute them as a festival of military prowess
+	 - Never made it to Rome, they were killed on the trip
+![[Palmyra_Empire.png]]
+
+**The Gallic Empire** (260-274):
+ - Separatists of Rome in the West
+ - Wanted to recreate the empire and become essentially the same as Rome
+ - Pacified and reintegrated into Rome when Aurelian defeated Tetricus in 374
+![[Gallic_Empire.png|400]]
+
+**Death**:
+ - Aurelian is murdered in 275 while preparing for a campaign against the Persian Empire
+ - Military campaign became so out of scope that the people feared for their own lives
+ - Later emperors:
+	 - Marcus Claudius Tacitus (275-276): Persecutions of Aurelian's assassins
+	 - Marcus Aurelius Probus (276-282): Acclaimed by the Syrian army
+	 - M. Aurelius Numerius Carus (282-283): Shared power with his two sons Carinus (West) and Numerianus (East)
+	 - Diocletian (284-305): Took power after the death of Numerianus, began the fight against Carinus, who was murdered after sleeping with the wives of all of his commanders
+		 - Possibly just a strong propaganda campaign to ruin the character of Carinus and elevate himself

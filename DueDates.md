@@ -17,6 +17,11 @@ Apr 08: GRST347 - Quiz 3
 Apr 12: GRST347 - Final Paper
 ```
 
+**Finished**:
+```
+
+```
+
 **Finals**:
 ```
 CPSC 526
