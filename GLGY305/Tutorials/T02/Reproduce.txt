@@ -1,0 +1,12 @@
+Fault:
+	Strike 000
+	Dip 25
+
+Dike:
+	Strike 180
+	Dip 35
+
+Basin:
+	Radius 35
+
+Typography: Valley

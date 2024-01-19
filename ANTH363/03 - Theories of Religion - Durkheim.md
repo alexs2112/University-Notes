@@ -112,3 +112,12 @@
  - "Religion establishes and reaffirms group solidarity", symbolic significance for a society
 	 - Society is not a homogenous entity, divided into social categories based on sex, class, ethnic affiliation, and religion
  - Religious beliefs may have an ideological function legitimating the domination of one group or class over another
+
+### Durkheim Summary
+ - Religion can be divided into two parts:
+ - **Beliefs**: Durkheim emphasized the social nature of religious beliefs, suggesting that they are collective representations of the group's shared values and conscience
+	 - All religious beliefs classify all things, real and ideal, into two classes or opposed groups
+		 - The Sacred and the Profane
+	 - He explored the idea of "totems" as symbols that embody the sacred and represent the collective identity of a community
+ - **Rituals**: Proposed that rituals play a crucial role in maintaining social order and solidarity
+	 - Structured framework for collective expressions of shared beliefs

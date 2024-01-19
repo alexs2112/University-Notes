@@ -15,5 +15,17 @@
 	 - East: Diocletian & Galerius
  - The legion was very difficult to manage, began leaving parts of the army in different territories to be managed by governors that were managed by the Tetrarchy
 	 - Governors were originally warlords of Augustus, eventually took on more responsibilities and power
- - Division between military careers and political careers was very blurred, Diocletian began to break this up [??? started going off topic on question]
+ - Division between military careers and political careers was very blurred, Diocletian began to break this up with a new provincial system
+	 - From 50-100
+	 - *Praesides*: Governors of a single province w/out military power. Oversee *Duces* & *Comites*
+		 - *Duces* & *Comites*: Military control of the province for emergencies (don't require the whole army)
+	 - *Vicarii*: Appointed by emperor to oversee the dioceses
+		 - Look over groups of provinces (dioceses are groups of provinces)
+	 - *Prefects*: Military role, previously the prefects had to oversee all governors of all provinces
+		 - Now only deal with administration of the army and imperial court
 ![[Tetrarchy_Map.png|400]]
+
+### The Tetrarchy
+ - Tetrarchy statue is to symbolize one united empire, not individual emperors
+	 - The emperors in the statue are not designed after any one person
+ - Augusti are the ones with the arms on the Caesars, demonstrating that they have more power
