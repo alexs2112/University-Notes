@@ -121,3 +121,56 @@
  - Be reluctant to extend privileges or act on someone's behalf
  - Place burden of proof of identity on those who initiate communication
 	 - Protects against DOS attacks
+
+### DP13: Security by Design
+ - Design and build security in from the start
+	 - Don't staple it on at a late stage
+	 - Don't add security purposes to something not designed for it
+ - Explicitly state:
+	 - Design goals of security mechanisms
+	 - Assumptions, especially involving trust
+	 - What they are not designed to do
+
+### DP14: Defense in Depth
+ - Use multiple layers, each backing up the other
+	 - So that attackers must defeat independent layers
+ - Design each to be comparably strong
+	 - Strengthen the weakest link first
+ - Assume attacker will bypass some or a layer will fail
+
+### DP15: Security is Economics
+ - Attacks and defenses have costs
+ - Consequences of attacks have costs
+ - Real world security balances these
+
+### DP16: Know Your Adversary
+ - Security is designed and defined relative to an adversary
+ - Adversary wants to break security
+ - Understanding the adversary gives better security design
+
+### Adversary Modelling
+ - An adversary model identifies:
+	 - Objectives - target assets
+	 - Methods - techniques, types of attacks
+	 - Capabilities - computing resources, skills, knowledge, opportunity
+	 - Funding level - determination, persistence
+
+### Types of Attacks
+**Passive Attack**:
+ - Observe-only attack, traffic is not modified
+ - Network looks the same with or without the attacker
+ - Attacker eavesdrops (passive MITM attack)
+ - Difficult/impossible to detect
+ - Affects confidentiality
+
+**Active Attack**:
+ - Attacker interferes with communication
+ - Inserts data, removes data, modifies data, replays data
+ - Affects confidentiality, integrity, and availability
+
+**Targeted Attacks**:
+ - Aimed at specific individuals or organizations
+
+**Opportunistic/Generic Attacks**:
+ - Aimed at arbitrary victims
+ - Example: Bike locks, won't work if targeted
