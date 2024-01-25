@@ -29,3 +29,32 @@
  - Tetrarchy statue is to symbolize one united empire, not individual emperors
 	 - The emperors in the statue are not designed after any one person
  - Augusti are the ones with the arms on the Caesars, demonstrating that they have more power
+
+### Diocletian
+ - **Army**: From the legion to smaller troops (1000 men)
+	 - Creation of regional generals (Duces and Comites)
+	 - Total number of the military grew to 600k soldiers
+ - **Economy & Coinage**: New mints, gold, silver, and bronze coins
+	 - New taxes
+ - **Imperial Court**: *Consilium* (council) and *comitatus* (itinerant officials)
+ - **Great Persecutions**: Christian persecution
+	 - 299: expulsions from the army
+	 - 303: he ordered to destroy the Church in Nicomedia and to arrest clergymen
+	 - 304: obligatory public sacrifices
+	 - Book burnings, seizing of properties
+
+**301: Edict on Maximum Prices**
+ - Huge inflation on everything, prices through the roof
+ - Diocletian attempts to define the price of every single thing in the empire
+	 - Very detailed, wasn't really followed despite risk of capital penalty
+ - 305: Finally revoked after years of failure
+
+**Principate to the Dominate: A New Era in the Roman Empire**:
+ - Dominate: The emperor is now officially a *dominus*, not a *princeps* (military leader)
+	 - *Primus*: *Inter Pares*, first among equals
+		 - Propaganda to make it seem as though the emperor is working together with the senate, not just doing things that they want to do
+	 - *Dominus*: Lord/Owner
+ - Crown and Mantle: Changing how the emperors appear, now dressed as the visible ruler of Rome
+ - Prostration and Kiss of the Cloak: Must kneel before the emperor and kiss their cloak
+	 - Previously, kneeling was considered as bad form
+ - The Standing Council: The only one sitting in a thrown is the emperor, the rest of the council must stand

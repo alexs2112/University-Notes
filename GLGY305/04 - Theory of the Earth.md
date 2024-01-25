@@ -99,3 +99,29 @@
  - Paleo climate zones (not just the glacial evidence) with his father-in-law, Wladimir Koppen
  - Geology and structural similarities between continents
  - Wegener hired Milutin Milankovich to work on the astronomical forcing of ice ages
+ - People hated him, went against the consensus view
+	 - Didn't have a good mechanism for the shifting of the continents
+
+### Mechanism of Continental Shift
+ - Reverend Osmond Fisher (1817-1914)
+	 - "The instability of convection currents... will go far to explain the instability of the earth's crust..." (1889)
+ - Arthur Holmes (1890-1965)
+	 - Proposed mantle convection as a possible mechanism for horizontal displacement (twice)
+	 - Physicists concur that such action could be sufficient to move continents, but dismiss the possibility of mantle convection actually taking place
+ - We accepted ice ages, Earth's magnetic field, and gravity without causal explanations
+
+**Regionalism in Understanding**:
+ - Drift worked well to explain data in southern hemisphere
+ - Northern hemisphere geologists did not need drift as an explanatory tool
+	 - Contraction worked well enough for them
+ - This also influenced which ideas got taught in what schools
+
+**Furthering the Jigsaw Fit**:
+ - Alexander du Toit (1878-1948):
+	 - Tremendous fieldwork capacity
+	 - Studies and maps much of eastern South America
+	 - Matches with work he and others did in Western Africa
+ - Edna Plumstead (1903-1989)
+	 - S. African, gets a scholarship to Cambridge University for PhD, but must return before finishing
+	 - Claled by tile company when they find fossils (glossopteris)
+	 - Her interest in this plant leads to more evidence of Gondwana Land connections

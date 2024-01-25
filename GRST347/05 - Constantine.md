@@ -1,32 +1,50 @@
-### Diocletian
- - **Army**: From the legion to smaller troops (1000 men)
-	 - Creation of regional generals (Duces and Comites)
-	 - Total number of the military grew to 600k soldiers
- - **Economy & Coinage**: New mints, gold, silver, and bronze coins
-	 - New taxes
- - **Imperial Court**: *Consilium* (council) and *comitatus* (itinerant officials)
- - **Great Persecutions**: Christian persecution
-	 - 299: expulsions from the army
-	 - 303: he ordered to destroy the Church in Nicomedia and to arrest clergymen
-	 - 304: obligatory public sacrifices
-	 - Book burnings, seizing of properties
+### Constantine the Great
+**Dissolution of the Tetrarchy and Fights** (305-313):
+ - Diocletian retires and forces Maximian to do the same
+	 - Likely due to health issues
+ - The two Caesars become Augusti, new Caesars are nominated:
+	 - Maximin Daia (East)
+	 - Severus (West)
+ - In this process they overlooked two men interested in power:
+	 - Maxentius (Maximian's son) and Constantine (Constantius' son)
+	 - They fight in the West, for the Battle of the Milvian Bridge
+ - 311 - The Edict of Toleration by Galerius
+ - When Constantine's father died, he was made emperor. Began calling himself Caesar, not Augustus
 
-**301: Edict on Maximum Prices**
- - Huge inflation on everything, prices through the roof
- - Diocletian attempts to define the price of every single thing in the empire
-	 - Very detailed, wasn't really followed despite risk of capital penalty
- - 305: Finally revoked after years of failure
+**Constantinus' Timeline**:
+ - 306: Constantinus' father died
+ - 308: He is named Caesar
+ - 312: Battle of the Milvian Bridge
+	 - Maxentius vs Constantine, the battle had reached Rome itself
+		 - Imperial infighting
+	 - Constantine had a dream, had his men draw the Chi Rho into their shields
+		 - *In hoc signo vinces*: "In this sign, you will win"
+	 - Dedicates his victory to Christianity
+ - 313: Edict of Milan
+	 - End of the persecutions of the Christians
+	 - Many Christian writers extolling the virtues of Constantine
+		 - Lactantius, followed by Eusebius
+	 - pg. 118-119 in textbook
+		 - Under the tetrarchy, all edicts were under "we"
+			 - Now, it is under "I, Constantine Augustus" and "I, Licinius Augustus"
+			 - Some scholars now argue that Licinius is in charge of these ideas, used to be anti-Christian
+		 - Grants "freedom to follow whatever religion" to "Christians and to all men"
+			 - Phrased to make the Christians very important
+ - 324: Constantine defeats Licinius
+ - 325: Council of Nicaea
+ - 330: Constantinople
+ - 337: Death
 
-**Principate to the Dominate: A New Era in the Roman Empire**:
- - Dominate: The emperor is now officially a *dominus*, not a *princeps* (military leader)
-	 - *Primus*: *Inter Pares*, first among equals
-		 - Propaganda to make it seem as though the emperor is working together with the senate, not just doing things that they want to do
-	 - *Dominus*: Lord/Owner
- - Crown and Mantle: Changing how the emperors appear, now dressed as the visible ruler of Rome
- - Prostration and Kiss of the Cloak: Must kneel before the emperor and kiss their cloak
-	 - Previously, kneeling was considered as bad form
- - The Standing Council: The only one sitting in a thrown is the emperor, the rest of the council must stand
-
+**Arch of Constantine** (312-315):
+ - We don't even know when this was constructed
+	 - Either to memorialize the Battle for the Milvian Bridge
+	 - or had already started, and then taken over by Constantine after the battle
+ - The arch is constructed using many different bits and pieces of previous structures
+	 - Did they not have enough money? Is their craftsmenship worse?
+ - Features scenes of Constantine giving a public speech
+	 - He is the only one sitting
+	 - Lots of propaganda to show that he is the strong emperor, Rome is coming back after the 3rd century crisis
+		 - Tries to erase the previous empires in favour for Constantine
 ### Constantine & Christianity
  - Known as the first Christian Roman Emperor
  - Explosion of Christianity after year 300

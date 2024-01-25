@@ -124,3 +124,125 @@
  - Winner of public competition
  - Very different from SHA-1 and SHA-2
  - Output sizes: 224, 256, 384, 512 bits
+
+### SHA1 Broken, 2017
+ - shattered.io
+ - 100k faster than brute-force birthday paradox attack
+ - Produced 2 working PDF files with same hash but different contents
+ - Team included the same person that broke MD5
+ - git still uses SHA1 (hardened version)
+ - In 2020, a chosen prefix attack was described
+	 - Estimated $45k to generate collision for a chosen prefix
+
+### MD5 Length Extension Attack on Signed Code
+ - Append some extra stuff at the back of some code signed by an MD5 signature
+	 - Ends up with the same MD5 signature even though there is additional (malicious) code
+ - Add random data into a comment to produce the same signature
+
+### Hashing Arbitrary Long Messages
+ - Hash functions are often constructed from simpler one-way compression functions
+ - Compression functions have the same properties as a general hash function
+	 - Fast, deterministic, uniformity, preimage+2nd preimage + collision resistant
+	 - The input has a fixed length (input block size)
+ - Compression functions are then combined to implement cryptographic hash functions that accept variable length input
+
+**Merkle Damgard Hash Function Construction**:
+ - Method of building collision resistant crypto-hash function from simpler one-way compression functions
+ - Property: If compression function is collision resistant, then the constructed function is also collision resistant
+ - Many crypto hash functions are based on this method: MD5, SHA1, SHA2
+ - The full message + padding is broken into blocks, combined with an Initialization Vector, and then hashed together
+ - Common padding: 1 followed by many 0s followed by the length of the message
+	 - `1000...0|message_length`
+
+### Message Digest
+ - Similar to checksum, but calculated using a cryptographic hash function
+ - Can be used to detect malicious modifications
+	 - Unless message & digest are both susceptible to tampering
+ - Very useful for comparing data
+	 - File deduplication
+	 - Detection of file changes (git, verify downloads from mirrors)
+	 - Synchronizing filesystems over network (rsync)
+	 - Password storage (hashed & salted & peppered passwords)
+ - Can be calculated from the command line
+	 - `md5sum` `sha256sum`
+ - Can be used to check message integrity
+ - Messages are sent together with its digest
+	 - Send the pair `(m, d)` where `m` is the message and `d = h(m)`
+	 - Recipient receives `(m', d')` and computes his own digest `h(m')`
+	 - Recipient compares his digest `h(m')` to the received digest `d'`
+	 - Integrity is verified if they match
+ - This does not guarantee if the message has been modified
+	 - If someone can modify both message and digest, they can just change both
+	 - The digest can be sent through some other channel
+		 - Big file downloads will tell you the SHA of the file when you download it
+
+**Computing SHA256 Digest Using Python**:
+```python
+import hashlib
+
+f = open("test.data", "rb")
+sha = hashlib.sha256()
+while True:
+	data = f.read(4096) # 4096 is a common size, file might be greater than RAM
+	if not data:
+		break
+	sha.update(data)
+f.close()
+
+print(sha.hexdigest())
+```
+
+### Message Authentication Code (MAC)
+ - MAC is similar to a digest, but can only be computed and verified knowing a secret
+ - MAC is sometimes called a tag, or authentication tag
+ - Possible (but not very good) implementation:
+	 - `MAC(message, secret) = h(secret | message)` (`|` is concatenation)
+	 - Insecure: Weak against some attacks for some hash functions (SHA3 is secure, else not)
+ - MAC confirms
+	 - Integrity of the message, AND
+	 - Authenticity of the message
+ - Same idea as digest, but requires knowing a secret to compute
+
+**Keyed-Hash Message Authentication Code (HMAC)**:
+ - Currently recommended implementation of MAC
+ - Defends against length-extension attacks
+ - `HMAC(m, k) = h(k1 | h(k2 | m))` where `k1, k2` are derived from `k`
+	 - Requires application of `h()` twice
+	 - Freedom to choose any `h()`
+	 - Even HMAC-MD5 does not yet have practical attacks
+	 - Most common is HMAC-SHA256
+![[HMAC.png| 400]]
+
+**Pseudocode**:
+```
+function hmac(key, message, hash) {
+	// keys longer than input blocksize are shortened
+	if (length(key) > blocksize)
+		key = hash(key)
+
+	// keys shorter than input blocksize are zero-padded
+	if (length(key) < blocksize)
+		key += [0x00 * (blocksize - length(key))]
+
+	o_key_pad = [0x5c * blocksize] XOR key
+	i_key_pad = [0x36 * blocksize] XOR key
+
+	return hash(o_key_pad || hash(i_key_pad | message))
+}
+```
+
+**Command Line**:
+`echo -n "Hello World." | openssl dgst -sha1 -hmac "secret"`
+
+**Python**:
+```python
+import hashlib
+import hmac
+
+key = "secret"
+data = "Hello World."
+
+m = hmac.new(key.encode('utf-8'), digestmod=hashlib.sha512)
+m.update(data.encode('utf-8'))
+print(m.hexdigest())
+```
