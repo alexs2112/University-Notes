@@ -125,3 +125,81 @@
 	 - S. African, gets a scholarship to Cambridge University for PhD, but must return before finishing
 	 - Claled by tile company when they find fossils (glossopteris)
 	 - Her interest in this plant leads to more evidence of Gondwana Land connections
+
+### The Earth's Seafloor
+**The Desire to Communicate**:
+ - Mid 1800s: extending telegraph cables across the Atlantic Ocean became important
+ - Protecting such an investment became important as well
+	 - Cables were breaking and we needed to know why
+ - Collecting data was a long and arduous process
+	 - One data point per day
+ - We could only see *points* of the seafloor
+ - Creating the seafloor was a massive "connect the dots" activity
+
+**Advancing Technology**:
+ - SOund NAvigation Ranging - SONAR
+ - Listening to echoes of sound bouncing of the sea floor
+	 - The time it takes for the echo to arrive indicates the distance travelled
+	 - Twice the distance to the seafloor
+ - Instead of one data point per day, we got thousands
+
+**Marie Tharp**: (1920-2006)
+ - Job opportunities for women in the '40s and '50s
+ - Took a geology course and got hooked
+	 - Eventually she got a job with an oil company... filing paperwork
+	 - Eventually she moved to NYC
+ - Maurice (Doc) Ewing offered her a job drafting seafloor data being collected
+ - Formalized the anatomy of the ocean floor
+ - Discovered a long chain of rugged mountains (taller than Himalayas) running the length of the Atlantic Ocean
+	 - And it had a deep valley down its center
+ - Colleague of Tharpe's working in the next office was busy plotting earthquake location data
+	 - She thought the pattern was significant
+		 - Dismissed as "girl talk"
+	 - She did get a third authorship eventually, when the data were published
+
+**International Geophysical Year**: (1957-58)
+ - The seafloor is an order of magnitude younger than the continents
+	 - This would eliminate contraction theory
+ - Young crust is hot and high
+ - As crust gets older, it gets colder and lower
+
+**1963 - A Verse in Geopoetry**:
+ - Harry Hess (1906-1969)
+ - Ridges were locations of mantle convection upwelling
+ - The crust cracked, allowing mantle magma to enter and fill the crack
+ - New seafloor is generated at ridges and migrates away, getting older and colder
+ - Robert Dietz later coins the term "Seafloor Spreading"
+
+**A New Theory of the Earth**:
+ - The seafloor is much younger than the continents
+ - Homogenous crust forms on a smaller earth that begins expanding
+	 - Earth was originally a third of the size, and expanded over time
+ - Continents break apart with basaltic seafloor forming
+ - Bruce Heezen becomes an avid supporter
+ - This SHOULD be the end of contraction theory, but geologists are doing continental geology, not marine
+
+### Earth Magnetic Field
+**Trying to Explain the Existence of the Magnetic Field**:
+ - Patrick Maynard Stuart Blackett, Manchester College, England
+	 - Trying to understand nature of magnetic field begins studying remnant magnetism of rocks from basalt flows
+	 - Thinks the Earth's magnetic field is caused by the spinning of the Earth
+	 - Borrows several hundred pounds of pure gold to test the theory
+ - Blackett's former student, Keith Runcorn and his colleague Edward Bullard at Cambridge University are studying the same problem
+	 - Runcorn thinks the magnetic field is caused by the currents in the liquid core of the Earth
+ - Remember, we accepted the existence of the Magnetic field without having an explanation
+
+**What We Measure**:
+ - Intensity: How strong is the force
+ - Inclination: The direction from horizontal that the field points
+	 - Indicates latitude on Earth
+ - Declination: The measurement in degrees magnetic north (Nm) is away from true (rotational/geographic) north (Ng)
+
+**Curie and His Temperature**:
+ - To understand the Earth's current magnetic field, Blackett and Bullard (and the Carnegie team) started to try to understand the magnetic field through time
+	 - An important aspect was how rocks might become magnetized
+ - Curie Temperature: If a magnet is heated past this temperature, it will lose its magnetic property
+	 - After it is cooled down again, it will assume a different ambient magnetic field
+ - Iron crystals do NOT align themselves in molten rock during formation, it is too hot
+	 - The magnetic field is assumed AFTER the rock is solidified
+
+**Development of a Timescale of Magnetic Reversals**:

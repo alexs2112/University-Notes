@@ -7,6 +7,7 @@
 **Quizzes**:
  - Not cumulative
  - Multiple choice, fill-in-the-blanks, one short answer question
+ - 10 study questions will be provided before the quiz
 
 **Assignments**:
  - Analysis of one primary source, or discussion of a question on a socio-cultural issue discussed in class

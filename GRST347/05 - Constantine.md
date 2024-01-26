@@ -45,6 +45,12 @@
 	 - He is the only one sitting
 	 - Lots of propaganda to show that he is the strong emperor, Rome is coming back after the 3rd century crisis
 		 - Tries to erase the previous empires in favour for Constantine
+
+**Colossus of Constantine**:
+ - Giant head still exists, positioned in a way such that while you walk around it is always looking at you
+ - Exaggerated features, gigantic eyes, not a realistic depiction of the emperor
+	 - Sending a message, the emperor is huge and watching everybody
+ - Likely originally positioned at the end of a basilica, you would immediately see the giant statue as soon as you entered
 ### Constantine & Christianity
  - Known as the first Christian Roman Emperor
  - Explosion of Christianity after year 300
@@ -64,7 +70,8 @@
  - **Sol Invictus**: Use of Sol's image (solar monotheism) was stressed on the coinage
 	 - Constantine's status as his father's successor appealed to the educated citizens of Gaul
 		 - Was considered less offensive than the traditional pagan pantheon to the Christians
-	 - Shown and described as the [todo]
+	 - Shown and described as the companion of the sun god on a coin minted nearly four years after his conversion to Christianity
+		 - Copies Sol's characteristic gesture of benediction seen on most bronze coins until 317
  - While Constantine's Christian vision took place in 312 and he built magnificent monuments to Christianity, his coins still reflected the pagan nature of Rome
 	 - 323: Coins replaced by more religiously neutral coinage, such as "campgates", to symbolize the Empire being able to protect its citizens
  - Chi Rho appears first in coins, then eventually the cross (318)
@@ -80,3 +87,26 @@
  - Explicitly Christian iconography had yet to be developed by the end of Constantine's reign
 	 - Less than 1% of the coins produced in this time are classified as having Christian symbols
 	 - Early Christianity had developed illegally, visual manifestations of the new religion were safely ambiguous
+
+### Constantinople, the New Rome
+ - The "New Rome", but named after Constantine
+ - Constantine left Rome, constantly visiting Byzantium
+	 - Renewed first wall of city of Byzas, extended it and joined the two
+	 - Renamed the city Constantinople
+	 - Originally very small, but in a very good spot for trading and defense
+ - Also completed the Hippodrome, adorned with bronze and riches to make it similar as the one in Rome
+	 - Constructed a Palace and Forum, also similar to Rome
+	 - Building a monumental city with all the aspects connected to power and propaganda
+ - Trying to rebuild the idea of Rome
+
+**Constantine I and Religion**:
+ - He was *Pontifex Maximus*
+	 - Head of the Roman religion
+	 - No separation between the state and religion, a state cult
+ - *Sol Invictus* "Unconquered Sun"
+ - Constant intervention in Church's affairs
+	 - 313-314: Church councils
+	 - 325: Council of Nicaea - First ecumenical council of the Church
+		 - Olkoumene -> the entire world -> ecumenical
+ - Interest in building new churches
+ - A shift that is clear but not immediate
