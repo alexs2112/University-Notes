@@ -202,4 +202,73 @@
  - Iron crystals do NOT align themselves in molten rock during formation, it is too hot
 	 - The magnetic field is assumed AFTER the rock is solidified
 
-**Development of a Timescale of Magnetic Reversals**:
+**Development of a Timescale of Magnentic Reversals**
+ - Analyses of continental basalts over the next decade starts to show systematic results
+ - Global magnetic field is reversing occasionally
+ - Radioactive dating was becoming much more precise
+ - Precision of the timescale increases over time
+	 - More sampling covers more time
+	 - Enhanced sensitivity of magnetometers
+	 - More precision in radiometric dating
+ - Observations noted that the reversals were not just in igneous rocks, but also in sedimentary
+ - They correlated chronologically with the developed time scale
+ - Geologists could no longer ignore the mounting data
+
+**Ronald Mason and Arthur Raff, the Zebra Stripes**:
+ - Originally detected by magnetometers dragged behind ships, looking for enemy submarines during WW2
+ - No one was sure what to make of these zebra signals
+ - Searched other oceans of the world
+	 - Pattern was parallel with and symmetric about ocean ridges
+	 - Normal - Reverse - Normal - Reverse - etc
+
+### Global Tectonics
+**Lawrence Morley**:
+ - Recognizes the pattern and symmetry about the ridge axis
+ - He combines:
+	 - Hess's geopoetry (seafloor spreading)
+	 - Magnetic anomalies
+	 - Magnetic reversal time scale
+ - Basically, as new ocean crust formed in ocean rifts, it recorded the ambient magnetic field at that time
+	 - Submitted a paper for *Nature*
+		 - Rejected, not enough evidence
+	 - Paper for *Journal of Geophysical Research*
+		 - Also rejected, interesting idea, more appropriate over martinis rather than in this Journal
+ - Other paper at Cambridge, authored by Fred Vine and Drummond Matthews, come up with the same theory
+	 - Submitted a paper for *Nature*
+	 - Instantly accepted in the same year, after Morley's rejection
+
+**Contributions of J. Tuzo Wilson**:
+ - Wilson (1908-1993) was originally a staunch fixist
+ - Converted to mobilism and became a great advocate
+	 - Ridges and paleomagnetic evidence
+ - Asked what we would expect to see if the seafloor was spreading
+ - Noticed a pattern of volcanism on the seafloor
+	 - Narrow chain of volcanic islands and seamounts getting increasingly older away from Hawaii
+ - Wilson saw a stationary "hot spot" causing the pattern as ocean crust moved over top of it
+ - The "trail" of volcanoes and seamounts indicate the direction of crustal movement
+	 - As the crust slides over the stationary hot spot, it creates a line of volcanoes
+
+**Wilson's Model of Mantle Plumes
+ - Had multiple models for convection in the mantle
+ - He saw the hot spot, or plume emanating from a stationary point in the mantle not convecting
+ - Morgan, 1972: Placed the hot spot in the lower mantle instead of near the surface
+	 - Purely because it looked better
+	 - Claimed it provides the motive force for continental drift
+	 - Idea took off
+ - Denser crust moving over less dense crust turns into subduction zones (sucking down and consuming the crust into the mantle)
+ - Wilson figured  that due to the shape of the earth (sphere) long linear zones of compression or extension could not exist without some lateral compensation
+ - Saw the fissures orthogonal to the ridge system as these compensatory structures
+	 - Published "A New Class of Faults" in 1965
+
+**New Global Tectonics**:
+ - Paper written in Columbia University
+ - Usually considered to be the decisive paper denoting a new theory of the Earth
+ - It also supplied convection as a mechanism
+ - Submarine evidence, most geologists only really care about geology on the continent
+ - Tanya Atwater brings the new global tectonics onto land (1970)
+ - The San Andreas fault is a long transform fault connecting two ridge/rift systems
+
+### Birth of a Theory
+ - Crust deforms in narrow regions due to relative motions
+ - Like Dana's and Wegener's model, heterogeneous crust
+ - Holmes and Hess provide
