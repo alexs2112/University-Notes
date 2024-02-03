@@ -34,7 +34,7 @@
 	 - Giving comprehension and emotional support for human suffering (Malinowski)
 	 - Offer a set of ethical criteria to guide human behaviour, helping individuals navigate the moral landscape and make sense of the moral discrepancies they encounter
  - Hence religious symbolism is intrinsically linked to what Geertz calls "the problem of meaning"
-	 - Refers to the challenge of deciphering and interpreting the symbolic structures within a culture to understand the significance that individuals ascribe to their actions, rituals, social interatctions
+	 - Refers to the challenge of deciphering and interpreting the symbolic structures within a culture to understand the significance that individuals ascribe to their actions, rituals, social interactions
 
 **Geertz - Conclusion**:
  - Anthropological study of religion is, therefore, a two-stage operation
@@ -68,7 +68,7 @@
 **Concepts**:
  - Introduced *Liminality*: Concept which refers to transitional or in-between phases within rituals or social processes
 	 - In these liminal phases, individuals experience a suspension of normal social roles and structures
-	 - Symbolism is crucial in this context, represents the transformation of indivviduals or groups from one state to another
+	 - Symbolism is crucial in this context, represents the transformation of individuals or groups from one state to another
 	 - Example: Graduation ceremonies
  - *Communitas*: A state of unstructured and egalitarian community that arises during liminal periods
 	 - Symbolism helps create a shared sense of identity and belonging among individuals in communities

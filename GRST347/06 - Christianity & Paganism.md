@@ -131,3 +131,59 @@
  - Witness of their faith by publicly refusing to deny it
 	 - The martyrs became the heroes for the Christian's out there
  - Martyr's are witnessing their fate publicly and are refusing to denounce it
+
+### The Passion of Perpetua and Felicity
+**The Trial**:
+ - Snatched away from a meal to be tried in the forum by procurator Hilarian
+ - The others being asked at the trial confessed to be Christians
+ - Her father showed up to try to get her to not confess to it
+ - She also admitted to be a Christian, refusing her father (very abnormal in Rome)
+	 - Father was about to cast down her faith to save her, was taken down and beat by a rod
+	 - Christianity is changing society in a complex way, women started to stand up for themselves and not just be ordered around by men
+ - Hilarian passed sentence to condemn them to the beasts, cheerfully they go to the dungeon
+ - Sent her deacon to her father to get her child to breastfeed him in prison, father refused
+	 - As God willed, no longer her child needed to be suckled
+
+**The Premonitory Dream**:
+ - Knew she was condemned to the beasts. Had a dream that instead of beasts, an ill-favored Egyptian came out to fight her (representation of the devil)
+ - She stripped naked, became a man. Man = strong, woman = weak
+ - Came forth a gigantic man (taller than the ampitheatre)
+	 - Wearing a purple robe, shoes of gold and silver, wielding a rod like a master of gladiators, and a green branch with golden apples
+ - The man claimed that if the Egyptian conquers the women, he will kill her. Otherwise, she will receive the branch
+ - They fight, she crushes his head, goes up to the master of gladiators and received the branch
+ - "Daughter, peace be with you", goes to the Gate of Life
+
+**Felicity's Miracle**:
+ - Felicity receives the grace of the lord
+ - Was imprisoned for 8 months as she was pregnant when arrested
+	 - Not allowed to be killed until she gives birth (pro life romans)
+ - Becomes very sorrowful as the day of the games draws near
+	 - She wanted to give birth asap so she could die with her community, not with strangers
+	 - Did not want to be held back because of her pregnancy and then die among strangers
+	 - Her fellow martyrs were also upset because they didn't want to leave behind their friend
+ - They pray to their god 3 days before the games, after their prayer she feels pain and gives birth to a daughter
+	 - Her sister raises her daughter as her own
+
+### Church Hierarchies
+ - Orthodoxy: correct/righteous opinion
+ - Heresy: from *hairesis* - "chosen thing"/"choice
+ - History of Christianity is also a history of heresies and the attitudes of the Church towards it
+	 - In all religions that possess definite doctrine, there are differing opinions about that doctring. As a consequence, quarrels and conflict about it and social organization
+ - Male celibate leadership and the new public body
+	 - Separating themselves from the regular Roman society
+	 - One of the main issues come with family, the Roman household is very stratified
+		 - The father has power of life or death over all members of the house
+		 - The house is the most important component of Roman society
+	 - Don't want family ties, instead have ties to their community of many other people
+ - Administrative structure of the church
+	 - Ekklesia -> Assembly
+	 - Episkopos -> Overseer
+	 - Presbuteros -> Elder
+	 - Diakonos -> Server
+ - Most important centers for the church:
+	 - Rome
+	 - Carthage
+	 - Alexandria
+	 - Antioch
+	 - Constantinople/Byzantium
+![[Centers_of_the_church.png|600]]

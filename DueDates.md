@@ -2,7 +2,7 @@
 Feb 05: GRST347 - Quiz 1
 Feb 05: ANTH363 - Midterm 1
 Feb 09: GLGY305 - Assessment 1
-Feb 10: CPSC526 - Assignment 2
+Feb 09: CPSC526 - Assignment 2
 Feb 26: CPSC526 - Assignment 3
 Mar 01: GRST347 - Quiz 2
 Mar 11: ANTH363 - Midterm 2

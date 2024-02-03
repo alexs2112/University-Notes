@@ -33,7 +33,7 @@
 	 - Also reduced their forces for political infighting and civil war
 
 **The Eastern Border**: 
- - In Persia, the Sasanian dynasty took over the Parthians in the 220s
+ - In Persia, the Sassanian dynasty took over the Parthians in the 220s
  - King Shapur 1 (242-272) reached Antioch in Syria
 	 - 261, captured Valerian
 

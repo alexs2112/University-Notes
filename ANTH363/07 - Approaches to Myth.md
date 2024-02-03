@@ -159,7 +159,7 @@
  - Myths reveal natural, direct products of human imaginations and offer a window into how the human mind works and orders the world
 
 **Binary Oppositions**:
- - Analyzed clusters of myths across many different places nad cultures that are regarded as similar in theme
+ - Analyzed clusters of myths across many different places and cultures that are regarded as similar in theme
  - Relates particular oppositions to wider and universal ones
 	 - Nature/culture; life/death; good/evil
  - Definition: Pair of related terms/concepts/ideas with contrasting meanings
