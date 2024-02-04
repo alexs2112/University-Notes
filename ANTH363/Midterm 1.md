@@ -71,6 +71,7 @@
 	 - Individualistic(selfish), Instrumental (means to an end), Imminent (immediate outcomes)
  - Where religion is:
 	 - Collective (communal), Unifying (maintain social cohesion), Transcendent (intangible realities)
+ - Effervescence: The religious high one receives through shared community from collective ritual experience
 
 **Criticism**: Too rigid separation between sacred and profane
  - Many groups lack kin-groups and totems but have religion
