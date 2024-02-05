@@ -1,5 +1,6 @@
 ### History of Religion
  - *Religio*: Originally refers to fear or reverence for gods
+ - Paleolithic: Nested graves, skulls severed after death
  - Bavarian Grave: 27 skulls embedded in red ochre, second group of 6, 20 were children, 9 women
  - Cro-Magnons: Fertility idols, red ochre as mummification
  - Neolithic: Mother Goddess transforming to creation & regeneration, protecting vegetation, agriculture
@@ -65,7 +66,7 @@
 
 **Durkheim's Definition of Religion**:
  - Religion can be divided into 2 parts, the union of beliefs and rituals
-	 - Beliefs are collective representations of the group's shared values and conscioence
+	 - Beliefs are collective representations of the group's shared values and consci`ence
 	 - Rituals are structured framework for maintaining social order and solidarity
  - Religion must exclude magic, as magic is:
 	 - Individualistic(selfish), Instrumental (means to an end), Imminent (immediate outcomes)

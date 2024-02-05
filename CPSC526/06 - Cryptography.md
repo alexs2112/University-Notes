@@ -180,3 +180,92 @@ Consists of three algorithms:
 	 - We can perform several XORs on the OTP to change the ciphertext
 	 - `c' = c XOR m0 XOR m1`, such that `c'` is now flipped to the other message
 		 - `c` XOR `m0` or `m1` becomes nothing, resulting in the other message
+
+### Advanced Encryption Standard (AES)
+ - Selected by NIST in 2001 through open international competition and public discussion
+ - Block size: 128-bits
+ - Key lengths: 128, 192, 256 bits
+ - AES-256 is currently the symmetric encryption algorithm of choice
+
+**Overall Structure**:
+ - Based on permutation-substitution network
+ - AES encryption algorithm proceeds in 10-14 rounds
+ - Each round performs an invertible transformation on a 128-bit block
+ - The initial state `X0` is the XOR of the plaintext P with the key K
+ - Round `i` receives state `X_(i-1)` as input and produces state `X_i`
+ - The ciphertext `C` is the output of the final round: `C = X_n`
+ - Decryption: Reverse the rounds
+
+**AES Rounds**:
+ - 4 steps per round
+ - `SubBytes`: An S-Box substitution step
+ - `ShiftRows`: A permutation step
+ - `MixColumns`: A matrix multiplication step, skipped in last round
+ - `AddRoundKey`: An XOR step with a round key derived from the 128-bit encryption key
+
+### Block Ciphers
+ - Modern ciphers operate on fixed-length blocks (128 bits)
+ - To encrypt messages of arbitrary length, we split the message into blocks
+	 - A plaintext of length n is partitioned into a sequence of m blocks
+	 - Each block has length of b
+	 - Last block may require padding to make its length also b
+ - The message is then encrypted block by block
+
+ **Block Cipher Mode of Operation**:
+  - A mode of operation describes the way a block cipher encrypts and decrypts a sequence of message blocks
+  - Standardized modes: ECB, CB, OFB, CFB, CTR, GCM
+
+**Electronic Code Book (ECB)**:
+  - Simplest block cipher mode
+  - Plaintext block `p[i]` encrypts into ciphertext block `c[i] = Enc(k, p[i])`
+  - You can easily parallelize the encryption and decryption, otherwise this algorithm is very bad (nothing determines on anything else)
+	  - ECB is just a substitution cipher (on 128 bit blocks), with all its weaknesses
+  - Recall IND-CPA, ECB is not IND-CPA
+	  - Choose `m0 = {0}^n || {0}^n` (two zero blocks) and `m1 = {0}^n || {1}n`
+	  - Because each block is independently:
+		  - `Enc(k, m0)` consists of two identical ciphertext blocks
+		  - `Enc(k, m1)` consists of two different blocks
+	  - We can tell them apart and win the game 100% of the time
+
+**Counter Mode (CTR)**:
+ - Mimics the OTP
+ - CTR turns a block cipher into a stream cipher (eg. using AES-256)
+	 - Encryption: Ciphertext block `c[i] = Enc(k, nonce+i) XOR p[i]`
+	 - Encryption: Ciphertext block `p[i] = Enc(k, nonce+i) XOR c[i]`
+ - CTR mimics the OTP cipher, creating the pad by encrypting consecutive numbers nonce + 0, nonce + 1, nonce + 2, etc. 
+	 - The variable nonce is a randomly chosen number to make sure the pad is never re-used
+	 - The nonce is sort of a second key, both parties must also know the nonce
+ - CTR can be parallelized
+
+### Chosen Ciphertext Attacks
+ - Chosen Ciphertext Attack (CCA1)
+	 - Adversary is allowed to get decryptions of any number of ciphertexts
+	 - Ciphertexts must be selected before decryption
+	 - Make a bunch of ciphertexts, then decrypt them all at once and cannot decrypt any more
+ - Adaptive Chosen Ciphertext Attacks (CCA2)
+	 - Adversary can select and decrypt any number of ciphertexts, and then repeat the process forever
+ - Gold standard for encryption secrecy is IND-CCA2
+
+**Galois Counter Mode (GCM)**:
+ - CTR does not detect tampering with the ciphertext, but otherwise is a pretty good cipher
+	 - Note: CTR can be combined with an authentication mechanism, but it's inefficient
+ - GCM is an authenticated encryption mode
+	 - Uses CTR for the encryption
+	 - and GHASH hash function for authentication
+	 - Computes ciphertext and an authentication tag directly
+	 - IND-CCA2, therefore non-malleable for some block ciphers (AES)
+ - Advantages of GCM vs CTR + authentication
+	 - Very fast (2.5 GPU cycles per byte)
+ - Current best practice for block cipher usage
+	 - Used in modern Wi-Fi, SSH, TLS (https), OpenVPN, ...
+
+### Applications of Secret Key Cryptography
+ - Mutual authentication via challenge-response
+	 - Prove knowledge of a key without revealing it
+	 - Alice and Bob want to prove to each other they both know secret key K
+1. Alice creates and sends unique challenge `Ca`
+2. Bob creates and sends unique challenge `Cb`
+3. Alice computes and sends back `Ra = Enc(K, Cb)`
+4. Bob computes and sends back `Rb = Enc(K, Ca)`
+5. Alice verifies `Dec(K, Rb) = Ca`
+6. Bob verifies `Dec(K, Ra) = Cb`
