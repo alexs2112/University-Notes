@@ -46,9 +46,13 @@
  - Usually deeply meaningful
  - There is no hard line between social rituals, sacred rituals, personal rituals, and ceremonies
  - When a purely functional act (drinking tea) becomes ritualized and given symbolic meaning, an ordinary social ritual can become a sacred ritual
+ - Religion is not so much a thing to believe or to "mean" as a thing to do
+ - Social action, religious or otherwise, is interaction between agents both natural and supernatural
+ - Rituals are not just performative or informative, but transformative
+	 - Establish certain states of being (like wellness), certain kinds of persons or social statuses, a certain kind of society, etc.
 
 **Definition of Ritual**:
- - Victor Turner: "a ritual is a stereotyped sequence of activities involving gestures, words, or objects, performed in a sequestered place and designed to influence preternatural [magical] entities or forces on behalf of the actor’s goals or interests"
+ - Victor Turner: "a ritual is a stereotyped sequence of activities involving gestures, words, or objects, performed in a sequestered place and designed to influence preternatural \[magical] entities or forces on behalf of the actor’s goals or interests"
  - Alexander 1997: "Ritual defined in its most general or basic terms is a performance planned or improvised, that effects a transition from everyday life to an alternative context within which the everyday is transformed"
  - Anthony Wallace: "Ritual is religion in action"
 
