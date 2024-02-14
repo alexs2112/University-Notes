@@ -102,3 +102,32 @@
  - Basis of challenge-response authentication
 	 - A nonce (number used once) is sent as a challenge to the communication partner
 	 - The response includes crypto done on the nonce
+ - DHKE is used even though we have RSA in order to achieve *forward secrecy*
+
+**Forward Secrecy**:
+ - Compromise of long-term secret key does not compromise past session keys
+	 - If Eve finds Alice's and/or Bob's private keys, she would not be able to decrypt past conversations
+ - Communications based on DHKE have this property if each session uses different exponents, as the calculated key K will be different every time
+ - Watch for this in secure communication products you might want to use
+
+### Key Generation in Python
+ - https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/
+
+**Generating a 512-bit key pair, displayed in PEM format**:
+```python
+from cryptography.hazmat.primitives.asymmetric import rsa
+from cryptography.hazmat.primitives import serialization
+private_key = rsa.generate_private_key( public_exponent=65537, key_size=2048 )
+pem_priv = private_key.private_bytes(
+   encoding=serialization.Encoding.PEM,
+   format=serialization.PrivateFormat.TraditionalOpenSSL,
+   encryption_algorithm=serialization.NoEncryption() # Can encrypt the key
+)
+public_key = private_key.public_key()
+pem_pub = public_key.public_bytes(
+   encoding=serialization.Encoding.PEM,
+   format=serialization.PublicFormat.SubjectPublicKeyInfo
+)
+print(pem_priv.decode("ascii"))
+print(pem_pub.decode("ascii"))
+```

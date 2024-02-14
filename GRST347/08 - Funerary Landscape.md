@@ -109,3 +109,24 @@ Titus Aelius Onesas, a freedman of the emperor, to Sulpicia Margaris, good wife,
  - Monteverde Catacombs, Rome: Jewish catacomb, symbolisms of the old testament decorates the walls and ceilings
 	 - Jewish catacombs are beginning to decorate their tombs at the same time as the Christians
 
+### Celebrations for the Dead
+ - Pagan Funeral
+ - Parantalia: 13-21 February
+	 - Very important festival, the dead are able to walk on the Earth once more
+	 - Celebration to appease the spirits and make sure they are not upset
+		 - Bring them flowers and food, their shades ask little
+		 - "Tile wreathed with garlands is enough, a scattering of meal, a few grains of salt"
+	 - Neglecting the Festival of the Dead will have you punished by the spirits
+ - Christian Funeral: the example of Monica, mother of Augustine of Hippo
+	 - Many celebrations were quite similar with prayers and offerings
+	 - Care of the body was also similar (after change from cremation to inhumation)
+ - Martyrs
+	 - People would pray in the tombs of these martyrs
+	 - They also pay for the privilege of being buried closest to the martyr
+		 - Spaces in the catacombs are not considered equal
+
+**Witchcraft**:
+ - The dark power of the underworld
+ - Necropoli and catacombs are connections between underworld and earth
+ - Many people in this period practiced witchcraft
+ - Found cursed goblets that would be buried with your tomb to curse somebody that is alive
