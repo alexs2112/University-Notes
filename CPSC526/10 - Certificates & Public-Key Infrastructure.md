@@ -48,3 +48,90 @@
  - Alice somehow obtains certificate authority's public key and installs it on her computer
  - Alice can now talk to Bob, as long as Bob uses the same CA
  - Bonus: Alice can authenticate anyone who has their public key signed by this CA, not just Bob
+
+**Before Bob Can Reply to Alice**:
+ - Bob asks the CA to sign his public key
+ - CA verifies Bob's identity
+	 - CAs used to charge Bob money for this service
+	 - We hope they verify Bob's identity
+ - CA then signs Bob's key using CA's private key
+ - CA then gives Bob the certificate
+ - Certificate includes Bob's public key & CA's signature
+
+### Certificate Authorities
+ - How does Alice obtain a CA's public key?
+	 - CA's public key (trust anchor) must be obtained out-of-band
+	 - via different channel than one used for communication, authenticated using the certificate
+	 - Several CA certificates are often included with your browser and/or operating system
+
+**CA Hierarchy**:
+ - Most CAs are hierarchical
+	 - The root CA endorses intermediate CAs
+	 - Forms a tree structure
+ - Creates a chain of trust
+	 - A certificate includes chain of certificates, of all intermediate CA's up to the root
+ - There are multiple root CAs, each with their own hierarchies
+	 - Validate up the chain of CAs until you reach one that you trust
+
+**Root Certificates on your Computer**:
+ - Your browser ships with many root certificates
+ - How did the browser vendor decide to include a particular CA's certificates?
+ - Your browser likely also uses certificates that were included with your OS
+
+**Proving Identity to a CA**:
+ - CAs can use any method to verify identity of a web server owner
+	 - They typically want a proof that the person requesting the certificate owns the web server
+ - Manual methods used in the recent past:
+	 - CA gives the requester a challenge, which must be placed in a specified location on the server
+		 - Then verifies the challenge is on the server at the requested location
+	 - CA gives the requester a challenge, which must be placed in the DNS record
+	 - CA emails the requester a challenge, which then must be returned to the CA
+ - Automated methods (eg. using Let's Encrypt) require operator to install and run an interactive script on the web server's hardware
+
+**Certificate Authorities**:
+ - If any single link in the CA chain becomes compromised, a MITM attack can successfully impersonate every encrypted web site someone might visit
+ - By using a web browser, you are trusting all CAs from which they included certificates
+	 - And their employees
+	 - And anyone for whom they signed intermediate certificates
+ - You are also trusting the browser vendor and developers
+	 - Chrome has ~35 million lines of code, this is a lot of developers
+ - And the website/store where you downloaded your browser
+	 - Their system administrators and their friends (if the admins work remotely and don't lock their computers when they go to coffee)
+ - Most browsers allow you to add/remove certificates manually
+	 - They are trying to legislate this away in the future
+
+### Assignment
+ - Remember how OTP works
+	 - OTP is emulated using the CTR mode of operation, generate a pseudorandom key to create an infinitely long pseudorandom pad
+ - We are given the encryption and must do the decryption
+ - First 16 bytes will be IV, next 16 bytes are the salt, followed by the ciphertext
+	 - To read the file, extract first 16 bytes as IV, then the salt, then initialize the CTR using the IV and Salt, then just redo the encryption loop but decrypting instead of encrypting
+
+**AES-CTR Encryption in Python**:
+```python
+def encrypt(password: str, nonce: int | None = None):
+  if nonce == None:
+      iv, salt = os.urandom(16), os.urandom(16)
+  else:
+      iv = nonce.to_bytes(32)[:16]
+      salt = nonce.to_bytes(32)[16:]
+  key = key_stretch(password, salt, 16)
+  sys.stdout.buffer.write(iv+salt)
+  encryptor = Cipher(algorithms.AES(key), modes.CTR(iv)).encryptor()
+  while True:
+      data = sys.stdin.buffer.read(4096)
+      if len(data) == 0: break
+      cblock = encryptor.update(data)
+      sys.stdout.buffer.write(cblock)
+  cblock = encryptor.finalize()
+  sys.stdout.buffer.write(cblock)
+
+def key_stretch(password: str, salt: bytes, key_len: int) -> bytes:
+  key = PBKDF2HMAC(
+    algorithm=hashes.SHA256(),
+    length=key_len,
+    salt=salt,
+    iterations=100,
+  ).derive(password.encode())
+  return key
+```
