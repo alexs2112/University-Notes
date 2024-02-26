@@ -100,6 +100,82 @@
  - Most browsers allow you to add/remove certificates manually
 	 - They are trying to legislate this away in the future
 
+### Revoking Certificates
+**Certificate Revocation Lists (CRLs)**:
+ - CAs can be compromised and certificate revocation is a serious problem
+ - Possible solution: certificate revocation lists (CRLs)
+	 - Each CA maintains a list of revoked certificates, by serial number
+	 - Browsers are supposed to consult these periodically
+	 - CRLs can get very large
+		 - Good thing certificates expire
+	 - Not a very practical system due to CRL size
+		 - Browsers need to download huge lists, even for certificates they are not using
+
+**Online Certificate Status Protocol (OCSP)**:
+ - Slightly better solution
+	 - Web-service
+	 - Browser checks a certificate validity by serial number
+ - Issues:
+	 - Very high load on CA
+	 - MITM concerns, privacy concerns
+		 - Exposing browsing habits to a 3rd party
+	 - What should browsers do if check fails?
+		 - Overloaded server or server is getting attacked
+
+**OCSP Stapling**:
+ - Improved OCSP solution
+ - Website periodically requests time-stamped validation from their CA
+	 - Almost like a brand-new certificate with a very short validity duration (<10 days)
+ - Website then appends (staples) the validation to each certificate it serves
+	 - The stapled validation proves the freshness of the certificate
+ - Browser does not need to talk to the CAs OCSP server at all
+ - No more privacy issues
+ - Load on CAs dramatically reduced
+ - Failures a lot less likely
+ - Fail-hard approach a lot more practical
+
+### Certificate Transparency
+ - Can be used to help detect misused certificates
+ - Based on append-only, publicly available, and verifiable logs of all issued certificates
+	 - Logs are protected by Merkle Trees data-structure
+ - Requires support from CAs and browser vendors
+	 - CAs append new certificates to multiple CT logs
+		 - And include CT proof in the issued certificates
+	 - Browsers are served certificates with the CT proof
+		 - Browsers could refuse certificates without CT proofs
+ - Anyone is allowed to operate a CT log
+	 - And request to be added by CAs and browser vendors
+ - Misused certificates are detected by monitors
+	 - Can be run by anyone
+	 - Continuously monitor logs for consistency
+	 - Monitors can offer free or paid services to notify of suspicious certificates
+ - Possible issues with CT:
+	 - Collusion between CA and logs
+		 - Log issues proof of adding cert, but not actually adding it
+		 - Addressed somewhat by browsers only accepting "trustworthy" logs
+	 - Misbehaving logs
+		 - Shows different information to different monitors
+		 - Addressed somewhat by browsers requiring 2+ CT log proofs
+
+### Self-Signed Certificates
+ - Alternative to commercial CAs
+ - Useful for small organizations/development teams working on websites
+	 - Create your own root CA authority
+	 - Install your own root CA to every browser your team uses
+	 - Use your own root CA to generate as many certificates for as many websites as you like
+	 - All of this can be accomplished on a Linux command line with few commands
+
+**PGP's Web of Trust**:
+ - Pretty Good Privacy - Free encryption software, used primarily for email
+ - Decentralized fault-tolerant alternative to Certificate Authorities based PKI
+ - PGP implements a different style of PKI
+	 - Based on a web of trust, vs certificate hierarchy
+	 - Certificates can form an arbitrarily complex graph
+	 - Users can verify path to as many trust anchors as they wish
+ - Users sign each other's certificates at signing parties
+	 - Have your friends sign your certificate
+	 - You sign theirs
+
 ### Assignment
  - Remember how OTP works
 	 - OTP is emulated using the CTR mode of operation, generate a pseudorandom key to create an infinitely long pseudorandom pad
@@ -135,3 +211,15 @@ def key_stretch(password: str, salt: bytes, key_len: int) -> bytes:
   ).derive(password.encode())
   return key
 ```
+
+**Task 1**:
+ - Take `enkrypt.py`, change 3 lines of code and you have `dekrypt.py`
+
+**Task 2**:
+ - Figure out what the password was
+ - Read it into 4096 byte blocks, try to decrypt it with every possible passwords given a wildcard password
+	 - Decrypt until it looks like ascii (`bytes.isascii()`)
+
+**Task 3**:
+ - Given two files with the same IV and one of the plaintext, you can figure out the second plaintext
+ - Turns it into a OTP implementation with a reused key

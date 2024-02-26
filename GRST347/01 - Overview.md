@@ -9,6 +9,7 @@
  - Multiple choice, fill-in-the-blanks, one short answer question
  - 10 study questions will be provided before the quiz
  - Quiz 1: L02-L06
+ - Quiz 2: L07-
 
 **Assignments**:
  - Analysis of one primary source, or discussion of a question on a socio-cultural issue discussed in class

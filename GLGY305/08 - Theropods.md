@@ -125,6 +125,39 @@
 	 - Short tails
 	 - Feathers on forelimbs
 	 - Tail fan of feathers on pygostyle-fused bones at end of tail, like a bird
+ - Begin to develop omnivore features, instead of strict carnivory ones
 
 **Alvarezsauridae**:
+ - Covered in furry feathers, short arms, beaklike head, long tail
+	 - No teeth, clearly not carnivorous
+ - Short arms, clearly served a function
+	 - Maybe for digging through termite mounds?
+	 - *Shuvuuia*: Insectivores?
+
 **Eumaniraptora** (including birds):
+ - Includes "raptors" with sickle-like killing claws
+ - Troodontids (*Anchiornis*)
+ - Dromaeosauridae (*Velociraptor*)
+ - EQ-Encepalization Quotient is the ratio of an animals brain size to its body size
+	 - Used as a proxy for intelligence
+	 - Humans are about 6, dolphins are about 4, most other mammals are about 1
+	 - Brains don't fossilize, we measure the inside of the skull
+	 - Using this method, Dromaeosauridae are also at 6
+		 - Other theropods are from 1 to >2
+	 - Notes about EQ:
+		 - The bigger the body, the more brain is needed to control it
+		 - Size might matter, but so does density, arrangement, folding, and lobes
+		 - Is EQ a human construct that focuses on only what is important to humans?
+		 - What does intelligence even mean?
+ - Many attempts (and successes) at flight
+	 - Wings as ANALOGOUS structure
+	 - Evolved independently in four different groups of maniraptors
+	 - Unidirectional breathing makes flight easier
+	 - Feathers (for insulation and show? then used for flight)
+	 - Perhaps enabled pouncing from further distances, and then flights
+
+**The Bird-Dinosaur Connection**:
+ - Archaeopteryx was discovered in 1861 in Upper Jurassic Solnhofen limestone quarry (Germany)
+ - Confusing because it had the features of both birds (feathers and furcula/wishbone) and dinosaurs (long tail, hands with claws)
+	 - People were confused, got stuck in familiar Linnaean categories (bird or reptile?)
+ - Most classified Archaeopteryx as the world's oldest birds, but of 11 specimens found, one classified as a small theropod because the feathers were distinct (?)

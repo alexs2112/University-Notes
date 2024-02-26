@@ -23,7 +23,7 @@ Feb 09: CPSC526 - Assignment 2
 
 **Finals**:
 ```
-CPSC 526
-ANTH 363
-ARKY 305
+GLGY 305 - April 16, 5-7 (5-8) PM
+CPSC 526 - April 17, 5-6:30 PM
+ANTH 363 - April 22, 1-3 PM
 ```
