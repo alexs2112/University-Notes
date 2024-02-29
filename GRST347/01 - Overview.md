@@ -10,6 +10,8 @@
  - 10 study questions will be provided before the quiz
  - Quiz 1: L02-L06
  - Quiz 2: L07-
+	 - General questions, no specific inscriptions, no different typologies of individual tomb types
+	 - No map questions on this test
 
 **Assignments**:
  - Analysis of one primary source, or discussion of a question on a socio-cultural issue discussed in class

@@ -72,14 +72,62 @@
 		 - Does not leave good archaeological remains
  - Have to rely on Roman sources of the Germans
 
-**Germanic People**:
+**Customs of Germanic People**:
  - *Wergeld*: "Man-money"
 	 - Customary codes
 	 - Justice done through payment of a fine
-		 - Everybody has a price, if you kill someone then you owe family members that value
+	 - Everything has a price, if you kill someone then you owe family members that value
  - War and violence, a meritocratic system of sort
 	 - Very violent people, not only because they had to fight the Romans
+		 - Needed to constantly expand territory and protect themselves
 	 - They were in clans and tribes, lots of fighting against each other
 		 - Main weakness compared to the Roman empire
+	 - Germans were huge compared to the Romans
+		 - Roman helms had very tall plumages to appear bigger and scare opponents
+		 - Germans did not have any helmets, their hair was dyed and wild
  - *Mundium*: Protective ownership of women
+	 - Class system, women never able to increase their class while men can move up
+	 - A way to keep women safe as society was very violent
  - Religion: From polytheism to Arianism (Ulfilas 383)
+	 - Previous: Gods were everywhere in nature
+	 - Arianism: Christian sect completely cut off after council of Nicaea
+		 - Arianism = Aryanism, eventual Nazi ideology
+		 - Arianism started becoming very big, bishop converted a huge number of people
+	 - Created the Gothic alphabet in order to write down and translate the Christian texts
+	 - Portray their gods as bearded, different clothing than Romans with different weapons
+		 - This is seen in sarcophagus carving, looks like a pile of bodies
+		 - Roman gods (shaven) vs Germanic gods
+		 - This shows they weren't fighting with the same types of techniques or weaponry
+			 - Germanic -> Heavy cavalry
+			 - Roman -> Heavy infantry
+
+**Germanic People Artifacts**:
+ - Most of their stuff does not preserve and is lost to time
+ - We do have a series of jewelry that has been preserved
+	 - A new way of working with gold and coloured glass
+	 - Usually bronze item coated in gold, with a mix of coloured glass and precious stones
+ - Their hairstyles were important to them. An uncovered bog body with a perfect hairstyle
+	 - Suebian knot hairstyle, common among Germanic warriors
+	 - Dying hair was fairly common as well
+### Death of Theodosius
+ - Theodosius died in 395, leaving very young emperors in control of the empire
+	 - Honorius (West, 8 yo), Arcadius (East, late teens)
+	 - Figurehead emperors to show united Rome and united politics
+ - This is the beginning of the two halves of the empire completely separating
+	 - Different problems and different politics with useless emperors
+
+**Flavius Stilicho**:
+ - General, essentially a tutor to Honorius
+	 - Goths ravaging Greece, started to pose a threat to Constantinople
+ - Essentially became enraged at the praetors of Constantinople
+	 - Goes back to the West, abandoning the East
+
+**Alaric, Leader of the Visigoths**:
+ - Was doing whatever he wanted in the East, destroying and raiding whatever he wanted
+ - Was not getting what he wanted from Constantinople
+	 - Also threatened by the huns building up in the region
+	 - Decided to move West and begins to take over lots of land in Italy
+ - Stilicho gets killed as Honorius makes some poor decisions
+	 - Honorius lives in Ravenna for protection, good communication between West and East
+ - Alaric gets free reign, he moves directly to Rome and sacks it (410)
+	 - Not really the capital of the empire anymore anyways

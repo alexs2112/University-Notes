@@ -69,7 +69,7 @@
 	 - Decided to march towards Italy to get approval from Valentinian II & Gratian as Augustus
  - Empress Justinia was Christian (not orthodox Christian, Aryan Christian, Aryanism)
 	 - Put forth an edict of toleration towards Aryan Christians using her son's power
- - Lots of political infighting, usurper Ambrose (?), orthodox Christian fighting other orthodox Christians
+ - Lots of political infighting, usurper Ambrose, orthodox Christian fighting other orthodox Christians
 	 - Justinia says her family will revert to Orthodoxy and will give her own daughter to Theodosius for help to fight the usurper
  - Marriage union between two bloodlines, emperors of the East and the West
 	 - Leaves two sons of previous marriage to go to Italy to become full Augustus, fight usurper

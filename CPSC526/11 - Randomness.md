@@ -63,3 +63,109 @@
  - Typical use for crypto is to generate a key, then generate IV
  - IV is not encrypted when sent
  - Attacker could observe IV and learn key from it
+
+**Non-Cryptographically Suitable PRNGs**:
+ - Functions like `rand()` are not cryptographically secure
+	 - eg. linear congruence generators like `y=(x*p) % n`
+	 - Given enough samples, you can start predicting the next ones
+	 - or figure out the seed, as it is usually an earlier timestamp: `srand(time(NULL))`
+ - If the seed is predictable, then the stream is also predictable
+	 - This applies to CSPRNGs too
+	 - eg. using current time as seed to CSPRNG makes it insecure (by misuing it)
+ - Even CSPRNGs need a true random seed to work properly
+	 - With a true random seed, they produce cryptographically suitable random streams
+
+### Stream Ciphers & Randomness
+ - Some stream ciphers are mimicking OTP by generating an infinite key using a CSPRNG
+ - For example: AES-CTR is using a key and a random initial counter `x`
+	 - Creates a pseudorandom stream: `E(key,x), E(key,x+1), E(key,x+2), ...`
+	 - This stream is then XOR-ed with the plaintext to produce ciphertext
+ - AES-CTR is vulnerable if the seed becomes known
+	 - AES is broken
+ - This stream is not rollback resistant if you know the key
+
+**What Needs Randomness**:
+ - Sometimes we need unguessable/unpredictable values
+	 - One-time pads, encryption keys, random challenges
+ - Other times we just need unique values
+	 - Salts, challenges, nonces, IVs, identifiers
+ - When using random numbers for super important things, we need truly random values
+	 - Eg. use coin flips to create long-lived high-stakes keys for banks
+ - Unique probably does not need to be cryptographically suitable
+	 - Note: Randomness based on time not guaranteed to be unique
+	 - ie. time is a function every other computer on the planet is trying to match
+ - To be safe, just use cryptographically secure randomness
+	 - Only one disadvantage: CSPRNGs are typically much slower than regular PRNGs
+
+### Cryptographically Suitable Randomness
+**Sources of Cryptographically Suitable Randomness**:
+ - Computer is too deterministic, need to monitor something of the outside environment
+ - Observations of physical phenomena:
+	 - Dice rolling, coin flipping, radioactive decay
+ - Some hardware events:
+	 - Time between keystrokes
+	 - Mouse movements
+	 - Other I/O events
+ - Idea: Hard for external observers to measure
+ - Network packet arrival times: Likely not a good source of randomness
+	 - Anything that can be measured, predicted, or influenced, is unusable for crypto
+	 - Including current time, local port of a socket, serial number on MAC address
+ - If Eve can predict the next random bit that Alice chooses even slightly better than by random guessing, it is a bad source of randomness
+
+**Randomness for Linux**:
+ - Linux effectively has one random device: `/dev/urandom`
+	 - Uses CSPRNG to generate a stream
+	 - Much slower than `rand()`
+ - Seeded with true randomness from hardware events
+	 - Randomness from keyboard and mouse and other HW activities that are human driven
+	 - Randomness is fed into the "entropy pool" and mixed
+	 - Reading from `/dev/urandom` provides hash output from that pool
+ - Servers may not get useful events for randomness
+	 - Racks of identical servers running identical workloads won't differ (much)
+
+**Randomness Extraction**:
+ - Suppose you have a coin that flips heads 2/3 of the time and tails 1/3 of the time
+	 - Can you use this to get a random number? (50/50 chance to be 0)
+ - Answer 1:
+	 - Flip biased coin twice
+	 - If both flips are heads (4/9) return 1
+	 - If both flips are different (2/9 + 2/9 = 4/9) return 0
+	 - Otherwise, repeat
+ - Answer 2:
+	 - Flip biased coin twice
+	 - Return 1 if results were head then tail (2/9)
+	 - Return 0 if results were tail then head (2/9)
+	 - Otherwise, repeat (5/9)
+	 - Much less efficient, but would work for any (even unknown) bias
+ - This is relevant for real-life biased sources that need to be turned into a random number
+	 - Example: Mouse clicks, left click is far more common than right click
+
+**Example of Bad Randomness**:
+ - `Dual_EC_PRNG`
+	 - Dual Elliptic Curve Deterministic Random Bit Generator
+	 - PRNG based on elliptic curves, but with no proven security
+	 - Relies on two parameters, P and Q
+	 - The parameters were chosen without explanation
+ - `Dual_EC_DRBG`
+	 - Criticized by experts for its poor design shortly (<1 year) after publication
+	 - Much slower than existing simpler secure alternatives
+	 - Even bias in the output bits (0.1%)
+		 - Failed the most basic test of a useful PRNG
+	 - Known that for any P, there could be a specific Q backdoor
+		 - The backdoor would allow attacker to determine internal state from observing 32 bytes of output
+		 - Future outputs of the RNG would be then predictable
+ - Clear that `Dual_EC_DRBG` was a terrible PRNG and no one wanted to use it
+	 - RSA was pushing it super hard, people were curious
+	 - NSA paid RSA a lot of money and had NIST standardize it
+	 - RSA accepted 10 million dollars from NSA in a secret deal
+	 - Used P and Q that the NSA recommended
+		 - The algorithm is otherwise good if there are good P and Q chosen
+	 - Then pushed it as a NIST standard, put into many other products (including TLS HTTPS)
+	 - NSA could then break security with a wide-spread backdoored PRNG
+	 - Took 6-7 years for RSA to tell people to stop using their NSA code
+
+**Magic Numbers**:
+ - Many implementations of crypto rely on specific magic numbers to work
+	 - All such numbers should be chosen with clear justification
+ - Nothing-up-my-sleeve numbers are constructed with documented methods, to make sure they cannot be suspected to have hidden properties
+ - The explanation should have low Kolmogorov complexity (short description)
