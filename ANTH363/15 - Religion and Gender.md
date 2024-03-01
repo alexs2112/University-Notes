@@ -87,3 +87,28 @@
 	 - Public sphere was the domain of men, able to freely move outside the home and participate easily in public life
 	 - Private sphere was where women belonged, taking care of household matters
  - Emphasizes social separation between males and females, males control over females
+
+**Cultural and Biological Origin Stories**:
+ - Hunting way of life "molds man"
+ - Starting in 1960s, popular hypothesis for male dominance focused on primate heritage
+	 - Man, the Hunter
+ - Stereotypes about differences between women and men arose from this creation story
+	 - Connected to gender roles of 1950s
+ - A legitimizing ideology
+	 - Belief system developed by power to rationalize and perpetuate systems of inequality
+ - Agnes Meyer: *Women Aren't Men* (1950)
+	 - "Women have many careers, but only one vocation - Motherhood"
+	 - "It is for women as mother, actual or vicarious, to restore security in our insecure world"
+
+**Religious Feminism**:
+ - Woodhead (2002) criticizes feminist explanations that simply equate religion with patriarchy and the oppression of women
+ - While much traditional religion is patriarchal, this is not true of all religion
+ - She argues there are "religious forms of feminism"
+	 - Ways in which women use religion to gain freedom
+ - Despite strong belief in traditional gender roles that such groups hold, women are able to use religion to increase their power and influence
+ - Similarly, women make use of activities linked to church to share experiences and find support
+	 - ex. Bible study groups
+ - Note that position of women within some religions is changing
+	 - Church of England: Permitted women's ordination into priesthood since 1992
+		 - Fifth of all priests are now female
+ - Woodhead also uses the hijab or veil worn by many Muslim women as an example

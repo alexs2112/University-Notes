@@ -169,3 +169,117 @@
 	 - All such numbers should be chosen with clear justification
  - Nothing-up-my-sleeve numbers are constructed with documented methods, to make sure they cannot be suspected to have hidden properties
  - The explanation should have low Kolmogorov complexity (short description)
+
+**Good CSPRNG - HMAC_DRBG**:
+ - State is a key `k` from seed and `v` of data
+ - Uses HMAC to generate data and to update state
+ - Prediction & rollback resistance
+ - No funny numbers
+ - NIST Special Publication 800-90A Revision 1 (with Dual_EC_DRBG removes)
+ - Multiple papers published with it, no errors have been found
+
+### UUID: Universally Unique Identifier (RFC4122)
+ - Imagine you need to generate a unique name for some resource
+	 - eg. to store something in a distributed database
+	 - eg. to store something in a distributed file system
+	 - and you need to keep the unique name for a very long time
+	 - and you need to generate many unique names every second
+	 - and you need to do this *without a centralized service*
+ - UUIDs are 128-bit numbers, usually formatted as hyphen separated hexadecimal
+ - `12345678-1234-1234-1234-123456789012`
+ - Three common ways to generate them:
+	 - Fully random (version 4)
+	 - Name based (version 3 and 5)
+	 - Time & host based (version 1)
+ - More versions might be coming in the future
+	 - Proposed v6, v7, v8 - more time & host based UUIDs
+
+**UUIDv4 - Random**:
+ - Use CSPRNG to generate a 128 bit value (16 bytes)
+	 - If you do not need standard compliance, you are done
+	 - You can use this as an ID
+ - To make it conform to RFC4122:
+	 - Set 6 of the bits to predefined values, to indicate UUIDv4
+	 - Format integer as hex
+	 - Add a few hyphens
+```python
+import os
+b = os.urandom(16)     # CSPRNG
+i = int.from_bytes(b)  # convert to binary
+i &= ~(0xc000 << 48)   # adjust 2 bit variant (set bits 73,74 to 0)
+i |= 0x8000 << 48      #   according to rfc 4122 (sets one of the bits to 1)
+i &= ~(0xf000 << 64)   # adjust 4 bit version  (set bits 88-92 to 0)
+i |= 4 << 76           #   according to rfc 4122 (sets those bits to 1, version number) 
+h = f"{i:032x}"        # convert to hex
+# add dashes
+id = h[:8]+"-"+h[8:12]+"-"+h[12:16]+"-"+h[16:20]+"-"+h[20:]
+# ready to print
+print(f"{id}")
+# uuid='d63d2636-4889-44b7-8bc8-f234e4f8575f'
+# The 4 leading the 3rd section is the version
+```
+ - Contains 122 bits of random bits
+ - Collisions are possible (birthday attack)
+ - To get 50% collision chance, we would need to generate 2^(122/2) UUIDs
+	 - If we were only storing UUIDs, we would need 2^61 * 16 bytes = ~36 exabytes of storage
+ - To get 10^(-15) chance of collisions, we would need to generate ~10^11 UUIDs
+	 - Or ~3000 UUIDs/sec for 1 year
+
+**UUIDv3 and UUIDv5 - Name-Derived**:
+ - Basic idea is similar to v4, but instead of using a random number:
+	 - Make a unique textual name of the resource - as long as you ike
+	 - Hash it using MD5 (v3) or SHA-1 (v5)
+ - Fix 6 of the bits (to make it RFC4122 compliant)
+	 - To indicate v3 or v5
+ - Format as hex to add hyphens
+ - UUID v3 and v5 are deterministic, but still unique provided the resource name is unique
+```python
+from hashlib import sha1
+name = b'''Pavol's computer in Math Science, ICT 123, running Ubuntu 22.04 LTS,
+on Dell Optiplex 9800 purchased in October 1995, Calgary, Canada, Earth'''
+b = sha1(name).digest()[:16]
+i = int.from_bytes(b)
+i &= ~(0xc000 << 48)   # adjust 2 bit variant
+i |= 0x8000 << 48      #   according to rfc 4122
+i &= ~(0xf000 << 64)   # adjust 5 bit version
+i |= 5 << 76           #   according to rfc 4122
+h = f"{i:032x}"        # convert to hex
+# add dashes
+id = h[:8]+"-"+h[8:12]+"-"+h[12:16]+"-"+h[16:20]+"-"+h[20:]
+print(f"{id}")
+# uuid='8866b88e-c72f-5dcd-9897-dbf4c3b10a0c'
+# The 5 leading the 3rd section is the version
+```
+
+**UUIDv1 - Time & Host Based**:
+ - Uses a timestamp, a 60 bit count of 100 ns intervals since 15 Oct 1582
+	 - and the MAC address of the computer that generated the UUID
+ - Reveals the host that generates it, but guarantees it to be unique
+ - The reason for the strange shape of the UUID
+	 - `XXXXXXXX-YYYY-ZZZZ-VVVV-WWWWWWWWWWWW`
+
+|     | field       | bits | value                                       |
+| --- | ----------- | ---- | ------------------------------------------- |
+| X   | `time_low`  | 32   | digits of the timestamp                     |
+| Y   | `time_mid`  | 16   | next few digits of the timestamp            |
+| Z   | `ver`       | 4    | 0b0001 version v1                           |
+| Z   | `time_high` | 12   | remaining digits of the timestamp           |
+| V   | `var`       | 2    | 0b10 variant                                |
+| V   | `clock_seq` | 14   | counts how many times the time was adjusted |
+| W   | `node`      | 48   | MAC address of the computer                 |
+
+```python
+import uuid
+for i in range(10):
+    print(uuid.uuid1())
+# cd534bd0-d5e8-11ee-922e-00505694e94d
+# cd534d92-d5e8-11ee-922e-00505694e94d
+# cd534e82-d5e8-11ee-922e-00505694e94d
+# cd534f04-d5e8-11ee-922e-00505694e94d
+# cd534fcc-d5e8-11ee-922e-00505694e94d
+# cd53504e-d5e8-11ee-922e-00505694e94d
+# cd5350da-d5e8-11ee-922e-00505694e94d
+# cd535184-d5e8-11ee-922e-00505694e94d
+# cd535210-d5e8-11ee-922e-00505694e94d
+# cd535288-d5e8-11ee-922e-00505694e94d
+```

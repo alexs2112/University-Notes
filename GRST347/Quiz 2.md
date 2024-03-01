@@ -75,23 +75,23 @@
  - Vast subterranean networks of tombs, openings on walls called *loculi*, easy and cheap to build
  - Everyone buried as equals within their community, very difficult to find specific people
  - Christians and Pagans originally buried in same areas, impossible to distinguish
- - Eventually Christians began using these spaces to start representing Christian art, no longer pagan
- - Monteverde Catacombs, Rome: Jewish catacomb, symbolisms of old testament over walls and ceilings
+ - Christians began using these spaces to start representing Christian art, no longer pagan
+ - Monteverde Catacombs, Rome: Jewish catacomb, old testament symbols on walls & ceilings
 
 **Celebrations for the Dead**:
- - Parantalia: 13-21 Feb, important, dead able to walk on Earth once more, bring them food and flowers
+ - Parantalia: 13-21 Feb, important, dead can walk on Earth once more, bring them food & flowers
 	 - Celebration to appease spirits, make sure they are happy to not get haunted
  - Christian Funerals: Example of Monica, mother of Augustine of Hippo
 	 - Many celebrations were similar with prayers and offerings. Inhumations
  - Martyrs: People would pray in their tombs, pay for privilege of being buried close to the martyr
 
 ### Constantine's Successors
- - Did not have direct bloodline, fight with other children of father Constantius, Constantius II wins
- - Constantius II: Marvellous chariot of gold and precious stones, presents self as a statue (immobile)
+ - Did not have bloodline, fight with other children of father Constantius, Constantius II wins
+ - Constantius II: Marvellous chariot of gold and precious stones, presents self as immobile statue
 	 - Defeated by his own troops, making way for Julian to come to power
 
 **Julian**: 361-362
- - Portrayed as extremely victorious general, would mail every tiny accomplishment to entire empire
+ - Portrayed as extremely victorious general, would mail every tiny accomplishment to everyone
  - Julian is bearded, last pagan empire, Christians named him Apostate (renounced religion)
  - Intellectual, teachers were all Christian and he despised their literature, tries to separate curriculum from Classical and Christian as Christians could not teach the classics correctly
  - Loves Greek culture and paganism, tries to bring back practices
@@ -125,7 +125,7 @@
 	 - Valentinian realized fighting led to nothing, started successful diplomatic process
  - Ritualized Diplomacy: *Foedus* (treaty), treats the others as equals as diplomatic ritual
 	 - Mostly for show, establishes they will not wage war and provide equal support to each other
- - Puts levies on the barbarians to help establish the borders, join the army to help defeat enemies
+ - Puts levies on barbarians to help establish the borders, join the army to help defeat enemies
  - Valentinian I spends a ton of money (debt) to construct and refurbish forts and watch posts
  - 365: Dies in fit of apoplectic anger, seizure (people came to say their groups were treated unlawfully)
  - Generalissimo called Justinia (Valentinian's Wife) and made Valentinian II the Augustus
@@ -164,3 +164,35 @@
  - Army needs to efficiently receive communication orders
  - Court officials constantly moving, letters must quickly find their recipients
  - Mansiones: Roadhouses for travellers to rest and prepare, could trade horses, completely locked down
+
+### Barbarians
+ - Defined as people who could not speak Greek or Latin, defines Romans vs Others
+ - Germanic People: Nucleated agricultural villages of shared labour
+	 - Turned into Kingdoms -> Dux -> Rex, titles given by emperors to legitimize the barbarian area
+	 - Started coming south from Germany, displacing many people (Celtic), searching for farmland
+ - Germanic society was now very different than the agricultural one they started as
+	 - Were fully agriculture, built everything out of wood (no good archaeological remains)
+
+**Customs of Germanic People**:
+ - *Wergeld*: "Man-Money", customary codes, everything has price, justice done through payment of fines
+ - Meritocratic violent society, needed to constantly expand territory and protect themselves
+	 - Clans and Tribes, lots of infighting, main weakness compared to the Empire
+	 - Were huge compared to the Romans, no helms with wild dyed hair
+		 - Germanic used heavy cavalry vs Romans heavy infantry
+ - *Mundium*: Protective ownership of women, class system where women could never move up
+	 - A way to keep women safe, society was very violent
+ - Religion: Polytheism (gods everywhere in nature) to Arianism (sect of Christianity, cut off after Nicaea)
+	 - Created Gothic alphabet in order to write down and translate the Christian texts
+	 - Portray gods as bearded, with different clothes and different weapons than Roman gods
+		 - Sarcophagus carving that looks like a pile of bodies
+ - Artifacts: Mostly lost to time, have a series of jewelry that has been preserved
+	 - New way of working with gold & coloured glass, bronze item coated w/ gold, glass & gems
+	 - Hairstyles were important, uncovered bog body w/ Suebian knot hairstyle (common)
+
+### Death of Theodosius
+ - Theodosius died in 395, leaving very young emperors in control of the empire
+	 - Honorius (West, 8) and Arcadius (East, late teens), figureheads to show united Rome
+ - Flavius Stilicho: General, essentially tutor to Honorius, Goths ravaging Greece and posed threat to Constantinople, became enraged at Constantinople praetors, goes back to West abandoning the East
+ - Alaric, Leader of the Visigoths: Raiding in the East, not getting what he wanted from Constantinople
+	 - Threatened by build up of Huns, decided to move West, took a lot of land in Italy
+	 - Stilicho killed, Honorius lives in Ravenna, Alaric gets free reign and sacks Rome
