@@ -9,4 +9,7 @@
  - Not cumulative, final is cumulative
  - Information about the material covered will be provided before each exam
  - Midterm 1: MC only. L02-L07
- - Midterm 2 + Final: Mix of MC and short answer
+ - Midterm 2: MC only. L08-
+ - Final: Mix of MC and short answer
+	 - List of short answer questions are given ahead of time
+	 - A subset of those are on the exam

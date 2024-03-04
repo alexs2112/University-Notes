@@ -9,7 +9,7 @@
  - Multiple choice, fill-in-the-blanks, one short answer question
  - 10 study questions will be provided before the quiz
  - Quiz 1: L02-L06
- - Quiz 2: L07-
+ - Quiz 2: L07-L11
 	 - General questions, no specific inscriptions, no different typologies of individual tomb types
 	 - No map questions on this test
 
