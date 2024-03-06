@@ -86,3 +86,39 @@
 	 - Luxuries: Clothing, jewelry, spices
 	 - They were not used to these things culturally
 	 - Romans giving away a ton of gold to the Huns every year, but made it back from trade
+
+**Attila: Monster or Man?**
+  - Written by an ambassador who personally met Attila
+	  - Attila housed in a tent surrounded by a ring of barbarian guards
+	  - Seated on a wooden chair
+	  - Handed him letters from the Roman Emperor
+	  - Immediately started verbally attacking one of the other ambassadors
+		  - No ambassadors should come to him before all fugitives had been surrendered
+		  - Ambassador claims they have already surrendered all of them, Attila lost his shit
+		  - Does not physically attack the ambassador, as he thinks it infringes the rights of ambassadors to punish them in this way
+ - In previous writings, they say Huns would stab you in the back and are impossible to deal with
+	 - Here, Attila is angry but still honours the agreement
+ - Hun laws were much looser than Rome, easier to live under
+	 - Lots of people left Rome to live in the Hunnic kingdom
+	 - Also, no taxes
+
+### Development of Germanic Kingdoms in the West
+**Characteristics of these Kingdoms**:
+ - Organized armed forces around a leader
+ - Permanent occupation of a territory
+ - Coexistence of tribal practices with Roman provincial society
+ - Relationship to the Roman Empire
+	 - Forcing the Roman Empire to acknowledge their existence (Dux)
+	 - They all become independent states that are allied (subject) to Rome
+ - Intermarriages
+ - From urban centers to rural landholdings
+	 - Roman centers of everything are the cities
+
+**Vandals - North Africa**:
+ - Come in and destroyed whatever they could
+	 - Being revised by modern day scholars
+	 - Our sources are on the receiving end of the Vandals, very biased
+ - Conquered almost all of North Africa
+ - Created a kingdom, one of the largest barbarian kingdoms
+	 - Briefly reintegrated into the Empire due to the military of Justinian I
+ - Denarius of the reign of Hilderic used Roman writing, mixing of cultures
