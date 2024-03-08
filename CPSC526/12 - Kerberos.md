@@ -253,3 +253,118 @@ A   -> B   : "Hi I'm Alice! ticket={use Kab for Alice}Kb"
 | 3.  | `A -> B : {Kab, A}Kbs`                 | Alice sends sealed ticket to Bob                                                                                                                                             |
 | 4.  | `B -> A : {Nb}Kab`                     | Bob sends Alice a nonce<br>As challenge to prove she knows `Kab`                                                                                                             |
 | 5.  | `A -> B : {Nb-1}Kab`                   | Alice increments it and sends result to Bob<br>Verifies she can decrypt it                                                                                                   |
+ - Original protocol is vulnerable to replay attack
+ - If attacker learns Kab, no matter how old, he can replay {Kab,A}Ksb to Bob, making him accept the old Kab
+
+[TODO]
+### Ticket Granting Service (TGS) & Ticket Granting Ticket (TGT)
+ - 1. Alice contacts AS:
+	 - AS replies with a Ticket-Granting-Ticket (TGT) and session key for TGS
+	 - TGT is to be used with the Ticket Granting Server (TGS)
+	 - TGT is long lasting (eg. obtained in the morning, expires at night)
+	 - Session key is encrypted using Alice's password (PBKDF2)
+	 - AS is the only server that uses Alice's password
+ - 2. Alice wants to print:
+	 - Alice's computer automatically contacts TGS
+	 - Sends TGT
+	 - Receives service ticket for printer
+	 - Alice does not need to reenter passwords
+ - 3. Alice's computer uses service ticket to talk to printer
+ - 4. When Alice wants to check her email:
+	 - Alice's computer automatically contacts TGS again
+	 - Sends TGT to receive service ticket for email
+ - 5. Alice's computer uses service ticket to check email
+ - AS + TGS = KDC, typically run on the same physical server
+
+**Ticket Granting Ticket (TGT)**:
+ - User sends their name to AS
+ - AS responds with:
+	 - Session key for future communications with KDC (TGS)
+	 - And TGT encrypted with key only known to KDC
+	 - Both encrypted with user's password (key derived from user password)
+ - TGT contents:
+	 - Identity of KDC (KDC1@UCALGARY)
+	 - User's name & IP address (john1337@ucalgary.ca, 136.159.7.12)
+	 - Timestamp + lifetime
+	 - Session key (same as above)
+ - The client uses TGT to obtain tickets for other services
+ - To get a ticket for some service (printing) you send a request to TGS `("Printer", TGT)`
+ - Request is accompanied with an authenticator
+	 - Authenticator = {client identity + time} encrypted with session key for the service
+ - TGT replies with a service ticket, and session key for the service
+
+**TGS Verifying TGT**:
+ - TGS decrypts TGT to recover session key
+ - TGS uses recovered session key to decrypt the authenticator
+ - TGS verifies the contents of authenticator and key (IP address and timestamp)
+	 - Permissible clock skew is typically a few minutes
+ - If everything matches, KDC knows that request came from a real client, since only it would have access to session key that was in ticket
+ - KDC then issues and sends service ticket back to the client plus session key
+
+**Service Tickets**:
+ - Service tickets are almost identical to TGTs
+ - The difference is that they have a name of a different service
+	 - `sname="printer"` instead of `sname="TGS"`
+ - They're encrypted by a secret key shared by the KDC and the service
+	 - Only the service knows the key
+ - User sends the service ticket and a matching authenticator to the service
+ - The service decrypts the ticket, using its own key
+ - The service knows it's genuine, because only the KDC knows the key used to produce it
+ - The service verifies that the ticket is for it, and not some other service
+ - It uses the enclosed key to decrypt and verify the authenticator
+ - The service extracts the user's name from the ticket
+ - The service can now decide whether to grant access to the service
+	 - Or authorization may be included in the ticket
+
+**Bidirectional Authentication**:
+ - Sometimes, the client wants to be sure of the server's identity
+ - The server extracts the timestamp from the authenticator, optionally increments it, re-encrypts it with the session key, and sends it back
+ - The client can verify the answer
+
+**Ticket Lifetime**:
+ - TGTs typically last about 8-12 hours
+ - Service tickets can be long or short lived, depending on service
+	 - Don't outlive the TGT
+	 - When TGT expires, so do the tickets issued with it
+ - Live tickets are cached by the cclient
+ - Expired service tickets can be automatically and transparently renewed
+
+**Authentication, Not Authorization**:
+ - Kerberos is mostly an authentication service
+ - The services know a genuine name for the client, vouched for by the KDC
+ - Services can make their own authorization decision based on this name
+
+**Putting Authorization into Tickets**:
+ - Tickets can contain authorization information known or supplied to KDC
+	 - Authorization is an optional part of tickets (RFC4120)
+ - Windows KDCs use this, to centralize authorization data
+ - As a result, Windows and open source Kerberos KDCs don't interoperate without additional steps
+
+**Inter-Realm Tickets**:
+ - A ticket from one realm can't be used in another, since a KDC in one realm doesn't share secrets with services in another realm
+ - But two (or more) realms can be linked together by adding TGS of one as a service in the other
+ - Client of realm 1 can then request a TGT that will work in realm 2
+	 - Realm 2 essentially trusts KDC of realm 1 to vouch for the user's identity
+	 - Realm 2 then issues service tickets with the realm 1 user id, not its ow
+
+**Proxy Tickets**:
+ - Suppose a user wants to print a file
+ - The print spooler doesn't want to copy the user's file, that's expensive
+ - The user obtains a proxy ticket granting the print spooler access to its files
+ - The print spooler uses that ticket to act as the user and read the user's file
+ - The user can put file restrictions in the proxy ticket to give the print spooler access only to a single file
+
+### Kerberos Limitations
+ - Single point of failure (accidental or malicious)
+ - Time synchronization is important
+ - Virtualization is not simple
+	 - On demand service replication, test deployments
+ - TGTs have known plaintext, making offline password guessing possible
+	 - If successful, attacker can impersonate users or services
+	 - Kerberos uses passphrases instead of passwords (longer passwords)
+ - Also, by default anyone can request and obtain any number of TGTs for analysis
+	 - This can be made more difficult by enabling preauthentication
+		 - Initial request must include a timestamp encrypted with hash of password
+ - Cached tickets are often stored in `/tmp`, is the OS protection good enough?
+	 - Less of an issue on single-user workstations; bigger threat on multi-user machines
+	 - `/tmp` needs to be on a local disk, not something mounted on NFS

@@ -28,7 +28,23 @@ https://sourcebooks.fordham.edu/source/perpetua.asp
 	 - Saturus and herself must climb a bronze ladder that reaches to heaven, with a snake at the base. She knows that the snake will not bite her and invokes the name of Jesus Christ. The snake allows her to use it as the first step of the ladder, before climbing all the way to heaven. When she awakes she knows that her execution will be a passion and she will be a martyr.
  - Before her trial, she meets with her father again who pleads with her to reject her faith. Perpetua refuses once more, and grieves for him as he will not rejoice at her passion.
  - At a later date, the martyrs are snatched away from their meal to be tried at the forum. The father appears one last time in an attempt to cast down the faith of Perpetua himself. He is smitten by a rod and sent away with her child, and the Christians are condemned to the beasts. She asks her father for the child, as she had breastfed him in the prison, but is refused. Perpetua claims this refusal causes her son to no longer need breastfeeding, and her torment over his care has ended.
-### Significance
+	 - Brings the female perspective of Roman family dynamics. She never mentions any husband despite mentioning her child several times, and we can see her relationship to her father through her own point of view. [1, p. 59-60]
+	 - Once more, the refusal of a daughter to her father is significant and results in the father being able to deny returning the child to her.
+ - The day before the execution of the Christians, Perpetua has another vision. This time, she is led to the arena to be condemned to the beasts, however an Egyptian man comes out to fight her instead.
+	 - She is stripped naked and becomes a man
+	 - An incredibly large man comes forth as the image of God, wearing an ungirdled robe of purple and holding a green branch containing golden apples. Perpetua defeats the Egyptian and receives the golden apples.
+	 - Upon awaking, she realizes that she will fight not with beasts but against the devil, and that she will be victorious.
 
+**Saturus' Account**:
+ - Saturus, another Christian martyr alongside Perpetua, also has a vision before their execution.
+ - The martyrs are carried to the east by four angels. They end in a garden of other angels, finding other martyrs who had been previously executed as part of the same persecution.
+ - They are brought to a place of light in order to salute the Lord. The martyrs meet with God and elderly bishops and priests of Christianity
+ - They make peace with other Christians that they had known, and meet with many other martyrs of the garden. In joy, Saturus awakes
+ - This could be significant as it is representative of the Christian forgiveness of the period. Saturus makes peace with himself as he is able to put away his dissension with people he knew in the past.
+
+**Narrative of Martyrdom - Felicity**:
+ - Felicity is another martyr of the group, however she is 8 months pregnant. As Roman law makes it unlawful to execute pregnant women, she is sorrowful that she may be kept back and meet her execution at a later date "among strangers and malefactors." Her fellow martyrs were afflicted for the same reason, not wanting to leave behind their good friend and fellow traveller.
+ - Together, the martyrs pray together three days before their execution, and Felicity feels the pains of childbirth come upon her. She delivers a daughter, who her sister raises as her own.
+ - The martyrs are granted a feast before their execution, using the opportunity to celebrate an Agape. This is a Christian love-feast, a simple communal meal and religious service that promotes fellowship and unity. They invite the guards to be "friends today, foes tomorrow" as a demonstration of Christian love.
 ### Secondary Sources
 [1] https://stars.library.ucf.edu/cgi/viewcontent.cgi?article=5085&context=etd

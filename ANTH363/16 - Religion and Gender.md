@@ -56,3 +56,20 @@
 	 - Western media still portrays the East, particularly the Middle East, as a region of conflict, terrorism, and religious extremism
 	 - Reinforces negative stereotypes and justifying Western intervention
  - Modern Western views on Muslim women often continue to be influenced by stereotypes rooted in Orientalist thought, including assumptions of oppression, passivity, need for liberation
+
+**Quran and Veiling**:
+[todo]
+
+### Religious Feminism and the Hijab
+ - Muslim women are challenging negative associations with Islamic dress
+ - "Modest fashion" a global movement spearheaded by religious women
+	 - Selecting stylish fashion choices and prioritizing modest dress
+
+**Religious Feminism in Islam**:
+ - Re-readings of the Quran and dismantling of the non-gender egalitarian and misogynist constructions of Islam
+	 - Afsaneh Najmabadeh and Ziba Mir-Hosseini
+	 - Fatima Mernissi's analysis of hadiths
+ - Islamic methodology of ijtihad to interpret Islam for the 21st century
+	 - Itjtihad: Legal reasoning and interpretation of problems not precisely covered by the Quran
+ - In Egypt, Suad Salih, dean and professor of commparative jurisprudence at Al-Azhar University argued that there is nothing in the religious texts preventing a woman from becoming a mullah
+	 - Islamic theologian or clergy
