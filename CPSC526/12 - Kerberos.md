@@ -245,18 +245,128 @@ A   -> B   : "Hi I'm Alice! ticket={use Kab for Alice}Kb"
 **Original (1978) Needham-Schroeder Protocol - Symmetric**:
  - Assumes server S is a trusted entity
 	 - ie. Server shares secret key `Ksa` with Alice and `Ksb` with Bob
-
-|     | Step                                   | Description                                                                                                                                                                  |
-| --- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.  | `A -> S : A, B, Na`                    | Alice identifies herself to server<br>Sends a nonce<br>Tells server she wants to talk to Bob                                                                                 |
-| 2.  | `S -> A : {Na, Kab, B, {Kab,A}Ksb}Ksa` | Server generates new Session key `Kab`<br>Sends it back to Alice<br>Includes nonce `Na`, Bob's identity, sealed ticket for Bob<br>All encrypted using pre-arranged key `Ksa` |
-| 3.  | `A -> B : {Kab, A}Kbs`                 | Alice sends sealed ticket to Bob                                                                                                                                             |
-| 4.  | `B -> A : {Nb}Kab`                     | Bob sends Alice a nonce<br>As challenge to prove she knows `Kab`                                                                                                             |
-| 5.  | `A -> B : {Nb-1}Kab`                   | Alice increments it and sends result to Bob<br>Verifies she can decrypt it                                                                                                   |
+![[needham_schroeder_original.png|400]]
  - Original protocol is vulnerable to replay attack
- - If attacker learns Kab, no matter how old, he can replay {Kab,A}Ksb to Bob, making him accept the old Kab
+ - If attacker learns `Kab`, no matter how old, he can replay `{Kab,A}Ksb` to Bob, making him accept the old `Kab`
 
-[TODO]
+**Updated (1987) Needham-Schroeder Protocol - Symmetric**:
+![[needham_schroeder_updated.png|400]]
+ - Note: Kerberos fixes this protocol differently, using timestamps and duplicate detection
+
+**Needham-Schroeder Protocol - Public-Key**:
+![[needham_schroeder_public_key.png|450]]
+ - This original version suffers from a MITM attack
+ - If an imposter Ives convinces Alice to contact Ives instead of Bob, Ives can pretend to be Bob
+ - This type of MITM attack is sometimes called Mafia Fraud attack
+
+**Mafia Fraud**:
+ - Alice connects to Ives willingly
+	 - Eg. maybe Ives runs website that Alice likes to visit (tiktak.com)
+ - Ives then connects to Bob pretending to be Alice
+ - Bob issues "Alice" (Ives) a challenge to sign
+ - Ives uses that as a challenge for Alice pretending it's Ives website
+ - Also known as the Grandmaster Problem
+	 - Chess against two grandmasters, copy the first's move against the second, copy the second's response back to the first
+ - Typical MITM attack involves victims unknowingly communicating with the attacker
+
+**Fixed Needham-Schroeder-Lowe Protocol - Public-Key**:
+![[needham_schroeder_lowe_protocol_public_key.png|450]]
+
+### Kerberos (RFC4120)
+ - Authentication protocol built with symmetric cryptography
+ - Originally developed at MIT, now essential part of Windows authentication infrastructure
+ - Designed to authenticate users to servers
+	 - Users use passwords initially
+ - Based on Needham-Schroeder, with timestamps to limit key lifetimes
+
+**Design Goals & Assumptions**:
+ - Users only have passwords to authenticate themselves
+	 - Same for all clients actually (including printers, etc)
+ - The network is insecure
+	 - Must be Eavesdropping & Tampering safe
+ - It is possible and necessary to protect the Kerberos server
+	 - The server stores all secret keys for the entire organization
+ - Clients are not trusted
+	 - User workstations, printers, file-servers, etc
+ - Users have to authenticate themselves only infrequently (eg. in the morning)
+
+**Basic Authentication Server (AS) Idea**:
+ - Scenario: Alice wants to print
+	 - AS knows Alice's password, AS knows printer's secure key, Alice never printed before
+ - 1. Alice contacts AS and requests access to printer
+	 - Alice includes her identity, and the identity of the print server
+	 - Plus some additional info (nonce)
+ - 2. Server replies to Alice with Session Key and Ticket
+	 - Session Key:
+		 - Encrypted using Alice's password (PBKDF2)
+		 - Alice & Printer can use it to encrypt their communication
+	 - Ticket for printer server:
+		 - Includes Alice's and printer's identities, and a copy of session key
+		 - Encrypted using a key only the printer knows
+		 - Alice cannot decrypt the contents of the ticket
+	 - Additional info is included as well:
+		 - Encrypted nonce, expiry time, etc
+ - 3. Alice sends to printer:
+	 - Ticket and Authenticator
+	 - Authenticator = Proof she knows the session key (something encrypted by session key)
+	 - Printer decrypts ticket, extracts session key, and verifies Alice's authenticator
+ - 4. Printer sends Alice proof it knows session key
+ - 5. Alice & Printer communicate using session key
+ - Alice repeats steps 1-5 to talk to other services (eg. email or file server)
+ - Tickets are reusable, so Alice does not have to retype password every time she prints to the same printer
+ - Tickets include expiry time
+	 - In case Alice loses or changes job
+	 - They can also include start-time (post-dated ticket)
+ - Tickets must be accompanied with a unique authenticator
+	 - To prevent replay attacks
+	 - Authenticator = client-ID + timestamp, encrypted using session key
+
+### Tickets
+ - Ticket contains:
+	 - Server name ("email", "printer", "TGS")
+	 - Client name
+	 - Client network address
+	 - Current time
+	 - Expiry time
+	 - Session key
+ - Encrypted using server's secret key `Ks`
+ - Users must present ticket to server to obtain a service
+	 - Ticket is only valid for one user and one service
+	 - To prevent replay, tickets must be accompanied with authenticators
+	 - Tickets can be reused for the same service, but they have expiry times
+ - Tickets are encrypted messages containing session keys and identities
+	 - Encrypted so that only the service can decrypt them
+	 - ie. ticket for printer can only be decrypted by printer
+	 - Clients, or anyone else, cannot decrypt tickets
+ - Kerberos uses symmetric Needham-Schroeder to obtain tickets
+
+**Authenticator**:
+ - To prevent replay attacks (reused tickets), each ticket must be accompanied by an authenticator
+ - Authenticator contains:
+	 - Client's identification (cname, crealm)
+	 - Current time (ctime)
+	 - Plus some other fields (authorization data, unique sequence numbers)
+ - Authenticator is encrypted with the session key `Ksc`
+ - Authenticator proves:
+	 - The client knows the session key `Ksc`
+	 - The ticket is fresh
+ - Authenticator must be unique
+	 - Server remembers used authenticators in authenticator cache
+	 - Deleted when upon expiry
+
+**Basic Authentication Server Idea**:
+ - Main problem with the basic idea as described so far:
+	 - To print to a different service, Alice needs to type her password again
+	 - Alice enters password to print
+	 - Alice enters password to check email
+	 - Alice enters password to access file server
+	 - etc.
+ - We need single-sign-on mechanism
+	 - Kerberos implements this by adding a special ticket
+	 - Alice uses her password once to get a special ticket
+	 - The special ticket proves she knows her password
+	 - The special ticket can be used to get tickets to servers without a password
+
 ### Ticket Granting Service (TGS) & Ticket Granting Ticket (TGT)
  - 1. Alice contacts AS:
 	 - AS replies with a Ticket-Granting-Ticket (TGT) and session key for TGS

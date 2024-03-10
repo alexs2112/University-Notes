@@ -31,13 +31,13 @@
 	 - 75-90% of those accused were female
  - Witchcraft is heavily condemned in many places in the bible
 	 - "Do not allow a sorceress to live"
- - **1300s**: Demonic witchcrat is not a concept yet
+ - **1300s**: Demonic witchcraft is not a concept yet
 	 - Accusations of sorcery levelled at prominent political or religious leaders
 	 - 1375: More courts adopt inquisitorial procedures
 		 - Abolish penalties for false accusations
 		 - Under inquisitorial system, judicial authorities could initiate investigations without a formal accusation from an aggrieved party
 		 - Often used torture to extract confessions from the accused
- - **1400s**: First witch trials begin to appear as concept of diabolica/demonic witchcraft emerges
+ - **1400s**: First witch trials begin to appear as concept of diabolical/demonic witchcraft emerges
 	 - Cases popping up in Switzerland, France, and the Holy Roman Empire
 	 - Sporadic, not yet part of a widespread panic
  - Eventually witchcraft comes to be framed as an alliance between a person and the devil
