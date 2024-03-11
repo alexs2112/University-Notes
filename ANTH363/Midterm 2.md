@@ -94,7 +94,7 @@
 	 - *The Hammer of Witches which destroyeth Witches and their heresy as with a two-edged sword*
  - 1500s-1600s: Witch hunts escalate across Europe, significant number of trials and executions
  - 1542: The Witchcraft Act: Beginning of formal legal proceedings against witches in England
- - 1640s-1640s: Witch trials reach peak, Wurzburg and Bamberg witch trials (hundreds of executions)
+ - 1640s-1650s: Witch trials reach peak, Wurzburg and Bamberg witch trials (hundreds of executions)
  - 1645-1647: Witch-hunt craze hits England, Matthew Hopkins (Witchfinder General) kills hundreds
  - Witch Trials: Torture used against witches to coerce confessions (torture = 95% convictions, else 50%)
 	 - Thought that only through divine intervention could the witch feel the full pain of torture
@@ -176,7 +176,7 @@
 	 - Eleven fundamentalist churches shut down due to reports of child exploitation and abuse
 
 **Witch Hunting in India**:
- - Ancient practice, span back many centuries in tribal communities, with-killers are influential
+ - Ancient practice, span back many centuries in tribal communities, witch-killers are influential
  - British authorities implemented bans on witch-killings (1840s-60s), met with resistance
  - Practice continued as colonial resistance, witches became symbol of colonial power, protected by laws
 	 - 1855 Santhal Rebellion, 1857 Indian Rebellion
@@ -378,7 +378,7 @@
 ### Religion, Gender, and Sexuality
 **Madonna/Whore Dichotomy (MWD)**:
  - Madonnas: Viewed as pure, saintly, and worthy of respect; Qualities of motherhood, chastity, nurturing
- - Whores: Sexually liberal, desirable but not desirable, often objectified
+ - Whores: Sexually liberal, desirable but unattainable, often objectified
  - Artwork: Madonna of Humility with the Temptation of Eve, Olivuccio di Ciccarello (1400s)
 	 - Virgin Mary: Chastity & Purity, hold infant Jesus; Eve: Naked with serpent, sexual lust & temptation
  - Madonna/Whore Complex: Freud, split perception of women into two mutually exclusive categories
