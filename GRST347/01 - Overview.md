@@ -19,6 +19,10 @@
 **Research Question + Annotated Bibliography**:
  - Working thesis statement
  - 3-5 secondary sources
+ - Any citation method just make it work and consistent
+ - Primary source is ideally from the textbook
+ - Marked personally by the prof for comments and feedback
+ - Maybe write about Julian?
 
 **Final Paper**:
  - 10-12 pages
