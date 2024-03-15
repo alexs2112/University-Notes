@@ -37,10 +37,7 @@ indulgence to all for this sort of disease. For we ought, I think, to teach, but
 to punish the demented. 
 
 **Potential Secondary Sources**:
- - Julian against Christian educators: Julian and Basil on a proper education
-	 - https://go-gale-com.ezproxy.lib.ucalgary.ca/ps/i.do?p=PPRP&u=ucalgary&id=GALE%7CA455093152&v=2.1&it=r&aty=ip
- - Benjamin D. Wayman, “Julian against Christian Educators: Julian and Basil on a Proper Education”, _Christian Scholar’s Review_, 45:3 , 249–268
-	 - https://christianscholars.com/julian-against-christian-educators/
+ - Benjamin D. Wayman, “Julian against Christian Educators: Julian and Basil on a Proper Education”, _Christian Scholar’s Review_, 45:3 , 249–268, https://christianscholars.com/julian-against-christian-educators/
 	 - Confirmed that this is a peer reviewed academic journal
  - Julian and the Christian Professors
 	 - https://academic.oup.com/book/8434/chapter/154204845

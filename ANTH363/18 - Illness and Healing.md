@@ -122,3 +122,95 @@
  - Medical knowledge is diffuse or unsystematic
  - Regard it as a secret
  - Ex. Shamans and Healers, South African healers
+
+### Healing Methods
+**Spirits and Spirit Possession**:
+ - A supernatural being that is less powerful than a god, usually more localized
+ - Can be individually recognized
+	 - Guardian spirit, ancestral spirit, shaman's spirit helper
+ - Non-individualized: Often one of a collection of beings not given specific names and identities
+	 - Leprechauns, Djinns, Kami
+ - Spirit possession: An Altered State of Consciousness (ASC)
+	 - Interpreted as a spirit taking over control of a human body
+	 - Either deliberately induced by a ritual performance, or consequence of illness
+
+### Religious Specialists
+ - Typically viewed as an authority on religious/spiritual life
+ - Often, a gatekeeper to the religious community
+	 - Someone who defines religious practice and spiritual life
+ - Priests/Priestesses - Full-time
+ - Shamans - Part-time
+ - Herbalists and Diviners
+ - Healers: Term often used to refer to a priest or shaman
+	 - Especially when the individual is focused on the curing of illness or injury
+
+**Shamans - Part-Time Religious Practitioner**:
+ - Ability to engage with spirits/gods/supernatural
+ - Transcend normal reality to communicate with or even manipulate supernatural forces in an alternate world
+ - ASC achieved through dreams, hallucinogenic drugs, rhythmic music, exhaustion through dance, or other means
+ - Often a calling for those who have personality traits that seem abnormal in the context of the community
+
+**Korean Shamans**:
+ - Most shamans today are women
+ - Used to be considered social deviants
+	 - Now an important part of Korean culture
+ - Chosen by the spirits
+ - Women who experience some type of psychological stress in their lives are especially vulnerable
+ - Spirits search for someone to possess
+	 - Especially one who's *maum* (soul) has been fractured
+ - Selection through possession illness (*sinbyong*), main symptom is trance state
+ - Apprentice with experienced shaman
+ - Guide the dead to the underworld; medium; cure illnesses; divination
+
+**Priest/Priestess - Full-Time Religious Practitioners**:
+ - Have authority to set rules and control access to religious rites
+ - Qualifications vary (eg. gender)
+	 - Knowledge: Christian priests typically complete higher education
+	 - Hindu pujaris must spend years learning Sanskrit
+
+**Okinawan Priestesses**:
+ - Yuta - Shamanlike practitioners
+	 - Mediate between villagers and ancestor spirits/kami
+	 - Practice divination and healing rituals
+	 - Each yuta has one or more kami that she communicates with regularly
+	 - Illness: Serious psychological, physical or social dysfunction
+		 - Long illnesses make them social outcasts
+		 - Ability to heal themselves
+		 - Become a yuta (spirits have entered you)
+ - Kaminchu - Priestesses:
+	 - believed to actually embody a particular kami associated with the clan
+	 - In rituals, they do little:
+		 - Presence is most important
+		 - Believed to emit good spiritual energy
+	 - Illness: Minor illnesses symbolic in nature considered a sign of what kaminchu is born to be
+
+**Pentecostal Faith Healers**: Priests? Shamans? Both?
+ - Laying on of hands
+ - Shouting, dancing, crying
+ - Reciting incantations/Changing (speaking in tongues)
+ - Anointing with oil
+ - Holy spirit possession
+ - Called by the supernatural (God)
+
+### Soul
+ - The noncorporeal, spiritual component of an individual
+	 - How many souls? Can the soul travel?
+ - Soul Flight: Technique used by shamans o enter a state of trance (ASC)
+ - The shaman's soul leaves the body and the corporeal world, allows them to travel realms
+	 - Sometimes using axis mundi
+	 - enter a spiritual world and interact
+ - Idea of a soul is tied to death, may linger on
+	 - The soul's final place is not in the physical world (Heaven, Valhalla, reincarnation)
+ - Variations on the concept of the soul:
+	 - Roman Catholicism: Soul, sin, and afterlife (Heaven or Hell), Purgatory
+	 - Jivaro Souls
+	 - Hmong Souls
+
+**Jivaro Souls**:
+ - *Tsantsa*: Shrunken heads
+	 - Remove the skull, use a number of solutions to shrink the head down, hair unaffected
+ - Live in the amazon
+ - Believe in 3 types of souls, one of which is the avenging soul (kill someone, their avenging soul)
+	 - Shrink their head, they won't be able to hunt you down
+	 - Increase in headhunting to shrink heads
+ - Duty of Jivaro men to shrink heads, cultural rite of passage

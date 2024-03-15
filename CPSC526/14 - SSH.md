@@ -97,3 +97,68 @@
 		 - Automatic on many modern SSH implementations
  - Note: In SSH-2, after starting the encryption, client/server verify the original cipher lists
  - `ssh -Q cipher`, `ssh -Q kex` to see which ciphers and key exchange algorithms are supported
+
+### Client Authentication (RFC4252)
+ - How does the client authenticate itself to the server?
+ - Server sends client a list of allowed authentication methods
+	 - Client can use any of them (even multiple)
+ - Most common are password-based and public-key based
+ - Many extensions are available
+	 - OpenSSH can be configured to use LDAP, Kerberos, and even 2FA
+ - Can find which authentication methods are supported by the server:
+   `nmap --script ssh-auth-methods csx2`
+
+**Password Authentication**:
+ - Simplest form: Ordinary username and password
+ - The password is protected from eavesdropping
+ - There is no bullet-proof protection against brute-force password guessing
+	 - Account Locking -> Inconvenience legitimate users
+	 - IP Locking -> Does not work against botnets
+ - Strong passwords are a must
+
+**Public Key Authentication**:
+ - User on a client prepares and saves a public/private key pair
+ - Client sends user's public key to server
+ - Server verifies the client is in possession of a matching private key
+	 - Server sends a 256-bit random number encrypted with client's private key
+	 - Client decrypts it and sends back a cryptographic hash of the random number
+ - Server must trust the client's key
+	 - Client's key is not a certificate
+	 - Server has a per-client list of authorized public keys
+	 - If client's key is in that list, it's accepted (provided the challenge was successful)
+ - How does the server create the list of authorized keys?
+	 - Could be installed by a server admin (user would not even need a password)
+	 - User could download private key from password-protected secure website
+	 - Could be uploaded by user to a password-protected secure website
+	 - Or, most commonly, user logs in using a password first time, then uploads public key
+
+**Host-Based Authentication**:
+ - If client and  server share the same admin, host-based authentication can be used
+ - Admin creates and installs a public/private-key on client (global for all users)
+ - Admin adds client's public key to authorized hosts file on server
+ - Any user authenticated from that client will be automatically accepted
+ - This is only useful if the two machines are under common administration, and are secure against insider attacks
+ - Clusters in HPC environments often use this mechanism, allowing users to login to all nodes without having to type in a password and without setting up keys beforehand
+ - Note: on CPSC Linux machines, `~/.ssh` directory is shared via NFS between all machines
+
+**Storing Private Keys on Clients**:
+ - Private keys are stored in the `~/.ssh` directory
+ - If private key is compromised, all security bets are off
+ - Extra care must be taken to correctly cope with NFS-mounted home directories
+ - Minimum protection:
+	 - All private key files must be read-protected
+	 - Open-SSH client will refuse to use unprotected keys
+	 - If users store their keys under their home directories, and use NFS, someone can eavesdrop on the NFS traffic
+ - Better protection:
+	 - Admin sets up encrypted NFS traffic (Kerberos + NFS4)
+ - Recommended protection:
+	 - User encrypts the private key with some symmetric cipher
+	 - `ssh` will prompt user for a `passphrase` when needed
+	 - You can use the same password for all your keys
+ - This results in being prompted for passphrase constantly
+ - Solution: Use `ssh-agent` (built in password manager)
+	 - Run process that prompts for the password once
+	 - `ssh-agent` decrypts key in memory, performs public key operations on behalf of SSH client
+	 - Can even use hardware security key (yubikey)
+	 - Many tutorials available (from Github)
+ - SSH client still needs to communicate with this ssh-agent
