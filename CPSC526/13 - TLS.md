@@ -127,14 +127,10 @@ with socket.create_connection((purl.hostname, 443)) as sock:
 	 - Alice -> sends HTTP requests -> Eve -> rewrites as HTTPS requests -> Bob
 	 - Bob -> returns HTTPS replies  -> Eve -> strips "https" from any links -> Alice
 
-### Assignment 4
- - Writing a botnet, network of computers gathered by an attacker that can connect to a single central command center
- - Final two tasks are only worth 20% of the assignment but will take 80% of the time (IRC tasks)
-
-`nc --broker -l <port>`
- - Opens a server that accepts multiple connections on port
-
-`nc <server> <port>`
- - Connect to the server
- - Writing anything on this connection will propagate it to all other connections (but not the server)
- - I think our `nccontroller` is a connection to the netcat server, the `ncbot`s are also connections
+**HSTS**:
+ - Simple mechanism to ensure users always connect to a website using `https://`
+ - On first visit, website tells browser it has enabled HSTS by returning an HTTP header
+   `String-Transport-Security: max-age=3156000;`
+ - Easily configured in most popular web servers
+ - Browser remembers this, next time user types the same website address, the browser will automatically connect using `https://`
+ - Even better, sign up your website for https://hstspreload.org

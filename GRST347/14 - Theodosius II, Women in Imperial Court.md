@@ -69,3 +69,52 @@
 	 - Martyrdom of St. Laurent artwork is meant to depict the heavens and stars
 		 - Books of manuscripts look to be on fire
 		 - These "flames" are actually pieces of cloth used to sign the pages of the books
+ - Galla Placidia's second marriage with Constantius III created a line for the throne
+	 - Constantius was general of the Roman army (fundamental roles taken by generals again)
+	 - New line for the throne: Honoria and Valentinian III
+ - 421: Constantius becomes Augustus
+	 - We don't consider him as an actual emperor
+	 - Certain roles of the court are so important they are basically co-emperors
+ - 423: Honorius Death
+	 - Constantius was supposed to take power, but he died alread
+ - 425: Usurpation of John, Theodosius II takes situation in hand, puts Valentinian III on throne
+	 - John was an important council member, no real line of emperors, easily takes over East
+	 - Galla Placidia hires Theodosius to take out John
+	 - Valentinian III is still a child, Galla is the functional emperor
+ - Flavius Aetius and the Hunnic threat in Italy
+	 - Attila had moved North, then South again to Italy to pose a direct threat
+	 - Galla Placidia found some money, gave a ton of gold to Attila to make them back off
+
+### The Crisis of the Western Roman Empire
+ - Aetius and Valentinian III: A child in power along with his general
+	 - Situation escalated, Aetius killed by Valentinian (weak leader jealous of strong leader)
+	 - Valentinian III killed by some supporters of Aetius
+ - 455: Emperor appointed a senator Petonius Maximus
+	 - Man external from the family line, Valentinian didn't have children
+ - Married the widow of Valentinian (forced to keep the family line alive)
+ - Conflict with Geiseric, Vandal King
+	 - Roman Emperor had promised, before becoming Emperor, his daughter to son of Geiseric
+	 - Did not think it would be wise to have this family relation now that he is Emperor
+		 - Would make Geiseric next in line to be emperor
+	 - Cut the deal, Geiseric became angry
+	 - Sent a fleet to Italy and sacked Rome
+ - 455: Sack of Rome by the Vandals, 14 days of plundering
+	 - This time it is a huge deal
+ - Between 440-480, the politics of the Empire depended on an elaborate balance of power between the Western Court in Rome, the Huns in Illyricum, the Eastern Emperor of Constantinople, and the Vandals in Carthage
+ - Story of is ruin is simple and obvious, instead of inquiring why the Roman empire was destroyed, we should rather be surprised that it had subsisted for so long
+	 - Victorious legions acquired vices of strangers and mercenaries from distant wars
+	 - Oppressed the freedom of the republic, later violated the majesty of the purple
+	 - The emperors, anxious for personal safety and peace, reduced to the base expedient of corrupting the discipline, rendering them alike formidable to their sovereign and enemy
+	 - Vigour of the military government was relaxed, and finally dissolved by the partial institutions of Constantine
+	 - And the Roman world was overwhelmed by a deluge of Barbarians
+
+### East (450-491)
+ - *Interregnum*: Pulcheria as sole empress (one month in 450)
+	 - She keeps power for a little over one month
+ - Marcian (451-457): Thracian military officer
+	 - Low taxes as the Hunnic threat evaporated
+		 - Treasury in Constantinople had grown significantly
+	 - Supported by Pulcheria, compromised by losing her virgin christian status in order to create a strong bloodline that her brother had failed to do.
+	 - Died in 457
+ - Leo (457-474): Another senior military figure
+	 - First coronation in which the Patriarch of Constantinople played a role
