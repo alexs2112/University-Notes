@@ -214,3 +214,128 @@
 	 - Shrink their head, they won't be able to hunt you down
 	 - Increase in headhunting to shrink heads
  - Duty of Jivaro men to shrink heads, cultural rite of passage
+
+**Anne Fadiman, *The Spirit Catches You and You Fall Down***:
+ - Hmong community (SE Asia)
+	 - Lia Lee's family immigrated from Laos to the US
+ - Believe a person possesses many souls (~30)
+ - Health: Balance between the physical body and its souls
+ - When one or more of the souls are lost or stolen, the person falls ill
+	 - A soul may be frightened out of the body by a traumatic event
+	 - Or it may be stolen by a spirit (quag dab peg, "the spirit catches you")
+ - Lia's story: Has an epileptic seizure at 4 months old
+	 - Or was it quag dab peg?
+	 - Shaman needed for a cure
+ - Story described in Faiman's pioneering book, pioneering for medical anthropology community
+ - Her condition seen as an honour, destined to be a shaman
+ - Family vs Medicine
+	 - Taken to the hospital many times (~100 over a year)
+	 - Family felt that if they gave her medication, she would lose this blessing of being a shaman
+	 - Could not accurately speak to the US doctors, language barriers
+ - To the Hmong people: "Medicine was religion. Religion was society. Society was medicine."
+ - Highlights the limitations of Western medicine in multicultural societies
+	 - Cross-cultural communication in healthcare
+	 - Cultural awareness and empathy
+
+**Secret War in Laos: Illness and History**:
+ - Mistrust of the US
+	 - Laos is the most heavily bombed company in the world (per capita)
+ - Agent Orange continues to impact communities in Vietnam and Laos today
+	 - Birth defects, cancer, Parkinsons
+ - Today in the US: Hmong still lag badly behind most immigrants in nearly every category of health, wealth, and education
+
+**Susto and Curanderas**:
+ - Susto: Culture-Bound Syndrome (CBS), found in cultures in Latin America, US-Mexico border
+ - Soul has become detached from the body, causing illness
+ - Symptoms: Exhaustion, Absentmindedness, Distraction, Listlessness, Loss of Appetite
+	 - In Canada: Depression, Anxiety, Schizophrenia, Dementia
+ - Most common cause is a fright, such as a sudden encounter or accident
+	 - Startling effect, or high stress
+ - Susto healer: Curandero/ra, traditional healer/shaman in Latin America
+ - Diagnostic Session: Cure begins with a limpia
+	 - Diagnose and determine that llamadas espirituales (soul callings) will be needed
+		 - Coaxing soul back into the body
+ - Mal limpieza ("purge of evil"): Can involve many substances
+	 - Plants, sugar, liquor, holy water, chickens, dog's skulls, dove's blood, etc
+ - Social Cure: Family and community come together to support ill person
+ - End of Treatment: Person is reintegrated back into the family and community
+
+### Culture-Bound Syndromes (CBS)
+ - Combination of psychiatric and somatic symptoms
+ - Considered to be a recognizable disease only within specific societies or culture areas
+	 - Eg. Susto, Koro, Amok, Hikkikomori, Anorexia (historic interpretation in the West)
+ - Koro: Overwhelming belief that one's sex organs are shrinking into their body
+	 - Moderate-severe anxiety attacks along with a fear of imminent death
+
+**Koro (China, Malaysia, Singapore, Etc.)**:
+ - Epidemics due to widespread fears of losing one's genitals, procreative ability, even ones life
+ - Triggered by rumors of genital disappearance
+	 - Supposedly caused in China by female fox spirits
+ - Chinese Mythology: Fox spirits thought to disguise themselves as women
+	 - Seduced young men who were scholars or merely intelligent
+	 - To absorb "life essence through their semen"
+ - Similar nighttime creatures in Western folklore/mythology: Succubus/Incubus
+
+### Ghosts and Illness
+ - Bunyoro (Nyoro) live in East Africa Cattle Culture Area
+	 - Many religious activities center on relationships with ghosts
+ - When illness strikes, a Bunyoro will use the services of a diviner to determine cause of  illness
+	 - Identify the ghost
+		 - Only seen in dreams
+ - Can capture it: Keep it away
+ - Or form relationship with ghost: Goat sacrifice, Ghost hut
+ - Belief in ghosts has important role
+	 - Explanation for events and behaviour towards the living
+
+**Ancestor Spirits**:
+ - Essence of one's family ancestors who have remained in contact with the mortal world
+	 - Ex: Dia dos de la Muertos (Day of the Dead)
+ - Ancestor worship references the social values regarding family and kinship
+	 - Way to ensure the strength of kinship/lineage, maintain social values
+ - In China (other E and SEA countries): Filial Piety requires living continue to care for ancestors
+	 - China: Minghun Ghost Marriage
+
+**Minghun: Afterlife/Ghost Marriage**:
+ - An ancestor is someone to honor
+	 - Someone whose needs must be maintained in the afterlife
+ - Traditional Chinese Belief: Unmarried life is incomplete
+	 - Some parents worry that an unmarried dead son may be an unhappy one
+ - To ensure a son's contentment in the afterlife, some grieving parents will search for a dead woman to be his bride
+	 - Once a corpse is obtained, pair buried together as a married couple
+	 - Corpse stealing, murdering women to sell their body
+
+### Herbalists, Diviners
+**Herbalist**: 
+ - Specialists in the use of plants and other material cures
+ - Herbalist may prescribe the materials to be administered
+	 - May provide the material as prescribed by a healer or diviner
+
+**Diviner**:
+ - Someone who practices divination
+ - Series of techniques and activities used to obtain information not normally knowable
+ - Context of illness: Diviner often provides diagnosis, healer provides the cure
+
+### Types of Healing
+**Healing Pilgrimages**:
+ - Israel/Palestine: Womb Tombs
+	 - Rich with Jewish, Christian, Muslim sites for infertility and illness
+ - Ganges river considered to have healing properties
+
+**Humoral Healing**:
+ - Seeks to treat medical ailments by achieving a balance between the forces/elements of body
+ - Ancient Greece/Medieval Europe: Food and drink, various forms of purging (blood-letting)
+	 - Primary ways of restoring balance to the humours
+ - Traditional Chinese Medicine: Balancing the Chi/Qi
+
+**Shen-k'uei (CBS)**:
+ - "Semen loss" syndrome known as shen-k'uei
+	 - Vital weakness in traditional Chinese medicine
+ - Weakness connotes loss of vital energy (qi, chi):
+	 - A healthy exchange or yin and yang occurs in sexual intercourse
+	 - Whereas following nocturnal emission, masturbation, or loss in urine only yang is lost without gain of yin
+
+**Communal Healing**:
+ - Directs the combined efforts of the community toward treating illness
+ - Among the !Kung (Ju/'hoansi) of the Kalahari Desert in southern Africa:
+	 - Energy known as n/um can be channeled by members of community during healing ritual
+	 - Directed toward individuals suffering from illness

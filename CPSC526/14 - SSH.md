@@ -162,3 +162,74 @@
 	 - Can even use hardware security key (yubikey)
 	 - Many tutorials available (from Github)
  - SSH client still needs to communicate with this ssh-agent
+
+**Securing the SSH Agent**:
+ - Communications with `ssh-agent` are via a Unix-domain socket
+	 - System call, local "socket", implemented through a file
+	 - Domain sockets live in the file system
+ - Not all systems enforce file permissions on IPC (Inter-Process Communications) sockets
+	 - Fortunately, all systems verify permissions on parent directories
+ - Generic solution: Put the socket in a protected directory, use shell environment variables to pass the location to clients
+
+### Port Forwarding (SSH Tunneling)
+ - SSH can forward TCP connections from the local machine to the remote, or vice-versa
+ - Can be used to access resources that are behind firewalls, and/or on non-routable IPs
+ - Example: Talking to an inaccessible MySQL server from home computer:
+	 - `ssh -L 1234:192.168.30.22:3306 rsx1.cs.ucalgary.ca`
+	 - Then from my home machine, I can point my DB client to:
+	   `dbclient localhost:1234`
+ - You can do the same for any other service: telnet, mail, web servers, etc
+ - Tunnels can be used to circumvent organizational security policies
+	 - As long as SSH port is available, you can access anything behind a firewall, no matter what the policy says
+
+**Forwarding the Authentication Agent**:
+ - Idea: Login to server A using your agent, then from A you login to B using the same key
+ - *"SSH agent forwarding can be used to make deploying to a server simple. It allows you to use your local SSH keys instead of leaving keys (without passphrases!) sitting on your server."*
+ - To do this, you edit a file `~/.ssh/config` and add the lines:
+```
+	Host serverA.com
+	   ForwardAgent yes`
+```
+ - Warning: If Server A is compromised, root on A can use your domain-socket to talk to anyone that will accept your key! (without learning your key)
+ - Lesson: Do not forward SSH agent via untrusted machines
+
+**X11 Forwarding**:
+ - SSH can be used to forward X11 window system connections too
+ - How it works: The X-server controls the keyboard, screen, and mouse
+ - X-applications open a connection to the X-server via Unix-domain sockets or TCP
+ - The environment variable DISPLAY tells the application which port:
+	 - `DISPLAY=:0.0` connects to localhost on port 6000 via IPC
+	 - `DISPLAY=rsx1.cs.ucalgary.ca:20.0` connects to `rsx1` server on port 6020 via TCP
+ - How is this connection authenticated?
+	 - Some people don't
+	 - Can use Kerberos
+	 - Usually by magic cookies (secret value stored in file that is sent to the X server)
+ - SSH has X11 forwarding built-in
+	 - Remote sshd generates random cookie, stores it in magic cookie file, sets DISPLAY to point to `localhost:N` (automatically picks port `N`)
+	 - When X11 application attempts to connect to the X-server, it actually connects to sshd and sends the saved magic cookie (reverse tunnel)
+	 - sshd server verifies the cookie, and forwards connection over ssh tunnel to client
+	 - Client replaces remote cookie with local one, and contacts local X-server
+	 - Warning: If remote server is compromised, cookie can be read and attacker gains full access to your X-server
+		 - Don't forward X11 to untrusted machines
+
+### Why Did SSH Succeed?
+ - SSH1 and SSH-1 protocol developed in 1995 by a victim of a password-sniffing attack
+	 - When beta versions started gaining attention, realized his security product could be put to wider use
+	 - Not a cryptographer, just some lab researcher
+ - Perfect drop-in replacement for the insecure `rlogin`, with extra security
+ - Easy to deploy on as many machines as desired, with minimal user training
+ - Had nice bonus features (tunnels, X11 forwarding, compression, scp, sftp, etc)
+ - Defended against real attacks, ran on more Unix variants than its competitors
+ - No infrastructure needed (no PKI, no CAs, no KDS)
+ - Professional cryptographer would probably design it better, with certificates and CAs
+	 - And it would likely be undeployable
+ - SSH offers more real security from a partially-secure implementation that is compatible with real-world deployment patterns
+ - Note: OpenSSH does support certificates for authentication since 2010
+
+**Weaknesses**:
+ - SSH-1 made a number of silly choices for ciphers, but were addressed in SSH-2
+ - User education w.r.t. warning messages
+ - User education w.r.t. trojan replicas of SSH/SSHD
+ - X11 and ssh-agent forwarding can be intercepted on compromised hosts
+ - Potentially yummy target for ssh worms
+ - Password guessing

@@ -45,6 +45,8 @@ to punish the demented.
 	 - https://www.jstor.org/stable/3162593?seq=2
  - The Value of a Good Education: The School Law in Context
 	 - https://brill.com/display/book/edcoll/9789004416314/BP000006.xml?language=en
+ - Conclusion: Julian's School Edict Again
+	 - https://academic.oup.com/cornell-scholarship-online/book/23955/chapter/185308024
 
 **Working Thesis**:
  - The laws regarding Christian educators put forth by Emperor Julian failed to [do something] and was overall [negative] for the Roman Empire.

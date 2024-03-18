@@ -75,4 +75,91 @@
 	 - Dome
 	 - Canine-like teeth (threat display/biting combat with rivals)
 	 - Knobby/spiny osteoderms on the snout/side of the face and marginocephalian shelf
-	 - Likely, the male with best looking domes, knobs, and spikes got to perpetuate the family line
+	 - Likely, male with best looking domes, knobs, and spikes got to perpetuate the family line
+
+### Ceratopsia
+ - Cera: Horn; Tops: Face
+ - Traits distinguishing Ceratopsia from Pachycephalosauria:
+	 - Quadrupedal, not Bipedal
+	 - Smaller amount of bigger horns, not a ring of small horns
+ - All ceratopsians have:
+	 - A unique bone at the tip of the snout (rostral bone)
+	 - Narrow skulls with a hooked beak
+	 - A skull that flares in the cheek region (jugal "horns")
+	 - A bony shelf of variable size (up to 2m long) that extends off the back of the head (frill)
+	 - Thick hooves on all toes
+ - Like the Pachycephalosaur, mainly found in Asia and Western North America
+	 - Only in Northern Hemisphere
+ - Most also had facial horns, but basal forms lack horns
+	 - Horns consist of a bony core with a sheath of keratin, only the core gets preserved
+		 - Horn was much larger than what is preserved in fossils
+	 - Unlike antlers, horns are not shed
+
+**Evolution of Ceratopsia**:
+ - The basal forms (Yinlong, Psittacosaurus, Archaeoceratops) were from Asia
+	 - Ceratopsidae (larger horned dinosaurs) were mainly from North America
+ - Interpreted transition towards larger frills that display & competition were more important
+
+**Migration of Ceratopsia**
+ - Comparison of basal and derived ceratopsians with their biogeograpgy (where they were found) suggests that, early on, a neo-basal ceratopsian similar to Protoceratops migrated from Asia to North America
+ - Route likely along the Bering Straits, where land was briefly exposed
+
+**The North American Split**:
+ - Centrosaurines:
+	 - Typically short frills
+	 - Typically short horns over the orbitals (<15% of the frill)
+	 - Typically more ornamented frills
+	 - Eg. *Centrasaurus*
+ - Chasmasaurines:
+	 - Typically long frills
+	 - Typically long horns over the orbitals, short horns over nasals
+	 - Frill can vary widely in shape
+	 - Elongated snouts, enlarged rostral
+	 - Eg. *Triceratops*
+
+**Ceratopsia: Feeding**:
+ - Ceratopsians chewed
+ - Hooked rhamphotheca (beak, covered the rostral bone)
+ - Inset teeth imply cheeks
+ - Blocks of cheek teeth in the upper and lower jaws
+ - Small teeth, but grew stacked and overlapping together into a single, functional slicing block
+	 - Called the dental battery
+ - Highly derived forms had vertical grinding surfaces along the sides of the teeth
+ - Like all dinosaurs, worn teeth would most likely fall out and dental battery would replace them
+ - Large, sturdy coronoid process (lower jaw structure)
+ - Except for basal Psittacosaurus who had gastroliths, ceratopsians had strong jaw muscles
+ - Large muscle scars support the idea of massive jaw-closing muscles
+	 - Extend from one end of the upper temporal opening and onto the base of the froll
+	 - At the other end, muscles attach to the large coronoid process on the mandible
+ - May have been picky eaters, inferred from narrow snout of careful selection of plants for food
+ - Relatively narrow rib cages suggest that they were not relying on fermentation in the gut to break down food
+	 - Chewing enough before swallowing
+
+**Ceratopsia: Walking**:
+ - Basal ceratopsians, like Psittacosaurus are small bipeds
+	 - Rest are quadrupedal
+ - Back legs were fully erect, oriented directly under the hips
+	 - Also longer than the front legs, probably quite slow and awkward walking
+ - Orientation of the front legs are controversial
+	 - Some argue that the limbs are directly under the body like a mammal
+	 - Others say the shape of the bones suggest they were sprawling out to the side
+ - With legs directly under the body, ceratopsians would have moved like a large, Cretaceous rhinoceros. Otherwise would be much slower
+ - The narrow width of prehistoric trackways support the notion that legs were not splayed way out to the sides
+	 - Without knowing which exact animal made the tracks
+
+**Ceratopsia: Nests**:
+ - First dinosaur nests found in 1922, thought to belong to Asian Protoceratops
+	 - Lots of museum displays created showing attentive Protoceratops tending to their eggs
+ - 70 years later, discovered they were actually Oviraptor eggs
+ - Despite this confusion, juvenile ceratopsians from Asia are well-known
+	 - Hatchlings of Psittacosaurus (23 cm long with tail) have been found
+	 - Slightly older hatchlings of Protoceratops discovered in nest suggest parental care after birth
+	 - Ontogeny/growth stages of triceratops is well known, hold clues towards behaviour
+
+**Ceratopsia: Horns, Frills, Behaviour**:
+ - Horns originally interpreted as defense weapons against predators
+ - More recent interpretations tend to focus on behaviour within a species
+	 - Display, ritualized combat, defense of territories, maturite & species identification
+ - Likely more intra-species fighting (amongst own species) due to distribution of wounds
+	 - Centrosaurus: Fewer injuries to the skull, flank attacks, locking horns
+	 - Triceratops: (the opposite of this idk??)
