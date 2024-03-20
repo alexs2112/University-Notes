@@ -1,5 +1,4 @@
 ```
-Mar 18: GRST347 - Paper Proposal + Annotated Bibliography
 Mar 25: CPSC526 - Assignment 4
 Apr 01: CPSC526 - Assignment 5
 Apr 08: GRST347 - Quiz 3
@@ -20,6 +19,7 @@ Mar 01: GRST347 - Quiz 2
 Mar 08: GRST357 - Assignment 2
 Mar 11: ANTH363 - Midterm 2
 Mar 15: GLGY305 - Assessment 2
+Mar 18: GRST347 - Paper Proposal + Annotated Bibliography
 ```
 
 **Finals**:
