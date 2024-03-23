@@ -157,3 +157,95 @@
 	 - Makes him very successful, no real opposition to his changes
  - Merging the societies of the Ostrogoths and the Roman Empire
 	 - Ostrogoth jewelry and material culture
+ - After death of Theoderic, great instability
+	 - Amalasuntha (Sister of Theoderic) + Athalaric (Her son, child) (526-534)
+	 - Strong infighting, both Amalasuntha and Athalaric die in 534
+	 - Theodahad (534-536), a Hun, older nephew of Theoderic
+		 - Raped and forced Amalasuntha to marry him to give him a blood tie
+ - Both of these leaders asked the Roman emperor to help them on internal matter
+
+### Justinian's Invasion of Italy, the Gothic War (535-554)
+ - Reasons for attacking:
+	 - Boost in confidence, they took Africa accidentally, might as well retake Italy too
+	 - Religious concerns (Goths were Arians, problem for Justinian's Catholic hierarchy)
+ - Arrival of the imperial army was the reason of the fall of the Amal family
+	 - Crumbled fell rather easily, Vitigis -> Totilus (warrior Ostrogoths that took over)
+		 - Totilus pushed back to southern Italy before being eliminated entirely
+ - Belisarius reconquered Ravenna in 540 (five years to regain northern territory)
+ - Outbreak of plague in 542 over the entirety of the empire
+
+**Famine and Epidemics in the 6th and 7th century: Trends and Interpretations**:
+ - *Late Antique Little Ice Age*: 2-3 eruptions (540-547) helped render the 540s the coldest decade in more than 2300 years
+	 - Average temperature of about 11.8 celsius
+	 - Described as the sun not being as strong as before
+ - *Plague*: 1st wave in 541-549 CE
+	 - Bubonic Plague, becomes endemic with worsening reoccurrences
+		 - 18 reoccurrences in the Eastern Roman Empire during the next century
+	 - All of the kids born during plague will become weak to the next one
+		 - Survivors of the first one will have stronger immune system, but the kids will not
+	 - Economy had crashed during the plague, Italy described as a wasteland
+	 - Plague conditions made warfare difficult
+
+**Justinian: Changed Man**
+ - Got the plague, but survived
+ - Became greatly concerned by religious matters
+	 - Almost not interested in administrative issues
+ - Ostentatious piety: Moves away from living in the palace
+	 - Finds refuge in monasteries
+ - *Rathumia*: Lassitude in external politics
+	 - One of the major accusations against Justinian is that he turned from a very vicious emperor with strong foreign policies/warfare into someone who doesn't care anymore
+ - Procopius: Some people thought Justinian was not real anymore, some spirit
+	 - Justinian would randomly rise from the throne and start wandering, his head would disappear and the person watching would be distressed
+	 - When the head returned to the body, his face would become featureless flesh
+	 - Eventually his face would return
+	 - This began to circulate, people thought the emperor was a ghost/demon
+ - Respect and trust rapidly being lost in the emperor
+
+**Military Campaigns in the West Post-Plague**:
+ - Northern Africa (543-549): Defections and continued fights
+	 - Also a wasteland due to the plague and famine
+	 - After initial successes, the Roman's didn't actually get much from Africa
+	 - Prolonged occupation was not well administrated, infighting and rebel groups
+ - The Gothic War in Italy (543-552): Totila against the Roman Empire
+	 - Ostrogoths tried to maintain southern Italy and Sicily, helped by the locals
+	 - Narses the Eunuch and the Pragmatic Sanction (554)
+		 - Justinian's sanction, royal decree that is valid as law immediately
+		 - Justinian creates Italy as province of Eastern Roman Empire, not a subject kingdom
+			 - Capital is Ravenna, not Rome (still fighting with Ostrogoths)
+		 - Nobody in Italy was actually governing anything anymore with all the issues
+			 - Regained the territory, but does it functionally do anything
+ - The War in Spain: 551, Athanagild asks for the Emperor's help
+
+### The Sasanian Empire
+ - Sasanian Dynasty: 224-651
+ - After the third century crisis, the Roman Empire and Sasanian Empire was mostly peaceful
+
+**Visual Propaganda**:
+ - Imposing Buildings: Giant monuments, similar to the Roman Empire
+ - Symbolic Reliefs: Such as the one that shows conquered Roman emperors
+ - Ceremonials: Ceremony to show how strong they are, give the people what they wanted
+ - Coinage: Depict the king, people need to feel close to their leader
+ - Silverware: Plates with mythical monsters to represent the empire
+ - Monarchy: Creating a similar idea to Rome, where the Emperor is the Roman State
+ - Zoroastrianism (magi): Controversial to scholars
+	 - A group of magi (high priests), still technically under the emperor
+	 - Perform rituals to make the community come together
+
+**Emperors: The Example of Khusro**:
+ - Not a Roman source, talks about a different type of administration
+ - Concerns the reforms of Khosro Anushirwan
+ - Issues in the territory with subjects being able to pay taxes
+	 - Plague is ongoing, poverty is common
+ - Previous emperors would remove the tax burden for 1-2 years, and ease it occasionally in order to restore their strength for the field work
+	 - Does not want to do the same thing
+ - Assembles officials and tax payers, realized there was no remedy for the situation
+	 - Wants to fix the administration
+	 - Taxation is typically unfair, or not collected properly
+ - Wants to make the taxes just, fixes their rates on every town, district, village, man
+	 - Nominated trusted men to be in charge of this administration
+ - Instructed tax payers to submit complaints to the judges, who oversee the districts
+	 - No officials should be able to add anything to the amount owed
+ - Need to make things fair, otherwise it makes their army and people weaker and strengthens their enemies
+ - Fought with Armenians, who had a strong victory against them
+	 - Captured the royal pavilion, and kept Khosrov alive and in charge for 48 years
+	 - He was such a good king, even other cultures took notice
