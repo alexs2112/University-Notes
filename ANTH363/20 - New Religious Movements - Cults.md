@@ -102,3 +102,18 @@
  - Example: Unarius Academy of Science (leader Uriel, female leader)
 	 - Very fabulous leader, others try to emulate her by dressing up in crazy costumes
 	 - Not much controversy, a benign cult
+
+**QAnon**:
+ 1. Charismatic Leadership: Donald Trump
+ 2. Concrete Goals: Not super concrete, protesting things that don't exist
+ 3. Community Identification: Disenfranchised white republican christians, identify as Q
+ 4. Highly Centralized Organization: Actually very decentralized, all over social media
+ 5. Ambitious Construction Projects: No central place to fund symbolic projects
+ 6. Mass Activities: January 6th, protests, come together in large numbers through social media
+ 7. Syncretism, Mystery, Novelty: Coded messages that only you are privy to, nobody is awake to it
+ - Syncretic: Belief in satan-worshipping pedophile conspiracy
+	 - Blood of children, blood rituals (adrenochrome)
+ - Millenarian: Messianism, The Storm, JFK Jr.
+ - Conspirituality: Complex mix of spirituality and conspiracy culture
+ - Religion and Christian Nationalism, Christian Persecution
+	 - Must persecute others in order to be a real christian
